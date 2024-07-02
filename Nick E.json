@@ -10597,7 +10597,7 @@
 			"classSource": "NICKED",
 			"level": 14,
 			"entries": [
-				"At 14th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water."
+				"At 14th level, your chakra sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water."
 			]
 		},
 		{
@@ -10653,8 +10653,8 @@
 			"classSource": "NICKED",
 			"level": 18,
 			"entries": [
-				"Beginning at 18th level, you can use your action to spend 4 ki points to become {@condition invisible} for 1 minute. During that time, you also have resistance to all damage but force damage.",
-				"Additionally, you can spend 8 ki points to cast the {@spell astral projection} spell, without needing material components. When you do so, you can't take any other creatures with you."
+				"Beginning at 18th level, you can use your action to spend 4 chakra points to become {@condition invisible} for 1 minute. During that time, you also have resistance to all damage but force damage.",
+				"Additionally, you can spend 8 chakra points to cast the {@spell astral projection} spell, without needing material components. When you do so, you can't take any other creatures with you."
 			]
 		},
 		{
@@ -25214,7 +25214,7 @@
 			"level": 17,
 			"entries": [
 				"Your mastery of life energy opens the door to the ultimate mercy.", 
-				"As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 4 ki points. The creature then returns to life, regaining a number of hit points equal to 4d10 + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: blinded, deafened, paralyzed, poisoned, and stunned.", 
+				"As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 4 chakra points. The creature then returns to life, regaining a number of hit points equal to 4d10 + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: blinded, deafened, paralyzed, poisoned, and stunned.", 
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
@@ -25340,23 +25340,6 @@
 					"type": "refOptionalfeature",
 					"optionalfeature": "Tiger Stance|NICKED"
 				}
-			]
-		},
-		{
-			"name": "Shadow Arts",
-			"source": "PHB",
-			"className": "Monk",
-			"classSource": "PHB",
-			"subclassShortName": "Shadow",
-			"subclassSource": "PHB",
-			"level": 3,
-			"header": 1,
-			"consumes": {
-				"name": "Ki",
-				"amount": 2
-			},
-			"entries": [
-				"You can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast {@spell darkness}, {@spell darkvision}, {@spell pass without trace}, or {@spell silence}, without providing material components. Additionally, you gain the {@spell minor illusion} cantrip if you don't already know it."
 			]
 		},
 		{
@@ -43183,8 +43166,14 @@
 				{
 					"type": "list",
 					"items": [
-						"Whenever a creature uses a spell or magical ability to teleport, blink, cross planes, or traverse distance while within 5 feet of you, you may discern the location of where the creature is attempting to leave to as an {@skill arcana} check (no action required), and gain some basic information about the locale. Then as a reaction, you may attempt to grapple the creature. If you succeed, you may follow that creature to its destination appearing within 5ft of the creature.",
-						"When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.",
+						"Whenever a creature uses a spell or magical ability to teleport, blink, cross planes, or traverse distance while within 5 feet of you, you may discern the location of where the creature is attempting to leave to as an {@skill arcana} check (no action required), and gain some basic information about the locale.",
+						{
+							"type": "entries",
+							"name": "Kick",
+							"entries": [
+								"When a creature within 5 feet of you begins to cast a spell that you can see, You can use your reaaction to attempt to interrupt that creature in the process of casting that spell. The creature must make a constitution saving throw. On a failed save, the spell dissipates with no effect, and the Action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended."
+							]
+						},
 						"When you damage a creature that is {@status concentration||concentrating} on a spell, that creature has disadvantage on the saving throw it makes to maintain its {@status concentration}.",
 						"You have advantage on saving throws against spells cast by creatures within 5 feet of you.",
 						"If you are within 5 feet of a spellcaster and they cast a spell that would force another creature to make a saving throw, that creature makes that saving throw with advantage."
@@ -44086,7 +44075,7 @@
 				},
 				{
 					"feature": [
-						"Rouge"
+						"Rogue"
 					]
 				}
 			],
@@ -44530,7 +44519,7 @@
 			]
 		},
 		{
-			"name": "Elven Accuracy",
+			"name": "Unerring Accuracy",
 			"source": "NICKED",
 			"ability": [
 				{
@@ -44552,7 +44541,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Whenever you have advantage on an attack roll, you can reroll one of the dice once."
+						"Whenever you have advantage on an attack roll that does not use your strength modifier to make an attack, you can reroll the lower of the two dice once."
 					]
 				}
 			]
@@ -44650,6 +44639,42 @@
 				"You also learn the {@spell longstrider} spell and can cast it at will.", 
 				"{@spell pass without trace} spell which you can cast once without expending a spell slot. You regain the ability to cast this spell in this way when you finish a long rest.", 
 				"Wisdom is your spellcasting ability for all three spells."
+			]
+		},
+		{
+			"name": "Zenith of Physical Form",
+			"source": "NICKED",
+			"prerequisite": [
+				{
+					"feature": [
+						"Martial"
+					],
+					"level": 16
+				},
+				{
+					"feature": [
+						"Expert"
+					],
+					"level": 16
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"You increase one Ability score by 2. This can exceed 20 and increases your cap for that ability score by 2"
 			]
 		}
 	],
