@@ -1962,7 +1962,8 @@
 			],
 			"languageProficiencies": [
 				{
-					"common": true
+					"common": true,
+					"orcish": true
 				}
 			],
             "creatureTypes": [
@@ -1974,6 +1975,13 @@
 				}
 			],
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Additional Language",
+					"entries": [
+						"You can speak orcish."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Relentless Endurance",
@@ -2505,7 +2513,8 @@
                 {
                     "longsword|phb": true,
                     "shortsword|phb": true,
-                    "shortbow|phb": true
+                    "shortbow|phb": true,
+					"twin-blade|NICKED": true
                 }
             ],
 			"entries": [
@@ -2521,7 +2530,7 @@
 					"type": "entries",
 					"name": "Ancient Predators",
 					"entries": [
-						"Your people are the Ancient protecters of the Mother-Tee and Moonwell. Your weapon training grants you proficiency with the Longsword, Shortsword, Twin Blade, and Shortbow"
+						"Your people are the Ancient protectors of the Mother-Tree and Moonwell. Your weapon training grants you proficiency with the Longsword, Shortsword, Twin-Blade, and Shortbow"
 					]
 				}
 			]
@@ -4519,6 +4528,7 @@
             ],
 			"classFeatures": [
                 "Expert|Bard N|NICKED|1|NICKED",
+                "Spellcaster|Bard N|NICKED|1|NICKED",
 				"Bardic Inspiration|Bard N|NICKED|1|NICKED",
 				"Spellcasting|Bard N|NICKED|1|NICKED",
 				"Jack of All Trades|Bard||2|",
@@ -9239,6 +9249,16 @@
 			]
 		},
 		{
+			"name": "Spellcaster",
+			"source": "NICKED",
+			"className": "Bard N",
+			"classSource": "NICKED",
+			"level": 1,
+			"entries": [
+				"You are considered a spellcaster character."
+			]
+		},
+		{
 			"name": "Bardic Inspiration",
 			"source": "NICKED",
 			"className": "Bard N",
@@ -9393,8 +9413,8 @@
 			"classSource": "NICKED",
 			"level": 6,
 			"entries": [
-				"Starting at 6th level, your magic and inspiration becomes more potent allowing you to bolster your allies resolve and protect them from faltering by your very presence. Whenever you cast a leveled spell or use a bardic inspiration dice that affects a friendly creature, that creature becomes immune to the {@condition charmed} condition for 1 minute as long as they remain within 30 feet of you.",
-                "Additionally creatures gain advantage on saves against fear spells, abilities, and effects for the same duration."
+				"Starting at 6th level, your magic and inspiration becomes more potent allowing you to bolster your allies' resolve and protect them from faltering by your very presence. Whenever you cast a leveled spell or use a bardic inspiration dice that affects a friendly creature, you may end one {@condition charmed} condition on it.",
+                "Additionally after you cast a leveled spell or use a bardic inspiration on a friendly creature, that creatures gains advantage on saves against charm and fear spells, abilities, and effects for 1 minute while they remain within 15 feet of you."
 			]
 		},
 		{
@@ -39897,6 +39917,16 @@
 			]
 		},
 		{
+			"name": "Second Blade",
+			"source": "NICKED",
+			"featureType": [
+				"WSK"
+			],
+			"entries": [
+				"Once per short rest, when you attack with this weapon, you may make one additional attack as part of that attack action."
+			]
+		},
+		{
 			"name": "Sunder Armor",
 			"source": "NICKED",
 			"featureType": [
@@ -45080,7 +45110,7 @@
 				"L",
 				"T"
 			],
-			"range": "15/30",
+			"range": "20/60",
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"hammer": true,
@@ -45530,6 +45560,28 @@
 			]
 		},
 		{
+			"name": "Twin-Blade",
+			"source": "NICKED",
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"FIN",
+				"2HA",
+				"DFSE"
+			],
+			"range": "30/60",
+			"dmg1": "2d4",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"weapon": true,
+			"entries": [
+				"Strength or Dexterity; Second Blade"
+			]
+		},
+		{
 			"name": "War Pick",
 			"source": "NICKED",
 			"type": "M",
@@ -45601,7 +45653,6 @@
 			"property": [
 				"AMM",
 				"CL",
-				"LGT",
 				"2HA",
 				"PPOW"
 			],
