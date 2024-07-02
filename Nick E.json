@@ -35486,7 +35486,7 @@
 						"_": {
 							"will": [
 								"light",
-								"control flames"
+								"control flames|XGE"
 							]
 						}
 					}
@@ -35494,7 +35494,7 @@
 			],
 			"entries": [
 				"When you heal a creature with 0 hitpoints you always restore the maximum amount of hitpoints to that creature.",
-				"You learn the {@spell light} and {@spell control flames} cantrips, this spell uses your Monastic Kata ability modifier for spellcasting",
+				"You learn the {@spell light} and {@spell control flames|XGE} cantrips, this spell uses your Monastic Kata ability modifier for spellcasting",
 				"You gain access to any of the Jutsu with the Light Arts requirements."
 			]
 		},
