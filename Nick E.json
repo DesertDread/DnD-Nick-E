@@ -10434,7 +10434,7 @@
 				"When you reach 3rd level, select a monastic focus that could be gained at level 3. Gain that feature.",
 				{
 					"type": "options",
-					"count": 2,
+					"count": 1,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
@@ -10501,7 +10501,33 @@
 			"classSource": "NICKED",
 			"level": 6,
 			"entries": [
-				"When you reach 6th level, select a monastic focus that could be gained at level 6. Gain that feature."
+				"When you reach 6th level, select a monastic focus that could be gained at level 6. Gain that feature.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Stillness of Mind|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Shadow Step|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Light Arts|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Unorthodox Technique|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Tempered by Steel|NICKED"
+						}
+					]
+				}
 			]
 		},
 		{
@@ -10561,7 +10587,33 @@
 			"classSource": "NICKED",
 			"level": 15,
 			"entries": [
-				"When you reach 15th level, select a monastic focus that could be gained at level 15. Gain that feature."
+				"When you reach 15th level, select a monastic focus that could be gained at level 15. Gain that feature.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Master Death|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Chakra Acceleration|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sage's Teachings|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Aspect of the Wurm|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Master of the Arts|NICKED"
+						}
+					]
+				}
 			]
 		},
 		{
@@ -35383,6 +35435,247 @@
 			],
 			"entries": [
 				"When you reduce a creature within 5 ft of you to 0 hit points, you gain temporary hit points equal to your Monastic Kata ability modifier + you monk level (minimum 1)"
+			]
+		},
+		{
+			"name": "Stillness of Mind",
+			"source": "NICKED",
+			"featureType": [
+				"MF"
+			],
+			"prerequisite": [
+				{
+					"level": 6
+				}
+			],
+			"entries": [
+				"If you start your turn under the effects of the {@condition charmed}, {@condition frightened} or under a spell or ability that charms you, you may end one of those effects. You may do this even if you do not have control over your mind or body. If you end an effect in this way, you lose your action for that turn.",
+				"Though you still have and recover you bonus action, reaction, and movement.",
+				"If you fail a saving throw, you may spend 1 chakra to reroll that saving throw and take the new result."
+			]
+		},
+		{
+			"name": "Shadow Step",
+			"source": "NICKED",
+			"featureType": [
+				"MF"
+			],
+			"prerequisite": [
+				{
+					"level": 6
+				}
+			],
+			"entries": [
+				"You gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn."
+			]
+		},
+		{
+			"name": "Light Arts",
+			"source": "NICKED",
+			"featureType": [
+				"MF"
+			],
+			"prerequisite": [
+				{
+					"level": 6
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"will": [
+								"light",
+								"control flames"
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				"When you heal a creature with 0 hitpoints you always restore the maximum amount of hitpoints to that creature.",
+				"You learn the {@spell light} and {@spell control flames} cantrips, this spell uses your Monastic Kata ability modifier for spellcasting",
+				"You gain access to any of the Jutsu with the Light Arts requirements."
+			]
+		},
+		{
+			"name": "Unorthodox Technique",
+			"source": "NICKED",
+			"featureType": [
+				"MF"
+			],
+			"prerequisite": [
+				{
+					"level": 6
+				}
+			],
+			"consumes": {
+				"name": "Chakra",
+				"amount": 2
+			},
+			"entries": [
+				"When a creature misses you with a melee attack roll, you may use your reaction to cause that attack to hit one creature of your choice other than the attacker, that you can see within 5 feet of you. You can do this a number of times equal to your monastic kata ability modifier. You recover all of the uses on a short rest.",
+				"When you miss with an attack, you may spend 2 chakra to attempt to change that attack to a hit. Roll your unarmed strike damage and add the total to the attack roll."
+			]
+		},
+		{
+			"name": "Tempered by Steel",
+			"source": "NICKED",
+			"featureType": [
+				"MF"
+			],
+			"prerequisite": [
+				{
+					"level": 6
+				}
+			],
+			"consumes": {
+				"name": "Chakra",
+				"amount": 1
+			},
+			"entries": [
+				"As a bonus action you may spend one chakra, if you do you gain resistance to piercing, bludgeoning, and slashing damage until the start of your next turn."
+			]
+		},
+		{
+			"name": "Master Death",
+			"source": "NICKED",
+			"featureType": [
+				"MF"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"consumes": {
+				"name": "Chakra",
+				"amount": 1
+			},
+			"entries": [
+				"When you are reduced to 0 hit points, you can expend 1 chakra point (no action required) to have 1 hit point instead."
+			]
+		},
+		{
+			"name": "Chakra Acceleration",
+			"source": "NICKED",
+			"featureType": [
+				"MF"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"consumes": {
+				"name": "Chakra",
+				"amount": 1
+			},
+			"entries": [
+				"You've honed your awareness and reflexes through mental aptitude and pattern recognition. Once per turn, if you've already taken your reaction, you may spend 1 chakra point to take an additional reaction. You can use only one reaction per triggering effect."
+			]
+		},
+		{
+			"name": "Sage's Teachings",
+			"source": "NICKED",
+			"featureType": [
+				"MF"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"consumes": {
+				"name": "Chakra",
+				"amount": 1
+			},
+			"entries": [
+				"Whenever you activate a stance jutsu, you may select a creature within 30 feet of you that can see or hear you and spend one chakra. That creature gains the benefits of that stance if they choose to. If they are already in a stance, they lose the effects of that stance and gain the effects of the new one as usual.",
+				"Once you grant another creature the effects of a jutsu stance, you may not do so again until you finish a short rest.",
+				"If the stance jutsu references a kata stat or unarmed strike the creature may use your stats and unarmed strikes for that stance.",
+				"While you are in a jutsu stance and are within 5 ft of another creature in a jutsu stance, you and one of those creatures as though you were under the effects of {@spell warding bond} for as long as you remain within 5 feet. You may end this effect on your turn. The creature may also end this effect on their turn (no action required)."
+			]
+		},
+		{
+			"name": "Aspect of the Wurm",
+			"source": "NICKED",
+			"featureType": [
+				"MF"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"consumes": {
+				"name": "Chakra",
+				"amount": 3
+			},
+			"entries": [
+				"The power of your draconic spirit now radiates from you, warding your allies or inspiring fear in your enemies. As a bonus action, you can create an aura of draconic power that radiates 10 feet from you for 1 minute. For the duration, you gain one of the following effects of your choice:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Frightful Presence",
+							"entries": [
+								"When you create this aura and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw against your chakra save DC or become {@condition frightened} of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Resistance",
+							"entries": [
+								"Choose a damage type when you activate this aura: acid, cold, fire, lightning, or poison. You and your allies within the aura have resistance to that damage."
+							]
+						}
+					]
+				},
+				"Once you create this aura, you can't create it again until you finish a long rest, unless you expend 3 chakra points to create it again."
+			]
+		},
+		{
+			"name": "Master of the Arts",
+			"source": "NICKED",
+			"featureType": [
+				"MF"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose" : {
+						"from": [
+							"anyArtisansTool",
+							"anyMusicalInstrument"
+						],
+						"count": 1
+					}
+				}
+			],
+			"expertise": [
+				{
+					"anyProficientSkill": 1
+				},
+				{
+					"anyProficientTool": 1
+				}
+			],
+			"entries": [
+				"You are always under the effects of the {@spell guidance} spell. You do not gain guidance sickness.",
+				"Choose 2 skills. you gain proficiency in those skills",
+				"Choose one instrument or artisan's tool, you gain proficiency in that tool.",
+				"Choose one skill or tool you are proficient with. double your proficiency bonus with that skill or tool."
 			]
 		},
 		{
