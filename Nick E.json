@@ -13,7 +13,7 @@
 				],
 				"version": "1.0",
 				"color": "5d782e",
-				"url": "https://www.google.com"
+				"url": "https://github.com/DesertDread/DnD-Nick-E"
 			}
 		],
 		"dependencies": {
@@ -24,7 +24,7 @@
 				"BMT",
 				"SCC",
 				"FTD",
-				"IDROTF"
+				"IDRotF"
 			]
 		},
 		"optionalFeatureTypes": {
@@ -3504,7 +3504,7 @@
 					"type": "entries",
 					"name": "Infernal Legacy - Icy Blood",
 					"entries": [
-						"Starting at 3rd level, you can cast the {@spell frost fingers|IDROTF} spell with this trait. Once you cast Frost Fingers with this trait, you can't cast that spell with it again until you finish a long rest. You can also the Frost fingers spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait, chosen when you select this race."
+						"Starting at 3rd level, you can cast the {@spell frost fingers|IDRotF} spell with this trait. Once you cast Frost Fingers with this trait, you can't cast that spell with it again until you finish a long rest. You can also the Frost fingers spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait, chosen when you select this race."
 					]
 				}
 			]
@@ -3568,7 +3568,7 @@
 			"classFeatures": [
 				"Martial|Barbarian N|NICKED|1|NICKED",
 				"Rage|Barbarian N|NICKED|1|NICKED",
-				"Primal Defense|Barbarian N|NICKED|1|NICKED",
+				"Primal/Shaman Focus|Barbarian N|NICKED|1|NICKED",
 				"Reckless Attack|Barbarian N|NICKED|2|NICKED",
 				"Danger Sense|Barbarian N|NICKED|2|NICKED",
 				{
@@ -3584,9 +3584,11 @@
 					"classFeature": "Primal Path 6|Barbarian N|NICKED|6|NICKED",
 					"gainSubclassFeature": true
 				},
+				"Feral Instinct|Barbarian N|NICKED|7|NICKED",
 				"Instinctive Movement|Barbarian N|NICKED|7|NICKED",
 				"Ability Score Improvement|Barbarian||8",
 				"Brutal Critical|Barbarian N|NICKED|9|NICKED",
+				"Hulking Diplomacy|Barbarian N|NICKED|9|NICKED",
 				{
 					"classFeature": "Primal Path 10|Barbarian N|NICKED|10|NICKED",
 					"gainSubclassFeature": true
@@ -8918,9 +8920,10 @@
 				{
 					"type": "list",
 					"items": [
-						"Your walking speed increases by 10 ft.",
-						"You have advantage on concentration checks for spells you cast.",
-						"You have advantage on {@skill acrobatics} checks"
+						"You have advantage on Strength checks and Strength saving throws.",
+						"When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.",
+						"You have resistance to bludgeoning, piercing, and slashing damage.",
+						"If you are able to cast spells, you can't cast them or concentrate on them while raging."
 					]
 				},
 				"Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You may also end your rage on your turn as a bonus action.",
@@ -8928,7 +8931,7 @@
 			]
 		},
 		{
-			"name": "Primal Defense",
+			"name": "Primal/Shaman Focus",
 			"source": "NICKED",
 			"foundryImg": "icons/equipment/chest/vest-cloth-tattered-orange.webp",
 			"className": "Barbarian N",
@@ -9055,6 +9058,18 @@
 			]
 		},
 		{
+			"name": "Feral Instinct",
+			"source": "NICKED",
+			"className": "Barbarian N",
+			"classSource": "NICKED",
+			"foundryImg": "icons/creatures/eyes/lizard-single-slit-green.webp",
+			"level": 7,
+			"entries": [
+				"By 7th level, your instincts are so honed that you have advantage on initiative rolls.",
+				"Additionally, if you are {@condition surprised} at the beginning of combat and aren't {@condition incapacitated}, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn."
+			]
+		},
+		{
 			"name": "Instinctive Movement",
 			"source": "NICKED",
 			"className": "Barbarian N",
@@ -9091,6 +9106,18 @@
 			]
 		},
 		{
+			"name": "Hulking Diplomacy",
+			"source": "NICKED",
+			"className": "Barbarian N",
+			"foundryImg": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+			"classSource": "NICKED",
+			"level": 9,
+			"entries": [
+				"Beginning at 9th level, when you roll intimidation, you may use your strength modifier instead of your charisma modifier for that skill check.",
+				"Whenever you roll for intimidation, you may grant yourself advantage on that skill check. You may do this a number of times equal to half your proficiency bonus rounded down. You regain all of the uses of this ability when you finish a long rest."
+			]
+		},
+		{
 			"name": "Primal Path 10",
 			"source": "NICKED",
 			"className": "Barbarian N",
@@ -9116,7 +9143,7 @@
 						"con"
 					]
 				},
-				"{@underline Shaman:} You learn the {@spell spare the dying} cantrip. You may cast {@spell augury} and {@spell commune with nature} as ritual spells once per long rest, you use your wisdom modifier as the spellcasting modifier for spells cast in this way. Raging does",
+				"{@underline Shaman:} You learn the {@spell spare the dying} cantrip. You may cast {@spell augury} and {@spell commune with nature} as ritual spells once per long rest, you use your wisdom modifier as the spellcasting modifier for spells cast in this way.",
 				{
 					"type": "abilityDc",
 					"name": "Spell DC",
@@ -10976,7 +11003,7 @@
 					"items": [
 						"Difficult terrain doesn't slow your group's travel.",
 						"Your group can't become lost except by magical means.",
-						"Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+						"Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger. (you have advantage on {@skill perception} checks)",
 						"If you are traveling alone, you can move stealthily at a normal pace.",
 						"When you forage, you find twice as much food as you normally would.",
 						"While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
@@ -11287,7 +11314,7 @@
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.", 
-				"You are also aware of the location of any {@condition invisible} creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't {@condition blinded} or {@condition deafened}."
+				"You are also aware of the location of any {@condition invisible} creature within 60 feet of you, provided that the creature isn't hidden from you and you aren't {@condition blinded} or {@condition deafened}."
 			]
 		},
 		{
@@ -11300,7 +11327,7 @@
 				"Starting at 20th level, you gain 2 of the following features of your choice:",
 				{
 					"type":"options",
-					"count": 2,
+					"count": 3,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
@@ -11345,6 +11372,10 @@
 						{
 							"type": "refOptionalfeature",
 							"optionalfeature": "Escape Artist|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Saving Throw Expertise|NICKED"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -30176,7 +30207,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Starting at 1st level, your eyes glow and shift with the changes of the lunar cycle. You gain additonal spells and abilities based on your lunar cycle you are aligned with. Regardless of their source while in that lunar cycle, they count as sorcerer spells for you.",
+				"Starting at 1st level, select a lunar alignment from the chart below. You begin in that lunar alignment. Your eyes glow and shift with the changes of the lunar cycle. You gain additonal spells and abilities based on your lunar cycle you are aligned with. Regardless of their source while in that lunar cycle, they count as sorcerer spells for you.",
 				{
 					"type": "table",
 					"caption": "Lunar Alignment",
@@ -30237,7 +30268,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"When you reach 2nd level, whenever you shift with your Esoteric Spell Metamagic, you may have your lunar alignment shift to match the type of damage you choose.",
+				"When you reach 2nd level, whenever you cast the {@spell moonbeam} spell or shift with your Esoteric Spell Metamagic, you may have your lunar alignment shift to match the type of damage you choose.",
 				"Additionally, you may spend 1 sorcery point as a bonus action to shift the phase of your Lunar Alignment to another phase of your choice.",
 				{
 					"type": "options",
@@ -37181,13 +37212,19 @@
 								]
 							}
 						}
+					},
+					"known": {
+						"_": [
+							"protection from evil and good"
+						]
 					}
 				}
 			],
 			"entries": [
 				"Gain proficiency in {@skill religion}.",
 				"You have advantage on all wisdom {@skill survival} checks you use to track celestials and fiends and all intelligence {@skill history} checks to recall information on celestials and fiends.",
-				"You may cast {@spell protection from evil and good} once per long rest as a bonus action without expending a spell slot targeting yourself (wisdom is your spellcasting modifier for this spell)."
+				"You may cast {@spell protection from evil and good} once per long rest as a bonus action without expending a spell slot targeting yourself (wisdom is your spellcasting modifier for this spell).", 
+				"This spell is always prepared for you and does not count against the number of spells you have prepared."
 			]
 		},
 		{
@@ -37204,7 +37241,7 @@
 			"entries": [
 				"Gain proficiency in {@skill athletics}.",
 				"You have advantage on all wisdom {@spell survival} checks you use to track beasts and all intelligence {@skill history} checks to recall information on beasts.", 
-				"You have advantage on concentration checks on {@spell hunter's mark}." 
+				"While concentrating on a ranger spell, if you would be forced to make a concentration check to maintain that spell of DC 10 or lower, you automatically succeed on that check." 
 			]
 		},
 		{
@@ -37490,6 +37527,16 @@
 			],
 			"entries": [
 				"You can escape all restraints magical or mundane using 10 ft of movement. ({@condition restrained} condition)" 
+			]
+		},
+		{
+			"name": "Saving Throw Expertise",
+			"source": "NICKED",
+			"featureType": [
+				"RHSS"
+			],
+			"entries": [
+				"Double your proficiency bonus to a saving throw of your choice that you are proficient in." 
 			]
 		},
 		{
@@ -37998,12 +38045,8 @@
 					"level": 3
 				}
 			],
-			"consumes": {
-				"name": "Sorcery Point",
-				"amount": 2
-			},
 			"entries": [
-				"When you cast a spell that deals damage, you can spend 2 sorcery points to heal yourself by an amount equal to half the damage dealt to a single target, rounded down. You can use this effect before you roll damage. You cannot regain hitpoints more than half of the total damage rolled on the damage dice.",
+				"When you cast a spell that deals damage, you can spend a number of sorcery points equal to the spell's level (minimum 2) to heal yourself by an amount equal to half the damage dealt to a single target, rounded down. You can use this effect before you roll damage. You cannot regain hitpoints more than half of the total damage rolled on the damage dice.",
 				"(you would regain less from a creature resistant to the attack but you would not gain double the hp if a creature is vulnerable)"
 			]
 		},
@@ -46342,6 +46385,2900 @@
 						"While deployed, the shield becomes a 5 ft wide wall that grants 3/4 cover to one medium or smaller creature standing behind it. The shield can be picked up using an Action."
 					]
 				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Acid Splash",
+			"source": "NICKED",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create an acidic bubble and hurl it at a point within range, where it explodes in a 5 foot-radius sphere. Each creature in that sphere must succeed on a Dexterity saving throw or take {@damage 1d6} acid damage.",
+				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"foundrySystem": {
+				"target.value": 5,
+				"target.units": "ft",
+				"target.type": "sphere"
+			},
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			]
+		},
+		{
+			"name": "Blade Ward",
+			"source": "NICKED",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, the touched creature has resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
+			],
+			"damageResist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"foundryEffects": [
+				{
+					"changes": [
+						{
+							"key": "system.traits.dr.value",
+							"mode": "CUSTOM",
+							"value": "bludgeoning",
+							"priority": 20
+						},
+						{
+							"key": "system.traits.dr.value",
+							"mode": "CUSTOM",
+							"value": "piercing",
+							"priority": 20
+						},
+						{
+							"key": "system.traits.dr.value",
+							"mode": "CUSTOM",
+							"value": "slashing",
+							"priority": 20
+						}
+					],
+					"duration": {
+						"rounds": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "Black-Flame Blade",
+			"source": "NICKED",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, your weapon's damage is replaced by {@damage 1d4} necrotic + {@damage 1d4} radiant damage + your weapon's ability modifier. This attack disrupts the creatures very body and soul causing it to lose focus. Creatures {@status concentration||concentrating} on spells make their concentration checks at disadvantage. Their {@status concentration} DC is a minimum of 10 + your spellcasting ability modifier.",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d4 necrotic damage and 1d4 radiant damage ({@damage 2d4} necrotic + {@damage 2d4} radiant), 11th level ({@damage 3d4} necrotic + {@damage 3d4} radiant), 17th level ({@damage 4d4} necrotic + {@damage 4d4} radiant)"
+			],
+			"scalingLevelDice": [
+				{
+					"label": "necrotic damage on hit",
+					"scaling": {
+						"5": "1d4",
+						"11": "2d4",
+						"17": "3d4"
+					}
+				},
+				{
+					"label": "radiant damage on hit",
+					"scaling": {
+						"5": "1d4",
+						"11": "2d4",
+						"17": "3d4"
+					}
+				}
+			],
+			"damageInflict": [
+				"necrotic", "radiant"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"foundrySystem": {
+				"actionType": "mwak",
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d4[on hit]",
+						"necrotic"
+					],
+					[
+						"@mod + (floor(((@details.level + @details.spellLevel) + 1) / 6))d4[on hit]",
+						"radiant"
+					]
+				],
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Blade of Elemental Fire",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} fire damage to the target on a hit, and the fire damage to the second creature increases to {@damage 1d8} + your spellcasting ability modifier. Both damage rolls increase by {@damage 1d8} at 11th level ({@damage 2d8} and {@damage 2d8}) and 17th level ({@damage 3d8} and {@damage 3d8})."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "fire damage to secondary creature",
+					"scaling": {
+						"1": "{{spellcasting_mod}}",
+						"5": "1d8 + {{spellcasting_mod}}",
+						"11": "2d8 + {{spellcasting_mod}}",
+						"17": "3d8 + {{spellcasting_mod}}"
+					}
+				},
+				{
+					"label": "fire damage on hit",
+					"scaling": {
+						"5": "1d8",
+						"11": "2d8",
+						"17": "3d8"
+					}
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"foundrySystem": {
+				"actionType": "mwak",
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d8[on hit]",
+						"fire"
+					],
+					[
+						"@mod + (floor(((@details.level + @details.spellLevel) + 1) / 6))d8[splash]",
+						"fire"
+					]
+				],
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Blade of Elemental Ice",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause ice shards to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes cold damage equal to your spellcasting ability modifier.",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} cold damage to the target on a hit, and the cold damage to the second creature increases to {@damage 1d8} + your spellcasting ability modifier. Both damage rolls increase by {@damage 1d8} at 11th level ({@damage 2d8} and {@damage 2d8}) and 17th level ({@damage 3d8} and {@damage 3d8})."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "cold damage to secondary creature",
+					"scaling": {
+						"1": "{{spellcasting_mod}}",
+						"5": "1d8 + {{spellcasting_mod}}",
+						"11": "2d8 + {{spellcasting_mod}}",
+						"17": "3d8 + {{spellcasting_mod}}"
+					}
+				},
+				{
+					"label": "cold damage on hit",
+					"scaling": {
+						"5": "1d8",
+						"11": "2d8",
+						"17": "3d8"
+					}
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"foundrySystem": {
+				"actionType": "mwak",
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d8[on hit]",
+						"cold"
+					],
+					[
+						"@mod + (floor(((@details.level + @details.spellLevel) + 1) / 6))d8[splash]",
+						"cold"
+					]
+				],
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Bone Chill",
+			"source": "NICKED",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes {@damage 1d8} necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.",
+				"If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "necrotic damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Booming Blade",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes {@damage 1d8} thunder damage, and the spell ends.",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} thunder damage to the target on a hit, and the damage the target takes for moving increases to {@damage 2d8}. Both damage rolls increase by 1d8 at 11th level ({@damage 2d8} and {@damage 3d8}) and again at 17th level ({@damage 3d8} and {@damage 4d8})."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "thunder damage on moving",
+					"scaling": {
+						"1": "1d8",
+						"5": "2d8",
+						"11": "3d8",
+						"17": "4d8"
+					}
+				},
+				{
+					"label": "thunder damage on hit",
+					"scaling": {
+						"5": "1d8",
+						"11": "2d8",
+						"17": "3d8"
+					}
+				}
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"foundrySystem": {
+				"actionType": "mwak",
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d8[on hit]",
+						"thunder"
+					]
+				],
+				"damage.versatile": "(floor(((@details.level + @details.spellLevel) + 1) / 6) + 1)d8[on willing movement]",
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Control Flames",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.",
+						"You instantaneously extinguish the flames within the cube.",
+						"You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.",
+						"You cause simple shapes\u2014such as the vague form of a creature, an inanimate object, or a location\u2014to appear within the flames and animate as you like. The shapes last for 1 hour."
+					]
+				},
+				"If you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action."
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"foundrySystem": {
+				"target.value": 5,
+				"target.units": "ft",
+				"target.type": "cube"
+			}
+		},
+		{
+			"name": "Create Bonfire",
+			"source": "NICKED",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature in the bonfire's space when you cast the spell must succeed on a Dexterity saving throw or take {@damage 1d8} fire damage. A creature must also make the saving throw when it moves into the bonfire's space for the first time on a turn or ends its turn there.",
+				"The bonfire ignites flammable objects in its area that aren't being worn or carried.",
+				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"OBJ",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"foundrySystem": {
+				"target.value": 5,
+				"target.units": "ft",
+				"target.type": "cube"
+			}
+		},
+		{
+			"name": "Dancing Lights",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of phosphorus or wychwood, or a glowworm"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.",
+				"As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range."
+			],
+			"miscTags": [
+				"LGT",
+				"UBA"
+			]
+		},
+		{
+			"name": "Druidcraft",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Whispering to the spirits of nature, you create one of the following effects within range:",
+				{
+					"type": "list",
+					"items": [
+						"You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.",
+						"You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.",
+						"You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube.",
+						"You instantly light or snuff out a candle, a torch, or a small campfire."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eldritch Blast",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} force damage.",
+				"The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			]
+		},
+		{
+			"name": "Elemental Ammunitions",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a quiver, pouch, cordon or other container of ammunition. Until the end of your turn, any normal pieces of ammunition you draw from that container deal their damage in the form of your choice of acid, cold, fire, lightning, or poison damage."
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Elemental Burst",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You hurl a burst of elemental energy at one creature or object in range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 2d4} damage. Choose one of the {@dice d4}s. The number rolled on that die determines the attack's damage type, as shown below.",
+				{
+					"type": "table",
+					"caption": "Elemental Burst",
+					"colLabels": [
+						"{@dice d4}",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"Cold"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"Fire"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"Lightning"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"Thunder"
+						]
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"This spell's damage increases by {@damage 2d4} when you reach 5th level ({@damage 4d4}), 11th level ({@damage 6d4}), and 17th level ({@damage 8d4})."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold",
+				"fire",
+				"lightning",
+				"thunder"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"RO"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Encode Thoughts",
+			"source": "NICKED",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"Putting a finger to your head, you pull a memory, an idea, or a message from your mind and transform it into a tangible string of glowing energy called a thought strand, which persists for the duration or until you cast this spell again. The thought strand appears in an unoccupied space within 5 feet of you as a Tiny, weightless, semisolid object that can be held and carried like a ribbon. It is otherwise stationary.",
+				"If you cast this spell while {@status concentration||concentrating} on a spell or an ability that allows you to read or manipulate the thoughts of others (such as {@spell detect thoughts} or {@spell modify memory}), you can transform the thoughts or memories you read, rather than your own, into a thought strand.",
+				"Casting this spell while holding a thought strand allows you to instantly receive whatever memory, idea, or message the thought strand contains. (Casting {@spell detect thoughts} on the strand has the same effect.)"
+			]
+		},
+		{
+			"name": "Fire Bolt",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.",
+				"This spell's damage increases by {@dice 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10})."
+			],
+			"scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"OBJ",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Friends to Enemies",
+			"source": "NICKED",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a small amount of makeup applied to the face as this spell is cast"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn't hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it."
+			],
+			"miscTags": [
+				"ADV"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Frostbite",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes {@damage 1d6} cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.",
+				"The spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "cold damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"foundrySystem": {
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature"
+			}
+		},
+		{
+			"name": "Guidance",
+			"source": "NICKED",
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "when you or a friendly creature you can see within 10 feet of you fails an ability check"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"When you or a friendly creature you can see within 10 feet of you fails an ability check, you may use your reaction to add a {@dice 1d4} to that creature's check possibly changing the outcome of that roll. Once a creature affected by this spell succeeds on an ability check, they gain guidance exhaustion.", 
+				"A creature with guidance exhaustion cannot be affected by this spell until they finish a short or long rest in which they lose the condition.",
+				"This spell's verbal components are very noticeable when cast, if a creature is having a conversation with the target of this spell, they may suspect magical foul play. If a creature is attempting to stealth, it's likely to give both your location and the stealthing creature's locations away"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Gust",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You seize the air and compel it to create one of the following effects at a point you can see within range:",
+				{
+					"type": "list",
+					"items": [
+						"One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you.",
+						"You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn't pushed with enough force to cause damage.",
+						"You create a harmless sensory effect using air, such as causing leaves to rustle, wind to slam shutters closed, or your clothing to ripple in a breeze."
+					]
+				}
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV",
+				"OBJ",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"foundrySystem": {
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature"
+			}
+		},
+		{
+			"name": "Hawk Eye Shot",
+			"source": "NICKED",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a ranged weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You conjure and draw a piece of ammunition made out of silver. This ammunition is perfectly shaped. A weapon that fires this munition doubles its normal range of effectiveness. You cannot use other special ammunition as part of this attack.",
+				"You brandish the weapon used in the spell's casting and make a ranged attack with it against one creature within its range. On a hit, the creature has disadvantage on any {@skill stealth} checks it makes as part of the {@action hide} action. You have advantage on all {@skill perception} checks you make to locate that creature until the end of your next turn",
+				"This attack overcomes magical immunities and resistance to weapon damage from non-silvered weapons",
+				"This spell's damage increases when you reach certain levels. At 5th level, the ranged attack deals an extra {@damage 1d8} force damage to the target on a hit. At 11th level an additional {@damage 2d8}. At 17th level an additional {@damage 3d8}."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "extra force damage",
+					"scaling": {
+						"5": "1d8",
+						"11": "2d8",
+						"17": "3d8"
+					}
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"foundrySystem": {
+				"actionType": "rwak",
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"1d8[on hit]",
+						"force"
+					]
+				],
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Infestation",
+			"source": "NICKED",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a living flea"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes {@damage 1d6} poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a {@dice d4} for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn't provoke opportunity attacks, and if the direction rolled is blocked, the target doesn't move.",
+				"The spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "poison damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"poison"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"foundrySystem": {
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature"
+			}
+		},
+		{
+			"name": "Kinetic Strike",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee or ranged weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting transforming its damage and modifier. You use your spellcasting modifier for its attack and damage rolls. You make an attack with the following properties as part of casting this spell:",
+				{
+					"type": "list",
+					"items": [
+						"One-handed weapon transforms its damage into {@damage 1d6} + your spellcasting modifier as force damage.",
+						"Two handed weapons transform its damage into {@damage 1d8} + your spellcasting modifier as force damage.",
+						"Melee weapons increase their reach by 5 feet by extending out a blade of mystic force to attack your foes.",
+						"Ranged weapons ignore half and three quarters cover for their attacks."
+					]
+				},
+				"This spell's damage increases when you reach certain levels. At 5th level, the attack deals an extra {@damage 1d6} ({@damage 1d8} with two handed weapons) force damage to the target on a hit. At 11th level an additional {@damage 2d6} ({@damage 2d8} with two handed weapons). At 17th level an additional 3d6 (3d8 with two handed weapons). This spell deals no extra damage at higher levels if you fire a special piece of ammunition from a ranged weapon."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "One handed Extra Damage",
+					"scaling": {
+						"5": "1d6",
+						"11": "2d6",
+						"17": "3d6"
+					}
+				},
+				{
+					"label": "Two handed Extra Damage",
+					"scaling": {
+						"5": "1d8",
+						"11": "2d8",
+						"17": "3d8"
+					}
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"foundrySystem": {
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d6[on hit]",
+						"force"
+					],
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d8[on hit]",
+						"force"
+					]
+				],
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Light",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a firefly or phosphorescent moss"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.",
+				"If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell."
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"LGT",
+				"OBJ"
+			]
+		},
+		{
+			"name": "Lightning Lure",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a lash of lightning energy that strikes at one creature of your choice that you can see within 30 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take {@damage 1d8} lightning damage if it is within 5 feet of you.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "lightning damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Mage Hand",
+			"source": "NICKED",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.",
+				"You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.",
+				"The hand can't attack, activate magic items, or carry more than 10 pounds."
+			],
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Magic Stone",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a {@item sling|phb}. If thrown, a pebble has a range of 60 feet. If someone else attacks with a pebble, that attacker adds your spellcasting ability modifier, not the attacker's, to the attack roll. On a hit, the target takes bludgeoning damage equal to {@damage 1d6} + your spellcasting ability modifier. Whether the attack hits or misses, the spell then ends on the stone.",
+				"If you cast this spell again, the spell ends on any pebbles still affected by your previous casting.",
+				"The stone's damage dice changes when you reach levels 5 (d8), 11 (d10), and 17 (1d12)."
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Mending",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "two lodestones"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.",
+				"This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object."
+			],
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Message",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a short piece of copper wire"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.",
+				"When you whisper as part of this spell only creatures within 5ft have a chance to hear you when you speak. The same is true for the creature if they respond.",
+				"You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings."
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Mind Sliver",
+			"source": "NICKED",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take {@damage 1d6} psychic damage and subtract {@dice 1d4} from the next saving throw it makes before the end of your next turn.",
+				"This spell's damage increases by {@dice 1d6} when you reach certain levels: 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "psychic damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"foundrySystem": {
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature"
+			}
+		},
+		{
+			"name": "Mind-Blanks",
+			"source": "NICKED",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a ranged weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You imbue your ammunition with psychic energy and brandish the weapon used in the spell's casting and make a ranged attack with it against one creature within its range. On a hit, the target suffers the weapons damage as psychic damage instead of any piercing, bludgeoning, or slashing damage that weapon would deal. A creature hit by that attack must make an intelligence saving throw. Upon a failure that creature has disadvantage on all ability checks it makes using Intelligence, Wisdom, or Charisma until the end of your next turn. If the creature was concentrating on a spell, that creature makes its concentration check against your spell save DC if it failed the save against this spell. Creatures immune to psychic damage ignore the effects of this spell.",
+				"Your weapon makes no noise as part of firing them and leave no visible mark. A creature hit by this weapon will still jerk and react as though it was hit by a solid piece of ammunition regardless.",
+				"Non-special pieces of ammunition fired in this way increase their damage at certain levels. At 5th level the weapon deals an extra {@damage 1d6} psychic damage. At 11th it deals an extra {@damage 2d6} psychic damage. At 17th it deals an extra {@damage 3d6} psychic damage."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "extra psychic damage",
+					"scaling": {
+						"5": "1d6",
+						"11": "2d6",
+						"17": "3d6"
+					}
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"foundrySystem": {
+				"actionType": "rwak",
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"1d6[on hit]",
+						"psychic"
+					]
+				],
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Minor Illusion",
+			"source": "NICKED",
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a bit of fleece"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.",
+				"If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.",
+				"If you create an image of an object\u2014such as a chair, muddy footprints, or a small chest\u2014it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.",
+				"If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence ({@skill Investigation}) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature."
+			],
+			"abilityCheck": [
+				"intelligence"
+			],
+			"foundrySystem": {
+				"target.value": 5,
+				"target.units": "ft",
+				"target.type": "cube"
+			}
+		},
+		{
+			"name": "Mold Earth",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You choose a portion of dirt or stone that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn't involve enough force to cause damage.",
+						"You cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. The changes last for 1 hour.",
+						"If the dirt or stone you target is on the ground, you cause it to become {@quickref difficult terrain||3}. Alternatively, you can cause the ground to become normal terrain if it is already {@quickref difficult terrain||3}. This change lasts for 1 hour."
+					]
+				},
+				"If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+			],
+			"miscTags": [
+				"DFT",
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"foundrySystem": {
+				"target.value": 5,
+				"target.units": "ft",
+				"target.type": "cube"
+			}
+		},
+		{
+			"name": "Necro-Blade",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and it can't regain hitpoints until the start of your next turn. The creature must make a constitution saving throw or that creature has disadvantage on the next attack it makes against you until the start of your next turn. These effects do not affect creatures with resistance to necrotic damage or constructs.",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@spell 1d6} necrotic damage to the target on a hit. At 11th level an additional {@damage 2d6} necrotic damage. At 17th level an additional {@damage 3d6} necrotic damage"
+			],
+			"scalingLevelDice": [
+				{
+					"label": "Extra Necrotic Damage",
+					"scaling": {
+						"5": "1d6",
+						"11": "2d6",
+						"17": "3d6"
+					}
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"foundrySystem": {
+				"actionType": "mwak",
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d6[on hit]",
+						"necrotic"
+					]
+				],
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Poison Spray",
+			"source": "NICKED",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take {@damage 1d12} poison damage.",
+				"This spell's damage increases by {@dice 1d12} when you reach 5th level ({@damage 2d12}), 11th level ({@damage 3d12}), and 17th level ({@damage 4d12})."
+			],
+			"scalingLevelDice": {
+				"label": "poison damage",
+				"scaling": {
+					"1": "1d12",
+					"5": "2d12",
+					"11": "3d12",
+					"17": "4d12"
+				}
+			},
+			"damageInflict": [
+				"poison"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Prestidigitation",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:",
+				{
+					"type": "list",
+					"items": [
+						"You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.",
+						"You instantaneously light or snuff out a candle, a torch, or a small campfire.",
+						"You instantaneously clean or soil an object no larger than 1 cubic foot.",
+						"You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.",
+						"You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.",
+						"You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
+					]
+				},
+				"If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+			],
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Primal Savagery",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes {@damage 1d10} acid damage. After you make the attack, your teeth or fingernails return to normal.",
+				"After long term or repeated use of this cantrip your teeth or fingernails (or both) slowly become permanently changed into more feral wolf or catlike fangs and claws. As long as this spell remains prepared or as one of your chosen cantrips, your unarmed strikes use a {@damage 1d4} + strength slashing damage instead of their normal bludgeoning. This happens usually after the 5th or 6th repeated use. {@spell druidcraft|NICKED}, {@spell lesser restoration}, or minor healing can reverse these effects upon you if you so choose",
+				"The spell's damage increases by {@dice 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10})."
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Produce Flame",
+			"source": "NICKED",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"A flickering flame appears in your unoccupied hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds bright light in a 10-foot radius and dim light for an additional 20 feet. The spell ends if you dismiss it as a Bonus Action or if you cast it again.",
+				"Until the spell ends, you can use your action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes {@damage 1d8} fire damage. Each time you hurl this flame another ball of fire appears in your unoccupied hand",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"LGT",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Punishing Blade",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within range of that weapon. On a hit, the target suffers the weapon attack's normal effects and then becomes sheathed in punishing radiant energy until the start of your next turn. If the target deals damage to a creature other than you before then, the target takes {@damage 1d6} radiant damage and the spell ends.",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@spell 1d6} radiant damage to the target on a hit. At 11th level an additional {@damage 2d6} radiant damage. At 17th level an additional {@damage 3d6} radiant damage."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "radiant damage on hit",
+					"scaling": {
+						"5": "1d6",
+						"11": "2d6",
+						"17": "3d6"
+					}
+				},
+				{
+					"label": "radiant damage on other attacked",
+					"scaling": {
+						"1": "1d6",
+						"5": "2d6",
+						"11": "3d6",
+						"17": "4d6"
+					}
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"foundrySystem": {
+				"actionType": "mwak",
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d6[on hit]",
+						"thunder"
+					],
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6) + 1)d6[on other attacked]",
+						"thunder"
+					]
+				],
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Ray of Frost",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes {@damage 1d8} cold damage, and its speed is reduced by 10 feet until the start of your next turn.",
+				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "cold damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"cold"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Resistance",
+			"source": "NICKED",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you or a friendly creature you can see within 5 feet of you fails a saving throw."
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"The creature adds {@dice 1d4} to the saving throw possibly changing the outcome. Once a creature affected by this spell succeeds on a saving throw, they gain resistance exhaustion. A creature with resistance exhaustion cannot be affected by this spell until they finish a short or long rest, in which they lose the condition."
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Sacred Flame",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take {@damage 1d8} radiant damage. The target gains no benefit from cover for this saving throw.",
+				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "radiant damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Shape Water",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You choose an area of water that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"You instantaneously move or otherwise change the flow of the water as you direct, up to 5 feet in any direction. This movement doesn't have enough force to cause damage.",
+						"You cause the water to form into simple shapes and animate at your direction. This change lasts for 1 hour.",
+						"You change the water's color or opacity. The water must be changed in the same way throughout. This change lasts for 1 hour.",
+						"You freeze the water, provided that there are no creatures in it. The water unfreezes in 1 hour."
+					]
+				},
+				"If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"foundrySystem": {
+				"target.value": 5,
+				"target.units": "ft",
+				"target.type": "cube"
+			}
+		},
+		{
+			"name": "Shillelagh",
+			"source": "NICKED",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "mistletoe, a shamrock leaf, and a club or quarterstaff"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A {@item club|NICKED} or {@item quarterstaff|NICKED} you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@dice d8}. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
+			]
+		},
+		{
+			"name": "Shocking Grasp",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes {@damage 1d8} lightning damage, and it can't take reactions until the start of its next turn.",
+				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "lightning damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"lightning"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Spare the Dying",
+			"source": "NICKED",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You magically tend to a living creature that has 0 hit points that you can see within 30 feet of you. The creature becomes stable. This spell has no effect on undead or constructs.",
+				"At higher levels this spell increases in range: 45 feet starting at 5th level, 60 feet at 11th level, and 120 feet at 17th level."
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"beast",
+				"celestial",
+				"dragon",
+				"elemental",
+				"fey",
+				"fiend",
+				"giant",
+				"humanoid",
+				"monstrosity",
+				"ooze",
+				"plant"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Sword Burst",
+			"source": "NICKED",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take {@damage 1d6} force damage.",
+				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "force damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Spark-Blade",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause lightning to jump from the target to a different creature of your choice that you can see within 10 feet of it. The second creature takes lightning damage equal to your spellcasting ability modifier.",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} lightning damage to the target on a hit, and the lightning jumps to a third creature (within 10 feet of the previous target). The lightning arcs deal damage equal to your spellcasting modifier to each target.",
+				"At 11th level, the melee attack damage deals an extra {@damage 2d8} lightning damage and jumps to a fourth creature (within 10 feet of the previous target). All lightning arcs still deal lightning damage equal to your spellcasting ability modifier.",
+				"At 17th level, the melee attack damage deals an extra {@damage 3d8} and has no additional increase in jumps."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "lightning damage to tertiary creature",
+					"scaling": {
+						"1": "{{spellcasting_mod}}",
+						"5": "{{spellcasting_mod}}",
+						"11": "{{spellcasting_mod}}",
+						"17": "{{spellcasting_mod}}"
+					}
+				},
+				{
+					"label": "lightning damage on hit",
+					"scaling": {
+						"5": "1d8",
+						"11": "2d8",
+						"17": "3d8"
+					}
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"foundrySystem": {
+				"actionType": "mwak",
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d8[on hit]",
+						"lightning"
+					],
+					[
+						"@mod",
+						"lightning"
+					]
+				],
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Taunting Blade",
+			"source": "NICKED",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within range of that weapon. On a hit, the target suffers the weapon attack's normal effects and then becomes surrounded by mocking whispers until the start of your next turn. If the target fails an ability check or misses an attack roll before then, the target takes {@damage 1d6} psychic damage, and the spell ends.",
+				"At Higher Levels. At 5th level, the melee attack deals an extra {@damage 1d6} psychic damage to the target on a hit, and the damage the target takes for failing an ability check or missing an attack roll increases to {@damage 2d6}. Both damage rolls increase by {@damage 1d6} at 11th level ({@damage 2d6} and {@damage 3d6}) and again at 17th level ({@damage 3d6} and {@damage 4d6})."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "psychic damage on hit",
+					"scaling": {
+						"5": "1d6",
+						"11": "2d6",
+						"17": "3d6"
+					}
+				},
+				{
+					"label": "psychic damage on foe miss",
+					"scaling": {
+						"1": "1d6",
+						"5": "2d6",
+						"11": "3d6",
+						"17": "4d6"
+					}
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"foundrySystem": {
+				"actionType": "mwak",
+				"target.value": 1,
+				"target.units": "",
+				"target.type": "creature",
+				"damage.parts": [
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6) - 1 =)d6[on hit]",
+						"psychic"
+					],
+					[
+						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d6[on foe miss]",
+						"psychic"
+					]
+				],
+				"scaling.mode": "none",
+				"scaling.formula": ""
+			}
+		},
+		{
+			"name": "Absorb Elements",
+			"source": "NICKED",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you take acid, cold, fire, lightning, or thunder damage"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra {@damage 1d6} damage of the triggering type, and the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by {@scaledamage 1d6|1-9|1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageResist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder"
 			]
 		}
 	]
