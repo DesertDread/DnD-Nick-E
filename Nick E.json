@@ -30268,7 +30268,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"When you reach 2nd level, whenever you cast the {@spell moonbeam} spell or shift with your Esoteric Spell Metamagic, you may have your lunar alignment shift to match the type of damage you choose.",
+				"When you reach 2nd level, whenever you change a spells damage type with your Esoteric Spell Metamagic, you may have your lunar alignment shift to match the type of damage you choose.",
 				"Additionally, you may spend 1 sorcery point as a bonus action to shift the phase of your Lunar Alignment to another phase of your choice.",
 				{
 					"type": "options",
