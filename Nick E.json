@@ -48662,13 +48662,10 @@
 				"damage.parts": [
 					[
 						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d6[on hit]",
-						"thunder"
-					],
-					[
-						"(floor(((@details.level + @details.spellLevel) + 1) / 6) + 1)d6[on other attacked]",
-						"thunder"
+						"radiant"
 					]
 				],
+				"damage.versatile": "(floor(((@details.level + @details.spellLevel) + 1) / 6) + 1)d6[on other attacked]",
 				"scaling.mode": "none",
 				"scaling.formula": ""
 			}
@@ -49221,12 +49218,9 @@
 					[
 						"(floor(((@details.level + @details.spellLevel) + 1) / 6) - 1)d6[on hit]",
 						"psychic"
-					],
-					[
-						"(floor(((@details.level + @details.spellLevel) + 1) / 6))d6[on foe miss]",
-						"psychic"
 					]
 				],
+				"damage.versatile": "(floor(((@details.level + @details.spellLevel) + 1) / 6))d6[on foe miss]",
 				"scaling.mode": "none",
 				"scaling.formula": ""
 			}
@@ -49280,6 +49274,9 @@
 			],
 			"damageInflict": [
 				"poison"
+			],
+			"savingThrow": [
+				"constitution"
 			],
 			"miscTags": [
 				"AAD",
