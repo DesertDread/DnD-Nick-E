@@ -14293,7 +14293,7 @@
 				"Arcane Marksman|Fighter N|NICKED|Arcane Marksman|NICKED|3|NICKED",
 				"Magic Munitions|Fighter N|NICKED|Arcane Marksman|NICKED|7|NICKED",
 				"Curving Shot|Fighter N|NICKED|Arcane Marksman|NICKED|7|NICKED",
-				"Fire and Lightning Munitions|Fighter N|NICKED|Arcane Marksman|NICKED|10|NICKED",
+				"Elemental Munitions|Fighter N|NICKED|Arcane Marksman|NICKED|10|NICKED",
 				"Ever-Ready Shot|Fighter N|NICKED|Arcane Marksman|NICKED|15|NICKED",
 				"Magical Traversal|Fighter N|NICKED|Arcane Marksman|NICKED|18|NICKED"
 			]
@@ -15150,7 +15150,7 @@
 							"vortex warp|SCC"
 						],
 						"9": [
-							"lightning munition|NICKED",
+							"elemental munitions|NICKED",
 							"nondetection",
 							"revivify",
 							"speak with dead",
@@ -23481,7 +23481,7 @@
 			]
 		},
 		{
-			"name": "Fire and Lightning Munitions",
+			"name": "Elemental Munitions",
 			"source": "NICKED",
 			"className": "Fighter N",
 			"classSource": "NICKED",
@@ -23490,7 +23490,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you learn to cast the flame munition and lightning munition spells, you may cast each of these spells once per long rest."
+				"Starting at 10th level, you learn to cast the elemental munition spells, you may cast this spell once per short rest without needing to expend a spell slot. Intelligence is your spellcasting modifier for this spell."
 			]
 		},
 		{
@@ -26327,7 +26327,7 @@
 						],
 						[
 							"9th",
-							"{@spell lightning munition|NICKED}, {@spell nondetection}, {@spell revivify}, {@spell speak with dead}, {@spell leomund's tiny hut}, {@spell water breathing}"
+							"{@spell elemental munitions|NICKED}, {@spell nondetection}, {@spell revivify}, {@spell speak with dead}, {@spell leomund's tiny hut}, {@spell water breathing}"
 						],
 						[
 							"13th",
