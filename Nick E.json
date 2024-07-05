@@ -19,12 +19,7 @@
 		"dependencies": {
 			"spell": [
 				"PHB",
-				"XGE",
-				"TCE",
-				"BMT",
-				"SCC",
-				"FTD",
-				"IDRotF"
+				"NICKED"
 			]
 		},
 		"optionalFeatureTypes": {
@@ -2684,14 +2679,14 @@
 						"_": {
 							"daily": {
 								"2": [
-									"levitate"
+									"levitate|NICKED"
 								]
 							}
 						}
 					},
 					"known": {
 						"_": [
-							"levitate"
+							"levitate|NICKED"
 						]
 					}
 				}
@@ -2725,20 +2720,20 @@
 					"innate": {
 						"_": {
 							"will": [
-								"mold earth|XGE"
+								"mold earth|NICKED"
 							]
 						},
 						"5": {
 							"daily": {
 								"1": [
-									"meld into stone"
+									"meld into stone|NICKED"
 								]
 							}
 						}
 					},
 					"known": {
 						"5": [
-							"meld into stone"
+							"meld into stone|NICKED"
 						]
 					}
 				}
@@ -2775,21 +2770,21 @@
 					"innate": {
 						"_": {
 							"will": [
-								"produce flame",
-								"dancing lights"
+								"produce flame|NICKED",
+								"dancing lights|NICKED"
 							]
 						},
 						"3": {
 							"daily": {
 								"1": [
-									"burning hands"
+									"burning hands|NICKED"
 								]
 							}
 						}
 					},
 					"known": {
 						"3": [
-							"burning hands"
+							"burning hands|NICKED"
 						]
 					}
 				}
@@ -2826,20 +2821,20 @@
 					"innate": {
 						"_": {
 							"will": [
-								"shape water|XGE"
+								"shape water|NICKED"
 							]
 						},
 						"3": {
 							"daily": {
 								"1": [
-									"create or destroy water"
+									"create or destroy water|NICKED"
 								]
 							}
 						}
 					},
 					"known": {
 						"3": [
-							"create or destroy water"
+							"create or destroy water|NICKED"
 						]
 					}
 				}
@@ -3079,14 +3074,14 @@
 						"3": {
                             "daily": {
 								"1": [
-									"faerie fire"
+									"faerie fire|NICKED"
 								]
 							}
 						}
 					},
 					"known": {
 						"3": [
-							"faerie fire"
+							"faerie fire|NICKED"
 						]
 					}
 				}
@@ -3189,7 +3184,7 @@
 					"innate": {
 						"1": {
                             "will": [
-								"minor illusion"
+								"minor illusion|NICKED"
 							]
 						}
 					}
@@ -3409,14 +3404,14 @@
 						"3": {
 							"daily": {
 								"1": [
-									"hex"
+									"hex|NICKED"
 								]
 							}
 						},
 						"5": {
 							"daily": {
 								"1": [
-									"tasha's mind whip|TCE"
+									"mind whip|NICKED"
 								]
 							}
 						}
@@ -3468,14 +3463,14 @@
 						"3": {
 							"daily": {
 								"1": [
-									"frost fingers|IDRotF"
+									"frost fingers|NICKED"
 								]
 							}
 						}
 					},
 					"known": {
 						"3": [
-							"frost fingers|IDRotF"
+							"frost fingers|NICKED"
 						]
 					}
 				}
@@ -3527,24 +3522,24 @@
 						"3": {
 							"daily": {
 								"1": [
-									"hellish rebuke"
+									"hellish rebuke|NICKED"
 								]
 							}
 						},
 						"5": {
 							"daily": {
 								"1": [
-									"darkness"
+									"darkness|NICKED"
 								]
 							}
 						}
 					},
 					"known": {
 						"3": [
-							"hellish rebuke"
+							"hellish rebuke|NICKED"
 						],
 						"5": [
-							"darkness"
+							"darkness|NICKED"
 						]
 					}
 				}
@@ -3648,7 +3643,7 @@
 					"innate": {
 						"10": {
 							"ritual": [
-								"locate creature"
+								"locate creature|NICKED"
 							]
 						}
 					}
@@ -3659,14 +3654,14 @@
 						"10": {
 							"ritual": [
 								"augury",
-								"commune with nature"
+								"commune with nature|NICKED"
 							]
 						}
 						
 					},
 					"known": {
 						"10":[
-							"spare the dying"
+							"spare the dying|NICKED"
 						]
 					}
 				}
@@ -4016,26 +4011,26 @@
 					"known": {
 						"10": [
 							{
-								"choose": "level=0;1;2;3;4;5"
+								"choose": "level=0;1;2;3;4;5|source=NICKED"
 							},
 							{
-								"choose": "level=0;1;2;3;4;5"
+								"choose": "level=0;1;2;3;4;5|source=NICKED"
 							}
 						],
 						"14": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7"
+								"choose": "level=0;1;2;3;4;5;6;7|source=NICKED"
 							},
 							{
-								"choose": "level=0;1;2;3;4;5;6;7"
+								"choose": "level=0;1;2;3;4;5;6;7|source=NICKED"
 							}
 						],
 						"18": [
 							{
-								"choose": ""
+								"choose": "source=NICKED"
 							},
 							{
-								"choose": ""
+								"choose": "source=NICKED"
 							}
 						]
 					}
@@ -4495,10 +4490,22 @@
 				}
 			],
             "classSpells" :[
-                {
-					"className": "Bard",
-                    "classSource": "PHB"
-				}
+                "blade ward|NICKED",
+				"dancing lights|NICKED",
+				"friends to enemies|NICKED",
+				"light|NICKED",
+				"mage hand|NICKED",
+				"mending|NICKED",
+				"message|NICKED",
+				"minor illusion|NICKED",
+				"mind-blanks|NICKED",
+				"prestidigitation|NICKED",
+				"thunderclap|NICKED",
+				"taunting blade|NICKED",
+				"true strike|NICKED",
+				"vicious mockery|NICKED",
+				"ventriloquism|NICKED",
+				"word of suffering|NICKED"
             ],
             "foundryAdvancement": [
 				{
@@ -6962,15 +6969,15 @@
 								{
 									"choose":{
 										"from": [
-											"alarm",
-											"animal messenger",
-											"beast sense",
-											"feign death",
-											"find familiar",
-											"speak with animals",
-											"leomund's tiny hut",
-											"water breathing",
-											"water walk"
+											"alarm|NICKED",
+											"animal messenger|NICKED",
+											"beast sense|NICKED",
+											"feign death|NICKED",
+											"find familiar|NICKED",
+											"speak with animals|NICKED",
+											"leomund's tiny hut|NICKED",
+											"water breathing|NICKED",
+											"water walk|NICKED"
 										],
 									"count": 2
 									}
@@ -8859,7 +8866,7 @@
 					"known": {
 						"1": [
 							{
-								"all": "level=0|class=Wizard"
+								"all": "level=0|class=Wizard|source=NICKED"
 							}
 						]
 					}
@@ -12664,8 +12671,8 @@
 						"10": {
 							"rest": {
 								"1": [
-									"legend lore",
-									"clairvoyance"
+									"legend lore|NICKED",
+									"clairvoyance|NICKED"
 								]
 							}
 						}
@@ -12743,8 +12750,8 @@
 					"innate": {
 						"3": {
 							"ritual": [
-								"beast sense",
-								"speak with animals"
+								"beast sense|NICKED",
+								"speak with animals|NICKED"
 							]
 						}
 					}
@@ -12754,14 +12761,14 @@
 					"innate": {
 						"3": {
 							"ritual": [
-								"beast sense",
-								"speak with animals"
+								"beast sense|NICKED",
+								"speak with animals|NICKED"
 							]
 						},
 						"10": {
 							"daily": {
 								"1": [
-									"freedom of movement"
+									"freedom of movement|NICKED"
 								]
 							}
 						}
@@ -12810,7 +12817,7 @@
 				{
 					"prepared": {
 						"3": [
-							"command"
+							"command|NICKED"
 						]
 					}
 				}
@@ -12833,18 +12840,18 @@
 					"known": {
 						"3": [
 							{
-								"choose": "level=0"
+								"choose": "level=0|source=NICKED"
 							},
 							{
-								"choose": "level=0"
+								"choose": "level=0|source=NICKED"
 							}
 						],
 						"6": [
 							{
-								"choose": "level=0;1;2;3"
+								"choose": "level=0;1;2;3|source=NICKED"
 							},
 							{
-								"choose": "level=0;1;2;3"
+								"choose": "level=0;1;2;3|source=NICKED"
 							}
 						]
 					}
@@ -12866,7 +12873,7 @@
 				{
 					"known": {
 						"3": [
-							"guidance#c"
+							"guidance|NICKED"
 						]
 					}
 				}
@@ -12923,7 +12930,7 @@
 				{
 					"innate": {
 						"6": [
-							"detect thoughts"
+							"detect thoughts|NICKED"
 						]
 					}
 				}
@@ -12946,42 +12953,42 @@
 					"known": {
 						"s2": [
 							{
-                                "choose": "level=1;2|class=cleric"
+                                "choose": "level=1;2|class=Cleric N|source=NICKED"
                             }
 						],
 						"s3": [
 							{
-                                "choose": "level=3|class=cleric"
+                                "choose": "level=3|class=Cleric N|source=NICKED"
                             }
 						],
 						"s4": [
 							{
-                                "choose": "level=4|class=cleric"
+                                "choose": "level=4|class=Cleric N|source=NICKED"
                             }
 						],
 						"s5": [
 							{
-                                "choose": "level=5|class=cleric"
+                                "choose": "level=5|class=Cleric N|source=NICKED"
                             }
 						],
 						"s6": [
 							{
-                                "choose": "level=6|class=cleric"
+                                "choose": "level=6|class=Cleric N|source=NICKED"
                             }
 						],
 						"s7": [
 							{
-                                "choose": "level=7|class=cleric"
+                                "choose": "level=7|class=Cleric N|source=NICKED"
                             }
 						],
 						"s8": [
 							{
-                                "choose": "level=8|class=cleric"
+                                "choose": "level=8|class=Cleric N|source=NICKED"
                             }
 						],
 						"s9": [
 							{
-                                "choose": "level=9|class=cleric"
+                                "choose": "level=9|class=Cleric N|source=NICKED"
                             }
 						]
 					}
@@ -13006,7 +13013,22 @@
 					"known": {
 						"3": [
 							{
-								"choose": {"from":["booming blade|TCE", "green-flame blade|TCE", "dark blade|NICKED"]}
+								"choose": {
+									"from":[
+										"black-flame blade|NICKED",
+										"blade of elemental fire|NICKED",
+										"blade of elemental ice|NICKED",
+										"booming blade|NICKED", 
+										"hawk eye shot|NICKED", 
+										"kinetic strike|NICKED",
+										"mind-blanks|NICKED",
+										"necro-blade|NICKED",
+										"punishing blade|NICKED",
+										"spark-blade|NICKED",
+										"taunting blade|NICKED",
+										"toxic shot|NICKED"
+									]
+								}
 							}
 						]
 					}
@@ -13031,7 +13053,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Wizard",
+									"choose": "level=0|class=Wizard N|source=NICKED",
 									"count": 2
 								}
 							]
@@ -13039,37 +13061,37 @@
 					},
 					"prepared": {
 						"1": [
-							"detect magic",
-							"magic missile"
+							"detect magic|NICKED",
+							"magic missile|NICKED"
 						],
 						"3": [
-							"magic weapon",
-							"Nystul's magic aura"
+							"magic weapon|NICKED",
+							"magic aura|NICKED"
 						],
 						"5": [
-							"dispel magic",
-							"magic circle"
+							"dispel magic|NICKED",
+							"magic circle|NICKED"
 						],
 						"7": [
-							"arcane eye",
-							"Leomund's secret chest"
+							"arcane eye|NICKED",
+							"secret chest|NICKED"
 						],
 						"9": [
-							"planar binding",
-							"teleportation circle"
+							"planar binding|NICKED",
+							"teleportation circle|NICKED"
 						],
 						"17": [
 							{
-								"choose": "level=6|class=Wizard"
+								"choose": "level=6|class=Wizard N|source=NICKED"
 							},
 							{
-								"choose": "level=7|class=Wizard"
+								"choose": "level=7|class=Wizard N|source=NICKED"
 							},
 							{
-								"choose": "level=8|class=Wizard"
+								"choose": "level=8|class=Wizard N|source=NICKED"
 							},
 							{
-								"choose": "level=9|class=Wizard"
+								"choose": "level=9|class=Wizard N|source=NICKED"
 							}
 						]
 					}
@@ -13095,7 +13117,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|school=N",
+									"choose": "level=0|school=N|source=NICKED",
 									"count": 1
 								}
 							]
@@ -13103,24 +13125,24 @@
 					},
 					"prepared": {
 						"1": [
-							"cause fear|XGE",
-							"ray of sickness"
+							"cause fear|NICKED",
+							"ray of sickness|NICKED"
 						],
 						"3": [
-							"blindness/deafness",
-							"ray of enfeeblement"
+							"blindness/deafness|NICKED",
+							"ray of enfeeblement|NICKED"
 						],
 						"5": [
-							"animate dead",
-							"vampiric touch"
+							"animate dead|NICKED",
+							"vampiric touch|NICKED"
 						],
 						"7": [
-							"blight",
-							"death ward"
+							"blight|NICKED",
+							"death ward|NICKED"
 						],
 						"9": [
-							"antilife shell",
-							"cloudkill"
+							"antilife shell|NICKED",
+							"cloudkill|NICKED"
 						]
 					}
 				}
@@ -13143,24 +13165,24 @@
 				{
 					"prepared": {
 						"1": [
-							"burning hands",
-							"identify"
+							"burning hands|NICKED",
+							"identify|NICKED"
 						],
 						"3": [
-							"heat metal",
-							"magic weapon"
+							"heat metal|NICKED",
+							"magic weapon|NICKED"
 						],
 						"5": [
-							"elemental weapon",
-							"protection from energy"
+							"elemental weapon|NICKED",
+							"protection from energy|NICKED"
 						],
 						"7": [
-							"fabricate",
-							"wall of fire"
+							"fabricate|NICKED",
+							"wall of fire|NICKED"
 						],
 						"9": [
-							"animate objects",
-							"creation"
+							"animate objects|NICKED",
+							"creation|NICKED"
 						]
 					}
 				}
@@ -13183,29 +13205,29 @@
 				{
 					"prepared": {
 						"1": [
-							"bane",
-							"false life"
+							"bane|NICKED",
+							"false life|NICKED"
 						],
 						"3": [
-							"gentle repose",
-							"ray of enfeeblement"
+							"gentle repose|NICKED",
+							"ray of enfeeblement|NICKED"
 						],
 						"5": [
-							"revivify",
-							"vampiric touch"
+							"revivify|NICKED",
+							"vampiric touch|NICKED"
 						],
 						"7": [
-							"blight",
-							"death ward"
+							"blight|NICKED",
+							"death ward|NICKED"
 						],
 						"9": [
-							"antilife shell",
-							"raise dead"
+							"antilife shell|NICKED",
+							"raise dead|NICKED"
 						]
 					},
 					"known": {
 						"1": [
-							"spare the dying#c"
+							"spare the dying|NICKED"
 						]
 					}
 				}
@@ -13228,24 +13250,24 @@
 				{
 					"prepared": {
 						"1": [
-							"command",
-							"identify"
+							"command|NICKED",
+							"identify|NICKED"
 						],
 						"3": [
-							"augury",
-							"suggestion"
+							"augury|NICKED",
+							"suggestion|NICKED"
 						],
 						"5": [
-							"nondetection",
-							"speak with dead"
+							"nondetection|NICKED",
+							"speak with dead|NICKED"
 						],
 						"7": [
-							"arcane eye",
-							"confusion"
+							"arcane eye|NICKED",
+							"confusion|NICKED"
 						],
 						"9": [
-							"legend lore",
-							"scrying"
+							"legend lore|NICKED",
+							"scrying|NICKED"
 						]
 					}
 				}
@@ -13268,24 +13290,24 @@
 				{
 					"prepared": {
 						"1": [
-							"bless",
-							"cure wounds"
+							"bless|NICKED",
+							"cure wounds|NICKED"
 						],
 						"3": [
-							"lesser restoration",
-							"spiritual weapon"
+							"lesser restoration|NICKED",
+							"spiritual weapon|NICKED"
 						],
 						"5": [
-							"beacon of hope",
-							"revivify"
+							"beacon of hope|NICKED",
+							"revivify|NICKED"
 						],
 						"7": [
-							"death ward",
-							"guardian of faith"
+							"death ward|NICKED",
+							"guardian of faith|NICKED"
 						],
 						"9": [
-							"mass cure wounds",
-							"raise dead"
+							"mass cure wounds|NICKED",
+							"raise dead|NICKED"
 						]
 					}
 				}
@@ -13308,30 +13330,30 @@
 				{
 					"prepared": {
 						"1": [
-							"burning hands",
-							"faerie fire",
-							"guiding bolt"
+							"burning hands|NICKED",
+							"faerie fire|NICKED",
+							"guiding bolt|NICKED"
 						],
 						"3": [
-							"flaming sphere",
-							"scorching ray"
+							"flaming sphere|NICKED",
+							"scorching ray|NICKED"
 						],
 						"5": [
-							"daylight",
-							"fireball"
+							"daylight|NICKED",
+							"fireball|NICKED"
 						],
 						"7": [
-							"guardian of faith",
-							"wall of fire"
+							"guardian of faith|NICKED",
+							"wall of fire|NICKED"
 						],
 						"9": [
-							"flame strike",
-							"scrying"
+							"flame strike|NICKED",
+							"scrying|NICKED"
 						]
 					},
 					"known": {
 						"1": [
-							"light#c"
+							"light|NICKED"
 						]
 					}
 				}
@@ -13356,34 +13378,34 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=Druid N|source=NICKED"
 								},
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=Druid N|source=NICKED"
 								}
 							]
 						}
 					},
 					"prepared": {
 						"1": [
-							"animal friendship",
-							"speak with animals"
+							"animal friendship|NICKED",
+							"speak with animals|NICKED"
 						],
 						"3": [
-							"barkskin",
-							"spike growth"
+							"barkskin|NICKED",
+							"spike growth|NICKED"
 						],
 						"5": [
-							"plant growth",
-							"wind wall"
+							"plant growth|NICKED",
+							"wind wall|NICKED"
 						],
 						"7": [
-							"dominate beast",
-							"grasping vine"
+							"dominate beast|NICKED",
+							"grasping vine|NICKED"
 						],
 						"9": [
-							"insect plague",
-							"tree stride"
+							"insect plague|NICKED",
+							"tree stride|NICKED"
 						]
 					}
 				}
@@ -13406,24 +13428,24 @@
 				{
 					"prepared": {
 						"1": [
-							"command",
-							"heroism"
+							"command|NICKED",
+							"heroism|NICKED"
 						],
 						"3": [
-							"hold person",
-							"zone of truth"
+							"hold person|NICKED",
+							"zone of truth|NICKED"
 						],
 						"5": [
-							"mass healing word",
-							"slow"
+							"mass healing word|NICKED",
+							"slow|NICKED"
 						],
 						"7": [
-							"compulsion",
-							"locate creature"
+							"compulsion|NICKED",
+							"locate creature|NICKED"
 						],
 						"9": [
-							"commune",
-							"dominate person"
+							"commune|NICKED",
+							"dominate person|NICKED"
 						]
 					}
 				}
@@ -13446,24 +13468,24 @@
 				{
 					"prepared": {
 						"1": [
-							"heroism",
-							"sanctuary"
+							"heroism|NICKED",
+							"sanctuary|NICKED"
 						],
 						"3": [
-							"aid",
-							"warding bond"
+							"aid|NICKED",
+							"warding bond|NICKED"
 						],
 						"5": [
-							"beacon of hope",
-							"sending"
+							"beacon of hope|NICKED",
+							"sending|NICKED"
 						],
 						"7": [
-							"aura of purity",
-							"Otiluke's resilient sphere"
+							"aura of purity|NICKED",
+							"resilient sphere|NICKED"
 						],
 						"9": [
-							"greater restoration",
-							"Rary's telepathic bond"
+							"greater restoration|NICKED",
+							"telepathic bond|NICKED"
 						]
 					}
 				}
@@ -13486,24 +13508,24 @@
 				{
 					"prepared": {
 						"1": [
-							"fog cloud",
-							"thunderwave"
+							"fog cloud|NICKED",
+							"thunderwave|NICKED"
 						],
 						"3": [
-							"gust of wind",
-							"shatter"
+							"gust of wind|NICKED",
+							"shatter|NICKED"
 						],
 						"5": [
-							"call lightning",
-							"sleet storm"
+							"call lightning|NICKED",
+							"sleet storm|NICKED"
 						],
 						"7": [
-							"control water",
-							"ice storm"
+							"control water|NICKED",
+							"ice storm|NICKED"
 						],
 						"9": [
-							"destructive wave",
-							"insect plague"
+							"destructive wave|NICKED",
+							"insect plague|NICKED"
 						]
 					}
 				}
@@ -13526,29 +13548,29 @@
 				{
 					"prepared": {
 						"1": [
-							"charm person",
-							"disguise self"
+							"charm person|NICKED",
+							"disguise self|NICKED"
 						],
 						"3": [
-							"mirror image",
-							"pass without trace"
+							"mirror image|NICKED",
+							"pass without trace|NICKED"
 						],
 						"5": [
-							"blink",
-							"dispel magic"
+							"blink|NICKED",
+							"dispel magic|NICKED"
 						],
 						"7": [
-							"dimension door",
-							"polymorph"
+							"dimension door|NICKED",
+							"polymorph|NICKED"
 						],
 						"9": [
-							"dominate person",
-							"modify memory"
+							"dominate person|NICKED",
+							"modify memory|NICKED"
 						]
 					},
 					"known": {
 						"1": [
-							"minor illusion#c"
+							"minor illusion|NICKED"
 						]
 					}
 				}
@@ -13571,24 +13593,24 @@
 				{
 					"prepared": {
 						"1": [
-							"faerie fire",
-							"sleep"
+							"faerie fire|NICKED",
+							"sleep|NICKED"
 						],
 						"3": [
-							"moonbeam",
-							"see invisibility"
+							"moonbeam|NICKED",
+							"see invisibility|NICKED"
 						],
 						"5": [
-							"aura of vitality",
-							"Leomund's tiny hut"
+							"aura of vitality|NICKED",
+							"tiny hut|NICKED"
 						],
 						"7": [
-							"aura of life",
-							"greater invisibility"
+							"aura of life|NICKED",
+							"greater invisibility|NICKED"
 						],
 						"9": [
-							"circle of power",
-							"mislead"
+							"circle of power|NICKED",
+							"mislead|NICKED"
 						]
 					}
 				}
@@ -13611,24 +13633,24 @@
 				{
 					"prepared": {
 						"1": [
-							"divine favor",
-							"shield of faith"
+							"divine favor|NICKED",
+							"shield of faith|NICKED"
 						],
 						"3": [
-							"magic weapon",
-							"spiritual weapon"
+							"magic weapon|NICKED",
+							"spiritual weapon|NICKED"
 						],
 						"5": [
-							"crusader's mantle",
-							"spirit guardians"
+							"crusader's mantle|NICKED",
+							"spirit guardians|NICKED"
 						],
 						"7": [
-							"freedom of movement",
+							"freedom of movement|NICKED",
 							"stoneskin"
 						],
 						"9": [
-							"flame strike",
-							"hold monster"
+							"flame strike|NICKED",
+							"hold monster|NICKED"
 						]
 					}
 				}
@@ -13651,7 +13673,7 @@
 				{
 					"prepared": {
 						"2": [
-							"sleep"
+							"sleep|NICKED"
 						]
 					}
 				}
@@ -13673,25 +13695,25 @@
 				{
 					"known": {
 						"2": [
-							"chill touch#c"
+							"chill touch|NICKED"
 						]
 					},
 					"prepared": {
 						"3": [
-							"blindness/deafness",
-							"gentle repose"
+							"blindness/deafness|NICKED",
+							"gentle repose|NICKED"
 						],
 						"5": [
-							"animate dead",
-							"gaseous form"
+							"animate dead|NICKED",
+							"gaseous form|NICKED"
 						],
 						"7": [
-							"blight",
-							"confusion"
+							"blight|NICKED",
+							"confusion|NICKED"
 						],
 						"9": [
-							"cloudkill",
-							"contagion"
+							"cloudkill|NICKED",
+							"contagion|NICKED"
 						]
 					}
 				}
@@ -13713,12 +13735,12 @@
 				{
 					"known": {
 						"2": [
-							"guidance#c"
+							"guidance|NICKED"
 						]
 					},
 					"prepared": {
 						"2": [
-							"guiding bolt"
+							"guiding bolt|NICKED"
 						]
 					}
 				}
@@ -13743,27 +13765,27 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=Druid N|source=NICKED"
 								}
 							]
 						}
 					},
 					"prepared": {
 						"3": [
-							"hold person",
-							"spike growth"
+							"hold person|NICKED",
+							"spike growth|NICKED"
 						],
 						"5": [
-							"sleet storm",
-							"slow"
+							"sleet storm|NICKED",
+							"slow|NICKED"
 						],
 						"7": [
-							"freedom of movement",
-							"ice storm"
+							"freedom of movement|NICKED",
+							"ice storm|NICKED"
 						],
 						"9": [
-							"commune with nature",
-							"cone of cold"
+							"commune with nature|NICKED",
+							"cone of cold|NICKED"
 						]
 					}
 				},
@@ -13773,27 +13795,27 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=Druid N|source=NICKED"
 								}
 							]
 						}
 					},
 					"prepared": {
 						"3": [
-							"mirror image",
-							"misty step"
+							"mirror image|NICKED",
+							"misty step|NICKED"
 						],
 						"5": [
-							"water breathing",
-							"water walk"
+							"water breathing|NICKED",
+							"water walk|NICKED"
 						],
 						"7": [
-							"control water",
-							"freedom of movement"
+							"control water|NICKED",
+							"freedom of movement|NICKED"
 						],
 						"9": [
-							"conjure elemental",
-							"scrying"
+							"conjure elemental|NICKED",
+							"scrying|NICKED"
 						]
 					}
 				},
@@ -13803,27 +13825,27 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=Druid N|source=NICKED"
 								}
 							]
 						}
 					},
 					"prepared": {
 						"3": [
-							"blur",
-							"silence"
+							"blur|NICKED",
+							"silence|NICKED"
 						],
 						"5": [
-							"create food and water",
-							"protection from energy"
+							"create food and water|NICKED",
+							"protection from energy|NICKED"
 						],
 						"7": [
-							"blight",
-							"hallucinatory terrain"
+							"blight|NICKED",
+							"hallucinatory terrain|NICKED"
 						],
 						"9": [
-							"insect plague",
-							"wall of stone"
+							"insect plague|NICKED",
+							"wall of stone|NICKED"
 						]
 					}
 				},
@@ -13833,27 +13855,27 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=Druid N|source=NICKED"
 								}
 							]
 						}
 					},
 					"prepared": {
 						"3": [
-							"barkskin",
-							"spider climb"
+							"barkskin|NICKED",
+							"spider climb|NICKED"
 						],
 						"5": [
-							"call lightning",
-							"plant growth"
+							"call lightning|NICKED",
+							"plant growth|NICKED"
 						],
 						"7": [
-							"divination",
-							"freedom of movement"
+							"divination|NICKED",
+							"freedom of movement|NICKED"
 						],
 						"9": [
-							"commune with nature",
-							"tree stride"
+							"commune with nature|NICKED",
+							"tree stride|NICKED"
 						]
 					}
 				},
@@ -13863,27 +13885,27 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=Druid N|source=NICKED"
 								}
 							]
 						}
 					},
 					"prepared": {
 						"3": [
-							"invisibility",
-							"pass without trace"
+							"invisibility|NICKED",
+							"pass without trace|NICKED"
 						],
 						"5": [
-							"daylight",
-							"haste"
+							"daylight|NICKED",
+							"haste|NICKED"
 						],
 						"7": [
-							"divination",
-							"freedom of movement"
+							"divination|NICKED",
+							"freedom of movement|NICKED"
 						],
 						"9": [
 							"dream",
-							"insect plague"
+							"insect plague|NICKED"
 						]
 					}
 				},
@@ -13893,27 +13915,27 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=Druid N|source=NICKED"
 								}
 							]
 						}
 					},
 					"prepared": {
 						"3": [
-							"spider climb",
-							"spike growth"
+							"spider climb|NICKED",
+							"spike growth|NICKED"
 						],
 						"5": [
-							"lightning bolt",
-							"meld into stone"
+							"lightning bolt|NICKED",
+							"meld into stone|NICKED"
 						],
 						"7": [
-							"stone shape",
-							"stoneskin"
+							"stone shape|NICKED",
+							"stoneskin|NICKED"
 						],
 						"9": [
-							"passwall",
-							"wall of stone"
+							"passwall|NICKED",
+							"wall of stone|NICKED"
 						]
 					}
 				},
@@ -13923,27 +13945,27 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=Druid N|source=NICKED"
 								}
 							]
 						}
 					},
 					"prepared": {
 						"3": [
-							"darkness",
-							"Melf's acid arrow"
+							"darkness|NICKED",
+							"Melf's acid arrow|NICKED"
 						],
 						"5": [
-							"water walk",
-							"stinking cloud"
+							"water walk|NICKED",
+							"stinking cloud|NICKED"
 						],
 						"7": [
-							"freedom of movement",
-							"locate creature"
+							"freedom of movement|NICKED",
+							"locate creature|NICKED"
 						],
 						"9": [
-							"insect plague",
-							"scrying"
+							"insect plague|NICKED",
+							"scrying|NICKED"
 						]
 					}
 				},
@@ -13953,27 +13975,27 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=Druid N|source=NICKED"
 								}
 							]
 						}
 					},
 					"prepared": {
 						"3": [
-							"spider climb",
-							"web"
+							"spider climb|NICKED",
+							"web|NICKED"
 						],
 						"5": [
-							"gaseous form",
-							"stinking cloud"
+							"gaseous form|NICKED",
+							"stinking cloud|NICKED"
 						],
 						"7": [
-							"greater invisibility",
-							"stone shape"
+							"greater invisibility|NICKED",
+							"stone shape|NICKED"
 						],
 						"9": [
-							"cloudkill",
-							"insect plague"
+							"cloudkill|NICKED",
+							"insect plague|NICKED"
 						]
 					}
 				}
@@ -13995,7 +14017,7 @@
 				{
 					"innate": {
 						"14": [
-							"alter self"
+							"alter self|NICKED"
 						]
 					}
 				}
@@ -14018,24 +14040,24 @@
 				{
 					"prepared": {
 						"2": [
-							"burning hands",
-							"cure wounds"
+							"burning hands|NICKED",
+							"cure wounds|NICKED"
 						],
 						"3": [
-							"flaming sphere",
-							"scorching ray"
+							"flaming sphere|NICKED",
+							"scorching ray|NICKED"
 						],
 						"5": [
-							"plant growth",
-							"revivify"
+							"plant growth|NICKED",
+							"revivify|NICKED"
 						],
 						"7": [
-							"aura of life",
-							"fire shield"
+							"aura of life|NICKED",
+							"fire shield|NICKED"
 						],
 						"9": [
-							"flame strike",
-							"mass cure wounds"
+							"flame strike|NICKED",
+							"mass cure wounds|NICKED"
 						]
 					}
 				}
@@ -14059,19 +14081,19 @@
 						"2": {
 							"_": [
 								{
-									"choose": "level=0|damage type=cold",
+									"choose": "level=0|damage type=cold|source=NICKED",
 									"count": 1
 								},
 								{
-									"choose": "level=0|damage type=fire",
+									"choose": "level=0|damage type=fire|source=NICKED",
 									"count": 1
 								},
 								{
-									"choose": "level=0|damage type=lightning",
+									"choose": "level=0|damage type=lightning|source=NICKED",
 									"count": 1
 								},
 								{
-									"choose": "level=0|damage type=poison",
+									"choose": "level=0|damage type=poison|source=NICKED",
 									"count": 1
 								}
 							]
@@ -14081,23 +14103,23 @@
 						"10": {
 							"_": [
 								{
-									"choose": "level=1|damage type=cold;fire;lightning;poison",
+									"choose": "level=1|damage type=cold;fire;lightning;poison|source=NICKED",
 									"count": 1
 								},
 								{
-									"choose": "level=2|damage type=cold;fire;lightning;poison",
+									"choose": "level=2|damage type=cold;fire;lightning;poison|source=NICKED",
 									"count": 1
 								},
 								{
-									"choose": "level=3|damage type=cold;fire;lightning;poison",
+									"choose": "level=3|damage type=cold;fire;lightning;poison|source=NICKED",
 									"count": 1
 								},
 								{
-									"choose": "level=4|damage type=cold;fire;lightning;poison",
+									"choose": "level=4|damage type=cold;fire;lightning;poison|source=NICKED",
 									"count": 1
 								},
 								{
-									"choose": "level=5|damage type=cold;fire;lightning;poison",
+									"choose": "level=5|damage type=cold;fire;lightning;poison|source=NICKED",
 									"count": 1
 								}
 							]
@@ -14105,7 +14127,7 @@
 						"11": {
 							"_": [
 								{
-									"choose": "level=6|damage type=cold;fire;lightning;poison",
+									"choose": "level=6|damage type=cold;fire;lightning;poison|source=NICKED",
 									"count": 1
 								}
 							]
@@ -14113,7 +14135,7 @@
 						"13": {
 							"_": [
 								{
-									"choose": "level=7|damage type=cold;fire;lightning;poison",
+									"choose": "level=7|damage type=cold;fire;lightning;poison|source=NICKED",
 									"count": 1
 								}
 							]
@@ -14121,7 +14143,7 @@
 						"15": {
 							"_": [
 								{
-									"choose": "level=8|damage type=cold;fire;lightning;poison",
+									"choose": "level=8|damage type=cold;fire;lightning;poison|source=NICKED",
 									"count": 1
 								}
 							]
@@ -14129,7 +14151,7 @@
 						"17": {
 							"_": [
 								{
-									"choose": "level=9|damage type=cold;fire;lightning;poison",
+									"choose": "level=9|damage type=cold;fire;lightning;poison|source=NICKED",
 									"count": 1
 								}
 							]
@@ -14157,11 +14179,11 @@
 						"2": {
 							"_": [
 								{
-									"choose": "level=0|damage type=cold",
+									"choose": "level=0|damage type=cold|source=NICKED",
 									"count": 1
 								},
 								{
-									"all": "level=1;2;3;4;5;6;7;8;9|damage type=cold"
+									"all": "level=1;2;3;4;5;6;7;8;9|damage type=cold|source=NICKED"
 								}
 							]
 						}
@@ -14170,7 +14192,7 @@
 						"14": {
 							"daily": {
 								"1": [
-									"Investiture of Ice|XGE"
+									"Investiture of Ice|NICKED"
 								]
 							}
 						}
@@ -14182,11 +14204,11 @@
 						"2": {
 							"_": [
 								{
-									"choose": "level=0|damage type=fire",
+									"choose": "level=0|damage type=fire|source=NICKED",
 									"count": 1
 								},
 								{
-									"all": "level=1;2;3;4;5;6;7;8;9|damage type=fire"
+									"all": "level=1;2;3;4;5;6;7;8;9|damage type=fire|source=NICKED"
 								}
 							]
 						}
@@ -14195,7 +14217,7 @@
 						"14": {
 							"daily": {
 								"1": [
-									"Investiture of Flame|XGE"
+									"Investiture of Flame|NICKED"
 								]
 							}
 						}
@@ -14207,11 +14229,11 @@
 						"2": {
 							"_": [
 								{
-									"choose": "level=0|damage type=lightning",
+									"choose": "level=0|damage type=lightning|source=NICKED",
 									"count": 1
 								},
 								{
-									"all": "level=1;2;3;4;5;6;7;8;9|damage type=lightning"
+									"all": "level=1;2;3;4;5;6;7;8;9|damage type=lightning|source=NICKED"
 								}
 							]
 						}
@@ -14220,7 +14242,7 @@
 						"14": {
 							"daily": {
 								"1": [
-									"Investiture of Wind|XGE"
+									"Investiture of Wind|NICKED"
 								]
 							}
 						}
@@ -14232,11 +14254,11 @@
 						"2": {
 							"_": [
 								{
-									"choose": "level=0|damage type=acid;poison",
+									"choose": "level=0|damage type=acid;poison|source=NICKED",
 									"count": 1
 								},
 								{
-									"all": "level=1;2;3;4;5;6;7;8;9|damage type=acid;poison"
+									"all": "level=1;2;3;4;5;6;7;8;9|damage type=acid;poison|source=NICKED"
 								}
 							]
 						}
@@ -14245,7 +14267,7 @@
 						"14": {
 							"daily": {
 								"1": [
-									"Investiture of Stone|XGE"
+									"Investiture of Stone|NICKED"
 								]
 							}
 						}
@@ -14271,7 +14293,7 @@
 					"innate": {
 						"18": {
 							"will": [
-								"Far Step|XGE"
+								"Far Step|NICKED"
 						]
 						}
 					}
@@ -14379,30 +14401,30 @@
 					"expanded": {
 						"3": [
 							{
-								"all": "level=0|class=Wizard"
+								"all": "level=0|class=Wizard N|source=NICKED"
 							},
 							{
-								"all": "level=1|class=Wizard"
+								"all": "level=1|class=Wizard N|source=NICKED"
 							}
 						],
 						"5": [
 							{
-								"all": "level=2|class=Wizard"
+								"all": "level=2|class=Wizard N|source=NICKED"
 							}
 						],
 						"9": [
 							{
-								"all": "level=3|class=Wizard"
+								"all": "level=3|class=Wizard N|source=NICKED"
 							}
 						],
 						"13": [
 							{
-								"all": "level=4|class=Wizard"
+								"all": "level=4|class=Wizard N|source=NICKED"
 							}
 						],
 						"20": [
 							{
-								"all": "level=4|class=Wizard"
+								"all": "level=4|class=Wizard N|source=NICKED"
 							}
 						]
 					}
@@ -14688,7 +14710,7 @@
 						"18": {
 							"daily": {
 								"1": [
-									"telekinesis"
+									"telekinesis|NICKED"
 								]
 							}
 						}
@@ -14866,50 +14888,50 @@
 				{
 					"prepared": {
 						"2": [
-							"armor of Agathys",
-							"bane",
-							"cause fear|XGE",
-							"command",
-							"divine favor",
-							"shield",
-							"zephyr strike|XGE"
+							"armor of frozen agony|NICKED",
+							"bane|NICKED",
+							"cause fear|NICKED",
+							"command|NICKED",
+							"divine favor|NICKED",
+							"shield|NICKED",
+							"zephyr strike|NICKED"
 						],
 						"5": [
-							"enlarge/reduce",
-							"find steed",
-							"hold person",
-							"spiritual weapon",
-							"suggestion",
-							"warding bond",
-							"hold person",
-							"spiritual weapon",
-							"zone of truth"
+							"enlarge/reduce|NICKED",
+							"find steed|NICKED",
+							"hold person|NICKED",
+							"spiritual weapon|NICKED",
+							"suggestion|NICKED",
+							"warding bond|NICKED",
+							"hold person|NICKED",
+							"spiritual weapon|NICKED",
+							"zone of truth|NICKED"
 						],
 						"9": [
-							"bestow curse",
-							"crusader's mantle",
-							"fear",
-							"speak with dead",
-							"spirit guardians"
+							"bestow curse|NICKED",
+							"crusader's mantle|NICKED",
+							"fear|NICKED",
+							"speak with dead|NICKED",
+							"spirit guardians|NICKED"
 						],
 						"13": [
-							"banishment",
-							"dominate beast",
-							"death ward",
-							"find greater steed|XGE",
-							"freedom of movement",
-							"spirit of death|BMT"
+							"banishment|NICKED",
+							"dominate beast|NICKED",
+							"death ward|NICKED",
+							"find greater steed|NICKED",
+							"freedom of movement|NICKED",
+							"spirit of death|NICKED"
 						],
 						"17": [
-							"cloudkill",
-							"dominate person",
-							"hold monster",
-							"holy weapon|XGE"
+							"cloudkill|NICKED",
+							"dominate person|NICKED",
+							"hold monster|NICKED",
+							"holy weapon|NICKED"
 						]
 					},
 					"known": {
 						"1": [
-							"thaumaturgy"
+							"thaumaturgy|NICKED"
 						]
 					}
 				}
@@ -14932,50 +14954,50 @@
 				{
 					"prepared": {
 						"2": [
-							"absorb elements|XGE",
-							"bless",
-							"expeditious retreat",
-							"guiding bolt",
-							"healing word",
-							"protection from evil and good",
-							"sanctuary"
+							"absorb elements|NICKED",
+							"bless|NICKED",
+							"expeditious retreat|NICKED",
+							"guiding bolt|NICKED",
+							"healing word|NICKED",
+							"protection from evil and good|NICKED",
+							"sanctuary|NICKED"
 						],
 						"5": [
-							"borrowed knowledge|SCC",
-							"calm emotions",
-							"find steed",
-							"lesser restoration",
-							"prayer of healing",
-							"silence",
-							"zone of truth"
+							"borrowed knowledge|NICKED",
+							"calm emotions|NICKED",
+							"find steed|NICKED",
+							"lesser restoration|NICKED",
+							"prayer of healing|NICKED",
+							"silence|NICKED",
+							"zone of truth|NICKED"
 						],
 						"9": [
-							"beacon of hope",
-							"clairvoyance",
-							"create food and water",
-							"dispel magic",
-							"slow",
-							"tongues"
+							"beacon of hope|NICKED",
+							"clairvoyance|NICKED",
+							"create food and water|NICKED",
+							"dispel magic|NICKED",
+							"slow|NICKED",
+							"tongues|NICKED"
 						],
 						"13": [
-							"aura of purity",
-							"compulsion",
-							"dimension door",
-							"find greater steed|XGE",
-							"freedom of movement",
-							"guardian of faith"
+							"aura of purity|NICKED",
+							"compulsion|NICKED",
+							"dimension door|NICKED",
+							"find greater steed|NICKED",
+							"freedom of movement|NICKED",
+							"guardian of faith|NICKED"
 						],
 						"17": [
-							"commune",
-							"greater restoration",
-							"summon celestial|TCE",
-							"wall of light|XGE"
+							"commune|NICKED",
+							"greater restoration|NICKED",
+							"summon celestial|NICKED",
+							"wall of light|NICKED"
 						]
 					},
 					"known": {
 						"1": [
-							"blade ward",
-							"mending"
+							"blade ward|NICKED",
+							"mending|NICKED"
 						]
 					}
 				}
@@ -14998,51 +15020,51 @@
 				{
 					"prepared": {
 						"2": [
-							"bless",
-							"charm person",
-							"cure wounds",
-							"healing word",
-							"sanctuary",
-							"shield of faith",
-							"sleep"
+							"bless|NICKED",
+							"charm person|NICKED",
+							"cure wounds|NICKED",
+							"healing word|NICKED",
+							"sanctuary|NICKED",
+							"shield of faith|NICKED",
+							"sleep|NICKED"
 						],
 						"5": [
-							"aid",
-							"calm emotions",
-							"enhance ability",
-							"find steed",
-							"hold person",
-							"lesser restoration",
-							"misty step"
+							"aid|NICKED",
+							"calm emotions|NICKED",
+							"enhance ability|NICKED",
+							"find steed|NICKED",
+							"hold person|NICKED",
+							"lesser restoration|NICKED",
+							"misty step|NICKED"
 						],
 						"9": [
-							"antagonize|BMT",
-							"catnap|XGE",
-							"counterspell",
-							"mass healing word",
-							"remove curse",
-							"revivify"
+							"antagonize|NICKED",
+							"catnap|NICKED",
+							"counterspell|NICKED",
+							"mass healing word|NICKED",
+							"remove curse|NICKED",
+							"revivify|NICKED"
 						],
 						"13": [
-							"aura of life",
-							"compulsion",
-							"death ward",
-							"find greater steed|XGE",
-							"polymorph",
-							"stoneskin"
+							"aura of life|NICKED",
+							"compulsion|NICKED",
+							"death ward|NICKED",
+							"find greater steed|NICKED",
+							"polymorph|NICKED",
+							"stoneskin|NICKED"
 						],
 						"17": [
-							"greater restoration",
-							"geas",
-							"mass cure wounds",
-							"raise dead"
+							"greater restoration|NICKED",
+							"geas|NICKED",
+							"mass cure wounds|NICKED",
+							"raise dead|NICKED"
 						]
 					},
 					"known": {
 						"1": [
-							"guidance",
-							"resistance",
-							"spare the dying"
+							"guidance|NICKED",
+							"resistance|NICKED",
+							"spare the dying|NICKED"
 						]
 					}
 				}
@@ -15065,51 +15087,51 @@
 				{
 					"prepared": {
 						"2": [
-							"absorb elements|XGE",
-							"comprehend languages",
-							"detect poison and disease",
-							"earth tremor|XGE",
-							"ensnaring strike",
-							"entangle",
-							"goodberry"
+							"absorb elements|NICKED",
+							"comprehend languages|NICKED",
+							"detect poison and disease|NICKED",
+							"earth tremor|NICKED",
+							"ensnaring strike|NICKED",
+							"entangle|NICKED",
+							"goodberry|NICKED"
 						],
 						"5": [
-							"find steed",
-							"healing spirit|XGE",
-							"moonbeam",
-							"protection from poison",
-							"see invisibility",
-							"warding wind|XGE",
-							"web"
+							"find steed|NICKED",
+							"healing spirit|NICKED",
+							"moonbeam|NICKED",
+							"protection from poison|NICKED",
+							"see invisibility|NICKED",
+							"warding wind|NICKED",
+							"web|NICKED"
 						],
 						"9": [
-							"elemental weapon",
-							"erupting earth|XGE",
-							"meld into stone",
-							"plant growth",
-							"protection from energy",
-							"remove curse"
+							"elemental weapon|NICKED",
+							"erupting earth|NICKED",
+							"meld into stone|NICKED",
+							"plant growth|NICKED",
+							"protection from energy|NICKED",
+							"remove curse|NICKED"
 						],
 						"13": [
-							"charm monster|XGE",
-							"control water",
-							"elemental bane|XGE",
-							"find greater steed|XGE",
-							"grasping vine",
-							"summon elemental|TCE"
+							"charm monster|NICKED",
+							"control water|NICKED",
+							"elemental bane|NICKED",
+							"find greater steed|NICKED",
+							"grasping vine|NICKED",
+							"summon elemental|NICKED"
 						],
 						"17": [
-							"awaken",
-							"tree stride",
-							"telekinesis",
-							"wrath of nature|XGE"
+							"awaken|NICKED",
+							"tree stride|NICKED",
+							"telekinesis|NICKED",
+							"wrath of nature|NICKED"
 						]
 					},
 					"known": {
 						"1": [
-							"druidcraft",
-							"magic stone|XGE",
-							"primal savagery|XGE"
+							"druidcraft|NICKED",
+							"magic stone|NICKED",
+							"primal savagery|NICKED"
 						]
 					}
 				}
@@ -15132,49 +15154,49 @@
 				{
 					"prepared": {
 						"2": [
-							"alarm",
-							"feather fall",
-							"hail of thorns",
-							"hunter's mark",
-							"jump",
-							"purify food and drink",
-							"silent image"
+							"alarm|NICKED",
+							"feather fall|NICKED",
+							"hail of thorns|NICKED",
+							"hunter's mark|NICKED",
+							"jump|NICKED",
+							"purify food and drink|NICKED",
+							"silent image|NICKED"
 						],
 						"5": [
-							"borrowed knowledge|SCC",
-							"darkness",
-							"enhance ability",
-							"find steed",
-							"invisibility",
-							"summon beast|TCE",
-							"vortex warp|SCC"
+							"borrowed knowledge|NICKED",
+							"darkness|NICKED",
+							"enhance ability|NICKED",
+							"find steed|NICKED",
+							"invisibility|NICKED",
+							"summon beast|NICKED",
+							"vortex warp|NICKED"
 						],
 						"9": [
 							"elemental munitions|NICKED",
-							"nondetection",
-							"revivify",
-							"speak with dead",
-							"leomund's tiny hut",
-							"water breathing"
+							"nondetection|NICKED",
+							"revivify|NICKED",
+							"speak with dead|NICKED",
+							"tiny hut|NICKED",
+							"water breathing|NICKED"
 						],
 						"13": [
-							"find greater steed|XGE",
-							"freedom of movement",
-							"fabricate",
-							"hallucinatory terrain",
-							"locate creature",
-							"leomund's secret chest"
+							"find greater steed|NICKED",
+							"freedom of movement|NICKED",
+							"fabricate|NICKED",
+							"hallucinatory terrain|NICKED",
+							"locate creature|NICKED",
+							"secret chest|NICKED"
 						],
 						"17": [
-							"conjure volley",
-							"mislead",
-							"passwall",
-							"wall of stone"
+							"conjure volley|NICKED",
+							"mislead|NICKED",
+							"passwall|NICKED",
+							"wall of stone|NICKED"
 						]
 					},
 					"known":{
 						"1": [
-							"minor illusion"
+							"minor illusion|NICKED"
 						]
 					}
 				}
@@ -15197,48 +15219,48 @@
 				{
 					"prepared": {
 						"2": [
-							"bane",
-							"disguise self",
-							"fog cloud",
-							"hellish rebuke",
-							"inflict wounds",
-							"longstrider",
-							"ray of sickness"
+							"bane|NICKED",
+							"disguise self|NICKED",
+							"fog cloud|NICKED",
+							"hellish rebuke|NICKED",
+							"inflict wounds|NICKED",
+							"longstrider|NICKED",
+							"ray of sickness|NICKED"
 						],
 						"5": [
-							"crown of madness",
-							"detect thoughts",
-							"enthrall",
-							"find steed",
-							"mind spike|XGE",
-							"phantasmal force",
-							"spiritual weapon"
+							"crown of madness|NICKED",
+							"detect thoughts|NICKED",
+							"enthrall|NICKED",
+							"find steed|NICKED",
+							"mind spike|NICKED",
+							"phantasmal force|NICKED",
+							"spiritual weapon|NICKED"
 						],
 						"9": [
-							"bestow curse",
-							"fear",
-							"feign death",
-							"fly",
-							"speak with dead",
-							"summon undead|TCE"
+							"bestow curse|NICKED",
+							"fear|NICKED",
+							"feign death|NICKED",
+							"fly|NICKED",
+							"speak with dead|NICKED",
+							"summon undead|NICKED"
 						],
 						"13": [
-							"evard's black tentacles",
-							"blight",
-							"confusion",
-							"find greater steed|XGE",
-							"shadow of moil|XGE"
+							"black tentacles|NICKED",
+							"blight|NICKED",
+							"confusion|NICKED",
+							"find greater steed|NICKED",
+							"shadow of moil|NICKED"
 						],
 						"17": [
-							"contagion",
-							"infernal calling|XGE",
-							"modify memory",
-							"raise dead"
+							"contagion|NICKED",
+							"infernal calling|NICKED",
+							"modify memory|NICKED",
+							"raise dead|NICKED"
 						]
 					},
 					"known":{
 						"1": [
-							"vicious mockery"
+							"vicious mockery|NICKED"
 						]
 					}
 				}
@@ -15262,48 +15284,48 @@
 				{
 					"prepared": {
 						"2": [
-							"compelled duel",
-							"cure wounds",
-							"detect magic",
-							"guiding bolt",
-							"hex",
-							"shield",
-							"snare|XGE"
+							"compelled duel|NICKED",
+							"cure wounds|NICKED",
+							"detect magic|NICKED",
+							"guiding bolt|NICKED",
+							"hex|NICKED",
+							"shield|NICKED",
+							"snare|NICKED"
 						],
 						"5": [
-							"find steed",
-							"hold person",
-							"knock",
-							"locate object",
-							"misty step",
-							"vortex warp|SCC",
-							"zone of truth"
+							"find steed|NICKED",
+							"hold person|NICKED",
+							"knock|NICKED",
+							"locate object|NICKED",
+							"misty step|NICKED",
+							"vortex warp|NICKED",
+							"zone of truth|NICKED"
 						],
 						"9": [
-							"elemental weapon",
-							"haste",
-							"mass healing word",
-							"sending",
-							"slow",
-							"summon shadowspawn|TCE"
+							"elemental weapon|NICKED",
+							"haste|NICKED",
+							"mass healing word|NICKED",
+							"sending|NICKED",
+							"slow|NICKED",
+							"summon shadowspawn|NICKED"
 						],
 						"13": [
-							"death ward",
-							"dimension door",
-							"find greater steed|XGE",
-							"raulothim's psychic lance|FTD",
-							"wall of fire"
+							"death ward|NICKED",
+							"dimension door|NICKED",
+							"find greater steed|NICKED",
+							"psychic lance|NICKED",
+							"wall of fire|NICKED"
 						],
 						"17": [
-							"geas",
-							"greater restoration",
-							"hold monster",
-							"scrying"
+							"geas|NICKED",
+							"greater restoration|NICKED",
+							"hold monster|NICKED",
+							"scrying|NICKED"
 						]
 					},
 					"known": {
 						"1": [
-							"thaumaturgy"
+							"thaumaturgy|NICKED"
 						]
 					}
 				}
@@ -15326,48 +15348,48 @@
 				{
 					"prepared": {
 						"2": [
-							"bless",
-							"charm person",
-							"comprehend languages",
-							"feather fall",
-							"healing word",
-							"longstrider",
-							"shield"
+							"bless|NICKED",
+							"charm person|NICKED",
+							"comprehend languages|NICKED",
+							"feather fall|NICKED",
+							"healing word|NICKED",
+							"longstrider|NICKED",
+							"shield|NICKED"
 						],
 						"5": [
-							"aid",
-							"borrowed knowledge|SCC",
-							"calm emotions",
-							"detect thoughts",
-							"find steed",
-							"invisibility",
-							"spiritual weapon"
+							"aid|NICKED",
+							"borrowed knowledge|NICKED",
+							"calm emotions|NICKED",
+							"detect thoughts|NICKED",
+							"find steed|NICKED",
+							"invisibility|NICKED",
+							"spiritual weapon|NICKED"
 						],
 						"9": [
-							"call lightning",
-							"dispel magic",
-							"fear",
-							"haste",
-							"remove curse",
-							"water breathing"
+							"call lightning|NICKED",
+							"dispel magic|NICKED",
+							"fear|NICKED",
+							"haste|NICKED",
+							"remove curse|NICKED",
+							"water breathing|NICKED"
 						],
 						"13": [
-							"aura of purity",
-							"dimension door",
-							"dominate beast",
-							"find greater steed|XGE",
-							"polymorph"
+							"aura of purity|NICKED",
+							"dimension door|NICKED",
+							"dominate beast|NICKED",
+							"find greater steed|NICKED",
+							"polymorph|NICKED"
 						],
 						"17": [
-							"dominate person",
-							"raise dead",
-							"mass cure wounds",
-							"scrying"
+							"dominate person|NICKED",
+							"raise dead|NICKED",
+							"mass cure wounds|NICKED",
+							"scrying|NICKED"
 						]
 					},
 					"known": {
 						"1": [
-							"thaumaturgy"
+							"thaumaturgy|NICKED"
 						]
 					}
 				}
@@ -15404,36 +15426,36 @@
 				{
 					"known": {
 						"3": [
-							"heroism",
+							"heroism|NICKED",
 							{
 								"choose": {
 									"from": [
-										"hunter's mark",
-										"ensnaring strike"
+										"hunter's mark|NICKED",
+										"ensnaring strike|NICKED"
 									],
 									"count": 1
 								}
 							}
 						],
 						"5": [
-							"enlarge/reduce",
-							"find steed"
+							"enlarge/reduce|NICKED",
+							"find steed|NICKED"
 						],
 						"9": [
-							"fly"
+							"fly|NICKED"
 						],
 						"13": [
-							"freedom of movement",
-							"find greater steed|XGE"
+							"freedom of movement|NICKED",
+							"find greater steed|NICKED"
 						],
 						"17": [
-							"mislead"
+							"mislead|NICKED"
 						]
 					},
 					"innate": {
 						"3": {
 							"ritual": [
-								"find steed"
+								"find steed|NICKED"
 							]
 						}
 					}
@@ -15457,20 +15479,20 @@
 				{
 					"known": {
 						"3": [
-							"detect magic",
-							"ensnaring strike"
+							"detect magic|NICKED",
+							"ensnaring strike|NICKED"
 						],
 						"5": [
-							"hold person"
+							"hold person|NICKED"
 						],
 						"9": [
-							"meld into stone"
+							"meld into stone|NICKED"
 						],
 						"13": [
-							"mordenkainen's faithful hound"
+							"faithful hound|NICKED"
 						],
 						"17": [
-							"hold monster"
+							"hold monster|NICKED"
 						]
 					}
 				}
@@ -15494,40 +15516,40 @@
 				{
 					"known": {
 						"3": [
-							"protection from evil and good"
+							"protection from evil and good|NICKED"
 						],
 						"5": [
-							"misty step"
+							"misty step|NICKED"
 						],
 						"9": [
-							"haste"
+							"haste|NICKED"
 						],
 						"13": [
-							"banishment"
+							"banishment|NICKED"
 						],
 						"17": [
-							"teleportation circle"
+							"teleportation circle|NICKED"
 						]
 					},
 					"innate": {
 						"7": {
 							"rest": {
 								"1":[
-									"etherealness"
+									"etherealness|NICKED"
 								]
 							}
 						},
 						"15": {
 							"daily": {
 								"1":[
-									"teleportation"
+									"teleportation|NICKED"
 								]
 							}
 						},
 						"17": {
 							"daily": {
 								"1":[
-									"gate"
+									"gate|NICKED"
 								]
 							}
 						}
@@ -15552,24 +15574,24 @@
 				{
 					"known": {
 						"3": [
-							"detect magic",
-							"magic missile"
+							"detect magic|NICKED",
+							"magic missile|NICKED"
 						],
 						"5": [
-							"magic weapon",
-							"nystul's magic aura"
+							"magic weapon|NICKED",
+							"magic aura|NICKED"
 						],
 						"9": [
-							"dispel magic",
-							"magic circle"
+							"dispel magic|NICKED",
+							"magic circle|NICKED"
 						],
 						"13": [
-							"arcane eye",
-							"leomund's secret chest"
+							"arcane eye|NICKED",
+							"secret chest|NICKED"
 						],
 						"17": [
-							"planar binding",
-							"teleportation circle"
+							"planar binding|NICKED",
+							"teleportation circle|NICKED"
 						]
 					}
 				}
@@ -15591,44 +15613,44 @@
 				{
 					"known": {
 						"3": [
-							"resistance",
+							"resistance|NICKED",
 							{
-								"choose": "level=1|class=Cleric"
+								"choose": "level=1|class=Cleric N|source=NICKED"
 							},
 							{
-								"choose": "level=1|class=Warlock"
+								"choose": "level=1|class=Warlock N|source=NICKED"
 							}
 						],
 						"5": [
 							{
-								"choose": "level=2|class=Cleric"
+								"choose": "level=2|class=Cleric N|source=NICKED"
 							},
 							{
-								"choose": "level=2|class=Warlock"
+								"choose": "level=2|class=Warlock N|source=NICKED"
 							}
 						],
 						"9": [
 							{
-								"choose": "level=3|class=Cleric"
+								"choose": "level=3|class=Cleric N|source=NICKED"
 							},
 							{
-								"choose": "level=3|class=Warlock"
+								"choose": "level=3|class=Warlock N|source=NICKED"
 							}
 						],
 						"13": [
 							{
-								"choose": "level=4|class=Cleric"
+								"choose": "level=4|class=Cleric N|source=NICKED"
 							},
 							{
-								"choose": "level=4|class=Warlock"
+								"choose": "level=4|class=Warlock N|source=NICKED"
 							}
 						],
 						"17": [
 							{
-								"choose": "level=5|class=Cleric"
+								"choose": "level=5|class=Cleric N|source=NICKED"
 							},
 							{
-								"choose": "level=5|class=Warlock"
+								"choose": "level=5|class=Warlock N|source=NICKED"
 							}
 						]
 					}
@@ -15651,20 +15673,20 @@
 				{
 					"known": {
 						"3": [
-							"mage hand#c",
-							"faerie fire"
+							"mage hand|NICKED",
+							"faerie fire|NICKED"
 						],
 						"5": [
-							"web"
+							"web|NICKED"
 						],
 						"9": [
-							"gaseous form"
+							"gaseous form|NICKED"
 						],
 						"13": [
-							"arcane eye"
+							"arcane eye|NICKED"
 						],
 						"17": [
-							"insect plague"
+							"insect plague|NICKED"
 						]
 					}
 				}
@@ -15686,20 +15708,20 @@
 				{
 					"known": {
 						"3": [
-							"command",
-							"hunter's mark"
+							"command|NICKED",
+							"hunter's mark|NICKED"
 						],
 						"5": [
-							"enlarge/reduce"
+							"enlarge/reduce|NICKED"
 						],
 						"9": [
-							"catnap|XGE"
+							"catnap|NICKED"
 						],
 						"13": [
-							"dominate beast"
+							"dominate beast|NICKED"
 						],
 						"17": [
-							"greater restoration"
+							"greater restoration|NICKED"
 						]
 					}
 				}
@@ -15772,14 +15794,14 @@
 				{
 					"known": {
 						"3": [
-							"mage hand#c"
+							"mage hand|NICKED"
 						],
 						"17": [
 							{
 								"choose": {
 										"from": [
-											"misty step",
-											"level=2|class=Wizard"
+											"misty step|NICKED",
+											"level=2|class=Wizard N|source=NICKED"
 										],
 										"count": 1
 								}
@@ -15789,37 +15811,37 @@
 					"expanded": {
 						"3": [
 							{
-								"all": "level=0|class=Wizard"
+								"all": "level=0|class=Wizard N|source=NICKED"
 							},
 							{
-								"all": "level=1|class=Wizard"
+								"all": "level=1|class=Wizard N|source=NICKED"
 							}
 						],
 						"5": [
 							{
-								"all": "level=2|class=Wizard"
+								"all": "level=2|class=Wizard N|source=NICKED"
 							}
 						],
 						"9": [
 							{
-								"all": "level=3|class=Wizard"
+								"all": "level=3|class=Wizard N|source=NICKED"
 							}
 						],
 						"13": [
 							{
-								"all": "level=4|class=Wizard"
+								"all": "level=4|class=Wizard N|source=NICKED"
 							}
 						],
 						"20": [
 							{
-								"all": "level=5|class=Wizard"
+								"all": "level=5|class=Wizard N|source=NICKED"
 							}
 						]
 					},
 					"innate": {
 						"17":{
 							"will": [
-								"misty step"
+								"misty step|NICKED"
 							]
 						}
 					} 
@@ -16206,7 +16228,7 @@
 				{
 					"known": {
 						"3": [
-							"moonbeam"
+							"moonbeam|NICKED"
 						]
 					},
 					"innate": {
@@ -16240,24 +16262,24 @@
 				{
 					"known": {
 						"1": [
-							"alarm",
-							"protection from evil and good"
+							"alarm|NICKED",
+							"protection from evil and good|NICKED"
 						],
 						"3": [
-							"aid",
-							"lesser restoration"
+							"aid|NICKED",
+							"lesser restoration|NICKED"
 						],
 						"5": [
-							"dispel magic",
-							"protection from energy"
+							"dispel magic|NICKED",
+							"protection from energy|NICKED"
 						],
 						"7": [
-							"freedom of movement",
-							"summon construct|TCE"
+							"freedom of movement|NICKED",
+							"summon construct|NICKED"
 						],
 						"9": [
-							"greater restoration",
-							"wall of force"
+							"greater restoration|NICKED",
+							"wall of force|NICKED"
 						]
 					}
 				}
@@ -16288,50 +16310,50 @@
 					"expanded": {
 						"1": [
 							{
-								"all": "level=0|class=Cleric"
+								"all": "level=0|class=Cleric N|source=NICKED"
 							},
 							{
-								"all": "level=1|class=Cleric"
+								"all": "level=1|class=Cleric N|source=NICKED"
 							}
 						],
 						"3": [
 							{
-								"all": "level=2|class=Cleric"
+								"all": "level=2|class=Cleric N|source=NICKED"
 							}
 						],
 						"5": [
 							{
-								"all": "level=3|class=Cleric"
+								"all": "level=3|class=Cleric N|source=NICKED"
 							}
 						],
 						"7": [
 							{
-								"all": "level=4|class=Cleric"
+								"all": "level=4|class=Cleric N|source=NICKED"
 							}
 						],
 						"9": [
 							{
-								"all": "level=5|class=Cleric"
+								"all": "level=5|class=Cleric N|source=NICKED"
 							}
 						],
 						"11": [
 							{
-								"all": "level=6|class=Cleric"
+								"all": "level=6|class=Cleric N|source=NICKED"
 							}
 						],
 						"13": [
 							{
-								"all": "level=7|class=Cleric"
+								"all": "level=7|class=Cleric N|source=NICKED"
 							}
 						],
 						"15": [
 							{
-								"all": "level=8|class=Cleric"
+								"all": "level=8|class=Cleric N|source=NICKED"
 							}
 						],
 						"17": [
 							{
-								"all": "level=9|class=Cleric"
+								"all": "level=9|class=Cleric N|source=NICKED"
 							}
 						]
 					}
@@ -16357,7 +16379,7 @@
 					"known":
 					{
 						"3":[
-							"dragon's breath|XGE"
+							"dragon's breath|NICKED"
 						]
 					}
 				}
@@ -16382,7 +16404,7 @@
 				{
 					"known": {
 						"3": [
-							"darkness"
+							"darkness|NICKED"
 						]
 					}
 				}
@@ -16412,47 +16434,47 @@
 					"expanded": {
 						"1": {
 							"_": [
-								"level=0;1|damage type=acid;cold;fire;lightning;poison;thunder"
+								"level=0;1|damage type=acid;cold;fire;lightning;poison;thunder|source=NICKED"
 							]
 						},
 						"3": {
 							"_": [
-								"level=2|damage type=acid;cold;fire;lightning;poison;thunder"
+								"level=2|damage type=acid;cold;fire;lightning;poison;thunder|source=NICKED"
 							]
 						},
 						"5": {
 							"_": [
-								"level=3|damage type=acid;cold;fire;lightning;poison;thunder"
+								"level=3|damage type=acid;cold;fire;lightning;poison;thunder|source=NICKED"
 							]
 						},
 						"7": {
 							"_": [
-								"level=4|damage type=acid;cold;fire;lightning;poison;thunder"
+								"level=4|damage type=acid;cold;fire;lightning;poison;thunder|source=NICKED"
 							]
 						},
 						"9": {
 							"_": [
-								"level=5|damage type=acid;cold;fire;lightning;poison;thunder"
+								"level=5|damage type=acid;cold;fire;lightning;poison;thunder|source=NICKED"
 							]
 						},
 						"11": {
 							"_": [
-								"level=6|damage type=acid;cold;fire;lightning;poison;thunder"
+								"level=6|damage type=acid;cold;fire;lightning;poison;thunder|source=NICKED"
 							]
 						},
 						"13": {
 							"_": [
-								"level=7|damage type=acid;cold;fire;lightning;poison;thunder"
+								"level=7|damage type=acid;cold;fire;lightning;poison;thunder|source=NICKED"
 							]
 						},
 						"15": {
 							"_": [
-								"level=8|damage type=acid;cold;fire;lightning;poison;thunder"
+								"level=8|damage type=acid;cold;fire;lightning;poison;thunder|source=NICKED"
 							]
 						},
 						"17": {
 							"_": [
-								"level=9|damage type=acid;cold;fire;lightning;poison;thunder"
+								"level=9|damage type=acid;cold;fire;lightning;poison;thunder|source=NICKED"
 							]
 						}
 					}
@@ -16480,7 +16502,7 @@
 					"innate": {
 						"1": {
 							"will":[
-								"mage armor"
+								"mage armor|NICKED"
 							]
 						}
 					},
@@ -16489,9 +16511,18 @@
 							{
 								"choose": {
 									"from":[
-										"booming blade|TCE", 
-										"green-flame blade|TCE",
-										"dark blade|NICKED"
+										"black-flame blade|NICKED",
+										"blade of elemental fire|NICKED",
+										"blade of elemental ice|NICKED",
+										"booming blade|NICKED", 
+										"hawk eye shot|NICKED", 
+										"kinetic strike|NICKED",
+										"mind-blanks|NICKED",
+										"necro-blade|NICKED",
+										"punishing blade|NICKED",
+										"spark-blade|NICKED",
+										"taunting blade|NICKED",
+										"toxic shot|NICKED"
 									]
 								}
 							}
@@ -16519,25 +16550,25 @@
 				{
 					"known": {
 						"1": [
-							"mind sliver|tce#c",
-							"arms of Hadar",
+							"mind sliver|NICKED",
+							"arms of the dark hunger|NICKED",
 							"dissonant whispers"
 						],
 						"3": [
-							"calm emotions",
-							"detect thoughts"
+							"calm emotions|NICKED",
+							"detect thoughts|NICKED"
 						],
 						"5": [
-							"hunger of Hadar",
-							"sending"
+							"hunger of the black void|NICKED",
+							"sending|NICKED"
 						],
 						"7": [
-							"Evard's black tentacles",
-							"summon aberration|TCE"
+							"black tentacles|NICKED",
+							"summon aberration|NICKED"
 						],
 						"9": [
-							"Rary's telepathic bond",
-							"telekinesis"
+							"telepathic bond|NICKED",
+							"telekinesis|NICKED"
 						]
 					}
 				}
@@ -16562,29 +16593,29 @@
 				{
 					"expanded": {
 						"s1": [
-							"alarm",
-							"magic missile"
+							"alarm|NICKED",
+							"magic missile|NICKED"
 						],
 						"s2": [
-							"find traps",
-							"vortex warp|SCC"
+							"find traps|NICKED",
+							"vortex warp|NICKED"
 						],
 						"s3": [
-							"haste",
-							"slow"
+							"haste|NICKED",
+							"slow|NICKED"
 						],
 						"s4": [
-							"mordenkainen's private sanctum",
-							"vitriolic sphere|XGE"
+							"private sanctum|NICKED",
+							"vitriolic sphere|NICKED"
 						],
 						"s5": [
-							"mislead",
-							"planar binding"
+							"mislead|NICKED",
+							"planar binding|NICKED"
 						]
 					},
 					"known": {
 						"14": [
-							"resurrection"
+							"resurrection|NICKED"
 						]
 					}
 				}
@@ -16608,24 +16639,24 @@
 				{
 					"expanded": {
 						"s1": [
-							"faerie fire",
-							"sleep"
+							"faerie fire|NICKED",
+							"sleep|NICKED"
 						],
 						"s2": [
-							"calm emotions",
-							"phantasmal force"
+							"calm emotions|NICKED",
+							"phantasmal force|NICKED"
 						],
 						"s3": [
-							"blink",
-							"plant growth"
+							"blink|NICKED",
+							"plant growth|NICKED"
 						],
 						"s4": [
-							"dominate beast",
-							"greater invisibility"
+							"dominate beast|NICKED",
+							"greater invisibility|NICKED"
 						],
 						"s5": [
-							"dominate person",
-							"seeming"
+							"dominate person|NICKED",
+							"seeming|NICKED"
 						]
 					}
 				}
@@ -16649,38 +16680,38 @@
 					"known": {
 						"3": [
 							{
-								"choose": "level=0|class=Cleric",
+								"choose": "level=0|class=Cleric N|source=NICKED",
 								"count": 1
 							},
-							"light"
+							"light|NICKED"
 						]
 					},
 					"expanded": {
 						"s1": [
-							"cure wounds",
-							"guiding bolt"
+							"cure wounds|NICKED",
+							"guiding bolt|NICKED"
 						],
 						"s2": [
-							"flaming sphere",
-							"lesser restoration"
+							"flaming sphere|NICKED",
+							"lesser restoration|NICKED"
 						],
 						"s3": [
-							"daylight",
-							"revivify"
+							"daylight|NICKED",
+							"revivify|NICKED"
 						],
 						"s4": [
-							"guardian of faith",
-							"wall of fire"
+							"guardian of faith|NICKED",
+							"wall of fire|NICKED"
 						],
 						"s5": [
-							"flame strike",
-							"greater restoration"
+							"flame strike|NICKED",
+							"greater restoration|NICKED"
 						]
 					},
 					"prepared": {
 						"6": [
 							{
-								"choose": "level=1;2;3|class=Cleric",
+								"choose": "level=1;2;3|class=Cleric N|source=NICKED",
 								"count": 2
 							}
 						]
@@ -16706,31 +16737,31 @@
 				{
 					"expanded": {
 						"s1": [
-							"create or destroy water",
-							"thunderwave"
+							"create or destroy water|NICKED",
+							"thunderwave|NICKED"
 						],
 						"s2": [
-							"gust of wind",
-							"silence"
+							"gust of wind|NICKED",
+							"silence|NICKED"
 						],
 						"s3": [
-							"lightning bolt",
-							"sleet storm"
+							"lightning bolt|NICKED",
+							"sleet storm|NICKED"
 						],
 						"s4": [
-							"control water",
-							"evard's black tentacles"
+							"control water|NICKED",
+							"evard's black tentacles|NICKED"
 						],
 						"s5": [
-							"destructive wave",
-							"passwall"
+							"destructive wave|NICKED",
+							"passwall|NICKED"
 						]
 					},
 					"known": {
 						"10": {
 							"daily": {
 								"1": [
-									"planar ally"
+									"planar ally|NICKED"
 								]
 							}
 						}
@@ -16758,24 +16789,24 @@
 				{
 					"expanded": {
 						"s1": [
-							"burning hands",
-							"command"
+							"burning hands|NICKED",
+							"command|NICKED"
 						],
 						"s2": [
-							"blindness/deafness",
-							"scorching ray"
+							"blindness/deafness|NICKED",
+							"scorching ray|NICKED"
 						],
 						"s3": [
-							"elemental weapon",
-							"fireball"
+							"elemental weapon|NICKED",
+							"fireball|NICKED"
 						],
 						"s4": [
-							"fire shield",
+							"fire shield|NICKED",
 							"wall of fire"
 						],
 						"s5": [
-							"flame strike",
-							"hallow"
+							"flame strike|NICKED",
+							"hallow|NICKED"
 						]
 					}
 				}
@@ -16799,31 +16830,31 @@
 					"expanded": {
 						"s1": [
 							{
-								"choose": "level=1|class=Sorcerer;Wizard",
+								"choose": "level=1|class=Sorcerer N;Wizard N|source=NICKED",
 								"count": 1
 							}
 						],
 						"s2": [
 							{
-								"choose": "level=1;2|class=Sorcerer;Wizard",
+								"choose": "level=1;2|class=Sorcerer N;Wizard N|source=NICKED",
 								"count": 1
 							}
 						],
 						"s3": [
 							{
-								"choose": "level=1;2;3|class=Sorcerer;Wizard",
+								"choose": "level=1;2;3|class=Sorcerer N;Wizard N|source=NICKED",
 								"count": 1
 							}
 						],
 						"s4": [
 							{
-								"choose": "level=1;2;3;4|class=Sorcerer;Wizard",
+								"choose": "level=1;2;3;4|class=Sorcerer N;Wizard N|source=NICKED",
 								"count": 1
 							}
 						],
 						"s5": [
 							{
-								"choose": "level=1;2;3;4;5|class=Sorcerer;Wizard",
+								"choose": "level=1;2;3;4;5|class=Sorcerer N;Wizard N|source=NICKED",
 								"count": 1
 							}
 						]
@@ -16848,24 +16879,24 @@
 				{
 					"expanded": {
 						"s1": [
-							"dissonant whispers",
-							"Tasha's hideous laughter"
+							"dissonant whispers|NICKED",
+							"hideous laughter|NICKED"
 						],
 						"s2": [
-							"detect thoughts",
-							"phantasmal force"
+							"detect thoughts|NICKED",
+							"phantasmal force|NICKED"
 						],
 						"s3": [
-							"clairvoyance",
-							"sending"
+							"clairvoyance|NICKED",
+							"sending|NICKED"
 						],
 						"s4": [
-							"dominate beast",
-							"Evard's black tentacles"
+							"dominate beast|NICKED",
+							"black tentacles|NICKED"
 						],
 						"s5": [
-							"dominate person",
-							"telekinesis"
+							"dominate person|NICKED",
+							"telekinesis|NICKED"
 						]
 					}
 				}
@@ -16888,24 +16919,24 @@
 				{
 					"expanded": {
 						"s1": [
-							"command",
-							"inflict wounds"
+							"command|NICKED",
+							"inflict wounds|NICKED"
 						],
 						"s2": [
-							"blindness/deafness",
-							"protection from poison"
+							"blindness/deafness|NICKED",
+							"protection from poison|NICKED"
 						],
 						"s3": [
-							"speak with dead",
-							"feign death"
+							"speak with dead|NICKED",
+							"feign death|NICKED"
 						],
 						"s4": [
-							"death ward",
-							"greater invisibility"
+							"death ward|NICKED",
+							"greater invisibility|NICKED"
 						],
 						"s5": [
-							"antilife shell",
-							"cloudkill"
+							"antilife shell|NICKED",
+							"cloudkill|NICKED"
 						]
 					}
 				}
@@ -16928,29 +16959,29 @@
 				{
 					"expanded": {
 						"s1": [
-							"chaos bolt|XGE",
-							"shield"
+							"chaos bolt|NICKED",
+							"shield|NICKED"
 						],
 						"s2": [
-							"blur",
-							"nathair's mischief|FTD"
+							"blur|NICKED",
+							"mischief|NICKED"
 						],
 						"s3": [
-							"blink",
-							"bestow curse"
+							"blink|NICKED",
+							"bestow curse|NICKED"
 						],
 						"s4": [
-							"confusion",
-							"phantasmal killer"
+							"confusion|NICKED",
+							"phantasmal killer|NICKED"
 						],
 						"s5": [
 							"greater haste|NICKED",
-							"cone of cold"
+							"cone of cold|NICKED"
 						]
 					},
 					"known": {
 						"3": [
-							"hex"
+							"hex|NICKED"
 						]
 					}
 				}
@@ -16974,29 +17005,29 @@
 				{
 					"known": {
 						"1": [
-							"spare the dying#c"
+							"spare the dying|NICKED"
 						]
 					},
 					"expanded": {
 						"s1": [
-							"absorb elements",
-							"ceremony"
+							"absorb elements|NICKED",
+							"ceremony|NICKED"
 						],
 						"s2": [
-							"aid",
-							"zone of truth"
+							"aid|NICKED",
+							"zone of truth|NICKED"
 						],
 						"s3": [
-							"ashardalon's stride|FTD",
-							"speak with dead"
+							"flame runner's stride|NICKED",
+							"speak with dead|NICKED"
 						],
 						"s4": [
-							"death ward",
-							"leomund's secret chest"
+							"death ward|NICKED",
+							"secret chest|NICKED"
 						],
 						"s5": [
-							"cloudkill",
-							"modify memory"
+							"cloudkill|NICKED",
+							"modify memory|NICKED"
 						]
 					}
 				}
@@ -17031,17 +17062,17 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"subclassSpells": [
-				"sanctuary"
+				"sanctuary|NICKED"
 			],
 			"additionalSpells": [
 				{
 					"prepared": {
 						"2": [
-							"sanctuary"
+							"sanctuary|NICKED"
 						],
 						"6": [
 							{
-								"choose": "level=0;1;2;3|school=A",
+								"choose": "level=0;1;2;3|school=A|source=NICKED",
 								"count": 2
 							}
 						]
@@ -17065,7 +17096,7 @@
 				{
 					"prepared": {
 						"2": [
-								"find familiar"
+								"find familiar|NICKED"
 						]
 					}
 				}
@@ -17087,7 +17118,7 @@
 				{
 					"prepared": {
 						"2": [
-								"identify"
+								"identify|NICKED"
 						]
 					}
 				}
@@ -17157,13 +17188,13 @@
 				{
 					"prepared": {
 						"6": [
-							"summon undead|TCE"
+							"summon undead|NICKED"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"summon undead|TCE"
+				"summon undead|NICKED"
 			],
 			"subclassFeatures": [
 				"Practitioner of Necromancy|Wizard N|NICKED|Necromancy|NICKED|2|NICKED",
@@ -17179,51 +17210,51 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"subclassSpells": [
-				"create or destroy water",
-				"goodberry",
-				"magnify gravity|EGW",
-				"purify food and drink",
-				"zephyr strike|XGE",
-				"barkskin",
-				"cordon of arrows",
-				"heat metal",
-				"immovable object|EGW",
-				"spike growth",
-				"elemental weapon",
-				"lightning arrow",
-				"meld into stone",
-				"plant growth",
-				"speak with plants",
-				"water walk",
-				"giant insect",
-				"guardian of nature|XGE",
-				"awaken",
-				"reincarnate",
-				"swift quiver",
-				"temporal shunt|EGW",
-				"bones of the earth|XGE",
-				"wind walk",
-				"regenerate",
-				"animal shapes",
-				"glibness"
+				"create or destroy water|NICKED",
+				"goodberry|NICKED",
+				"magnify gravity|NICKED",
+				"purify food and drink|NICKED",
+				"zephyr strike|NICKED",
+				"barkskin|NICKED",
+				"cordon of arrows|NICKED",
+				"heat metal|NICKED",
+				"immovable object|NICKED",
+				"spike growth|NICKED",
+				"elemental weapon|NICKED",
+				"lightning arrow|NICKED",
+				"meld into stone|NICKED",
+				"plant growth|NICKED",
+				"speak with plants|NICKED",
+				"water walk|NICKED",
+				"giant insect|NICKED",
+				"guardian of nature|NICKED",
+				"awaken|NICKED",
+				"reincarnate|NICKED",
+				"swift quiver|NICKED",
+				"temporal shunt|NICKED",
+				"bones of the earth|NICKED",
+				"wind walk|NICKED",
+				"regenerate|NICKED",
+				"animal shapes|NICKED",
+				"glibness|NICKED"
 			],
 			"additionalSpells": [
 				{
 					"expanded": {
 						"2": [
 							{
-								"all": "level=0;1;2;3;4;5;6;7;8;9|school=T"
+								"all": "level=0;1;2;3;4;5;6;7;8;9|school=T|source=NICKED"
 							}
 						]
 					},
 					"known": {
 						"2": [
 							{
-								"all": "level=0|school=T"
+								"all": "level=0|school=T|source=NICKED"
 							}
 						],
 						"10": [
-							"polymorph"
+							"polymorph|NICKED"
 						]
 					}
 				}
@@ -17245,7 +17276,18 @@
 				{
 					"known": {
 						"2": [
-							"dark blade|NICKED"
+							"black-flame blade|NICKED",
+							"blade of elemental fire|NICKED",
+							"blade of elemental ice|NICKED",
+							"booming blade|NICKED", 
+							"hawk eye shot|NICKED", 
+							"kinetic strike|NICKED",
+							"mind-blanks|NICKED",
+							"necro-blade|NICKED",
+							"punishing blade|NICKED",
+							"spark-blade|NICKED",
+							"taunting blade|NICKED",
+							"toxic shot|NICKED"
 						]
 					}
 				}
@@ -17264,17 +17306,6 @@
 			"source": "NICKED",
 			"className": "Wizard N",
 			"classSource": "NICKED",
-			"additionalSpells": [
-				{
-					"expanded": {
-						"1": [
-							{
-								"all": "source=EGW"
-							}
-						]
-					}
-				}
-			],
 			"subclassFeatures": [
 				"School of Chronurgy|Wizard N|NICKED|Chronurgy|NICKED|2|NICKED",
 				"Momentary Stasis|Wizard N|NICKED|Chronurgy|NICKED|6|NICKED",
@@ -17288,17 +17319,6 @@
 			"source": "NICKED",
 			"className": "Wizard N",
 			"classSource": "NICKED",
-			"additionalSpells": [
-				{
-					"expanded": {
-						"1": [
-							{
-								"all": "source=EGW"
-							}
-						]
-					}
-				}
-			],
 			"subclassFeatures": [
 				"Order of Graviturgy|Wizard N|NICKED|Graviturgy|NICKED|2|NICKED",
 				"Gravity Well|Wizard N|NICKED|Graviturgy|NICKED|6|NICKED",
@@ -19612,7 +19632,7 @@
 			],
 			"entries": [
 				"You gain proficiency in {@skill acrobatics} and {@skill performance}",
-				"Gain one cantrip that requires you to make a weapon attack as part of its material cost, such as green flame blade. This spell counts as a bard spell but does not count against the number of cantrips known."
+				"Gain one cantrip that requires you to make a weapon attack as part of its material cost, such as {@spell booming blade|NICKED}. This spell counts as a bard spell but does not count against the number of cantrips known."
 			]
 		},
 		{
@@ -19636,7 +19656,7 @@
 						}
 					]
 				},
-				"You may cast cantrips such as green flame blade or others that require a melee weapon attack using your unarmed strike as their material component (regardless of gp cost)."
+				"You may cast cantrips such as {@spell booming blade|NICKED} or others that require a melee weapon attack using your unarmed strike as their material component (regardless of gp cost)."
 			]
 		},
 		{
@@ -31590,7 +31610,7 @@
 			],
 			"entries": [
 				"Starting at 1st level, you gain proficiency with all {@filter simple and martial weapons|items|source=phb|category=basic|type=simple weapon;martial weapon}. You may use any weapon as a spellcasting focus for your sorcerer spells, and they do not count as an occupied hand for the purposes of using somatic components of sorcerer spells.",
-				"Additionally, you gain proficiency with {@item shields|shield|phb} and learn one cantrip that requires a weapon attack such as green flame blade from any spell list. This spell does not count against the number of cantrips known and counts as a sorcerer spell for you."
+				"Additionally, you gain proficiency with {@item shields|shield|phb} and learn one cantrip that requires a weapon attack such as {@spell booming blade|NICKED} from any spell list. This spell does not count against the number of cantrips known and counts as a sorcerer spell for you."
 			]
 		},
 		{
@@ -34782,7 +34802,7 @@
 					"innate": {
 						"_": {
 							"will": [
-								"Jump"
+								"jump|NICKED"
 							]
 						}
 					}
@@ -34814,7 +34834,7 @@
 						"_": {
 							"rest": {
 								"1": [
-									"Pass Without Trace"
+									"pass without trace|NICKED"
 								]
 							}
 						}
@@ -34837,7 +34857,7 @@
 						"_": {
 							"_": [
 								{
-									"choose": "level=0|class=Wizard",
+									"choose": "level=0|class=Wizard N|source=NICKED",
 									"count": 1
 								}
 							]
@@ -35311,7 +35331,7 @@
 				{
 					"known": {
 						"_": [
-							"minor illusion#c"
+							"minor illusion|NICKED"
 						]
 					}
 				}
@@ -35342,7 +35362,7 @@
 				{
 					"innate": {
 						"_": [
-							"dragon's breath|XGE"
+							"dragon's breath|NICKED"
 						]
 					}
 				}
@@ -35519,8 +35539,8 @@
 					"innate": {
 						"_": {
 							"will": [
-								"light",
-								"control flames|XGE"
+								"light|NICKED",
+								"control flames|NICKED"
 							]
 						}
 					}
@@ -35936,7 +35956,7 @@
 						"_": {
 							"resource": {
 								"1": [
-									"sanctuary"
+									"sanctuary|NICKED"
 								]
 							}
 						}
@@ -36035,7 +36055,7 @@
 						"_": {
 							"resource": {
 								"2": [
-									"silence"
+									"silence|NICKED"
 								]
 							}
 						}
@@ -36075,7 +36095,7 @@
 						"_": {
 							"resource": {
 								"2": [
-									"pass without trace"
+									"pass without trace|NICKED"
 								]
 							}
 						}
@@ -36113,7 +36133,7 @@
 						"_": {
 							"resource": {
 								"2": [
-									"darkness"
+									"darkness|NICKED"
 								]
 							}
 						}
@@ -36169,7 +36189,7 @@
 						"_": {
 							"resource": {
 								"2": [
-									"calm emotions"
+									"calm emotions|NICKED"
 								]
 							}
 						}
@@ -36251,7 +36271,7 @@
 						"_": {
 							"resource": {
 								"2": [
-									"hold person"
+									"hold person|NICKED"
 								]
 							}
 						}
@@ -36390,7 +36410,7 @@
 						"_": {
 							"resource": {
 								"2": [
-									"summon beast|TCE"
+									"summon beast|NICKED"
 								]
 							}
 						}
@@ -36498,8 +36518,8 @@
 					"innate": {
 						"_": {
 							"ritual": [
-								"water walk",
-								"water breathing"
+								"water walk|NICKED",
+								"water breathing|NICKED"
 							]
 						}
 					}
@@ -36533,7 +36553,7 @@
 						"_": {
 							"resource": {
 								"3": [
-									"slow"
+									"slow|NICKED"
 								]
 							}
 						}
@@ -36665,7 +36685,7 @@
 						"_": {
 							"resource": {
 								"4": [
-									"spirit shroud|TCE"
+									"spirit shroud|NICKED"
 								]
 							}
 						}
@@ -36728,7 +36748,7 @@
 						"_": {
 							"resource": {
 								"4": [
-									"summon construct|TCE"
+									"summon construct|NICKED"
 								]
 							}
 						}
@@ -36859,7 +36879,7 @@
 						"_": {
 							"resource": {
 								"5": [
-									"contact other plane"
+									"contact other plane|NICKED"
 								]
 							}
 						}
@@ -36923,7 +36943,7 @@
 						"_": {
 							"resource": {
 								"5": [
-									"hold monster"
+									"hold monster|NICKED"
 								]
 							}
 						}
@@ -36961,7 +36981,7 @@
 						"_": {
 							"resource": {
 								"5": [
-									"mislead"
+									"mislead|NICKED"
 								]
 							}
 						}
@@ -37072,7 +37092,7 @@
 						"_": {
 							"resource": {
 								"5": [
-									"wall of light|XGE"
+									"wall of light|NICKED"
 								]
 							}
 						}
@@ -37132,7 +37152,7 @@
 				{
 					"known": {
 						"_":[
-							"true strike"
+							"true strike|NICKED"
 						]
 					}
 				}
@@ -37180,7 +37200,7 @@
 				{
 					"known": {
 						"_":[
-							"druidcraft"
+							"druidcraft|NICKED"
 						]
 					}
 				}
@@ -37208,14 +37228,14 @@
 						"_": {
 							"daily": {
 								"1": [
-									"protection from evil and good"
+									"protection from evil and good|NICKED"
 								]
 							}
 						}
 					},
 					"known": {
 						"_": [
-							"protection from evil and good"
+							"protection from evil and good|NICKED"
 						]
 					}
 				}
@@ -37378,8 +37398,8 @@
 							{
 								"choose": {
 									"from": [
-										"hunter's mark",
-										"ensnaring strike"
+										"hunter's mark|NICKED",
+										"ensnaring strike|NICKED"
 									],
 									"count": 1
 								}
@@ -37403,7 +37423,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=1;2;3;4;5|class=Ranger",
+								"choose": "level=1;2;3;4;5|class=Ranger N|source=NICKED",
 								"count": 1
 							}
 						]
@@ -38280,7 +38300,7 @@
 					"innate": {
 						"_": {
 							"ritual": [
-								"find familiar"
+								"find familiar|NICKED"
 							]
 						}
 					}
@@ -38312,7 +38332,7 @@
 					"known":{
 						"_": [
 								{
-									"choose": "level=0",
+									"choose": "level=0|source=NICKED",
 									"count": 3
 								}
 							]
@@ -38363,7 +38383,7 @@
 				{
 					"innate": {
 						"_": [
-							"mage armor"
+							"mage armor|NICKED"
 						]
 					}
 				}
@@ -38394,7 +38414,7 @@
 				{
 					"innate": {
 						"_": [
-							"levitate"
+							"levitate|NICKED"
 						]
 					}
 				}
@@ -38428,7 +38448,7 @@
 				{
 					"innate": {
 						"_": [
-							"speak with animals"
+							"speak with animals|NICKED"
 						]
 					}
 				}
@@ -38477,7 +38497,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"compulsion"
+									"compulsion|NICKED"
 								]
 							}
 						}
@@ -38527,7 +38547,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "Components & Miscellaneous=ritual|level=1",
+									"choose": "Components & Miscellaneous=ritual|level=1|source=NICKED",
 									"count": 2
 								}
 							]
@@ -38536,7 +38556,7 @@
 				}
 			],
 			"entries": [
-				"You can now inscribe magical rituals in your Book of Shadows. Choose two {@filter 1st-level spells that have the ritual tag from any class's spell list|spells|Components & Miscellaneous=ritual|level=1}. The spells needn't be from the same spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.",
+				"You can now inscribe magical rituals in your Book of Shadows. Choose two {@filter 1st-level spells that have the ritual tag from any class's spell list|spells|Components & Miscellaneous=ritual|level=1|source=NICKED}. The spells needn't be from the same spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.",
 				"On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it."
 			]
 		},
@@ -38564,7 +38584,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"hold monster"
+									"hold monster|NICKED"
 								]
 							}
 						}
@@ -38632,7 +38652,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"confusion"
+									"confusion|NICKED"
 								]
 							}
 						}
@@ -38692,7 +38712,7 @@
 				{
 					"innate": {
 						"_": [
-							"detect magic"
+							"detect magic|NICKED"
 						]
 					}
 				}
@@ -38782,7 +38802,7 @@
 				{
 					"innate": {
 						"_": [
-							"sending"
+							"sending|NICKED"
 						]
 					}
 				}
@@ -38803,7 +38823,7 @@
 				{
 					"innate": {
 						"_": [
-							"false life"
+							"false life|NICKED"
 						]
 					}
 				}
@@ -38874,7 +38894,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"water breathing"
+									"water breathing|NICKED"
 								]
 							}
 						}
@@ -39069,7 +39089,7 @@
 				{
 					"innate": {
 						"_": [
-							"disguise self"
+							"disguise self|NICKED"
 						]
 					}
 				}
@@ -39100,7 +39120,7 @@
 				{
 					"innate": {
 						"_": [
-							"alter self"
+							"alter self|NICKED"
 						]
 					}
 				}
@@ -39132,7 +39152,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"conjure elemental"
+									"conjure elemental|NICKED"
 								]
 							}
 						}
@@ -39166,7 +39186,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"slow"
+									"slow|NICKED"
 								]
 							}
 						}
@@ -39187,7 +39207,7 @@
 				{
 					"innate": {
 						"_": [
-							"silent image"
+							"silent image|NICKED"
 						]
 					}
 				}
@@ -39227,7 +39247,7 @@
 				{
 					"innate": {
 						"_": [
-							"jump"
+							"jump|NICKED"
 						]
 					}
 				}
@@ -39337,7 +39357,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"polymorph"
+									"polymorph|NICKED"
 								]
 							}
 						}
@@ -39369,7 +39389,7 @@
 				{
 					"innate": {
 						"_": [
-							"invisibility"
+							"invisibility|NICKED"
 						]
 					}
 				}
@@ -39401,7 +39421,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"bestow curse"
+									"bestow curse|NICKED"
 								]
 							}
 						}
@@ -39424,7 +39444,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"bane"
+									"bane|NICKED"
 								]
 							}
 						}
@@ -39480,7 +39500,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"freedom of movement"
+									"freedom of movement|NICKED"
 								]
 							}
 						}
@@ -39514,7 +39534,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"animate dead"
+									"animate dead|NICKED"
 								]
 							}
 						}
@@ -39546,7 +39566,7 @@
 				{
 					"innate": {
 						"_": [
-							"arcane eye"
+							"arcane eye|NICKED"
 						]
 					}
 				}
@@ -39599,7 +39619,7 @@
 				{
 					"innate": {
 						"_": [
-							"speak with dead"
+							"speak with dead|NICKED"
 						]
 					}
 				}
@@ -40056,7 +40076,22 @@
 					"known": {
 						"_": [
 							{
-								"choose": {"from":["booming blade|TCE", "green-flame blade|TCE", "dark blade|NICKED"]}
+								"choose": {
+									"from":[
+										"black-flame blade|NICKED",
+										"blade of elemental fire|NICKED",
+										"blade of elemental ice|NICKED",
+										"booming blade|NICKED", 
+										"hawk eye shot|NICKED", 
+										"kinetic strike|NICKED",
+										"mind-blanks|NICKED",
+										"necro-blade|NICKED",
+										"punishing blade|NICKED",
+										"spark-blade|NICKED",
+										"taunting blade|NICKED",
+										"toxic shot|NICKED"
+									]
+								}
 							}
 						]
 					}
@@ -40093,20 +40128,20 @@
 					"innate": {
 						"_": {
 							"will": [
-                                "light"
+                                "light|NICKED"
                             ]
 						},
 						"3": {
 							"daily": {
 								"1": [
-									"lesser restoration"
+									"lesser restoration|NICKED"
 								]
 							}
 						}
 					},
                     "known": {
                         "3": [
-                            "lesser restoration"
+                            "lesser restoration|NICKED"
                         ]
                     }
 				}
@@ -40424,14 +40459,14 @@
 						"_": {
 							"rest": {
 								"1": [
-									"misty step"
+									"misty step|NICKED"
 								]
 							}
 						}
 					},
                     "known": {
                         "_": [
-                            "misty step"
+                            "misty step|NICKED"
                         ]
                     }
 				}
@@ -40468,20 +40503,20 @@
 					"innate": {
 						"_": {
                             "will": [
-                                "minor illusion"
+                                "minor illusion|NICKED"
                             ]
 						},
                         "3": {
                             "daily": {
 								"1": [
-									"misty step"
+									"misty step|NICKED"
 								]
 							}
                         }
 					},
                     "known": {
                         "_": [
-                            "invisibility"
+                            "invisibility|NICKED"
                         ]
                     }
 				}
@@ -40513,7 +40548,7 @@
 					"innate": {
 						"_": {
                             "will": [
-                                "guidance"
+                                "guidance|NICKED"
                             ]
 						}
 					}
@@ -40738,14 +40773,14 @@
 						"3": {
                             "daily": {
 								"1": [
-									"enlarge/reduce"
+									"enlarge/reduce|NICKED"
 								]
 							}
 						}
 					},
 					"known": {
 						"3": [
-							"enlarge/reduce"
+							"enlarge/reduce|NICKED"
 						]
 					}
 				}
@@ -40782,14 +40817,14 @@
 						"3": {
                             "daily": {
 								"1": [
-									"crown of madness"
+									"crown of madness|NICKED"
 								]
 							}
 						}
 					},
 					"known": {
 						"3": [
-							"crown of madness"
+							"crown of madness|NICKED"
 						]
 					}
 				}
@@ -41222,7 +41257,7 @@
 					"innate": {
 						"_": {
 							"will": [
-								"thaumaturgy"
+								"thaumaturgy|NICKED"
 							]
 						}
 					}
@@ -41252,7 +41287,7 @@
 					"innate": {
 						"_": {
 							"will": [
-								"mage hand"
+								"mage hand|NICKED"
 							]
 						}
 					}
@@ -41807,7 +41842,7 @@
 							"daily": {
 								"1e": [
 									{
-										"choose": "level=2|school=I;T",
+										"choose": "level=2|school=I;T|source=NICKED",
 										"count": 2
 									}
 								]
@@ -42082,7 +42117,7 @@
 				{
 					"known": {
 						"_": [
-							"prestidigitation"
+							"prestidigitation|NICKED"
 						]
 					}
 				}
@@ -42272,7 +42307,7 @@
 						"_": {
 							"_": [
 								{
-									"choose": "level=0|class=Cleric",
+									"choose": "level=0|class=Cleric N|source=NICKED",
 									"count": 1
 								}
 							]
@@ -42283,10 +42318,10 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Warlock",
+										"choose": "level=1|class= N|source=NICKED",
 										"count": 1
 									},
-									"augury"
+									"augury|NICKED"
 								]
 							}
 						}
@@ -42298,7 +42333,7 @@
 						"_": {
 							"_": [
 								{
-									"choose": "level=0|class=Cleric",
+									"choose": "level=0|class=Cleric N|source=NICKED",
 									"count": 1
 								}
 							]
@@ -42309,10 +42344,10 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Cleric",
+										"choose": "level=1|class=Cleric N|source=NICKED",
 										"count": 1
 									},
-									"augury"
+									"augury|NICKED"
 								]
 							}
 						}
@@ -42324,7 +42359,7 @@
 						"_": {
 							"_": [
 								{
-									"choose": "level=0|class=Cleric",
+									"choose": "level=0|class=Cleric N|source=NICKED",
 									"count": 1
 								}
 							]
@@ -42335,10 +42370,10 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Druid",
+										"choose": "level=1|class=Druid N|source=NICKED",
 										"count": 1
 									},
-									"augury"
+									"augury|NICKED"
 								]
 							}
 						}
@@ -42347,7 +42382,7 @@
 			],
 			"entries": [
 				"A god chose you to carry a spark of their power.",
-				"You learn one cantrip of your choice from the {@filter cleric spell list|spells|level=0|class=cleric} and one 1st level spell based on the alignment of the divine source of your power as specified in the Alignment Spells table below. You also learn {@spell augury|NICKED}",
+				"You learn one cantrip of your choice from the {@filter cleric spell list|spells|level=0|class=Cleric N|source=NICKED} and one 1st level spell based on the alignment of the divine source of your power as specified in the Alignment Spells table below. You also learn {@spell augury|NICKED}",
 				{
 					"type": "table",
 					"colLabels": [
@@ -42361,15 +42396,15 @@
 					"rows": [
 						[
 							"Evil",
-							"{@filter 1st level Warlock spell|spells|level=1|class=warlock}"
+							"{@filter 1st level Warlock spell|spells|level=1|class=Warlock N|source=NICKED}"
 						],
 						[
 							"Good",
-							"{@filter 1st level Cleric spell|spells|level=1|class=cleric}"
+							"{@filter 1st level Cleric spell|spells|level=1|class=Cleric N|source=NICKED}"
 						],
 						[
 							"Neutral",
-							"{@filter 1st level Druid spell|spells|level=1|class=Druid}"
+							"{@filter 1st level Druid spell|spells|level=1|class=Druid N|source=NICKED}"
 						]
 					]
 				},
@@ -42629,10 +42664,10 @@
 							"daily": {
 								"1e": [
 									{
-										"choose": "level=1|school=D;E",
+										"choose": "level=1|school=D;E|source=NICKED",
 										"count": 1
 									},
-									"misty step"
+									"misty step|NICKED"
 								]
 							}
 						}
@@ -42806,7 +42841,7 @@
 						"_": {
 							"daily": {
 								"1": [
-									"cure wounds"
+									"cure wounds|NICKED"
 								]
 							}
 						}
@@ -43236,7 +43271,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Bard"
+										"choose": "level=1|class=Bard N|source=NICKED"
 									}
 								]
 							}
@@ -43245,7 +43280,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Bard",
+								"choose": "level=0|class=Bard N|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43259,7 +43294,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Cleric"
+										"choose": "level=1|class=Cleric N|source=NICKED"
 									}
 								]
 							}
@@ -43268,7 +43303,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Cleric",
+								"choose": "level=0|class=Cleric N|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43282,7 +43317,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Druid"
+										"choose": "level=1|class=Druid N|source=NICKED"
 									}
 								]
 							}
@@ -43291,7 +43326,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Druid",
+								"choose": "level=0|class=Druid N|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43305,7 +43340,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Sorcerer"
+										"choose": "level=1|class=Sorcerer N|source=NICKED"
 									}
 								]
 							}
@@ -43314,7 +43349,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Sorcerer",
+								"choose": "level=0|class=Sorcerer N|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43328,7 +43363,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Warlock"
+										"choose": "level=1|class=Warlock N|source=NICKED"
 									}
 								]
 							}
@@ -43337,7 +43372,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Warlock",
+								"choose": "level=0|class=Warlock N|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43351,7 +43386,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Wizard"
+										"choose": "level=1|class=Wizard N|source=NICKED"
 									}
 								]
 							}
@@ -43360,7 +43395,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Wizard",
+								"choose": "level=0|class=Wizard N|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43640,8 +43675,8 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"misty step",
-									"tongues"
+									"misty step|NICKED",
+									"tongues|NICKED"
 								]
 							}
 						}
@@ -43931,7 +43966,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "level=1|class=Bard|components & miscellaneous=ritual",
+									"choose": "level=1|class=Bard N|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -43945,7 +43980,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "level=1|class=Cleric|components & miscellaneous=ritual",
+									"choose": "level=1|class=Cleric N|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -43959,7 +43994,7 @@
 						"_": {
 							"ritual":  [
 								{
-									"choose": "level=1|class=Druid|components & miscellaneous=ritual",
+									"choose": "level=1|class=Druid N|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -43973,7 +44008,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "level=1|class=Sorcerer|components & miscellaneous=ritual",
+									"choose": "level=1|class=Sorcerer N|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -43987,7 +44022,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "level=1|class=Warlock|components & miscellaneous=ritual",
+									"choose": "level=1|class=Warlock N|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -44001,7 +44036,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "level=1|class=Wizard|components & miscellaneous=ritual",
+									"choose": "level=1|class=Wizard N|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -44087,9 +44122,9 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"invisibility",
+									"invisibility|NICKED",
 									{
-										"choose": "level=1|school=I;N"
+										"choose": "level=1|school=I;N|source=NICKED"
 									}
 								]
 							}
@@ -44102,7 +44137,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn the {@spell invisibility|NICKED} spell and one {@filter 1st-level spell|spells|level=1|school=I;N} of your choice. The {@filter 1st-level spell|spells|level=1|school=I;N} must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+						"You learn the {@spell invisibility|NICKED} spell and one {@filter 1st-level spell|spells|level=1|school=I;N|source=NICKED} of your choice. The {@filter 1st-level spell|spells|level=1|school=I;N|source=NICKED} must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
 					]
 				}
 			]
@@ -44360,7 +44395,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Bard|spell attack=m;r;o",
+								"choose": "level=0|class=Bard N|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44372,7 +44407,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Cleric|spell attack=m;r;o",
+								"choose": "level=0|class=Cleric N|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44384,7 +44419,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Druid|spell attack=m;r;o",
+								"choose": "level=0|class=Druid N|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44396,7 +44431,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Sorcerer|spell attack=m;r;o",
+								"choose": "level=0|class=Sorcerer N|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44408,7 +44443,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Warlock|spell attack=m;r;o",
+								"choose": "level=0|class=Warlock N|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44420,7 +44455,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Wizard|spell attack=m;r;o",
+								"choose": "level=0|class=Wizard N|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44485,7 +44520,7 @@
 					"ability": "inherit",
 					"known": {
 						"_": [
-							"mage hand#c"
+							"mage hand|NICKED"
 						]
 					}
 				}
@@ -44523,7 +44558,7 @@
 						"_": {
 							"daily": {
 								"1": [
-									"detect thoughts"
+									"detect thoughts|NICKED"
 								]
 							}
 						}
@@ -44660,18 +44695,18 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"pass without trace"
+									"pass without trace|NICKED"
 								]
 							},
 							"will": [
-								"longstrider"
+								"longstrider|NICKED"
 							]
 						}
 					},
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Druid"
+								"choose": "level=0|class=Druid N|source=NICKED"
 							}
 						]
 					}
@@ -49611,7 +49646,7 @@
 			]
 		},
 		{
-			"name": "Minor Illusion",
+			"name": "Ventriloquism",
 			"source": "NICKED",
 			"level": 0,
 			"school": "I",
@@ -49762,6 +49797,59 @@
 				"target.units": "ft",
 				"target.type": "sphere"
 			}
+		},
+		{
+			"name": "Word of Suffering",
+			"source": "NICKED",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You utter a word that sounds guttural and brings physical harm to a creature you can see. Wounds split open on their body, as if cut by an invisible knife. Bruises may appear on their arms as if hit by a fist or small piercing may appear around their hands and face as if attacked by a small insect.",
+				"When you cast this spell, choose, piercing, bludgeoning, or slashing damage. This spell deals {@damage 1d4} of the chosen type to the creature.",
+				"The spell's damage increases by {@dice 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
+			],
+			"scalingLevelDice": {
+				"label": "damage",
+				"scaling": {
+					"1": "1d4",
+					"5": "2d4",
+					"11": "3d4",
+					"17": "4d4"
+				}
+			},
+			"damageInflict": [
+				"bludgeoning",
+				"slashing",
+				"piercing"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
 		},
 		{
 			"name": "Absorb Elements",
