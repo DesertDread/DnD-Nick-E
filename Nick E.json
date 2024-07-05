@@ -4711,7 +4711,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Cleric}"
+						"{@filter Cantrips Known|spells|level=0|class=Cleric N (NICKED)}"
 					],
 					"rows": [
 						[
@@ -4779,15 +4779,15 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Cleric}",
-						"{@filter 2nd|spells|level=2|class=Cleric}",
-						"{@filter 3rd|spells|level=3|class=Cleric}",
-						"{@filter 4th|spells|level=4|class=Cleric}",
-						"{@filter 5th|spells|level=5|class=Cleric}",
-						"{@filter 6th|spells|level=6|class=Cleric}",
-						"{@filter 7th|spells|level=7|class=Cleric}",
-						"{@filter 8th|spells|level=8|class=Cleric}",
-						"{@filter 9th|spells|level=9|class=Cleric}"
+						"{@filter 1st|spells|level=1|class=Cleric N (NICKED)}",
+						"{@filter 2nd|spells|level=2|class=Cleric N (NICKED)}",
+						"{@filter 3rd|spells|level=3|class=Cleric N (NICKED)}",
+						"{@filter 4th|spells|level=4|class=Cleric N (NICKED)}",
+						"{@filter 5th|spells|level=5|class=Cleric N (NICKED)}",
+						"{@filter 6th|spells|level=6|class=Cleric N (NICKED)}",
+						"{@filter 7th|spells|level=7|class=Cleric N (NICKED)}",
+						"{@filter 8th|spells|level=8|class=Cleric N (NICKED)}",
+						"{@filter 9th|spells|level=9|class=Cleric N (NICKED)}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -6356,11 +6356,11 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Paladin}",
-						"{@filter 2nd|spells|level=2|class=Paladin}",
-						"{@filter 3rd|spells|level=3|class=Paladin}",
-						"{@filter 4th|spells|level=4|class=Paladin}",
-						"{@filter 5th|spells|level=5|class=Paladin}"
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th"
 					],
 					"rowsSpellProgression": [
 						[
@@ -6737,7 +6737,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Spells Known|spells|class=ranger}"
+						"{@filter Spells Known|spells|class=Ranger N (NICKED)}"
 					],
 					"rows": [
 						[
@@ -6805,11 +6805,11 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Ranger}",
-						"{@filter 2nd|spells|level=2|class=Ranger}",
-						"{@filter 3rd|spells|level=3|class=Ranger}",
-						"{@filter 4th|spells|level=4|class=Ranger}",
-						"{@filter 5th|spells|level=5|class=Ranger}"
+						"{@filter 1st|spells|level=1|class=Ranger N (NICKED)}",
+						"{@filter 2nd|spells|level=2|class=Ranger N (NICKED)}",
+						"{@filter 3rd|spells|level=3|class=Ranger N (NICKED)}",
+						"{@filter 4th|spells|level=4|class=Ranger N (NICKED)}",
+						"{@filter 5th|spells|level=5|class=Ranger N (NICKED)}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -7653,8 +7653,8 @@
 				},
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=sorcerer}",
-						"{@filter Spells Known|spells|class=sorcerer}"
+						"{@filter Cantrips Known|spells|level=0|class=Sorcerer N (NICKED)}",
+						"{@filter Spells Known|spells|class=Sorcerer N (NICKED)}"
 					],
 					"rows": [
 						[
@@ -7742,15 +7742,15 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=sorcerer}",
-						"{@filter 2nd|spells|level=2|class=sorcerer}",
-						"{@filter 3rd|spells|level=3|class=sorcerer}",
-						"{@filter 4th|spells|level=4|class=sorcerer}",
-						"{@filter 5th|spells|level=5|class=sorcerer}",
-						"{@filter 6th|spells|level=6|class=sorcerer}",
-						"{@filter 7th|spells|level=7|class=sorcerer}",
-						"{@filter 8th|spells|level=8|class=sorcerer}",
-						"{@filter 9th|spells|level=9|class=sorcerer}"
+						"{@filter 1st|spells|level=1|class=Sorcerer N (NICKED)}",
+						"{@filter 2nd|spells|level=2|class=Sorcerer N (NICKED)}",
+						"{@filter 3rd|spells|level=3|class=Sorcerer N (NICKED)}",
+						"{@filter 4th|spells|level=4|class=Sorcerer N (NICKED)}",
+						"{@filter 5th|spells|level=5|class=Sorcerer N (NICKED)}",
+						"{@filter 6th|spells|level=6|class=Sorcerer N (NICKED)}",
+						"{@filter 7th|spells|level=7|class=Sorcerer N (NICKED)}",
+						"{@filter 8th|spells|level=8|class=Sorcerer N (NICKED)}",
+						"{@filter 9th|spells|level=9|class=Sorcerer N (NICKED)}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -8221,8 +8221,8 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Warlock}",
-						"{@filter Spells Known|spells|class=Warlock}",
+						"{@filter Cantrips Known|spells|level=0|class=Warlock N (NICKED)}",
+						"{@filter Spells Known|spells|class=Warlock N (NICKED)}",
 						"Spell Slots",
 						"Slot Level",
 						"{@filter Invocations Known|optionalfeatures|feature type=ei}"
@@ -8232,140 +8232,140 @@
 							2,
 							3,
 							1,
-							"{@filter 1st|spells|level=1|class=Warlock}",
+							"{@filter 1st|spells|level=1|class=Warlock N (NICKED)}",
 							0
 						],
 						[
 							2,
 							3,
 							2,
-							"{@filter 1st|spells|level=1|class=Warlock}",
+							"{@filter 1st|spells|level=1|class=Warlock N (NICKED)}",
 							2
 						],
 						[
 							2,
 							4,
 							2,
-							"{@filter 2nd|spells|level=2|class=Warlock}",
+							"{@filter 2nd|spells|level=2|class=Warlock N (NICKED)}",
 							2
 						],
 						[
 							3,
 							5,
 							2,
-							"{@filter 2nd|spells|level=2|class=Warlock}",
+							"{@filter 2nd|spells|level=2|class=Warlock N (NICKED)}",
 							2
 						],
 						[
 							3,
 							6,
 							2,
-							"{@filter 3rd|spells|level=3|class=Warlock}",
+							"{@filter 3rd|spells|level=3|class=Warlock N (NICKED)}",
 							3
 						],
 						[
 							3,
 							7,
 							2,
-							"{@filter 3rd|spells|level=3|class=Warlock}",
+							"{@filter 3rd|spells|level=3|class=Warlock N (NICKED)}",
 							3
 						],
 						[
 							3,
 							8,
 							2,
-							"{@filter 4th|spells|level=4|class=Warlock}",
+							"{@filter 4th|spells|level=4|class=Warlock N (NICKED)}",
 							4
 						],
 						[
 							3,
 							9,
 							2,
-							"{@filter 4th|spells|level=4|class=Warlock}",
+							"{@filter 4th|spells|level=4|class=Warlock N (NICKED)}",
 							4
 						],
 						[
 							3,
 							10,
 							2,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							5
 						],
 						[
 							4,
 							10,
 							2,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							5
 						],
 						[
 							4,
 							11,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							5
 						],
 						[
 							4,
 							11,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							6
 						],
 						[
 							4,
 							12,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							6
 						],
 						[
 							4,
 							12,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							6
 						],
 						[
 							4,
 							13,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							7
 						],
 						[
 							4,
 							13,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							7
 						],
 						[
 							4,
 							14,
 							4,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							7
 						],
 						[
 							4,
 							14,
 							4,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							8
 						],
 						[
 							4,
 							15,
 							4,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							8
 						],
 						[
 							4,
 							15,
 							4,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5th|spells|level=5|class=Warlock N (NICKED)}",
 							8
 						]
 					]
@@ -8553,7 +8553,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Wizard}"
+						"{@filter Cantrips Known|spells|level=0|class=Wizard N (NICKED)}"
 					],
 					"rows": [
 						[
@@ -8621,15 +8621,15 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Wizard}",
-						"{@filter 2nd|spells|level=2|class=Wizard}",
-						"{@filter 3rd|spells|level=3|class=Wizard}",
-						"{@filter 4th|spells|level=4|class=Wizard}",
-						"{@filter 5th|spells|level=5|class=Wizard}",
-						"{@filter 6th|spells|level=6|class=Wizard}",
-						"{@filter 7th|spells|level=7|class=Wizard}",
-						"{@filter 8th|spells|level=8|class=Wizard}",
-						"{@filter 9th|spells|level=9|class=Wizard}"
+						"{@filter 1st|spells|level=1|class=Wizard N (NICKED)}",
+						"{@filter 2nd|spells|level=2|class=Wizard N (NICKED)}",
+						"{@filter 3rd|spells|level=3|class=Wizard N (NICKED)}",
+						"{@filter 4th|spells|level=4|class=Wizard N (NICKED)}",
+						"{@filter 5th|spells|level=5|class=Wizard N (NICKED)}",
+						"{@filter 6th|spells|level=6|class=Wizard N (NICKED)}",
+						"{@filter 7th|spells|level=7|class=Wizard N (NICKED)}",
+						"{@filter 8th|spells|level=8|class=Wizard N (NICKED)}",
+						"{@filter 9th|spells|level=9|class=Wizard N (NICKED)}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -8866,7 +8866,7 @@
 					"known": {
 						"1": [
 							{
-								"all": "level=0|class=Wizard|source=NICKED"
+								"all": "level=0|class=Wizard N (NICKED)|source=NICKED"
 							}
 						]
 					}
@@ -9614,7 +9614,7 @@
 			"classSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"As a conduit for divine power, you can cast cleric spells. See Spell Rules for the general rules of spellcasting and Spells listing for the {@filter cleric spells|spells|class=cleric}.",
+				"As a conduit for divine power, you can cast cleric spells. See Spell Rules for the general rules of spellcasting and Spells listing for the {@filter cleric spells|spells|class=Cleric N (NICKED)}.",
 				{
 					"type": "entries",
 					"name": "Cantrips",
@@ -9626,7 +9626,7 @@
 					"type": "entries",
 					"name": "Preparing and Casting Spells",
 					"entries": [
-						"The Cleric table shows how many spell slots you have to cast your {@filter cleric spells|spells|class=cleric} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"The Cleric table shows how many spell slots you have to cast your {@filter cleric spells|spells|class=Cleric N (NICKED)} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
 						"You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.",
 						"For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds|NICKED}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
 						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
@@ -10768,7 +10768,7 @@
 			"classSource": "NICKED",
 			"level": 2,
 			"entries": [
-				"By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter paladin spell list|spells|class=paladin}.",
+				"By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See {@book chapter 10|PHB|10} for the general rules of spellcasting.",
 				{
 					"type": "entries",
 					"name": "Spellcasting Ability",
@@ -11049,12 +11049,12 @@
 			"classSource": "NICKED",
 			"level": 2,
 			"entries": [
-				"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter ranger spell list|spells|class=ranger}.",
+				"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter ranger spell list|spells|class=Ranger N (NICKED)}.",
 				{
 					"type": "entries",
 					"name": "Spell Slots",
 					"entries": [
-						"The Ranger table shows how many spell slots you have to cast your {@filter ranger spells|spells|class=ranger} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"The Ranger table shows how many spell slots you have to cast your {@filter ranger spells|spells|class=Ranger N (NICKED)} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
 						"For example, if you know the 1st-level spell {@spell animal friendship|NICKED} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell animal friendship|NICKED} using either slot."
 					]
 				},
@@ -11924,7 +11924,7 @@
 			"classSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter sorcerer spell list|spells|class=sorcerer}.",
+				"An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter sorcerer spell list|spells|class=Sorcerer N (NICKED)}.",
 				{
 					"type": "entries",
 					"name": "Cantrips",
@@ -11936,7 +11936,7 @@
 					"type": "entries",
 					"name": "Spell Slots",
 					"entries": [
-						"The Sorcerer table shows how many spell slots you have to cast your {@filter sorcerer spells|spells|class=sorcerer} of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"The Sorcerer table shows how many spell slots you have to cast your {@filter sorcerer spells|spells|class=Sorcerer N (NICKED)} of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
 						"For example, if you know the 1st-level spell {@spell burning hands|NICKED} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell burning hands|NICKED} using either slot."
 					]
 				},
@@ -12084,7 +12084,7 @@
 					"type": "list",
 					"items": [
 						"Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.",
-						"Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the {@filter sorcerer spell list|spells|level=0|class=Sorcerer}."
+						"Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the {@filter sorcerer spell list|spells|level=0|class=Sorcerer N (NICKED)}."
 					]
 				}
 			]
@@ -12235,7 +12235,7 @@
 					"type": "entries",
 					"name": "Spell Slots",
 					"entries": [
-						"The Warlock table shows how many spell slots you have to cast your {@filter warlock spells|spells|class=warlock} of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.",
+						"The Warlock table shows how many spell slots you have to cast your {@filter warlock spells|spells|class=Warlock N (NICKED)} of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.",
 						"For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell {@spell witch bind|NICKED}, you must spend one of those slots, and you cast it as a 3rd-level spell."
 					]
 				},
@@ -12313,7 +12313,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the {@filter warlock spell list|spells|level=0|class=Warlock}.",
+						"Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the {@filter warlock spell list|spells|level=0|class=Warlock N (NICKED)}.",
 						"Replace the option you chose for the Pact Boon feature with one of that feature's other options.",
 						"If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level."
 					]
@@ -12369,7 +12369,7 @@
 			"classSource": "NICKED",
 			"level": 11,
 			"entries": [
-				"At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 6th-level spell from the warlock spell list|spells|level=6|class=Warlock} as this arcanum.",
+				"At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 6th-level spell from the warlock spell list|spells|level=6|class=Warlock N (NICKED)} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.",
 				"At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."
 			]
@@ -12381,7 +12381,7 @@
 			"classSource": "NICKED",
 			"level": 13,
 			"entries": [
-				"At 13th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 7th-level spell from the warlock spell list|spells|level=7|class=Warlock} as this arcanum.",
+				"At 13th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 7th-level spell from the warlock spell list|spells|level=7|class=Warlock N (NICKED)} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
 			]
 		},
@@ -12402,7 +12402,7 @@
 			"classSource": "NICKED",
 			"level": 15,
 			"entries": [
-				"At 15th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 8th-level spell from the warlock spell list|spells|level=8|class=Warlock} as this arcanum.",
+				"At 15th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 8th-level spell from the warlock spell list|spells|level=8|class=Warlock N (NICKED)} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
 			]
 		},
@@ -12413,7 +12413,7 @@
 			"classSource": "NICKED",
 			"level": 17,
 			"entries": [
-				"At 17th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 9th-level spell from the warlock spell list|spells|level=9|class=Warlock} as this arcanum.",
+				"At 17th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 9th-level spell from the warlock spell list|spells|level=9|class=Warlock N (NICKED)} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
 			]
 		},
@@ -12455,12 +12455,12 @@
 			"classSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter wizard spell list|spells|class=wizard}.",
+				"As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter wizard spell list|spells|class=Wizard N (NICKED)}.",
 				{
 					"type": "entries",
 					"name": "Cantrips",
 					"entries": [
-						"At 1st level, wizards know all cantrips and their formulas listed in the {@filter wizard spell list|spells|class=wizard}. These formulas are simple and flexible and take up one page in your spellbook and cost no gold to transcribe into a book. They take 1 hour to transcribe all the formula bases for all wizard cantrips.",
+						"At 1st level, wizards know all cantrips and their formulas listed in the {@filter wizard spell list|spells|class=Wizard N (NICKED)}. These formulas are simple and flexible and take up one page in your spellbook and cost no gold to transcribe into a book. They take 1 hour to transcribe all the formula bases for all wizard cantrips.",
 						"At 1st level, you can prepare three cantrips of your choice from the wizard spell list. You can prepare additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.",
 						"You can change your list of prepared cantrips when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per cantrip spell on your list."
 					]
@@ -12469,7 +12469,7 @@
 					"type": "entries",
 					"name": "Spellbook",
 					"entries": [
-						"At 1st level, you have a spellbook containing six 1st-level {@filter wizard spells|spells|class=wizard} of your choice. Your spellbook is the repository of the wizard spells you know."
+						"At 1st level, you have a spellbook containing six 1st-level {@filter wizard spells|spells|class=Wizard N (NICKED)} of your choice. Your spellbook is the repository of the wizard spells you know."
 					]
 				},
 				{
@@ -12953,42 +12953,42 @@
 					"known": {
 						"s2": [
 							{
-                                "choose": "level=1;2|class=Cleric N|source=NICKED"
+                                "choose": "level=1;2|class=Cleric N (NICKED)|source=NICKED"
                             }
 						],
 						"s3": [
 							{
-                                "choose": "level=3|class=Cleric N|source=NICKED"
+                                "choose": "level=3|class=Cleric N (NICKED)|source=NICKED"
                             }
 						],
 						"s4": [
 							{
-                                "choose": "level=4|class=Cleric N|source=NICKED"
+                                "choose": "level=4|class=Cleric N (NICKED)|source=NICKED"
                             }
 						],
 						"s5": [
 							{
-                                "choose": "level=5|class=Cleric N|source=NICKED"
+                                "choose": "level=5|class=Cleric N (NICKED)|source=NICKED"
                             }
 						],
 						"s6": [
 							{
-                                "choose": "level=6|class=Cleric N|source=NICKED"
+                                "choose": "level=6|class=Cleric N (NICKED)|source=NICKED"
                             }
 						],
 						"s7": [
 							{
-                                "choose": "level=7|class=Cleric N|source=NICKED"
+                                "choose": "level=7|class=Cleric N (NICKED)|source=NICKED"
                             }
 						],
 						"s8": [
 							{
-                                "choose": "level=8|class=Cleric N|source=NICKED"
+                                "choose": "level=8|class=Cleric N (NICKED)|source=NICKED"
                             }
 						],
 						"s9": [
 							{
-                                "choose": "level=9|class=Cleric N|source=NICKED"
+                                "choose": "level=9|class=Cleric N (NICKED)|source=NICKED"
                             }
 						]
 					}
@@ -13053,7 +13053,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Wizard N|source=NICKED",
+									"choose": "level=0|class=Wizard N (NICKED)|source=NICKED",
 									"count": 2
 								}
 							]
@@ -13082,16 +13082,16 @@
 						],
 						"17": [
 							{
-								"choose": "level=6|class=Wizard N|source=NICKED"
+								"choose": "level=6|class=Wizard N (NICKED)|source=NICKED"
 							},
 							{
-								"choose": "level=7|class=Wizard N|source=NICKED"
+								"choose": "level=7|class=Wizard N (NICKED)|source=NICKED"
 							},
 							{
-								"choose": "level=8|class=Wizard N|source=NICKED"
+								"choose": "level=8|class=Wizard N (NICKED)|source=NICKED"
 							},
 							{
-								"choose": "level=9|class=Wizard N|source=NICKED"
+								"choose": "level=9|class=Wizard N (NICKED)|source=NICKED"
 							}
 						]
 					}
@@ -13378,10 +13378,10 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid N|source=NICKED"
+									"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 								},
 								{
-									"choose": "level=0|class=Druid N|source=NICKED"
+									"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 								}
 							]
 						}
@@ -13765,7 +13765,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid N|source=NICKED"
+									"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 								}
 							]
 						}
@@ -13795,7 +13795,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid N|source=NICKED"
+									"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 								}
 							]
 						}
@@ -13825,7 +13825,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid N|source=NICKED"
+									"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 								}
 							]
 						}
@@ -13855,7 +13855,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid N|source=NICKED"
+									"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 								}
 							]
 						}
@@ -13885,7 +13885,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid N|source=NICKED"
+									"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 								}
 							]
 						}
@@ -13915,7 +13915,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid N|source=NICKED"
+									"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 								}
 							]
 						}
@@ -13945,7 +13945,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid N|source=NICKED"
+									"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 								}
 							]
 						}
@@ -13975,7 +13975,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid N|source=NICKED"
+									"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 								}
 							]
 						}
@@ -14401,30 +14401,30 @@
 					"expanded": {
 						"3": [
 							{
-								"all": "level=0|class=Wizard N|source=NICKED"
+								"all": "level=0|class=Wizard N (NICKED)|source=NICKED"
 							},
 							{
-								"all": "level=1|class=Wizard N|source=NICKED"
+								"all": "level=1|class=Wizard N (NICKED)|source=NICKED"
 							}
 						],
 						"5": [
 							{
-								"all": "level=2|class=Wizard N|source=NICKED"
+								"all": "level=2|class=Wizard N (NICKED)|source=NICKED"
 							}
 						],
 						"9": [
 							{
-								"all": "level=3|class=Wizard N|source=NICKED"
+								"all": "level=3|class=Wizard N (NICKED)|source=NICKED"
 							}
 						],
 						"13": [
 							{
-								"all": "level=4|class=Wizard N|source=NICKED"
+								"all": "level=4|class=Wizard N (NICKED)|source=NICKED"
 							}
 						],
 						"20": [
 							{
-								"all": "level=4|class=Wizard N|source=NICKED"
+								"all": "level=4|class=Wizard N (NICKED)|source=NICKED"
 							}
 						]
 					}
@@ -14439,8 +14439,8 @@
 						}
 					],
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Wizard}",
-						"{@filter Spells Known|spells|class=Wizard}"
+						"{@filter Cantrips Known|spells|level=0|class=Wizard N (NICKED)}",
+						"{@filter Spells Known|spells|class=Wizard N (NICKED)}"
 					],
 					"rows": [
 						[
@@ -14534,11 +14534,11 @@
 						}
 					],
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Wizard}",
-						"{@filter 2nd|spells|level=2|class=Wizard}",
-						"{@filter 3rd|spells|level=3|class=Wizard}",
-						"{@filter 4th|spells|level=4|class=Wizard}",
-						"{@filter 5th|spells|level=5|class=Wizard}"
+						"{@filter 1st|spells|level=1|class=Wizard N (NICKED)}",
+						"{@filter 2nd|spells|level=2|class=Wizard N (NICKED)}",
+						"{@filter 3rd|spells|level=3|class=Wizard N (NICKED)}",
+						"{@filter 4th|spells|level=4|class=Wizard N (NICKED)}",
+						"{@filter 5th|spells|level=5|class=Wizard N (NICKED)}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -15615,42 +15615,42 @@
 						"3": [
 							"resistance|NICKED",
 							{
-								"choose": "level=1|class=Cleric N|source=NICKED"
+								"choose": "level=1|class=Cleric N (NICKED)|source=NICKED"
 							},
 							{
-								"choose": "level=1|class=Warlock N|source=NICKED"
+								"choose": "level=1|class=Warlock N (NICKED)|source=NICKED"
 							}
 						],
 						"5": [
 							{
-								"choose": "level=2|class=Cleric N|source=NICKED"
+								"choose": "level=2|class=Cleric N (NICKED)|source=NICKED"
 							},
 							{
-								"choose": "level=2|class=Warlock N|source=NICKED"
+								"choose": "level=2|class=Warlock N (NICKED)|source=NICKED"
 							}
 						],
 						"9": [
 							{
-								"choose": "level=3|class=Cleric N|source=NICKED"
+								"choose": "level=3|class=Cleric N (NICKED)|source=NICKED"
 							},
 							{
-								"choose": "level=3|class=Warlock N|source=NICKED"
+								"choose": "level=3|class=Warlock N (NICKED)|source=NICKED"
 							}
 						],
 						"13": [
 							{
-								"choose": "level=4|class=Cleric N|source=NICKED"
+								"choose": "level=4|class=Cleric N (NICKED)|source=NICKED"
 							},
 							{
-								"choose": "level=4|class=Warlock N|source=NICKED"
+								"choose": "level=4|class=Warlock N (NICKED)|source=NICKED"
 							}
 						],
 						"17": [
 							{
-								"choose": "level=5|class=Cleric N|source=NICKED"
+								"choose": "level=5|class=Cleric N (NICKED)|source=NICKED"
 							},
 							{
-								"choose": "level=5|class=Warlock N|source=NICKED"
+								"choose": "level=5|class=Warlock N (NICKED)|source=NICKED"
 							}
 						]
 					}
@@ -15801,7 +15801,7 @@
 								"choose": {
 										"from": [
 											"misty step|NICKED",
-											"level=2|class=Wizard N|source=NICKED"
+											"level=2|class=Wizard N (NICKED)|source=NICKED"
 										],
 										"count": 1
 								}
@@ -15811,30 +15811,30 @@
 					"expanded": {
 						"3": [
 							{
-								"all": "level=0|class=Wizard N|source=NICKED"
+								"all": "level=0|class=Wizard N (NICKED)|source=NICKED"
 							},
 							{
-								"all": "level=1|class=Wizard N|source=NICKED"
+								"all": "level=1|class=Wizard N (NICKED)|source=NICKED"
 							}
 						],
 						"5": [
 							{
-								"all": "level=2|class=Wizard N|source=NICKED"
+								"all": "level=2|class=Wizard N (NICKED)|source=NICKED"
 							}
 						],
 						"9": [
 							{
-								"all": "level=3|class=Wizard N|source=NICKED"
+								"all": "level=3|class=Wizard N (NICKED)|source=NICKED"
 							}
 						],
 						"13": [
 							{
-								"all": "level=4|class=Wizard N|source=NICKED"
+								"all": "level=4|class=Wizard N (NICKED)|source=NICKED"
 							}
 						],
 						"20": [
 							{
-								"all": "level=5|class=Wizard N|source=NICKED"
+								"all": "level=5|class=Wizard N (NICKED)|source=NICKED"
 							}
 						]
 					},
@@ -15856,8 +15856,8 @@
 						}
 					],
 					"colLabels": [
-						"{@filter Cantrips Prepared|spells|level=0|class=Wizard}",
-						"{@filter Spells Learned|spells|class=Wizard}"
+						"{@filter Cantrips Prepared|spells|level=0|class=Wizard N (NICKED)}",
+						"{@filter Spells Learned|spells|class=Wizard N (NICKED)}"
 					],
 					"rows": [
 						[
@@ -15951,11 +15951,11 @@
 						}
 					],
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Wizard}",
-						"{@filter 2nd|spells|level=2|class=Wizard}",
-						"{@filter 3rd|spells|level=3|class=Wizard}",
-						"{@filter 4th|spells|level=4|class=Wizard}",
-						"{@filter 5th|spells|level=5|class=Wizard}"
+						"{@filter 1st|spells|level=1|class=Wizard N (NICKED)}",
+						"{@filter 2nd|spells|level=2|class=Wizard N (NICKED)}",
+						"{@filter 3rd|spells|level=3|class=Wizard N (NICKED)}",
+						"{@filter 4th|spells|level=4|class=Wizard N (NICKED)}",
+						"{@filter 5th|spells|level=5|class=Wizard N (NICKED)}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -16310,50 +16310,50 @@
 					"expanded": {
 						"1": [
 							{
-								"all": "level=0|class=Cleric N|source=NICKED"
+								"all": "level=0|class=Cleric N (NICKED)|source=NICKED"
 							},
 							{
-								"all": "level=1|class=Cleric N|source=NICKED"
+								"all": "level=1|class=Cleric N (NICKED)|source=NICKED"
 							}
 						],
 						"3": [
 							{
-								"all": "level=2|class=Cleric N|source=NICKED"
+								"all": "level=2|class=Cleric N (NICKED)|source=NICKED"
 							}
 						],
 						"5": [
 							{
-								"all": "level=3|class=Cleric N|source=NICKED"
+								"all": "level=3|class=Cleric N (NICKED)|source=NICKED"
 							}
 						],
 						"7": [
 							{
-								"all": "level=4|class=Cleric N|source=NICKED"
+								"all": "level=4|class=Cleric N (NICKED)|source=NICKED"
 							}
 						],
 						"9": [
 							{
-								"all": "level=5|class=Cleric N|source=NICKED"
+								"all": "level=5|class=Cleric N (NICKED)|source=NICKED"
 							}
 						],
 						"11": [
 							{
-								"all": "level=6|class=Cleric N|source=NICKED"
+								"all": "level=6|class=Cleric N (NICKED)|source=NICKED"
 							}
 						],
 						"13": [
 							{
-								"all": "level=7|class=Cleric N|source=NICKED"
+								"all": "level=7|class=Cleric N (NICKED)|source=NICKED"
 							}
 						],
 						"15": [
 							{
-								"all": "level=8|class=Cleric N|source=NICKED"
+								"all": "level=8|class=Cleric N (NICKED)|source=NICKED"
 							}
 						],
 						"17": [
 							{
-								"all": "level=9|class=Cleric N|source=NICKED"
+								"all": "level=9|class=Cleric N (NICKED)|source=NICKED"
 							}
 						]
 					}
@@ -16680,7 +16680,7 @@
 					"known": {
 						"3": [
 							{
-								"choose": "level=0|class=Cleric N|source=NICKED",
+								"choose": "level=0|class=Cleric N (NICKED)|source=NICKED",
 								"count": 1
 							},
 							"light|NICKED"
@@ -16711,7 +16711,7 @@
 					"prepared": {
 						"6": [
 							{
-								"choose": "level=1;2;3|class=Cleric N|source=NICKED",
+								"choose": "level=1;2;3|class=Cleric N (NICKED)|source=NICKED",
 								"count": 2
 							}
 						]
@@ -16830,31 +16830,31 @@
 					"expanded": {
 						"s1": [
 							{
-								"choose": "level=1|class=Sorcerer N;Wizard N|source=NICKED",
+								"choose": "level=1|class=Sorcerer N (NICKED);Wizard N (NICKED)|source=NICKED",
 								"count": 1
 							}
 						],
 						"s2": [
 							{
-								"choose": "level=1;2|class=Sorcerer N;Wizard N|source=NICKED",
+								"choose": "level=1;2|class=Sorcerer N (NICKED);Wizard N (NICKED)|source=NICKED",
 								"count": 1
 							}
 						],
 						"s3": [
 							{
-								"choose": "level=1;2;3|class=Sorcerer N;Wizard N|source=NICKED",
+								"choose": "level=1;2;3|class=Sorcerer N (NICKED);Wizard N (NICKED)|source=NICKED",
 								"count": 1
 							}
 						],
 						"s4": [
 							{
-								"choose": "level=1;2;3;4|class=Sorcerer N;Wizard N|source=NICKED",
+								"choose": "level=1;2;3;4|class=Sorcerer N (NICKED);Wizard N (NICKED)|source=NICKED",
 								"count": 1
 							}
 						],
 						"s5": [
 							{
-								"choose": "level=1;2;3;4;5|class=Sorcerer N;Wizard N|source=NICKED",
+								"choose": "level=1;2;3;4;5|class=Sorcerer N (NICKED);Wizard N (NICKED)|source=NICKED",
 								"count": 1
 							}
 						]
@@ -19778,7 +19778,7 @@
 			],
 			"entries": [
 				"When you choose this domain at 1st level, you gain proficiency in the {@skill Arcana} skill, double your proficiency bonus with that skill.",
-				"You gain two cantrips of your choice from the {@filter wizard spell list|spells|class=wizard|level=0}. For you, these cantrips count as cleric cantrips."
+				"You gain two cantrips of your choice from the {@filter wizard spell list|spells|class=Wizard N (NICKED)|level=0}. For you, these cantrips count as cleric cantrips."
 			]
 		},
 		{
@@ -23750,7 +23750,7 @@
 					"type": "entries",
 					"name": "Cantrips",
 					"entries": [
-						"You prepare two cantrips of your choice from the {@filter wizard spell list|spells|class=wizard}. You prepare an additional wizard cantrip of your choice at 10th level."
+						"You prepare two cantrips of your choice from the {@filter wizard spell list|spells|class=Wizard N (NICKED)}. You prepare an additional wizard cantrip of your choice at 10th level."
 					]
 				},
 				{
@@ -29044,7 +29044,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you reach 3rd level, you gain the ability to cast spells. See spell rules for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter wizard spell list|spells|class=wizard}.",
+				"When you reach 3rd level, you gain the ability to cast spells. See spell rules for the general rules of spellcasting and the {@filter wizard spell list|spells|class=Wizard N (NICKED)}.",
 				{
 					"type": "entries",
 					"entries": [
@@ -29064,7 +29064,7 @@
 							"type": "entries",
 							"name": "Spell Slots",
 							"entries": [
-								"The Arcane Scoundrel Spellcasting table shows how many spell points you have to cast your {@filter wizard spells|spells|class=wizard} of 1st level and higher. To cast one of these spells, you must expend a number of spell points equal to the spell level.", 
+								"The Arcane Scoundrel Spellcasting table shows how many spell points you have to cast your {@filter wizard spells|spells|class=Wizard N (NICKED)} of 1st level and higher. To cast one of these spells, you must expend a number of spell points equal to the spell level.", 
 								"You cannot upcast your spells.",
 								"You regain all expended spell slots when you finish a long rest.",
 								"For example, if you know the 1st-level spell {@spell charm person|NICKED} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell charm person|NICKED} using either slot."
@@ -30582,7 +30582,7 @@
 			"header": 1,
 			"entries": [
 				"You learn additional spells when you reach certain levels in this class, as shown on the Soulc of Balance Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
-				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an {@filter abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=A;T|level=1;2;3;4;5}.",
+				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an {@filter abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list|spells|class=Sorcerer N (NICKED);Warlock N (NICKED);Wizard N (NICKED)|school=A;T|level=1;2;3;4;5}.",
 				{
 					"type": "table",
 					"caption": "Soul of Balance Spells",
@@ -31077,43 +31077,43 @@
 					"rows": [
 						[
 							"Black",
-							"{@filter Acid|spells|damage type=acid|class=sorcerer}"
+							"{@filter Acid|spells|damage type=acid|class=Sorcerer N (NICKED)}"
 						],
 						[
 							"Blue",
-							"{@filter Lightning|spells|damage type=lightning|class=sorcerer}"
+							"{@filter Lightning|spells|damage type=lightning|class=Sorcerer N (NICKED)}"
 						],
 						[
 							"Brass",
-							"{@filter Fire|spells|damage type=fire|class=sorcerer}"
+							"{@filter Fire|spells|damage type=fire|class=Sorcerer N (NICKED)}"
 						],
 						[
 							"Bronze",
-							"{@filter Lightning|spells|damage type=lightning|class=sorcerer}"
+							"{@filter Lightning|spells|damage type=lightning|class=Sorcerer N (NICKED)}"
 						],
 						[
 							"Copper",
-							"{@filter Acid|spells|damage type=acid|class=sorcerer}"
+							"{@filter Acid|spells|damage type=acid|class=Sorcerer N (NICKED)}"
 						],
 						[
 							"Gold",
-							"{@filter Fire|spells|damage type=fire|class=sorcerer}"
+							"{@filter Fire|spells|damage type=fire|class=Sorcerer N (NICKED)}"
 						],
 						[
 							"Green",
-							"{@filter Poison|spells|damage type=poison|class=sorcerer}"
+							"{@filter Poison|spells|damage type=poison|class=Sorcerer N (NICKED)}"
 						],
 						[
 							"Red",
-							"{@filter Fire|spells|damage type=fire|class=sorcerer}"
+							"{@filter Fire|spells|damage type=fire|class=Sorcerer N (NICKED)}"
 						],
 						[
 							"Silver",
-							"{@filter Cold|spells|damage type=cold|class=sorcerer}"
+							"{@filter Cold|spells|damage type=cold|class=Sorcerer N (NICKED)}"
 						],
 						[
 							"White",
-							"{@filter Cold|spells|damage type=cold|class=sorcerer}"
+							"{@filter Cold|spells|damage type=cold|class=Sorcerer N (NICKED)}"
 						]
 					]
 				},
@@ -31736,7 +31736,7 @@
 			"header": 1,
 			"entries": [
 				"You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
-				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a {@filter divination or an enchantment spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=D;E|level=1;2;3;4;5}.",
+				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a {@filter divination or an enchantment spell from the sorcerer, warlock, or wizard spell list|spells|class=Sorcerer N (NICKED);Warlock N (NICKED);Wizard N (NICKED)|school=D;E|level=1;2;3;4;5}.",
 				{
 					"type": "table",
 					"caption": "Psionic Spells",
@@ -33374,7 +33374,7 @@
 					"type": "list",
 					"items": [
 						"Gain one Healing Potion of a Rarity based on the souls expended (or your level).",
-						"Cast a spell from your {@filter warlock spell list|spells|class=warlock} at 5th level.",
+						"Cast a spell from your {@filter warlock spell list|spells|class=Warlock N (NICKED)} at 5th level.",
 						"Gain +10 movement speed until your next long rest.",
 						"Gain resistance to a damage type of your choice until your next long rest.",
 						"Cast one of the following spells by expending 5 soul shards without needing material components:{@spell commune|NICKED}, {@spell contact other plane|NICKED},{@spell divination|NICKED}, {@spell legend lore|NICKED}"
@@ -34857,7 +34857,7 @@
 						"_": {
 							"_": [
 								{
-									"choose": "level=0|class=Wizard N|source=NICKED",
+									"choose": "level=0|class=Wizard N (NICKED)|source=NICKED",
 									"count": 1
 								}
 							]
@@ -34866,7 +34866,7 @@
 				}
 			],
 			"entries": [
-				"You learn one cantrip of your choice from the {@filter wizard spell list|spells|class=wizard|level=0}. Intelligence is your spellcasting modifier for this spell."
+				"You learn one cantrip of your choice from the {@filter wizard spell list|spells|class=Wizard N (NICKED)|level=0}. Intelligence is your spellcasting modifier for this spell."
 			]
         },
 		{
@@ -37423,7 +37423,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=1;2;3;4;5|class=Ranger N|source=NICKED",
+								"choose": "level=1;2;3;4;5|class=Ranger N (NICKED)|source=NICKED",
 								"count": 1
 							}
 						]
@@ -42307,7 +42307,7 @@
 						"_": {
 							"_": [
 								{
-									"choose": "level=0|class=Cleric N|source=NICKED",
+									"choose": "level=0|class=Cleric N (NICKED)|source=NICKED",
 									"count": 1
 								}
 							]
@@ -42333,7 +42333,7 @@
 						"_": {
 							"_": [
 								{
-									"choose": "level=0|class=Cleric N|source=NICKED",
+									"choose": "level=0|class=Cleric N (NICKED)|source=NICKED",
 									"count": 1
 								}
 							]
@@ -42344,7 +42344,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Cleric N|source=NICKED",
+										"choose": "level=1|class=Cleric N (NICKED)|source=NICKED",
 										"count": 1
 									},
 									"augury|NICKED"
@@ -42359,7 +42359,7 @@
 						"_": {
 							"_": [
 								{
-									"choose": "level=0|class=Cleric N|source=NICKED",
+									"choose": "level=0|class=Cleric N (NICKED)|source=NICKED",
 									"count": 1
 								}
 							]
@@ -42370,7 +42370,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Druid N|source=NICKED",
+										"choose": "level=1|class=Druid N (NICKED)|source=NICKED",
 										"count": 1
 									},
 									"augury|NICKED"
@@ -42382,7 +42382,7 @@
 			],
 			"entries": [
 				"A god chose you to carry a spark of their power.",
-				"You learn one cantrip of your choice from the {@filter cleric spell list|spells|level=0|class=Cleric N|source=NICKED} and one 1st level spell based on the alignment of the divine source of your power as specified in the Alignment Spells table below. You also learn {@spell augury|NICKED}",
+				"You learn one cantrip of your choice from the {@filter cleric spell list|spells|level=0|class=Cleric N (NICKED)|source=NICKED} and one 1st level spell based on the alignment of the divine source of your power as specified in the Alignment Spells table below. You also learn {@spell augury|NICKED}",
 				{
 					"type": "table",
 					"colLabels": [
@@ -42396,15 +42396,15 @@
 					"rows": [
 						[
 							"Evil",
-							"{@filter 1st level Warlock spell|spells|level=1|class=Warlock N|source=NICKED}"
+							"{@filter 1st level Warlock spell|spells|level=1|class=Warlock N (NICKED)|source=NICKED}"
 						],
 						[
 							"Good",
-							"{@filter 1st level Cleric spell|spells|level=1|class=Cleric N|source=NICKED}"
+							"{@filter 1st level Cleric spell|spells|level=1|class=Cleric N (NICKED)|source=NICKED}"
 						],
 						[
 							"Neutral",
-							"{@filter 1st level Druid spell|spells|level=1|class=Druid N|source=NICKED}"
+							"{@filter 1st level Druid spell|spells|level=1|class=Druid N (NICKED)|source=NICKED}"
 						]
 					]
 				},
@@ -43271,7 +43271,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Bard N|source=NICKED"
+										"choose": "level=1|class=Bard N (NICKED)|source=NICKED"
 									}
 								]
 							}
@@ -43280,7 +43280,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Bard N|source=NICKED",
+								"choose": "level=0|class=Bard N (NICKED)|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43294,7 +43294,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Cleric N|source=NICKED"
+										"choose": "level=1|class=Cleric N (NICKED)|source=NICKED"
 									}
 								]
 							}
@@ -43303,7 +43303,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Cleric N|source=NICKED",
+								"choose": "level=0|class=Cleric N (NICKED)|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43317,7 +43317,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Druid N|source=NICKED"
+										"choose": "level=1|class=Druid N (NICKED)|source=NICKED"
 									}
 								]
 							}
@@ -43326,7 +43326,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Druid N|source=NICKED",
+								"choose": "level=0|class=Druid N (NICKED)|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43340,7 +43340,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Sorcerer N|source=NICKED"
+										"choose": "level=1|class=Sorcerer N (NICKED)|source=NICKED"
 									}
 								]
 							}
@@ -43349,7 +43349,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Sorcerer N|source=NICKED",
+								"choose": "level=0|class=Sorcerer N (NICKED)|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43363,7 +43363,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Warlock N|source=NICKED"
+										"choose": "level=1|class=Warlock N (NICKED)|source=NICKED"
 									}
 								]
 							}
@@ -43372,7 +43372,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Warlock N|source=NICKED",
+								"choose": "level=0|class=Warlock N (NICKED)|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43386,7 +43386,7 @@
 							"daily": {
 								"1": [
 									{
-										"choose": "level=1|class=Wizard N|source=NICKED"
+										"choose": "level=1|class=Wizard N (NICKED)|source=NICKED"
 									}
 								]
 							}
@@ -43395,7 +43395,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Wizard N|source=NICKED",
+								"choose": "level=0|class=Wizard N (NICKED)|source=NICKED",
 								"count": 2
 							}
 						]
@@ -43403,9 +43403,9 @@
 				}
 			],
 			"entries": [
-				"Choose a class: {@filter bard|spells|level=0;1|class=bard}, {@filter cleric|spells|level=0;1|class=cleric}, {@filter druid|spells|level=0;1|class=druid}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, {@filter warlock|spells|level=0;1|class=warlock}, or {@filter wizard|spells|level=0;1|class=wizard}. You learn two cantrips of your choice from that class's spell list.",
+				"Choose a class: {@filter bard|spells|level=0;1|class=Bard N (NICKED)}, {@filter cleric|spells|level=0;1|class=Cleric N (NICKED)}, {@filter druid|spells|level=0;1|class=Druid N (NICKED)}, {@filter sorcerer|spells|level=0;1|class=Sorcerer N (NICKED)}, {@filter warlock|spells|level=0;1|class=Warlock N (NICKED)}, or {@filter wizard|spells|level=0;1|class=Wizard N (NICKED)}. You learn two cantrips of your choice from that class's spell list.",
 				"In addition, choose one 1st-level spell to learn from that same list. Using this feat, you can cast the spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.",
-				"Your spellcasting ability for these spells depends on the class you chose: Charisma for {@filter bard|spells|level=0;1|class=bard}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, or {@filter warlock|spells|level=0;1|class=warlock}; Wisdom for {@filter cleric|spells|level=0;1|class=cleric} or {@filter druid|spells|level=0;1|class=druid}; or Intelligence for {@filter wizard|spells|level=0;1|class=wizard}."
+				"Your spellcasting ability for these spells depends on the class you chose: Charisma for {@filter bard|spells|level=0;1|class=Bard N (NICKED)}, {@filter sorcerer|spells|level=0;1|class=Sorcerer N (NICKED)}, or {@filter warlock|spells|level=0;1|class=Warlock N (NICKED)}; Wisdom for {@filter cleric|spells|level=0;1|class=Cleric N (NICKED)} or {@filter druid|spells|level=0;1|class=Druid N (NICKED)}; or Intelligence for {@filter wizard|spells|level=0;1|class=Wizard N (NICKED)}."
 			]
 		},
 		{
@@ -43966,7 +43966,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "level=1|class=Bard N|components & miscellaneous=ritual|source=NICKED",
+									"choose": "level=1|class=Bard N (NICKED)|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -43980,7 +43980,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "level=1|class=Cleric N|components & miscellaneous=ritual|source=NICKED",
+									"choose": "level=1|class=Cleric N (NICKED)|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -43994,7 +43994,7 @@
 						"_": {
 							"ritual":  [
 								{
-									"choose": "level=1|class=Druid N|components & miscellaneous=ritual|source=NICKED",
+									"choose": "level=1|class=Druid N (NICKED)|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -44008,7 +44008,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "level=1|class=Sorcerer N|components & miscellaneous=ritual|source=NICKED",
+									"choose": "level=1|class=Sorcerer N (NICKED)|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -44022,7 +44022,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "level=1|class=Warlock N|components & miscellaneous=ritual|source=NICKED",
+									"choose": "level=1|class=Warlock N (NICKED)|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -44036,7 +44036,7 @@
 						"_": {
 							"ritual": [
 								{
-									"choose": "level=1|class=Wizard N|components & miscellaneous=ritual|source=NICKED",
+									"choose": "level=1|class=Wizard N (NICKED)|components & miscellaneous=ritual|source=NICKED",
 									"count": 2
 								}
 							]
@@ -44046,7 +44046,7 @@
 			],
 			"entries": [
 				"You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.",
-				"When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: {@filter bard|spells|level=1|class=bard|components & miscellaneous=ritual}, {@filter cleric|spells|level=1|class=cleric|components & miscellaneous=ritual}, {@filter druid|spells|level=1|class=druid|components & miscellaneous=ritual}, {@filter sorcerer|spells|level=1|class=sorcerer|components & miscellaneous=ritual}, {@filter warlock|spells|level=1|class=warlock|components & miscellaneous=ritual}, or {@filter wizard|spells|level=1|class=wizard|components & miscellaneous=ritual}. You must choose your spells from that class's spell list, and the spells you choose must have the ritual tag. The class you choose also determines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
+				"When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: {@filter bard|spells|level=1|class=Bard N (NICKED)|components & miscellaneous=ritual}, {@filter cleric|spells|level=1|class=Cleric N (NICKED)|components & miscellaneous=ritual}, {@filter druid|spells|level=1|class=Druid N (NICKED)|components & miscellaneous=ritual}, {@filter sorcerer|spells|level=1|class=Sorcerer N (NICKED)|components & miscellaneous=ritual}, {@filter warlock|spells|level=1|class=Warlock N (NICKED)|components & miscellaneous=ritual}, or {@filter wizard|spells|level=1|class=Wizard N (NICKED)|components & miscellaneous=ritual}. You must choose your spells from that class's spell list, and the spells you choose must have the ritual tag. The class you choose also determines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
 				"If you come across a spell in written form, such as a magical {@item spell scroll} or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it."
 			]
 		},
@@ -44395,7 +44395,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Bard N|spell attack=m;r;o|source=NICKED",
+								"choose": "level=0|class=Bard N (NICKED)|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44407,7 +44407,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Cleric N|spell attack=m;r;o|source=NICKED",
+								"choose": "level=0|class=Cleric N (NICKED)|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44419,7 +44419,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Druid N|spell attack=m;r;o|source=NICKED",
+								"choose": "level=0|class=Druid N (NICKED)|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44431,7 +44431,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Sorcerer N|spell attack=m;r;o|source=NICKED",
+								"choose": "level=0|class=Sorcerer N (NICKED)|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44443,7 +44443,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Warlock N|spell attack=m;r;o|source=NICKED",
+								"choose": "level=0|class=Warlock N (NICKED)|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44455,7 +44455,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Wizard N|spell attack=m;r;o|source=NICKED",
+								"choose": "level=0|class=Wizard N (NICKED)|spell attack=m;r;o|source=NICKED",
 								"count": 1
 							}
 						]
@@ -44469,7 +44469,7 @@
 					"items": [
 						"When you cast a spell that requires you to make an attack roll or if a {@bold cantrip} would force a creature to make a saving throw, the spell's range is doubled.",
 						"Your ranged spell attacks ignore half cover and three-quarters cover.",
-						"You learn one cantrip that requires an attack roll or saving throw. Choose the cantrip from the {@filter bard|spells|level=0|class=bard|spell attack=m;r;o}, {@filter cleric|spells|level=0|class=cleric|spell attack=m;r;o}, {@filter druid|spells|level=0|class=druid|spell attack=m;r;o}, {@filter sorcerer|spells|level=0|class=sorcerer|spell attack=m;r;o}, {@filter warlock|spells|level=0|class=warlock|spell attack=m;r;o}, or {@filter wizard|spells|level=0|class=wizard|spell attack=m;r;o} spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+						"You learn one cantrip that requires an attack roll or saving throw. Choose the cantrip from the {@filter bard|spells|level=0|class=Bard N (NICKED)|spell attack=m;r;o}, {@filter cleric|spells|level=0|class=Cleric N (NICKED)|spell attack=m;r;o}, {@filter druid|spells|level=0|class=Druid N (NICKED)|spell attack=m;r;o}, {@filter sorcerer|spells|level=0|class=Sorcerer N (NICKED)|spell attack=m;r;o}, {@filter warlock|spells|level=0|class=Warlock N (NICKED)|spell attack=m;r;o}, or {@filter wizard|spells|level=0|class=Wizard N (NICKED)|spell attack=m;r;o} spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
 					]
 				}
 			]
@@ -44706,7 +44706,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Druid N|source=NICKED"
+								"choose": "level=0|class=Druid N (NICKED)|source=NICKED"
 							}
 						]
 					}
