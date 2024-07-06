@@ -33581,7 +33581,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, when you see a creature within 60 ft of you attempt to eleport, you may use your reaction to stop that creature from teleporting. This effect does not stop any other effect of the spell or ability such as the damage from {@spell thunder step|NICKED}.",
+				"Starting at 10th level, when you see a creature within 60 ft of you attempt to teleport, you may use your reaction to stop that creature from teleporting. This effect does not stop any other effect of the spell or ability such as the damage from {@spell thunder step|NICKED}.",
 				"If you wish, you may then make a contested check using you spellcasting ability against their spellcasting ability. If you succeed, the creature instead teleports to an unoccupied space within 5 ft of you of your choice.",
 				"Once you use this feature, you cannot do so again until you finish a long rest or expend a spell slot of 4th level or greater as part of a reaction."
 			]
