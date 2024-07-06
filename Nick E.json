@@ -4506,7 +4506,90 @@
 				"vicious mockery|NICKED",
 				"ventriloquism|NICKED",
 				"word of suffering|NICKED",
-				"animal friendship|NICKED"
+				"animal friendship|NICKED",
+				"bane|NICKED",
+				"charm person|NICKED",
+				"color spray|NICKED",
+				"command|NICKED",
+				"comprehend languages|NICKED",
+				"cure wounds|NICKED",
+				"detect magic|NICKED",
+				"disguise self|NICKED",
+				"dissonant whispers|NICKED",
+				"earth tremor|NICKED",
+				"faerie fire|NICKED",
+				"feather fall|NICKED",
+				"healing word|NICKED",
+				"heroism|NICKED",
+				"hideous laughter|NICKED",
+				"identify|NICKED",
+				"illusory script|NICKED",
+				"longstrider|NICKED",
+				"silent image|NICKED",
+				"sleep|NICKED",
+				"speak with animals|NICKED",
+				"thunderwave|NICKED",
+				"unseen servant|NICKED",
+				"aid|NICKED",
+				"animal messenger|NICKED",
+				"blindness/deafness|NICKED",
+				"calm emotions|NICKED",
+				"cloud of daggers|NICKED",
+				"crown of madness|NICKED",
+				"detect thoughts|NICKED",
+				"enhance ability|NICKED",
+				"enthrall|NICKED",
+				"enlarge/reduce|NICKED",
+				"heat metal|NICKED",
+				"hold person|NICKED",
+				"invisibility|NICKED",
+				"knock|NICKED",
+				"lesser restoration|NICKED",
+				"locate animals or plants|NICKED",
+				"locate object|NICKED",
+				"magic mouth|NICKED",
+				"mirror image|NICKED",
+				"phantasmal force|NICKED",
+				"pyrotechnics|NICKED",
+				"see invisibility|NICKED",
+				"shatter|NICKED",
+				"silence|NICKED",
+				"skywrite|NICKED",
+				"suggestion|NICKED",
+				"warding wind|NICKED",
+				"bestow curse|NICKED",
+				"clairvoyance|NICKED",
+				"catnap|NICKED",
+				"dispel magic|NICKED",
+				"enemies abound|NICKED",
+				"fear|NICKED",
+				"feign death|NICKED",
+				"glyph of warding|NICKED",
+				"haste|NICKED",
+				"hypnotic pattern|NICKED",
+				"intellect fortress|NICKED",
+				"tiny hut|NICKED",
+				"mass healing word|NICKED",
+				"major image|NICKED",
+				"nondetection|NICKED",
+				"plant growth|NICKED",
+				"sending|NICKED",
+				"slow|NICKED",
+				"speak with dead|NICKED",
+				"stinking cloud|NICKED",
+				"tongues|NICKED",
+				"charm monster|NICKED",
+				"compulsion|NICKED",
+				"confusion|NICKED",
+				"dimension door|NICKED",
+				"freedom of movement|NICKED",
+				"greater invisibility|NICKED",
+				"hallucinatory terrain|NICKED",
+				"locate creature|NICKED",
+				"phantasmal killer|NICKED",
+				"polymorph|NICKED",
+				"secret chest|NICKED"
+
             ],
             "foundryAdvancement": [
 				{
@@ -13131,7 +13214,22 @@
 						],
 						"3": [
 							"blindness/deafness|NICKED",
-							"ray of enfeeblement|NICKED"
+							"calm emotions|NICKED",
+							""
+cloud of daggers|NICKED	,
+"crown of madness|NICKED",
+"detect thoughts|NICKED",
+"enhance ability|NICKED",
+"enthrall|NICKED",
+"enlarge/reduce|NICKED",
+"heat metal|NICKED",
+"hold person|NICKED",
+"invisibility|NICKED",
+"knock|NICKED",
+"lesser restoration|NICKED",
+"locate animals or plants|NICKED",
+
+"ray of enfeeblement|NICKED"
 						],
 						"5": [
 							"animate dead|NICKED",
@@ -13702,7 +13800,22 @@
 					"prepared": {
 						"3": [
 							"blindness/deafness|NICKED",
-							"gentle repose|NICKED"
+							"calm emotions|NICKED",
+							""
+cloud of daggers|NICKED	,
+"crown of madness|NICKED",
+"detect thoughts|NICKED",
+"enhance ability|NICKED",
+"enthrall|NICKED",
+"enlarge/reduce|NICKED",
+"heat metal|NICKED",
+"hold person|NICKED",
+"invisibility|NICKED",
+"knock|NICKED",
+"lesser restoration|NICKED",
+"locate animals or plants|NICKED",
+
+"gentle repose|NICKED"
 						],
 						"5": [
 							"animate dead|NICKED",
@@ -16795,7 +16908,22 @@
 						],
 						"s2": [
 							"blindness/deafness|NICKED",
-							"scorching ray|NICKED"
+							"calm emotions|NICKED",
+							""
+cloud of daggers|NICKED	,
+"crown of madness|NICKED",
+"detect thoughts|NICKED",
+"enhance ability|NICKED",
+"enthrall|NICKED",
+"enlarge/reduce|NICKED",
+"heat metal|NICKED",
+"hold person|NICKED",
+"invisibility|NICKED",
+"knock|NICKED",
+"lesser restoration|NICKED",
+"locate animals or plants|NICKED",
+
+"scorching ray|NICKED"
 						],
 						"s3": [
 							"elemental weapon|NICKED",
@@ -16925,7 +17053,22 @@
 						],
 						"s2": [
 							"blindness/deafness|NICKED",
-							"protection from poison|NICKED"
+							"calm emotions|NICKED",
+							""
+cloud of daggers|NICKED	,
+"crown of madness|NICKED",
+"detect thoughts|NICKED",
+"enhance ability|NICKED",
+"enthrall|NICKED",
+"enlarge/reduce|NICKED",
+"heat metal|NICKED",
+"hold person|NICKED",
+"invisibility|NICKED",
+"knock|NICKED",
+"lesser restoration|NICKED",
+"locate animals or plants|NICKED",
+
+"protection from poison|NICKED"
 						],
 						"s3": [
 							"speak with dead|NICKED",
@@ -19866,7 +20009,22 @@
 						],
 						[
 							"3rd",
-							"{@spell blindness/deafness|NICKED}, {@spell ray of enfeeblement|NICKED}"
+							"{@spell blindness/deafness|NICKED},
+							"calm emotions|NICKED",
+							"cloud of daggers|NICKED",
+							"crown of madness|NICKED",
+							"detect thoughts|NICKED",
+							"enhance ability|NICKED",
+							"enthrall|NICKED",
+							"enlarge/reduce|NICKED",
+							"heat metal|NICKED",
+							"hold person|NICKED",
+							"invisibility|NICKED",
+							"knock|NICKED",
+							"lesser restoration|NICKED",
+							"locate animals or plants|NICKED",
+							
+							{@spell ray of enfeeblement|NICKED}"
 						],
 						[
 							"5th",
@@ -22006,7 +22164,22 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell blindness/deafness|NICKED}, {@spell gentle repose|NICKED}"
+							"{@spell blindness/deafness|NICKED},
+							"calm emotions|NICKED",
+							"cloud of daggers|NICKED",
+							"crown of madness|NICKED",
+							"detect thoughts|NICKED",
+							"enhance ability|NICKED",
+							"enthrall|NICKED",
+							"enlarge/reduce|NICKED",
+							"heat metal|NICKED",
+							"hold person|NICKED",
+							"invisibility|NICKED",
+							"knock|NICKED",
+							"lesser restoration|NICKED",
+							"locate animals or plants|NICKED",
+							
+							{@spell gentle repose|NICKED}"
 						],
 						[
 							"5th",
@@ -32590,7 +32763,22 @@
 								],
 								[
 									"2nd",
-									"{@spell blindness/deafness|NICKED}, {@spell scorching ray|NICKED}"
+									"{@spell blindness/deafness|NICKED},
+									"calm emotions|NICKED",
+									"cloud of daggers|NICKED",
+									"crown of madness|NICKED",
+									"detect thoughts|NICKED",
+									"enhance ability|NICKED",
+									"enthrall|NICKED",
+									"enlarge/reduce|NICKED",
+									"heat metal|NICKED",
+									"hold person|NICKED",
+									"invisibility|NICKED",
+									"knock|NICKED",
+									"lesser restoration|NICKED",
+									"locate animals or plants|NICKED",
+									
+									{@spell scorching ray|NICKED}"
 								],
 								[
 									"3rd",
@@ -33002,7 +33190,22 @@
 								],
 								[
 									"2nd",
-									"{@spell blindness/deafness|NICKED}, {@spell protection from poison|NICKED}"
+									"{@spell blindness/deafness|NICKED},
+									"calm emotions|NICKED",
+									"cloud of daggers|NICKED",
+									"crown of madness|NICKED",
+									"detect thoughts|NICKED",
+									"enhance ability|NICKED",
+									"enthrall|NICKED",
+									"enlarge/reduce|NICKED",
+									"heat metal|NICKED",
+									"hold person|NICKED",
+									"invisibility|NICKED",
+									"knock|NICKED",
+									"lesser restoration|NICKED",
+									"locate animals or plants|NICKED",
+									
+									{@spell protection from poison|NICKED}"
 								],
 								[
 									"3rd",
@@ -54255,7 +54458,22 @@
 		},
 		{
 			"name": "Blindness/Deafness",
-			"source": "NICKED",
+			"so
+			"calm emotions|NICKED",
+			""ucloud of daggers|NICKEDr,
+			"crown of madness|NICKED",
+			"detect thoughts|NICKED",
+			"enhance ability|NICKED",
+			"enthrall|NICKED",
+			"enlarge/reduce|NICKED",
+			"heat metal|NICKED",
+			"hold person|NICKED",
+			"invisibility|NICKED",
+			"knock|NICKED",
+			"lesser restoration|NICKED",
+			"locate animals or plants|NICKED",
+			
+			ce": "NICKED",
 			"level": 2,
 			"school": "N",
 			"time": [
