@@ -7040,10 +7040,71 @@
 				}
 			],
 			"classSpells" :[
-                {
-					"className": "Ranger",
-                    "classSource": "PHB"
-				}
+				"absorb elements|NICKED",
+				"alarm|NICKED",
+				"animal friendship|NICKED",
+				"beast bond|NICKED",
+				"cure wounds|NICKED",
+				"detect magic|NICKED",
+				"detect poison and disease|NICKED",
+				"ensnaring strike|NICKED",
+				"entangle|NICKED",
+				"fog cloud|NICKED",
+				"goodberry|NICKED",
+				"hail of thorns|NICKED",
+				"hunter's mark|NICKED",
+				"jump|NICKED",
+				"longstrider|NICKED",
+				"snare|NICKED",
+				"speak with animals|NICKED",
+				"zephyr strike|NICKED",
+				"aid|NICKED",
+				"animal messenger|NICKED",
+				"barkskin|NICKED",
+				"beast sense|NICKED",
+				"cordon trap/auto cordon trap|NICKED",
+				"darkvision|NICKED",
+				"enhance ability|NICKED",
+				"find traps|NICKED",
+				"gust of wind|NICKED",
+				"healing spirit|NICKED",
+				"lesser restoration|NICKED",
+				"locate animals or plants|NICKED",
+				"locate object|NICKED",
+				"magic honing|NICKED",
+				"pass without trace|NICKED",
+				"protection from poison|NICKED",
+				"rope trick|NICKED",
+				"silence|NICKED",
+				"skywrite|NICKED",
+				"spike growth|NICKED",
+				"summon beast|NICKED",
+				"conjure barrage|NICKED",
+				"daylight|NICKED",
+				"elemental weapong|NICKED",
+				"elemental munitions|NICKED",
+				"lightning arrow|NICKED",
+				"meld into stone|NICKED",
+				"nondetection|NICKED",
+				"plant growth|NICKED",
+				"protection from energy|NICKED",
+				"revivify|NICKED",
+				"speak with plants|NICKED",
+				"summon fey|NICKED",
+				"sunlight spear|NICKED",
+				"water breathing|NICKED",
+				"water walk|NICKED",
+				"wind wall|NICKED",
+				"dominate beast|NICKED",
+				"conjure woodland beings|NICKED",
+				"faithful hound|NICKED",
+				"freedom of movement|NICKED",
+				"grasping vine|NICKED",
+				"guardian of nature|NICKED",
+				"locate creature|NICKED",
+				"stoneskin|NICKED",
+				"summon elemental|NICKED",
+				"summon giant insect"
             ],
 			"additionalSpells": [
 				{
@@ -7110,7 +7171,9 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Ranger||16",
-				"Hunter's Mark and Ensnaring Strike Improvement|Ranger N|NICKED|17|NICKED",
+				"Hunter's Mark and Ens,
+				"jump|NICKED",
+				naring Strike Improvement|Ranger N|NICKED|17|NICKED",
 				"Feral Senses|Ranger N|NICKED|18|NICKED",
 				"Ability Score Improvement|Ranger||19",
 				"Ranger, Hunter, Stalker, Slayer|Ranger N|NICKED|20|NICKED"
@@ -11365,19 +11428,25 @@
 			]
 		},
 		{
-			"name": "Hunter's Mark and Ensnaring Strike Improvement",
+			"name": "Hunter's Mark and Ens,
+			"jump|NICKED",
+			naring Strike Improvement",
 			"source": "NICKED",
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 17,
 			"entries": [
-				"Starting at 17th level, your {@spell hunter's mark|NICKED} and ensnaring strike spells improve.", 
+				"Starting at 17th level, your {@spell hunter's mark|NICKED},
+				"jump|NICKED",
+				 and ensnaring strike spells improve.", 
 				"If you do not have one of these spells, you may choose one and gain it, it does not count against the number of spells known.", 
 				"If you know one of these spells, gain another spell from your spell list and gain it, it does not count against the number of spells known.",
 				{
 					"type": "list",
 					"items": [
-						"Your {@spell hunter's mark|NICKED} spell becomes {@dice 1d8} for its damage. You no longer need to concentrate on it.",
+						"Your {@spell hunter's mark|NICKED},
+						"jump|NICKED",
+						 spell becomes {@dice 1d8} for its damage. You no longer need to concentrate on it.",
 						"Your {@spell ensnaring strike|NICKED} may now change which saving throw a creature makes. You may choose strength, dexterity, intelligence, wisdom, charisma. If it targets intelligence, wisdom, or charisma the spell takes the form of ethereal vines and becomes an illusion spell. The creature may snap out of the vines as an action by focusing its mind and another creature can snap the creature out of the vines. It remains the same if you choose dexterity instead of strength."
 					]
 				},
@@ -11387,7 +11456,9 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Hunter's Mark or Ensnaring Strike|NICKED"
+							"optionalfeature": "Hunter's Mark or Ensn,
+							"jump|NICKED",
+							aring Strike|NICKED"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -15273,6 +15344,8 @@ cloud of daggers|NICKED	,
 							"hail of thorns|NICKED",
 							"hunter's mark|NICKED",
 							"jump|NICKED",
+							,
+							"jump|NICKED",
 							"purify food and drink|NICKED",
 							"silent image|NICKED"
 						],
@@ -15545,6 +15618,8 @@ cloud of daggers|NICKED	,
 								"choose": {
 									"from": [
 										"hunter's mark|NICKED",
+										"jump|NICKED",
+										,
 										"ensnaring strike|NICKED"
 									],
 									"count": 1
@@ -15823,7 +15898,9 @@ cloud of daggers|NICKED	,
 					"known": {
 						"3": [
 							"command|NICKED",
-							"hunter's mark|NICKED"
+							"hunter's mark|NICKED",
+							"jump|NICKED",
+
 						],
 						"5": [
 							"enlarge/reduce|NICKED"
@@ -26513,7 +26590,9 @@ cloud of daggers|NICKED	,
 						],
 						[
 							"2nd",
-							"{@spell alarm|NICKED}, {@spell feather fall|NICKED}, {@spell hail of thorns|NICKED}, {@spell hunter's mark|NICKED}, {@spell jump|NICKED}, {@spell purify food and drink|NICKED}, {@spell silent image|NICKED}"
+							"{@spell alarm|NICKED}, {@spell feather fall|NICKED}, {@spell hail of thorns|NICKED}, {@spell hunter's mark|NICKED},
+							"jump|NICKED",
+							, {@spell jump|NICKED}, {@spell purify food and drink|NICKED}, {@spell silent image|NICKED}"
 						],
 						[
 							"5th",
@@ -27759,7 +27838,9 @@ cloud of daggers|NICKED	,
 					"rows": [
 						[
 							"3rd",
-							"{@spell heroism|NICKED}, choose {@spell hunter's mark|NICKED} or {@spell ensnaring strike|NICKED}"
+							"{@spell heroism|NICKED}, choose {@spell hunter's mark|NICKED},
+							"jump|NICKED",
+							 or {@spell ensnaring strike|NICKED}"
 						],
 						[
 							"5th",
@@ -27815,7 +27896,9 @@ cloud of daggers|NICKED	,
 				{
 					"type": "list",
 					"items": [
-						"Once per turn whenever you or your mount make a melee weapon attack against a creature affected by your {@spell hunter's mark|NICKED}, you gain advantage on that attack.",
+						"Once per turn whenever you or your mount make a melee weapon attack against a creature affected by your {@spell hunter's mark|NICKED},
+						"jump|NICKED",
+						, you gain advantage on that attack.",
 						"Once per turn when you or your mount hit a creature with a melee attack that is restrained by your {@spell ensaring strike|NICKED}, you deal an additional {@damage 1d8} damage to that creature."
 					]
 				},
@@ -28873,7 +28956,9 @@ cloud of daggers|NICKED	,
 					"rows": [
 						[
 							"3rd",
-							"{@spell command|NICKED}, {@spell hunter's mark|NICKED}"
+							"{@spell command|NICKED}, {@spell hunter's mark|NICKED},
+							"jump|NICKED",
+							"
 						],
 						[
 							"5th",
@@ -29161,8 +29246,14 @@ cloud of daggers|NICKED	,
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, when you cast {@spell hunter's mark|NICKED} or move your hunter's mark onto a new creature, your companion can immediately make an attack against that creature (no action required).",
-				"You're companion gains all the bonuses and damage provided by {@spell hunter's mark|NICKED}."
+				"Starting at 11th level, when you cast {@spell hunter's mark|NICKED},
+				"jump|NICKED",
+				 or move your hunter's mark onto a ,
+				"jump|NICKED",
+				new creature, your companion can immediately make an attack against that creature (no action required).",
+				"You're companion gains all the bonuses and damage provided by {@spell hunter's mark|NICKED},
+				"jump|NICKED",
+				."
 			]
 		},
 		{
@@ -37590,7 +37681,9 @@ cloud of daggers|NICKED	,
 			]
 		},
 		{
-			"name": "Hunter's Mark or Ensnaring Strike",
+			"name": "Hunter's Mark or Ensn,
+			"jump|NICKED",
+			aring Strike",
 			"source": "NICKED",
 			"featureType": [
 				"RESI"
@@ -37603,6 +37696,8 @@ cloud of daggers|NICKED	,
 								"choose": {
 									"from": [
 										"hunter's mark|NICKED",
+										"jump|NICKED",
+										,
 										"ensnaring strike|NICKED"
 									],
 									"count": 1
@@ -52770,7 +52865,9 @@ cloud of daggers|NICKED	,
 		},
 		{
 			"name": "Hunter's Mark",
-			"source": "NICKED",
+			"s,
+			"jump|NICKED",
+			ource": "NICKED",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -54715,7 +54812,49 @@ cloud of daggers|NICKED	,
 		},
 		{
 			"name": "Cordon Trap/Auto Cordon Trap",
-			"source": "NICKED",
+			"s,
+			"darkvision|NICKED",
+			"enhance ability|NICKED",
+			"find traps|NICKED",
+			"gust of wind|NICKED",
+			"healing spirit|NICKED",
+			"lesser restoration|NICKED",
+			"locate animals or plants|NICKED",
+			"locate object|NICKED",
+			"magic honing|NICKED",
+			"pass without trace|NICKED",
+			"protection from poison|NICKED",
+			"rope trick|NICKED",
+			"silence|NICKED",
+			"skywrite|NICKED",
+			"spike growth|NICKED",
+			"summon beast|NICKED",
+			"conjure barrage|NICKED",
+			"daylight|NICKED",
+			"elemental weapong|NICKED",
+			"elemental munitions|NICKED",
+			"lightning arrow|NICKED",
+			"meld into stone|NICKED",
+			"nondetection|NICKED",
+			"plant growth|NICKED",
+			"protection from energy|NICKED",
+			"revivify|NICKED",
+			"speak with plants|NICKED",
+			"summon fey|NICKED",
+			"sunlight spear|NICKED",
+			"water breathing|NICKED",
+			"water walk|NICKED",
+			"wind wall|NICKED",
+			"dominate beast|NICKED",
+			"conjure woodland beings|NICKED",
+			"faithful hound|NICKED",
+			"freedom of movement|NICKED",
+			"grasping vine|NICKED",
+			"guardian of nature|NICKED",
+			"locate creature|NICKED",
+			"stoneskin|NICKED",
+			"summon elemental|NICKED",
+			"summon giant insect"ource": "NICKED",
 			"page": 228,
 			"level": 2,
 			"school": "T",
