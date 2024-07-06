@@ -42909,7 +42909,7 @@
 					"type": "list",
 					"items": [
 						"When you take the {@action attack} action and attack with heavy melee weapon, you can use a bonus action to make a melee attack with the hilt of the weapon; this attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice 1d4} bludgeoning damage.",
-						"When you hit with a heavy ranged weapon, you push that creature up to 5 feet away from you in a straight line.",
+						"When you hit with a heavy ranged weapon, you may push that creature up to 5 feet away from you in a straight line.",
 						"If you have advantage on the attack roll you make with a heavy weapon, you double the damage you add from your ability modifier."
 					]
 				}
