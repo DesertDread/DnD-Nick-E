@@ -16311,16 +16311,7 @@
 				{
 					"known": {
 						"3": [
-							"heroism|NICKED",
-							{
-								"choose": {
-									"from": [
-										"hunter's mark|NICKED",
-										"ensnaring strike|NICKED"
-									],
-									"count": 1
-								}
-							}
+							"heroism|NICKED"
 						],
 						"5": [
 							"enlarge/reduce|NICKED",
@@ -28520,8 +28511,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you may use this feature a number of times equal to your wisdom modifier.",
-				"You may use this feature to do one of the following:",
+				"Starting at 3rd level, you may use this feature to do one of the following:",
 				{
 					"type": "list",
 					"items": [
@@ -28529,7 +28519,7 @@
 						"Once per turn when you or your mount hit a creature with a melee attack that is restrained by your {@spell ensnaring strike|NICKED}, you deal an additional {@damage 1d8} damage to that creature."
 					]
 				},
-				"You regain all expended uses when you finish a long rest."
+				"You may use this feature a number of times equal to your wisdom modifier, and you regain all expended uses when you finish a long rest."
 			]
 		},
 		{
@@ -44772,14 +44762,14 @@
 						"When you make a damage roll that deals poison damage, it ignores resistance to poison damage.",
 						"You can apply poison to a weapon or piece of ammunition as a bonus action, instead of an action.",
 						"You gain proficiency with the {@item poisoner's kit|phb} if you don't already have it.", 
-						"With one hour of work using a {@item poisoner's kit|phb} and expending 50 gp worth of materials, you can create a number of doses of Potent Poison equal to your proficiency bonus. Once applied to a weapon or piece of ammunition, the poison retains its potency for 1 minute or until you hit with the weapon or ammunition. When a creature takes damage from the coated weapon or ammunition, that creature must succeed on a DC 14 Constitution saving throw or take {@damage 2d8} poison damage and become {@condition poisoned} until the end of your next turn."
+						"With one hour of work using a {@item poisoner's kit|phb} and expending 50 gp worth of materials, you can create a number of doses of 'Potent Poison' equal to your proficiency bonus."
 					]
 				},
 				{
 					"type": "item",
 					"name": "Potent Poison",
 					"entries": [
-						"This poison retains its potency on a piece of ammunition or weapon for 1 minute. This poison deals {@damage 1d8} poison damage on a successful hit. Then the creature must make a Constitution saving throw based on the ability improved by this feat. On a failure the creature becomes {@condition poisoned} until the end of your next turn.", 
+						"This poison retains its potency on a piece of ammunition or weapon for 1 minute. This poison deals {@damage 1d8} poison damage on a successful hit. Then the creature must make a Constitution saving throw based on the ability improved by this feat. On a failure the creature becomes {@condition poisoned} until the end of your next turn. After a successful hit, the poison is consumed.", 
 						"After a successful hit the poison is consumed."
 					]
 				}
@@ -45534,7 +45524,8 @@
 			],
 			"entries": [
 				"You may wield two-handed melee weapons in one hand as though it did not have the heavy property",
-				"You may use heavy weapons while two weapon fighting."
+				"You may use heavy weapons while two weapon fighting.",
+				"You do not need to two hand versatile weapons to use their higher damage dice."
 			]
 		},
 		{
