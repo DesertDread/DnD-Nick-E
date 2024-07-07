@@ -35654,7 +35654,18 @@
 			"level": 1,
 			"system": {
 				"uses.per": "sr",
-				"uses.max": "@scale.rage"
+				"uses.max": "@scale.barbarian-n.rage"
+			}
+		},
+		{
+			"name": "Bardic Inspiration",
+			"source": "NICKED",
+			"className": "Bard N",
+			"classSource": "NICKED",
+			"level": 1,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "@abilities.cha.mod"
 			}
 		},
 		{
@@ -35675,6 +35686,89 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Dauntless",
+			"source": "NICKED",
+			"className": "Monk N",
+			"classSource": "NICKED",
+			"level": 14,
+			"effects": [
+				{
+					"changes": [
+						{
+							"key": "flags.dnd5e.diamondSoul",
+							"mode": "OVERRIDE",
+							"value": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Divine Health",
+			"source": "NICKED",
+			"className": "Paladin N",
+			"classSource": "NICKED",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Disease Immunity",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.traits.ci.value",
+							"mode": "ADD",
+							"value": "diseased"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Reliable Talent",
+			"source": "NICKED",
+			"className": "Rogue N",
+			"classSource": "NICKED",
+			"level": 11,
+			"effects": [
+				{
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.dnd5e.reliableTalent",
+							"mode": "OVERRIDE",
+							"value": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Slippery Mind",
+			"source": "NICKED",
+			"className": "Rogue N",
+			"classSource": "NICKED",
+			"level": 15,
+			"entryData": {
+				"savingThrowProficiencies": [
+					{
+						"wis": true
+					}
+				]
+			}
+		},
+		{
+			"name": "Sorcery Points",
+			"source": "NICKED",
+			"className": "Sorcerer N",
+			"classSource": "NICKED",
+			"level": 2,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "@scale.sorcerer-n.sorcery-points"
+			},
+			"img": "icons/magic/control/silhouette-hold-change-blue.webp"
 		}
 	],
 	"optionalfeature": [
