@@ -32,7 +32,6 @@
 			"P:TS": "Path to Godhood: Truesight",
 			"R:HS": "Ranger: Hunting Style",
 			"R:FT": "Ranger: Favored Terrain",
-			"RESI": "Ranger's Ensnaring Strike Improvement",
 			"RHSS": "Ranger, Hunter, Stalker, Slayer",
 			"GS:UA": "Gloom Stalker:Umbral Ambusher",
 			"R:SK": "Reliable: Skill",
@@ -6816,28 +6815,7 @@
 			],
 			"spellcastingAbility": "wis",
 			"casterProgression": "1/2",
-			"spellsKnownProgression": [
-				0,
-				2,
-				3,
-				3,
-				4,
-				4,
-				5,
-				5,
-				6,
-				6,
-				7,
-				7,
-				8,
-				8,
-				9,
-				9,
-				10,
-				10,
-				11,
-				11
-			],
+			"preparedSpells": "(<$level$> + 1)/2 + 1)",
 			"optionalfeatureProgression": [
 				{
 					"name": "Fighting Style",
@@ -6986,7 +6964,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Spells Known|spells|class=Ranger N (NICKED)}"
+						"{@filter Prepared Spells|spells|class=Ranger N (NICKED)}"
 					],
 					"rows": [
 						[
@@ -7292,6 +7270,12 @@
 								}
 							]
 						}	
+					},
+					"prepared": {
+						"2": [
+							"hunter's mark|NICKED",
+							"ensnaring strike|NICKED"
+						]
 					}
 				}
 			],
@@ -12195,27 +12179,11 @@
 			"level": 17,
 			"entries": [
 				"Starting at 17th level, your {@spell hunter's mark|NICKED} and ensnaring strike spells improve.", 
-				"If you do not have one of these spells, you may choose one and gain it, it does not count against the number of spells known.", 
-				"If you know one of these spells, gain another spell from your spell list and gain it, it does not count against the number of spells known.",
 				{
 					"type": "list",
 					"items": [
 						"Your {@spell hunter's mark|NICKED} spell becomes {@dice 1d8} for its damage. You no longer need to concentrate on it.",
 						"Your {@spell ensnaring strike|NICKED} may now change which saving throw a creature makes. You may choose strength, dexterity, intelligence, wisdom, charisma. If it targets intelligence, wisdom, or charisma the spell takes the form of ethereal vines and becomes an illusion spell. The creature may snap out of the vines as an action by focusing its mind and another creature can snap the creature out of the vines. It remains the same if you choose dexterity instead of strength."
-					]
-				},
-				{
-					"type":"options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Hunter's Mark or Ensnaring Strike|NICKED"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Choose Another Spell|NICKED"
-						}
 					]
 				}
 			]
@@ -38405,55 +38373,6 @@
 			],
 			"entries": [
 				"You gain resistance to Psychic Damage." 
-			]
-		},
-		{
-			"name": "Hunter's Mark or Ensnaring Strike",
-			"source": "NICKED",
-			"featureType": [
-				"RESI"
-			],
-			"additionalSpells": [
-				{
-					"known": {
-						"_": [
-							{
-								"choose": {
-									"from": [
-										"hunter's mark|NICKED",
-										"ensnaring strike|NICKED"
-									],
-									"count": 1
-								}
-							}
-						]
-					}
-				}
-			],
-			"entries": [
-				"If you do not have one of these spells, you may choose one and gain it, it does not count against the number of spells known." 
-			]
-		},
-		{
-			"name": "Choose Another Spell",
-			"source": "NICKED",
-			"featureType": [
-				"RESI"
-			],
-			"additionalSpells": [
-				{
-					"known": {
-						"_": [
-							{
-								"choose": "level=1;2;3;4;5|class=Ranger N (NICKED)|source=NICKED",
-								"count": 1
-							}
-						]
-					}
-				}
-			],
-			"entries": [
-				"If you know one of these spells, gain another spell from your spell list and gain it, it does not count against the number of spells known." 
 			]
 		},
 		{
