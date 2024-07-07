@@ -15360,8 +15360,8 @@
 			],
 			"subclassSpells": [
 				{
-					"className": "Wizard",
-					"classSource": "PHB"
+					"className": "Wizard N",
+					"classSource": "NICKED"
 				}
 			],
 			"subclassFeatures": [
@@ -16416,8 +16416,8 @@
 			"spellcastingAbility": "int",
 			"subclassSpells": [
 				{
-					"className": "Wizard",
-                    "classSource": "PHB"
+					"className": "Wizard N",
+                    "classSource": "NICKED"
 				}
 			],
 			"cantripProgression": [
