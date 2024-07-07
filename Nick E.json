@@ -32,7 +32,7 @@
 			"P:TS": "Path to Godhood: Truesight",
 			"R:HS": "Ranger: Hunting Style",
 			"R:FT": "Ranger: Favored Terrain",
-			"RESI": "Ranger's Enstaring Strike Improvement",
+			"RESI": "Ranger's Ensnaring Strike Improvement",
 			"RHSS": "Ranger, Hunter, Stalker, Slayer",
 			"GS:UA": "Gloom Stalker:Umbral Ambusher",
 			"R:SK": "Reliable: Skill",
@@ -807,7 +807,7 @@
 					"type": "entries",
 					"name": "Longer Lives",
 					"entries": [
-						"Your average age for a dwarf is betwen 150-300 years. (they diminish in the last 8 years)"
+						"Your average age for a dwarf is between 150-300 years. (they diminish in the last 8 years)"
 					]
 				},
 				{
@@ -2910,7 +2910,7 @@
 				}
 			],
 			"entries": [
-                "Your people were originally born from the finest gems found under their mountain homes. They maintain much of the glimmer and glamour of their rare gem origins. Their skin lightly glimmers in sunlight like a Dimond. They have a “pluckier” disposition than most dwarves and are luckier than most in games of gambling. Dwarves of your race have the following features:",
+                "Your people were originally born from the finest gems found under their mountain homes. They maintain much of the glimmer and glamour of their rare gem origins. Their skin lightly glimmers in sunlight like a Diamond. They have a “pluckier” disposition than most dwarves and are luckier than most in games of gambling. Dwarves of your race have the following features:",
 				{
 					"type": "entries",
 					"name": "Lucky",
@@ -3784,9 +3784,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"str": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"{@item shield|phb|shields}"
@@ -4111,9 +4108,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"cha": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light"
@@ -4780,9 +4774,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"wis": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -5352,9 +5343,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"wis": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -5743,7 +5731,7 @@
 				"summon beast|NICKED",
 				"warding wind|NICKED",
 				"aura of vitality|NICKED",
-				"call lightining|NICKED",
+				"call lightning|NICKED",
 				"conjure animals|NICKED",
 				"daylight|NICKED",
 				"dispel magic|NICKED",
@@ -5786,7 +5774,7 @@
 				"summon elemental|NICKED",
 				"summon giant insect|NICKED",
 				"wall of fire|NICKED",
-				"watery sphere"
+				"watery sphere|NICKED"
             ],
 			"classFeatures": [
 				"Spellcaster|Druid N|NICKED|1|NICKED",
@@ -5914,14 +5902,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"or": [
-						{
-							"str": 13,
-							"dex": 13
-						}
-					]
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -6048,10 +6028,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"dex": 13,
-					"wis": 13
-				},
 				"proficienciesGained": {
 					"weapons": [
 						"simple"
@@ -6605,10 +6581,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"str": 13,
-					"cha": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -6970,10 +6942,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"dex": 13,
-					"wis": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -7266,7 +7234,7 @@
 				"summon beast|NICKED",
 				"conjure barrage|NICKED",
 				"daylight|NICKED",
-				"elemental weapong|NICKED",
+				"elemental weapon|NICKED",
 				"elemental munitions|NICKED",
 				"lightning arrow|NICKED",
 				"meld into stone|NICKED",
@@ -7450,9 +7418,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"dex": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light"
@@ -7907,11 +7872,6 @@
 						]
 					}
 				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"cha": 13
-				}
 			},
 			"classTableGroups": [
 				{
@@ -8666,9 +8626,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"cha": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light"
@@ -8888,7 +8845,7 @@
 				"fear|NICKED",
 				"fly|NICKED",
 				"gaseous form|NICKED",
-				"hunder of hadar|NICKED",
+				"hunger of the black void|NICKED",
 				"hypnotic pattern|NICKED",
 				"intellect fortress|NICKED",
 				"magic circle|NICKED",
@@ -8907,7 +8864,7 @@
 				"dimension door|NICKED",
 				"elemental bane|NICKED",
 				"hallucinatory terrain|NICKED",
-				"shaow of moil|NICKED",
+				"shadow of moil|NICKED",
 				"spirit of death|NICKED",
 				"sickening radiance|NICKED",
 				"summon aberration|NICKED",
@@ -9080,11 +9037,6 @@
 						]
 					}
 				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"int": 13
-				}
 			},
 			"classTableGroups": [
 				{
@@ -21137,7 +21089,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. Until your next short rest, long rest or whenyou use this feature again, you have proficiency with the chosen skill or tool."
+				"Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. Until your next short rest, long rest or when you use this feature again, you have proficiency with the chosen skill or tool."
 			]
 		},
 		{
@@ -25839,7 +25791,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"While you are wearing no armor and not wielding a shield your armor class equals 10 + Dexterity modifier + your intelligence modifier. Your body is wreathed in a light shadow energy that is barely discernable to the eye."
+				"While you are wearing no armor and not wielding a shield your armor class equals 10 + Dexterity modifier + your intelligence modifier. Your body is wreathed in a light shadow energy that is barely discernible to the eye."
 			]
 		},
 		{
@@ -25950,7 +25902,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"While you are wearing no armor and not wielding a shield your armor class equals 10 + Dexterity modifier + your intelligence modifier. Your body is wreathed in a light shadow energy that is barely discernable to the eye."
+				"While you are wearing no armor and not wielding a shield your armor class equals 10 + Dexterity modifier + your intelligence modifier. Your body is wreathed in a light shadow energy that is barely discernible to the eye."
 			]
 		},
 		{
@@ -27401,7 +27353,7 @@
 			"entries": [
 				"You may expend a use of your channel oath as a reaction whenever you see a friendly corrupted creature within 60 ft take damage from a hostile creature you can see.", 
 				"You may teleport to an unoccupied space within 5 ft of the friendly creature or teleport up to 120 ft to an unoccupied space within 5 ft of the hostile creature that was the source of the damage.",
-				"After ytou teleport in this way, each creature of you choice within 10 ft of you takes psychic damage equal to your paladin level.",
+				"After you teleport in this way, each creature of you choice within 10 ft of you takes psychic damage equal to your paladin level.",
 				"This teleportation does not trigger attacks of opportunity."
 			]
 		},
@@ -27710,7 +27662,7 @@
 						"Wings sprout from your back and grant you a flying speed of 60 feet.",
 						"Your Vow of Emnity channel oath range increases to 60 ft. Whenever you use your Vow of Emnity, an affected creature also becomes affected by your Abjure Enemy channel oath feature (this still costs only 1 channel oath).",
 						"Whenever you expend a spell slot to cast a spell or fuel a class feature, you regain hitpoints equal to 4 x the level of the spell slot.",
-						"Whenevery our Vengeful Spirit class feature hits with its spiritual weapon attack, you may expend spell slots to use you Divine Smite class feature with that attack."
+						"Whenever your Vengeful Spirit class feature hits with its spiritual weapon attack, you may expend spell slots to use you Divine Smite class feature with that attack."
 					]
 				}
 			]
@@ -28063,7 +28015,7 @@
 			"entries": [
 				"Starting at 3rd level, you gain a pool of momentum points that can be used to fuel various abilities.", 
 				"Whenever you finish a short or long rest, you regain all expended uses of momentum.",
-				"{@bold After} you roll initiative or take the {@action attcack} action and make at least one weapon attack against a hostile creature, you regain 1 point of momentum.",
+				"{@bold After} you roll initiative or take the {@action attack} action and make at least one weapon attack against a hostile creature, you regain 1 point of momentum.",
 				{
 					"type":"options",
 					"entries": [
@@ -28229,7 +28181,7 @@
 						"Whenever you use your Stalker's Rush feature, it increases your movement speed by 15 ft instead.",
 						"Whenevery you use you Umbral Launch feature, triple your jumping distance.",
 						"You may use your Stalker's Eye feature on {@skill investigation} checks as well as {@skill perception}.",
-						"Whenever you use your Adrenaline Rush feature, you gain advantage on the first attack you make against each inique hostile creature you attack during your first turn in combat."
+						"Whenever you use your Adrenaline Rush feature, you gain advantage on the first attack you make against each unique hostile creature you attack during your first turn in combat."
 					]
 				},
 				{
@@ -28364,7 +28316,7 @@
 					"type": "list",
 					"items": [
 						"Once per turn whenever you or your mount make a melee weapon attack against a creature affected by your {@spell hunter's mark|NICKED}, you gain advantage on that attack.",
-						"Once per turn when you or your mount hit a creature with a melee attack that is restrained by your {@spell ensaring strike|NICKED}, you deal an additional {@damage 1d8} damage to that creature."
+						"Once per turn when you or your mount hit a creature with a melee attack that is restrained by your {@spell ensnaring strike|NICKED}, you deal an additional {@damage 1d8} damage to that creature."
 					]
 				},
 				"You regain all expended uses when you finish a long rest."
@@ -28433,7 +28385,7 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, once per turn whenever you or your steed makes a mellee attack roll with advantage, you may forgo advantage to make two attacks instead."
+				"Starting at 11th level, once per turn whenever you or your steed makes a melee attack roll with advantage, you may forgo advantage to make two attacks instead."
 			]
 		},
 		{
@@ -29557,7 +29509,7 @@
 					"name": "Fey Tricks",
 					"entries": [
 						"At 15th level, your companion becomes a master of their innate fey magics. It learns the following spells each of which it can cast only once per long rest using your wisdom modifier as its spellcasting modifier.",
-						"Your companion learns: {@spell disguise self|NICKED}, {@spell phantasmal force|NICKED}, {@spell enemies abound|NICKED}, and {@spell greater invisibilty|NICKED} which it can cast without expending a spell slot or needing somatic, material, or verbal components. If your companion casts any of these spells on itself, if you are within 30 feet of it when it cast the spell you may gain the benefits of that spell altering it to better suit yourself. (All spells cast are at its lowest levels)",
+						"Your companion learns: {@spell disguise self|NICKED}, {@spell phantasmal force|NICKED}, {@spell enemies abound|NICKED}, and {@spell greater invisibility|NICKED} which it can cast without expending a spell slot or needing somatic, material, or verbal components. If your companion casts any of these spells on itself, if you are within 30 feet of it when it cast the spell you may gain the benefits of that spell altering it to better suit yourself. (All spells cast are at its lowest levels)",
 						"No attack roll can be rolled with advantage when attacking your companion."
 					]
 				}
@@ -29946,7 +29898,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. During your first turn in combat, the first hit you score agains a creature is a critical hit.",
+				"Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. During your first turn in combat, the first hit you score against a creature is a critical hit.",
 				"You have advantage on attack rolls against any creature that hasn't taken a turn in combat yet."
 			]
 		},
@@ -30024,7 +29976,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"Starting at 17th level, you become a master of instant death. During the first round of combat when you attack and hit a creature that is {@condition surprised}, it must make a Constitution saving throw (DC 8 + your Dexterify modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.",
+				"Starting at 17th level, you become a master of instant death. During the first round of combat when you attack and hit a creature that is {@condition surprised}, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.",
 				"Any creature you damage with your sneak attack during the first round of combat suffers disadvantage on all attack rolls and ability checks. Any saving throws they force other creatures to make are made with advantage.",
 				"This effect lasts until the end of their next turn."
 			]
@@ -30718,7 +30670,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity ({@skill Sleight of Hand}) check, use your {@item thieves' tools|phb} to disarm a trap or open a lock, use a poition or poison, or take the {@action Use an Object} action.",
+				"Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity ({@skill Sleight of Hand}) check, use your {@item thieves' tools|phb} to disarm a trap or open a lock, use a potion or poison, or take the {@action Use an Object} action.",
 				"(Reminder: the {@action Use an Object} action cannot be used to activate magical items.)",
 				"You gain an additional bonus action on each of your turns. This bonus action can only be used to use Cunning Action (and any features added to it)."
 			]
@@ -30805,7 +30757,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level when you cast a {@bold sorcer spell} that makes an attack roll that also deal sdamage, you can suffer a penalty to your hit bonus by -4. If you do, that spell rolls an extra damage dice. You must choose to take this penalty before you roll to hit."
+				"Starting at 1st level when you cast a {@bold sorcer spell} that makes an attack roll that also deals damage, you can suffer a penalty to your hit bonus by -4. If you do, that spell rolls an extra damage dice. You must choose to take this penalty before you roll to hit."
 			]
 		},
 		{
@@ -30949,7 +30901,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Starting at 1st level, select a lunar alignment from the chart below. You begin in that lunar alignment. Your eyes glow and shift with the changes of the lunar cycle. You gain additonal spells and abilities based on your lunar cycle you are aligned with. Regardless of their source while in that lunar cycle, they count as sorcerer spells for you.",
+				"Starting at 1st level, select a lunar alignment from the chart below. You begin in that lunar alignment. Your eyes glow and shift with the changes of the lunar cycle. You gain additional spells and abilities based on your lunar cycle you are aligned with. Regardless of their source while in that lunar cycle, they count as sorcerer spells for you.",
 				{
 					"type": "table",
 					"caption": "Lunar Alignment",
@@ -31090,7 +31042,7 @@
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"{@spell toll the dead|NICKED}, {@spell arms of hadar|NICKED}, (At 3rd level){@spell augury|NICKED}, (at 3rd level){@spell moonbeam|NICKED}(black light energy)",
+				"{@spell toll the dead|NICKED}, {@spell arms of the dark hunger|NICKED}, (At 3rd level){@spell augury|NICKED}, (at 3rd level){@spell moonbeam|NICKED}(black light energy)",
 				"When you cast {@spell moonbeam|NICKED}, it deals necrotic damage instead of radiant damage. It does not illuminate the area it's in but dims it. The area counts as though it is now in darkness (nonmagical, restricting your ally's vision is not considered harmful).",
 				"Your corneas become like black voids and your irises glow slightly."
 			]
@@ -31303,7 +31255,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"You learn additional spells when you reach certain levels in this class, as shown on the Soulc of Balance Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"You learn additional spells when you reach certain levels in this class, as shown on the Soul of Balance Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
 				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an {@filter abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list|spells|class=Sorcerer N (NICKED);Warlock N (NICKED);Wizard N (NICKED)|school=A;T|level=1;2;3;4;5}.",
 				{
 					"type": "table",
@@ -33102,7 +33054,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 10th level, you gain maximum hit points whenever you finish a long rest. These max hit points equal your warlock level + your Charisma modifier.", 
-				"Additionally, choose up to a number of other creature equal to your proficiency bonus at the end of the rest. Those creatures each gain max hit points equal to {@bold half} your warlock level + your Charisma modifier. The max hitpoints gained frmo this feature disappear whenever you finish a long rest (on all affected creature)."
+				"Additionally, choose up to a number of other creature equal to your proficiency bonus at the end of the rest. Those creatures each gain max hit points equal to {@bold half} your warlock level + your Charisma modifier. The max hitpoints gained from this feature disappear whenever you finish a long rest (on all affected creature)."
 			]
 		},
 		{
@@ -33639,7 +33591,7 @@
 			],
 			"entries": [
 				"Starting at 3rd level, your alien knowledge gives you the ability to touch the minds of other creatures. You can telepathically speak to any creature you can see within [10 x your warlock level] feet of you (no action required). You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.",
-				"You also become prificinet in your choice of two of the following skills: {@skill arcana}, {@skill history}, {@skill nature}, or {@skill religion}.",
+				"You also become proficient in your choice of two of the following skills: {@skill arcana}, {@skill history}, {@skill nature}, or {@skill religion}.",
 				"Your proficiency bonus is doubled for any ability check that uses either of those skills."
 			]
 		},
@@ -33727,7 +33679,7 @@
 								],
 								[
 									"3rd",
-									"{@spell speadk with dead|NICKED}, {@spell feign death|NICKED}"
+									"{@spell speak with dead|NICKED}, {@spell feign death|NICKED}"
 								],
 								[
 									"4th",
@@ -33912,7 +33864,7 @@
 			"entries": [
 				"At 3rd level, your curse, cursed item, or cursed weapon you carry with you (or in you) exudes itself in a small way causing other creatures who wish to harm you minor bad luck.", 
 				"You gain +1 to your armor class as blades turn themselves away from you. (it's the same as though every creature has a -1 to hit against you).",
-				"You learn the {@spell hex|NICKED} spell, and it does not count agains the number of spells known. It counts as a warlock spell for you."
+				"You learn the {@spell hex|NICKED} spell, and it does not count against the number of spells known. It counts as a warlock spell for you."
 			]
 		},
 		{
@@ -34601,7 +34553,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, when you cast an enchantment spell of 1st level or higher that targets one or more creatures, you may have it targe an additional creature within range."
+				"Starting at 10th level, when you cast an enchantment spell of 1st level or higher that targets one or more creatures, you may have it target an additional creature within range."
 			]
 		},
 		{
@@ -35095,7 +35047,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You gain resitance to acid, cold, fire, lightning, or thunder until you choose another transmutation stone effect."
+				"You gain resistance to acid, cold, fire, lightning, or thunder until you choose another transmutation stone effect."
 			]
 		},
 		{
@@ -36499,7 +36451,7 @@
 					"items": [
 						"The dew provides enough nourishment to sustain you for one day.",
 						"You gain your unarmed strike damage as temporary hitpoints until your next long rest.",
-						"Dew sickess:  You recover all but 1 chakra as part of a short rest."
+						"Dew sickness:  You recover all but 1 chakra as part of a short rest."
 					]
 				},
 				"If another creature drinks this liquid (unless they have this jutsu) they must make a DC 12 (8 if the liquid is a tea) Constitution save. If they succeed, they gain the benefits of the liquid. If they fail, they take damage instead of gaining temporary hp as necrotic damage."
@@ -36567,7 +36519,7 @@
 				"You slap the ground at your feet forcing all creatures within 10 feet of you except you on the ground to make a constitution saving throw. On a failure those creatures take {@damage 2d8} thunder damage and are forced away to 15 feet of you. They take half the damage on a successful save.",
 				"If you fell from 30 feet or higher right when you use this ability, double all damage dice rolled. You affect all creatures within 20 feet of you instead, and they will be pushed 25 feet away from you.",
 				"If you fell from 45 feet (or equal to), creatures have disadvantage on the save.",
-				"This jutsu can be used agains a wall or ceiling and affects creatures within 5 feet of that surface, however the jutsu cannot gain bonus effects from you falling distances. (Being thrown does not count as falling)"
+				"This jutsu can be used against a wall or ceiling and affects creatures within 5 feet of that surface, however the jutsu cannot gain bonus effects from you falling distances. (Being thrown does not count as falling)"
 			]
 		},
 		{
@@ -37048,7 +37000,7 @@
 			],
 			"entries": [
 				"1 Action; 1 Hour Duration",
-				"You summon an almost perfect copy of yourself within 5 feett and transfer your consciousness to it. You can see through its eyes, use its senses, and speak through its mouth.", 
+				"You summon an almost perfect copy of yourself within 5 feet and transfer your consciousness to it. You can see through its eyes, use its senses, and speak through its mouth.", 
 				"While the clone is active, you are deaf and blind with regard to your own senses. You cannot perform actions or attacks through this clone though you can move and act like you can.", 
 				"You cannot interact with objects (or creatures) as you are made out of shadow. You cannot contort, jump, or move in a way that you could not normally as if you were physically present. A creature can make an {@skill investigation} check against your monastic kata DC to determine that this copy is a manifestation of shadows. The shadow clone has hitpoints equal to your monk level and all the same stats, senses, walking speed, and armor class you do.", 
 				"Creatures that come into physical contact with the copy can reveal that it is a manifestation of shadow. This jutsu is treated as though it was an effect from an illusion spell of second level for all spells and abilities.", 
@@ -37357,7 +37309,7 @@
 				"1 Action; Until the creature's next short or long rest",
 				"You touch a creature and can end either one disease or one condition afflicting it. The condition can be {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}.",
 				"Additionally you grant that creature temp hitpoints equal to a roll of your unarmed strike damage.",
-				"The next time the creature takes damagem, they treat that damage as though they had resistances to it.",
+				"The next time the creature takes damage, they treat that damage as though they had resistances to it.",
 				"This jutsu counts as the healing hands jutsu for all abilities and features."
 			]
 		},
@@ -38000,7 +37952,7 @@
 			],
 			"entries": [
 				"Gain proficiency in {@skill religion} and {@skill perception}.",
-				"You have advantage on all {@skill survival} checks you use to track abberations and undead and all intelligence {@skill history} checks to recall information on abberations and undead." 
+				"You have advantage on all {@skill survival} checks you use to track aberrations and undead and all intelligence {@skill history} checks to recall information on aberrations and undead." 
 			]
 		},
 		{
@@ -40431,7 +40383,7 @@
 				"F:FS"
 			],
 			"entries": [
-				"When a creature you can see successfully attacks a target other than you that is within 5 feet of you, you can use your reaction to force that creature to reroll that attack using the lower of the two rolls. The new attack roll is now agains your armor class instead of the target's. If that attack would still hit, you reduce the damage the target takes by {@dice 1d6} + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial melee weapon to use this reaction."
+				"When a creature you can see successfully attacks a target other than you that is within 5 feet of you, you can use your reaction to force that creature to reroll that attack using the lower of the two rolls. The new attack roll is now against your armor class instead of the target's. If that attack would still hit, you reduce the damage the target takes by {@dice 1d6} + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial melee weapon to use this reaction."
 			]
 		},
 		{
@@ -42457,7 +42409,7 @@
 					"type": "list",
 					"items":[
 						"The {@action help} action is used to steady them.",
-						"It uses its actoin to end the condition.",
+						"It uses its action to end the condition.",
 						"An attack is made against it."
 					]
 				},
@@ -42963,7 +42915,7 @@
 					"rows": [
 						[
 							"Fresh Mint Chocolate",
-							"Creature has a +2 to all {@skill persuation} and {@skill deception} checks"
+							"Creature has a +2 to all {@skill persuasion} and {@skill deception} checks"
 						],
 						[
 							"Spicy Meat Stick",
@@ -43191,7 +43143,7 @@
 					"type": "list",
 					"items": [
 						"Your body gains hardened scales. You minimum armor class is 13 + you Dexterity modifier. If you're wearing a shield, you may still add its armor class to your minimum armor class.",
-						"You grow retractable claws from the tips of your fingers. Extending or retracting the claw requires no action. The claws are natural weapons, which you can use to make unarmed strikes for {@damage 1d4} + your Strength modifier instead of the normal bludgeoning damge for an unarmed strike."
+						"You grow retractable claws from the tips of your fingers. Extending or retracting the claw requires no action. The claws are natural weapons, which you can use to make unarmed strikes for {@damage 1d4} + your Strength modifier instead of the normal bludgeoning damage for an unarmed strike."
 					]
 				}
 			]
@@ -43971,7 +43923,7 @@
 							"type": "entries",
 							"name": "Kick",
 							"entries": [
-								"When a creature within 5 feet of you begins to cast a spell that you can see, You can use your reaaction to attempt to interrupt that creature in the process of casting that spell. The creature must make a constitution saving throw. On a failed save, the spell dissipates with no effect, and the Action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended."
+								"When a creature within 5 feet of you begins to cast a spell that you can see, You can use your reaction to attempt to interrupt that creature in the process of casting that spell. The creature must make a constitution saving throw. On a failed save, the spell dissipates with no effect, and the Action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended."
 							]
 						},
 						"When you damage a creature that is {@status concentration||concentrating} on a spell, that creature has disadvantage on the saving throw it makes to maintain its {@status concentration}.",
@@ -44880,7 +44832,7 @@
 				}
 			],
 			"entries": [
-				"Thanks to extensive practive with ranged weapons, you gain the following benefits:",
+				"Thanks to extensive practice with ranged weapons, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -45315,7 +45267,7 @@
 			],
 			"entries": [
 				"You may wield two-handed melee weapons in one hand as though it did not have the heavy property",
-				"You may use heavy waepons while two weapon fighting."
+				"You may use heavy weapons while two weapon fighting."
 			]
 		},
 		{
@@ -47037,7 +46989,7 @@
 			"armor": true,
 			"stealth": true,
 			"entries": [ 
-				"You have advantage on saving throws agains weapon martial skills."
+				"You have advantage on saving throws against weapon martial skills."
 			]
 		},
 		{
@@ -47052,7 +47004,7 @@
 			"armor": true,
 			"stealth": true,
 			"entries": [
-				"You have advantage on saving throws agains weapon martial skills."
+				"You have advantage on saving throws against weapon martial skills."
 			]
 		},
 		{
@@ -50328,7 +50280,7 @@
 				}
 			],
 			"entries": [
-				"Duration: Unitl you finish your attack",
+				"Duration: Until you finish your attack",
 				"You draw upon your inner eye to guide your attacks and strike with precision.",
 				"You take the {@action attack} action as part of casting this spell; however, you must declare all your attacks at once without breaking them up with movement or knowing if the attacks hit or miss.",
 				"If you do not cast this spell as an action, you make a single weapon attack instead (Bonus actions, Reactions, etc.)",
@@ -61421,7 +61373,7 @@
 				}
 			],
 			"entries": [
-				"Duration: Concenctration until you begin your next short or long rest",
+				"Duration: Concentration until you begin your next short or long rest",
 				"(This spell creature counts as a familiar)",
 				"You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fey Spirit|TCE} stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
 				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
@@ -62140,6 +62092,2563 @@
 				"target.value": 50,
 				"target.units": "ft",
 				"target.type": "wall"
+			}
+		},
+		{
+			"name": "Arcane Eye",
+			"source": "NICKED",
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of bat fur"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create an invisible, magical eye within range that hovers in the air for the duration.",
+				"You mentally receive visual information from the eye, which has normal vision and {@sense darkvision} out to 30 feet. The eye can look in every direction.",
+				"As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter."
+			]
+		},
+		{
+			"name": "Aura of Life",
+			"source": "NICKED",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
+			],
+			"damageResist": [
+				"necrotic"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Aura of Purity",
+			"source": "NICKED",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, and {@condition stunned}."
+			],
+			"damageResist": [
+				"poison"
+			],
+			"miscTags": [
+				"ADV"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Banishment",
+			"source": "NICKED",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an item distasteful to the target"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma saving throw or be banished.",
+				"If the target is native to the plane of existence you're on, you banish the target to a harmless demiplane. While there, the target is {@condition incapacitated}. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+				"If the target is native to a different plane of existence than the one you're on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn't return."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th."
+					]
+				}
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Black Tentacles",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of tentacle from a giant octopus or a giant squid"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into {@quickref difficult terrain||3}.",
+				"When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take {@damage 3d6} bludgeoning damage and be {@condition restrained} by the tentacles until the spell ends. A creature that starts its turn in the area and is already {@condition restrained} by the tentacles takes {@damage 3d6} bludgeoning damage.",
+				"A creature {@condition restrained} by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"abilityCheck": [
+				"strength",
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"Q"
+			],
+			"foundrySystem": {
+				"target.value": 20,
+				"target.units": "ft",
+				"target.type": "square"
+			}
+		},
+		{
+			"name": "Blight",
+			"source": "NICKED",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes {@damage 8d8} necrotic damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs.",
+				"If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.",
+				"If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 8d8|4-9|1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"beast",
+				"celestial",
+				"dragon",
+				"elemental",
+				"fey",
+				"fiend",
+				"giant",
+				"humanoid",
+				"monstrosity",
+				"ooze",
+				"plant"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Charm Monster",
+			"source": "NICKED",
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is {@condition charmed} by you until the spell ends or until you or your companions do anything harmful to it. The {@condition charmed} creature is friendly to you. When the spell ends, the creature knows it was {@condition charmed} by you."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
+					]
+				}
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Compulsion",
+			"source": "NICKED",
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be {@condition charmed}. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving throw to try to end the effect.",
+				"A target isn't compelled to move into an obviously deadly hazard, such as a fire or pit, but it will provoke opportunity attacks to move in the designated direction."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			],
+			"areaTags": [
+				"MT"
+			]
+		},
+		{
+			"name": "Confusion",
+			"source": "NICKED",
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "three nut shells"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"This spell assaults and twists creatures' minds, spawning delusions and provoking uncontrolled action. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.",
+				"An affected target can't take reactions and must roll a {@dice d10} at the start of each of its turns to determine its behavior for that turn.",
+				{
+					"type": "table",
+					"caption": "Confusion Behavior",
+					"colLabels": [
+						"{@dice d10}",
+						"Behavior"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"The creature uses all its movement to move in a random direction. To determine the direction, roll a {@dice d8} and assign a direction to each die face. The creature doesn't take an action this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2,
+									"max": 6
+								}
+							},
+							"The creature doesn't move or take actions this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7,
+									"max": 8
+								}
+							},
+							"The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9,
+									"max": 10
+								}
+							},
+							"The creature can act and move normally."
+						]
+					]
+				},
+				"At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"RO"
+			],
+			"areaTags": [
+				"S"
+			],
+			"foundrySystem": {
+				"target.value": 10,
+				"target.units": "ft",
+				"target.type": "sphere"
+			}
+		},
+		{
+			"name": "Control Water",
+			"source": "NICKED",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of water and a pinch of dust"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. As an action on your turn, you can repeat the same effect or choose a different one.",
+				{
+					"type": "entries",
+					"name": "Flood",
+					"entries": [
+						"You cause the water level of all standing water in the area to rise by as much as 20 feet. If the area includes a shore, the flooding water spills over onto dry land.",
+						"If you choose an area in a large body of water, you instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes down. Any Huge or smaller vehicles in the wave's path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a {@chance 25|||Capsizes!|No effect} chance of capsizing.",
+						"The water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Part Water",
+					"entries": [
+						"You cause water in the area to move apart and create a trench. The trench extends across the spell's area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Redirect Flow",
+					"entries": [
+						"You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell's area, it resumes its flow based on the terrain conditions. The water continues to move in the direction you chose until the spell ends or you choose a different effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Whirlpool",
+					"entries": [
+						"This effect requires a body of water at least 50 feet square and 25 feet deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by making a Strength ({@skill Athletics}) check against your spell save DC.",
+						"When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes {@damage 2d8} bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn't caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the Strength ({@skill Athletics}) check to do so.",
+						"The first time each turn that an object enters the vortex, the object takes {@damage 2d8} bludgeoning damage; this damage occurs each round it remains in the vortex."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"abilityCheck": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV",
+				"OBJ"
+			],
+			"areaTags": [
+				"N"
+			],
+			"foundrySystem": {
+				"target.value": 100,
+				"target.units": "ft",
+				"target.type": "cube"
+			}
+		},
+		{
+			"name": "Death Ward",
+			"source": "NICKED",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You touch a creature and grant it a measure of protection from death.",
+				"The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.",
+				"If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends."
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Dimension Door",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 500
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"After a brief delay, you teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\"",
+				"You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.",
+				"If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take {@damage 4d6} force damage, and the spell fails to teleport you.",
+				"Casting this spell triggers attacks of opportunity before it completes. You will teleport to the destined location regardless of whether you are conscious or not."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"miscTags": [
+				"TP"
+			]
+		},
+		{
+			"name": "Divination",
+			"source": "NICKED",
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes",
+					"cost": 2500,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"Your magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.",
+				"The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.",
+				"If you cast the spell two or more times before finishing your next long rest, there is a cumulative {@chance 25|||Random reading!|Regular reading} chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+			]
+		},
+		{
+			"name": "Dominate Beast",
+			"source": "NICKED",
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You attempt to beguile a beast that you can see within range. It must succeed on a Wisdom saving throw or be {@condition charmed} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
+				"While the beast is {@condition charmed}, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
+				"You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.",
+				"Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell with a 5th-level spell slot, the duration is {@status concentration}, up to 10 minutes. When you use a 6th-level spell slot, the duration is {@status concentration}, up to 1 hour. When you use a spell slot of 7th level or higher, the duration is {@status concentration}, up to 8 hours."
+					]
+				}
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"affectsCreatureType": [
+				"beast"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Elemental Bane",
+			"source": "NICKED",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose one creature you can see within range, and choose one of the following damage types: acid, cold, fire, lightning, or thunder. The target must succeed on a Constitution saving throw or be affected by the spell for its duration. The first time each turn the affected target takes damage of the chosen type, the target takes an extra {@damage 2d6} damage of that type. Moreover, the target loses any resistance to that damage type until the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Fabricate",
+			"source": "NICKED",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, and clothes from flax or wool.",
+				"Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by the spell is commensurate with the quality of the raw materials.",
+				"Creatures or magic items can't be created or transmuted by this spell. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of artisan's tools used to craft such objects."
+			],
+			"miscTags": [
+				"OBJ",
+				"PRM",
+				"SGT"
+			],
+			"foundrySystem": {
+				"target.value": 10,
+				"target.units": "ft",
+				"target.type": "cube"
+			}
+		},
+		{
+			"name": "Faithful Hound",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a tiny silver whistle, a piece of bone, and a thread"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 12
+					}
+				}
+			],
+			"entries": [
+				"You conjure a phantom watchdog in an unoccupied space that you can see within range, where it remains for the duration, until you dismiss it as an action, or until you move more than 100 feet away from it.",
+				"The hound is {@condition invisible} to all creatures except you and can't be harmed. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound sees {@condition invisible} creatures and can see into the Ethereal Plane. It ignores illusions.",
+				"At the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound's attack bonus is equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals {@damage 3d8} + your spellcasting ability modifier as piercing damage.",
+				"{@note Reminder: the hound is an unseen attacker if a creature does not have an ability such as truesight to see it.}"
+			],
+			"damageInflict": [
+				"piercing"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Find Greater Steed",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"(This spell creature counts as a familiar)",
+				"You summon a spirit that assumes the form of a loyal, majestic mount. Appearing in an unoccupied space within range, the spirit takes on a form you choose: a {@creature griffon}, a {@creature pegasus}, a {@creature peryton}, a {@creature dire wolf}, a {@creature rhinoceros}, or a {@creature saber-toothed tiger}. The creature has the statistics provided in the Monster Manual for the chosen form, though it is a celestial, a fey, or a fiend (your choice) instead of its normal creature type. Additionally, if it has an Intelligence score of 5 or lower, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.",
+				"You control the mount in combat. While the mount is within 1 mile of you, you can communicate with it telepathically. While mounted on it, you can make any spell you cast that targets only you also target the mount.",
+				"The mount disappears temporarily when it drops to 0 hit points or when you dismiss it as an action. Casting this spell again re-summons the bonded mount, with all its hit points restored and any conditions removed.",
+				"You can't have more than one mount bonded by this spell or {@spell find steed} at the same time. As an action, you can release a mount from its bond, causing it to disappear permanently.",
+				"Whenever the mount disappears, it leaves behind any objects it was wearing or carrying.",
+				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, and takes its turn during your turn. It obeys your commands (no action required by you). If you don't issue any, it takes the disengage action and uses its move to avoid danger.",
+				"*Unlike most ritual spells, this spell may be ritual cast by any class that has this spell prepared or learned, regardless of whether or not the class has the ability to cast spells as a ritual."
+			],
+			"miscTags": [
+				"PRM",
+				"SMN"
+			]
+		},
+		{
+			"name": "Frostfire Shield",
+			"source": "NICKED",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of phosphorus or a firefly that you use to bestow the powers of fire on a shield you touch"
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"entries": [
+				"Duration: Until you begin your next short rest or long rest.",
+				"You touch a shield and imbue it with a ward which has the power of frost or fire. You can choose to end the spell early by using an action to dismiss it or if the creature wielding the shield unequips or drops the shield.",
+				"The ward provides the shields user with a one of the following barriers:",
+				{
+					"type": "entries",
+					"name": "Barrier of Flames",
+					"entries": [
+						"Thin and wispy flames wreathe a shield you touch for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. The shield provides the user resistance to cold damage. Whenever a creature within 5 feet of the user hits them with an attack, the shield erupts with flame. The attacker takes {@damage 2d6} fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Barrier of Frost",
+					"entries": [
+						"Frozen jagged icicles hang off the shield you touch for the duration, and a small aura of frost chills creatures. Creatures not resistant to cold damage other than the shield's wielder that start their turn within 5 feet of it have their movement speed slowed by 5 feet. The shield provides the user resistance to fire damage. Whenever a creature within 5 feet of the user hits them with an attack, the shield lances ice back at the attacker. The attacker takes {@damage 2d6} cold damage."
+					]
+				}
+			],
+			"damageResist": [
+				"cold",
+				"fire"
+			],
+			"damageInflict": [
+				"cold",
+				"fire"
+			],
+			"miscTags": [
+				"LGT"
+			]
+		},
+		{
+			"name": "Freedom of Movement",
+			"source": "NICKED",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a leather strap, bound around the arm or a similar appendage"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a willing creature. For the duration, the target's movement is unaffected by {@quickref difficult terrain||3}, and spells and other magical effects can neither reduce the target's speed nor cause the target to be {@condition paralyzed} or {@condition restrained}.",
+				"The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it {@condition grappled}. Finally, being underwater imposes no penalties on the target's movement or attacks."
+			],
+			"conditionImmune": [
+				"paralyzed",
+				"restrained"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Grasping Vine",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a Dexterity saving throw or be pulled 20 feet directly toward the vine.",
+				"Until the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns."
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"FMV",
+				"SGT",
+				"UBA"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Greater Invisibility",
+			"source": "NICKED",
+			"level": 4,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@bold Focused}",
+				"You or a creature you touch becomes {@condition invisible} until the spell ends. Anything the target is wearing or carrying is {@condition invisible} as long as it is on the target's person."
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Guardian of Faith",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.",
+				"Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.",
+				"{@note This damage is calculated before applying resistances and damage reductions.}"
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"foundrySystem": {
+				"target.value": 10,
+				"target.units": "ft",
+				"target.type": "radius"
+			}
+		},
+		{
+			"name": "Guardian of Nature",
+			"source": "NICKED",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@bold Focused}",
+				"A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.",
+				{
+					"type": "entries",
+					"name": "Primal Beast",
+					"entries": [
+						"Bestial fur covers your body, your facial features become feral, and you gain the following benefits:"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"Your walking speed increases by 10 feet.",
+						"You gain {@sense darkvision} with a range of 120 feet.",
+						"You make Strength-based attack rolls with advantage.",
+						"Your melee weapon attacks deal an extra {@damage 1d6} force damage on a hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Great Tree",
+					"entries": [
+						"Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain 10 temporary hit points.",
+						"You make Constitution saving throws with advantage.",
+						"You make Dexterity- and Wisdom-based attack rolls with advantage.",
+						"While you are on the ground, the ground within 15 feet of you is {@quickref difficult terrain||3} for your enemies."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"miscTags": [
+				"AAD",
+				"ADV",
+				"DFT",
+				"THP"
+			]
+		},
+		{
+			"name": "Hallucinatory Terrain",
+			"source": "NICKED",
+			"level": 4,
+			"school": "I",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a stone, a twig, and a bit of green plant"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed in appearance.",
+				"The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence ({@skill Investigation}) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain."
+			],
+			"abilityCheck": [
+				"intelligence"
+			],
+			"areaTags": [
+				"C"
+			],
+			"foundrySystem": {
+				"target.value": 150,
+				"target.units": "ft",
+				"target.type": "cube"
+			}
+		},
+		{
+			"name": "Ice Storm",
+			"source": "NICKED",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of dust and a few drops of water"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@bold Focused}",
+				"A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes {@damage 2d8} bludgeoning damage and {@damage 4d6} cold damage on a failed save, or half as much damage on a successful one.",
+				"Hailstones turn the storm's area of effect into {@quickref difficult terrain||3} until the end of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by {@scaledamage 2d8|4-9|1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning",
+				"cold"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"foundrySystem": {
+				"target.value": 20,
+				"target.units": "ft",
+				"target.type": "cylinder"
+			}
+		},
+		{
+			"name": "Locate Creature",
+			"source": "NICKED",
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of fur from a bloodhound"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Describe or name a creature that is familiar to you. You sense the direction to the creature's location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.",
+				"The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a {@creature unicorn}), so long as you have seen such a creature up close\u2014within 30 feet\u2014at least once. If the creature you described or named is in a different form, such as being under the effects of a {@spell polymorph} spell, this spell doesn't locate the creature.",
+				"This spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature."
+			]
+		},
+		{
+			"name": "Phantasmal Killer",
+			"source": "NICKED",
+			"level": 4,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes {@condition frightened} for the duration. At the end of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take {@damage 4d10} psychic damage. On a successful save, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 4d10|4-9|1d10} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Polymorph",
+			"source": "NICKED",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a caterpillar cocoon"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@bold Focused}",
+				"This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell has no effect on a shapechanger or a creature with 0 hit points.",
+				"The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be {@filter any beast|bestiary|type=beast|miscellaneous=!swarm} whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.",
+				"The target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked unconscious.",
+				"The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech.",
+				"The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Psychic Lance",
+			"source": "NICKED",
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.",
+				"The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 7d6} psychic damage and is {@condition incapacitated} until the start of your next turn. On a successful save, the creature takes half as much damage and isn't {@condition incapacitated}."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 7d6|4-9|1d6} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Private Sanctum",
+			"source": "NICKED",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it.",
+				"When you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties:",
+				{
+					"type": "list",
+					"items": [
+						"Sound can't pass through the barrier at the edge of the warded area.",
+						"The barrier of the warded area appears dark and foggy, preventing vision (including {@sense darkvision}) through it.",
+						"Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter.",
+						"Creatures in the area can't be targeted by divination spells.",
+						"Nothing can teleport into or out of the warded area.",
+						"Planar travel is blocked within the warded area."
+					]
+				},
+				"Casting this spell on the same spot every day for a year makes this effect permanent."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level."
+					]
+				}
+			],
+			"miscTags": [
+				"PRM"
+			],
+			"areaTags": [
+				"C"
+			],
+			"foundrySystem": {
+				"target.value": 100,
+				"target.units": "ft",
+				"target.type": "cube"
+			}
+		},
+		{
+			"name": "Otiluke's Resilient Sphere",
+			"source": "NICKED",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.",
+				"Nothing\u2014not physical objects, energy, or other spell effects\u2014can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
+				"The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.",
+				"A {@spell disintegrate|NICKED} spell targeting the globe destroys it without harming anything inside it."
+			],
+			"damageImmune": [
+				"acid",
+				"bludgeoning",
+				"cold",
+				"fire",
+				"force",
+				"lightning",
+				"necrotic",
+				"piercing",
+				"poison",
+				"psychic",
+				"radiant",
+				"slashing",
+				"thunder"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"OBJ"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Leomund's Secret Chest",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "an exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp",
+					"cost": 500000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You hide a chest, and all its contents, on the Ethereal Plane. You must touch the chest and the miniature replica that serves as a material component for the spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet by 2 feet by 2 feet).",
+				"While the chest remains on the Ethereal Plane, you can use an action and touch the replica to recall the chest. It appears in an unoccupied space on the ground within 5 feet of you.",
+				"You can send the chest back to the Ethereal Plane by performing a 1 minute ritual or expend a 4th level spell slot as an action, touching both the chest and the replica.",
+				"This effect ends if you cast this spell again, if the smaller replica chest is destroyed, or if you choose to end the spell as an action. If the spell ends and the larger chest is on the Ethereal Plane, the chest is destroyed and its contents are expelled to the nearest open space to the replica.",
+				"If you end the spell as an action the you may have the contents be lost to the ethereal plane which can be only accessed with the spell demiplane."
+			],
+			"miscTags": [
+				"PRM"
+			]
+		},
+		{
+			"name": "Shadow of Moil",
+			"source": "NICKED",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "an undead eyeball encased in a gem worth at least 150 gp",
+					"cost": 15000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Flame-like shadows wreathe your body until the spell ends, causing you to become heavily obscured to others. The shadows turn dim light within 10 feet of you into darkness, and bright light in the same area to dim light.",
+				"Until the spell ends, you have resistance to radiant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it {@damage 2d8} necrotic damage."
+			],
+			"damageResist": [
+				"radiant"
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"miscTags": [
+				"OBS"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Sickening Radiance",
+			"source": "NICKED",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Dim, greenish light spreads within a 30-foot-radius sphere centered on a point you choose within range. The light spreads around corners, and it lasts until the spell ends.",
+				"When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take {@damage 4d10} radiant damage, and it suffers one level of {@condition exhaustion} and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being {@condition invisible}. The light and any levels of {@condition exhaustion} caused by this spell go away when the spell ends."
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"S"
+			],
+			"foundrySystem": {
+				"target.value": 30,
+				"target.units": "ft",
+				"target.type": "sphere"
+			}
+		},
+		{
+			"name": "Spirit of Death",
+			"source": "NICKED",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gilded playing card worth at least 400 gp and depicting an avatar of death",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "special",
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Duration: Concentration unitl you begin your next short or long rest; {@bold Focused}",
+				"(This spell creature counts as a familiar)",
+				"You call forth a spirit that embodies death. The spirit manifests in an unoccupied space you can see within range and uses the {@creature reaper spirit|BMT} stat block. The spirit disappears when it is reduced to 0 hit points or when the spell ends.",
+				"The spirit is an ally to you and your companions. In combat, the spirit shares your initiative count and takes its turn during your turn. It obeys your verbal commands (no action required by you). If you don't issue the spirit any commands, it takes the {@action disengage} action and uses its movement to avoid danger."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the reaper spirit stat block."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Stone Shape",
+			"source": "NICKED",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "soft clay, which must be worked into roughly the desired shape of the stone object"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape that suits your purpose. So, for example, you could shape a large rock into a weapon, idol, or coffer, or make a small passage through a wall, as long as the wall is less than 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible."
+			],
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Stoneskin",
+			"source": "NICKED",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "A jar of dust composed of at least 3 different gemstones worth 100 gp",
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"entries": [
+				"Duration: Until you begin your next short or long rest",
+				"You apply a ward that temporarily turns the flesh of a willing creature you touch as hard as stone for a duration. This grants that creature +2 AC and {@dice 5d10} temporary hitpoints. The AC bonus this spell grants does not stack with any other leveled spell.",
+				"The spell ends early if the creature loses all the temporary hitpoints granted by this spell or all of the temporary hitpoints from this spell are lost."
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Storm Sphere",
+			"source": "NICKED",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@bold Focused}",
+				"A 20-foot-radius sphere of whirling air springs into existence, centered on a point you choose within range. The sphere remains for the spell's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take {@damage 2d6} bludgeoning damage. The sphere's space is {@quickref difficult terrain||3}.",
+				"Until the spell ends, you can use a bonus action on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged spell attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes {@damage 4d6} lightning damage.",
+				"Creatures within 30 feet of the sphere have disadvantage on Wisdom ({@skill Perception}) checks made to listen."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage for each of its effects increases by {@scaledamage 2d6;4d6|4-9|1d6} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning",
+				"lightning"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"DFT",
+				"UBA"
+			],
+			"areaTags": [
+				"ST",
+				"S"
+			],
+			"foundrySystem": {
+				"target.value": 20,
+				"target.units": "ft",
+				"target.type": "sphere"
+			}
+		},
+		{
+			"name": "Summon Aberration",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a pickled tentacle and an eyeball in a platinum-inlaid vial worth at least 400 gp",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "special",
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Duration: Concentration until you begin your next short or long rest; {@bold Focused}",
+				"(This spell creature counts as a familiar)",
+				"You call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Aberrant Spirit|TCE} stat block. When you cast the spell, choose Beholderkin, Slaad, or Star Spawn. The creature resembles an aberration of that kind, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, and takes its turn during yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action disengage} action and uses its move to avoid danger."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Construct",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "an ornate stone and metal lockbox worth at least 400 gp",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "special",
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Duration: Concentration until you begin your next short or long rest; {@bold Focused}",
+				"(This spell creature counts as a familiar)",
+				"You call forth the spirit of a construct. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Construct Spirit|TCE} stat block. When you cast the spell, choose a material: Clay, Metal, or Stone. The creature resembles a golem or a modron (your choice) made of the chosen material, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, and it takes its turn during yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action disengage} action and uses its move to avoid danger."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Elemental",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "air, a pebble, ash, and water inside a gold-inlaid vial worth at least 400 gp",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "special",
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Duration: Concentration until you begin your next short or long rest; {@bold Focused}",
+				"(This spell creature counts as a familiar)",
+				"You call forth an elemental spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Elemental Spirit|TCE} stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, and it takes its turn during yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action disengage} action and uses its move to avoid danger."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Giant Insect",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "A gilded golden exoskeleton of an insect, which is embossed with gemstones worth at least 400 gp",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@bold Focused}",
+				"(This spell creature counts as a familiar)",
+				"You call forth an giant insect from the earth. It manifests in an unoccupied space that you can see within range appearing as though it crawled from out of the ground if able. This creatures form uses the {@creature Giant Insect|NICKED} stat block. When you cast the spell, choose Centipede, Scorpion, Spider, or Wasp. The creature resembles an beast of that kind, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, and it takes its turn during yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action disengage} action and uses its move to avoid danger."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Greater Demon",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "(required) a vial of blood from a humanoid killed within the past 24 hours",
+					"consume": "optional"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You utter foul words, summoning one demon from the chaos of the Abyss. You choose the demon's type, which must be {@filter one of challenge rating 5 or lower|bestiary|challenge rating=[&0;&5]|tag=demon|miscellaneous=!swarm}, such as a {@creature shadow demon} or a {@creature barlgura}. The demon appears in an unoccupied space you can see within range, and the demon disappears when it drops to 0 hit points or when the spell ends.",
+				"Roll initiative for the demon, which has its own turns. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it spends its turn attacking any creature within reach that has attacked it.",
+				"At the end of each of the demon's turns, it makes a Charisma saving throw. The demon has disadvantage on this saving throw if you say its true name. On a failed save, the demon continues to obey you. On a successful save, your control of the demon ends for the rest of the duration, and the demon spends its turns pursuing and attacking the nearest non-demons to the best of its ability. If you stop {@status concentration||concentrating} on the spell before it reaches its full duration, an uncontrolled demon doesn't disappear for {@dice 1d6} rounds if it still has hit points.",
+				"The demon may remember you, and will often grow to despise you based on it's disposition.",
+				"As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demon can't cross the circle or harm it, and it can't target anyone within it. Using the material component in this manner consumes it when the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the challenge rating increases by 1 for each slot level above 4th."
+					]
+				}
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Vitriolic Sphere",
+			"source": "NICKED",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of giant slug bile"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@bold Focused}",
+				"You point at a location within range, and a glowing 1-foot-diameter ball of emerald acid streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 10d4} acid damage and another {@damage 5d4} acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by {@scaledamage 10d4|4-9|2d4} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"S"
+			],
+			"foundrySystem": {
+				"target.value": 20,
+				"target.units": "ft",
+				"target.type": "sphere",
+				"damage.parts": [
+					[
+						"10d4",
+						"acid"
+					]
+				],
+				"formula": "5d4[acid]"
+			}
+		},
+		{
+			"name": "Wall of Fire",
+			"source": "NICKED",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small piece of phosphorus"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@bold Focused}",
+				"You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.",
+				"When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 5d8} fire damage, or half as much damage on a successful save.",
+				"One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 5d8|4-9|1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"W"
+			],
+			"foundrySystem": {
+				"target.value": 60,
+				"target.units": "ft",
+				"target.type": "wall"
+			}
+		},
+		{
+			"name": "Watery Sphere",
+			"source": "NICKED",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a droplet of water"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure up a sphere of water with a 5-foot radius at a point you can see within range. The sphere can hover but no more than 10 feet off the ground. The sphere remains for the spell's duration.",
+				"Any creature in the sphere's space must make a Strength saving throw. On a successful save, a creature is ejected from that space to the nearest unoccupied space of the creature's choice outside the sphere. A Huge or larger creature succeeds on the saving throw automatically, and a Large or smaller creature can choose to fail it. On a failed save, a creature is {@condition restrained} by the sphere and is engulfed by the water. At the end of each of its turns, a {@condition restrained} target can repeat the saving throw, ending the effect on itself on a success.",
+				"The sphere can restrain as many as four Medium or smaller creatures or one Large creature. If the sphere restrains a creature that causes it to exceed this capacity, a random creature that was already {@condition restrained} by the sphere falls out of it and lands {@condition prone} in a space within 5 feet of it.",
+				"As an action, you can move the sphere up to 30 feet in a straight line. If it moves over a pit, a cliff, or other drop-off, it safely descends until it is hovering 10 feet above the ground. Any creature {@condition restrained} by the sphere moves with it. You can ram the sphere into creatures, forcing them to make the saving throw.",
+				"When the spell ends, the sphere falls to the ground and extinguishes all normal flames within 30 feet of it. Any creature {@condition restrained} by the sphere is knocked {@condition prone} in the space where it falls. The water then vanishes."
+			],
+			"conditionInflict": [
+				"prone",
+				"restrained"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"S"
+			],
+			"foundrySystem": {
+				"target.value": 5,
+				"target.units": "ft",
+				"target.type": "radius"
 			}
 		}
 	]
