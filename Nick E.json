@@ -3572,6 +3572,7 @@
 				},
 				"Surviving Skills|Barbarian N|NICKED|3|NICKED",
 				"Ability Score Improvement|Barbarian||4",
+				"Martial Ability Boost|Barbarian N|NICKED|4|NICKED",
 				"Extra Attack|Barbarian N|NICKED|5|NICKED",
 				"Focused Recovery: Barbarian|Barbarian N|NICKED|5|NICKED",
 				"Fast Movement|Barbarian N|NICKED|5|NICKED",
@@ -3591,6 +3592,7 @@
 				"Primal Knowledge|Barbarian N|NICKED|10|NICKED",
 				"Relentless Rage|Barbarian N|NICKED|11|NICKED",
 				"Ability Score Improvement|Barbarian||12",
+				"Martial Ability Boost|Barbarian N|NICKED|12|NICKED",
 				"Brutal Critical X 2|Barbarian N|NICKED|13|NICKED",
 				{
 					"classFeature": "Primal Path 14|Barbarian N|NICKED|14|NICKED",
@@ -3601,6 +3603,7 @@
 				"Brutal Critical X 3|Barbarian N|NICKED|17|NICKED",
 				"Indomitable Might|Barbarian N|NICKED|18|NICKED",
 				"Ability Score Improvement|Barbarian||19",
+				"Martial Ability Boost|Barbarian N|NICKED|19|NICKED",
 				"Primal Champion|Barbarian N|NICKED|20|NICKED"
 			],
 			"hd": {
@@ -5925,6 +5928,7 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Fighter||4",
+				"Martial Ability Boost|Fighter N|NICKED|4|NICKED",
 				"Martial Versatility|Fighter N|NICKED|4|NICKED",
 				"Extra Attack|Fighter N|NICKED|5|NICKED",
 				"Focused Recovery: Fighter|Fighter N|NICKED|5|NICKED",
@@ -5941,6 +5945,7 @@
 				},
 				"Extra Attack (2)|Fighter N|NICKED|11|NICKED",
 				"Ability Score Improvement|Fighter||12",
+				"Martial Ability Boost|Fighter N|NICKED|12|NICKED",
 				"Indomitable (short rest)|Fighter N|NICKED|13|NICKED",
 				"Ability Score Improvement|Fighter||14",
 				{
@@ -5955,6 +5960,7 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Fighter||19",
+				"Martial Ability Boost|Fighter N|NICKED|19|NICKED",
 				"Extra Attack (3)|Fighter N|NICKED|20|NICKED"
 			],
 			"subclassTitle": "Martial Archetype"
@@ -6446,6 +6452,7 @@
 				"Monastic Focus (3)|Monk N|NICKED|3|NICKED",
 				"Deflect Missiles|Monk N|NICKED|3|NICKED",
 				"Ability Score Improvement|Monk||4",
+				"Martial Ability Boost|Monk N|NICKED|4|NICKED",
 				"Extra Attack|Monk N|NICKED|5|NICKED",
 				"Chakra Recovery|Monk N|NICKED|5|NICKED",
 				"Monastic Focus (6)|Monk N|NICKED|6|NICKED",
@@ -6457,6 +6464,7 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Monk||12",
+				"Martial Ability Boost|Monk N|NICKED|12|NICKED",
 				"Tongue of the Sun and Moon|Monk N|NICKED|13|NICKED",
 				"Timeless Body|Monk N|NICKED|14|NICKED",
 				"Monastic Focus (15)|Monk N|NICKED|15|NICKED",
@@ -6467,6 +6475,7 @@
 				},
 				"Empty Body|Monk N|NICKED|18|NICKED",
 				"Ability Score Improvement|Monk||19",
+				"Martial Ability Boost|Monk N|NICKED|19|NICKED",
 				"Perfected Weapon|Monk N|NICKED|20|NICKED",
 				"Personal Monastery|Monk N|NICKED|20|NICKED"
 			],
@@ -6763,6 +6772,7 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Paladin||4",
+				"Martial Ability Boost|Paladin N|NICKED|4|NICKED",
 				"Martial Versatility|Paladin N|NICKED|4|NICKED",
 				"Extra Attack|Paladin N|NICKED|5|NICKED",
 				"Divine Fervor|Paladin N|NICKED|5|NICKED",
@@ -6775,6 +6785,7 @@
 				"Aura of Courage|Paladin N|NICKED|10|NICKED",
 				"Improved Divine Smite|Paladin N|NICKED|11|NICKED",
 				"Ability Score Improvement|Paladin||12",
+				"Martial Ability Boost|Paladin N|NICKED|12|NICKED",
 				"Cleansing Touch|Paladin N|NICKED|14|NICKED",
 				{
 					"classFeature": "Divine Purpose Feature|Paladin N|NICKED|15|NICKED",
@@ -6783,6 +6794,7 @@
 				"Ability Score Improvement|Paladin||16",
 				"Aura Improvements|Paladin N|NICKED|18|NICKED",
 				"Ability Score Improvement|Paladin||19",
+				"Martial Ability Boost|Paladin N|NICKED|19|NICKED",
 				{
 					"classFeature": "Divine Purpose Feature|Paladin N|NICKED|20|NICKED",
 					"gainSubclassFeature": true
@@ -7295,6 +7307,7 @@
 				},
 				"Primeval Awareness|Ranger N|NICKED|3|NICKED",
 				"Ability Score Improvement|Ranger||4",
+				"Martial Ability Boost|Ranger N|NICKED|4|NICKED",
 				"Martial Versatility|Ranger N|NICKED|4|NICKED",
 				"Extra Attack|Ranger N|NICKED|5|NICKED",
 				"Tireless|Ranger N|NICKED|5|NICKED",
@@ -7314,6 +7327,7 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Ranger||12",
+				"Martial Ability Boost|Ranger N|NICKED|12|NICKED",
 				"Canny (13)|Ranger N|NICKED|13|NICKED",
 				"Vanish|Ranger N|NICKED|14|NICKED",
 				{
@@ -7324,6 +7338,7 @@
 				"Hunter's Mark and Ensnaring Strike Improvement|Ranger N|NICKED|17|NICKED",
 				"Feral Senses|Ranger N|NICKED|18|NICKED",
 				"Ability Score Improvement|Ranger||19",
+				"Martial Ability Boost|Ranger N|NICKED|19|NICKED",
 				"Ranger, Hunter, Stalker, Slayer|Ranger N|NICKED|20|NICKED"
 			],
 			"subclassTitle": "Ranger Archetype"
@@ -9684,6 +9699,16 @@
 			]
 		},
 		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Barbarian N",
+			"classSource": "NICKED",
+			"level": 4,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
 			"name": "Extra Attack",
 			"source": "NICKED",
 			"foundryImg": "icons/skills/melee/spear-tips-triple-orange.webp",
@@ -9856,6 +9881,16 @@
 			]
 		},
 		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Barbarian N",
+			"classSource": "NICKED",
+			"level": 12,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
 			"name": "Brutal Critical X 2",
 			"source": "NICKED",
 			"className": "Barbarian N",
@@ -9930,6 +9965,16 @@
 			"entries": [
 				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you gain a feat.",
 				"This class also gains an additional ability score increase of your choice by 1 at 4th and 12th and 19th level. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Barbarian N",
+			"classSource": "NICKED",
+			"level": 19,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
 			]
 		},
 		{
@@ -10951,6 +10996,16 @@
 			]
 		},
 		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"level": 4,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
 			"name": "Martial Versatility",
 			"source": "NICKED",
 			"className": "Fighter N",
@@ -11032,6 +11087,16 @@
 			]
 		},
 		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"level": 12,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
 			"name": "Indomitable (short rest)",
 			"source": "NICKED",
 			"className": "Fighter N",
@@ -11079,6 +11144,16 @@
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain a feature granted by your Martial Archetype."
+			]
+		},
+		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"level": 19,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
 			]
 		},
 		{
@@ -11200,6 +11275,16 @@
 			]
 		},
 		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Monk N",
+			"classSource": "NICKED",
+			"level": 4,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
 			"name": "Extra Attack",
 			"source": "NICKED",
 			"className": "Monk N",
@@ -11286,6 +11371,16 @@
 			]
 		},
 		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Monk N",
+			"classSource": "NICKED",
+			"level": 12,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
 			"name": "Tongue of the Sun and Moon",
 			"source": "NICKED",
 			"className": "Monk N",
@@ -11360,6 +11455,16 @@
 			"entries": [
 				"Beginning at 18th level, you can use your action to spend 4 chakra points to become {@condition invisible} for 1 minute. During that time, you also have resistance to all damage but force damage.",
 				"Additionally, you can spend 8 chakra points to cast the {@spell astral projection|NICKED} spell, without needing material components. When you do so, you can't take any other creatures with you."
+			]
+		},
+		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Monk N",
+			"classSource": "NICKED",
+			"level": 19,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
 			]
 		},
 		{
@@ -11514,6 +11619,16 @@
 			]
 		},
 		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Paladin N",
+			"classSource": "NICKED",
+			"level": 4,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
 			"name": "Martial Versatility",
 			"source": "NICKED",
 			"className": "Paladin N",
@@ -11596,6 +11711,16 @@
 			]
 		},
 		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Paladin N",
+			"classSource": "NICKED",
+			"level": 12,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
 			"name": "Cleansing Touch",
 			"source": "NICKED",
 			"className": "Paladin N",
@@ -11624,6 +11749,16 @@
 			"level": 18,
 			"entries": [
 				"At 18th level, the range of your auras increase to 30 feet."
+			]
+		},
+		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Paladin N",
+			"classSource": "NICKED",
+			"level": 19,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
 			]
 		},
 		{
@@ -11782,6 +11917,16 @@
 			]
 		},
 		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Ranger N",
+			"classSource": "NICKED",
+			"level": 4,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
 			"name": "Martial Versatility",
 			"source": "NICKED",
 			"className": "Ranger N",
@@ -11917,6 +12062,16 @@
 			]
 		},
 		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Ranger N",
+			"classSource": "NICKED",
+			"level": 12,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
 			"name": "Canny (13)",
 			"source": "NICKED",
 			"className": "Ranger N",
@@ -11993,6 +12148,16 @@
 			"entries": [
 				"At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.", 
 				"You are also aware of the location of any {@condition invisible} creature within 60 feet of you, provided that the creature isn't hidden from you and you aren't {@condition blinded} or {@condition deafened}."
+			]
+		},
+		{
+			"name": "Martial Ability Boost",
+			"source": "NICKED",
+			"className": "Ranger N",
+			"classSource": "NICKED",
+			"level": 19,
+			"entries": [
+				"You gain a +1 to a stat of your choice (max 20)."
 			]
 		},
 		{
