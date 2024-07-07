@@ -4621,12 +4621,14 @@
 				"Bardic Inspiration|Bard N|NICKED|1|NICKED",
 				"Spellcasting|Bard N|NICKED|1|NICKED",
 				"Jack of All Trades|Bard||2|",
+				"Jack of All Trades|Bard N|NICKED|2|NICKED",
 				"Song of Rest|Bard N|NICKED|2|NICKED",
 				{
 					"classFeature": "Bard College|Bard N|NICKED|3|NICKED",
 					"gainSubclassFeature": true
 				},
 				"Expertise|Bard||3",
+				"Expertise|Bard N|NICKED|3|NICKED",
 				"Ability Score Improvement|Bard||4",
 				"Reliable Skill|Bard N|NICKED|4|NICKED",
 				"Bardic Inspiration (d8)|Bard N|NICKED|5|NICKED",
@@ -10033,7 +10035,8 @@
 					"type": "entries",
 					"name": "Cantrips",
 					"entries": [
-						"You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level."
+						"You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level.",
+						"Whenever you reach a level in this class that grants feat feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list."
 					]
 				},
 				{
@@ -10088,6 +10091,16 @@
 						"You can use a {@item musical instrument|PHB} as a spellcasting focus for your bard spells."
 					]
 				}
+			]
+		},
+		{
+			"name": "Jack of All Trades",
+			"source": "NICKED",
+			"className": "Bard N",
+			"classSource": "NICKED",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
 			]
 		},
 		{
