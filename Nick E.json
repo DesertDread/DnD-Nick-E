@@ -15176,6 +15176,13 @@
 			"additionalSpells": [
 				{
 					"innate": {
+						"10": {
+							"rest": {
+								"1": [
+									"elemental munitions|NICKED"
+								]
+							}
+						},
 						"18": {
 							"will": [
 								"Far Step|NICKED"
@@ -24385,7 +24392,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you learn to cast the elemental munitions spell, you may cast this spell once per short rest without needing to expend a spell slot. Intelligence is your spellcasting modifier for this spell."
+				"Starting at 10th level, you learn to cast the {@spell elemental munitions|NICKED} spell, you may cast this spell once per short rest without needing to expend a spell slot. Intelligence is your spellcasting modifier for this spell."
 			]
 		},
 		{
