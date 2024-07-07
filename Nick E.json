@@ -5774,7 +5774,7 @@
 				"summon elemental|NICKED",
 				"summon giant insect|NICKED",
 				"wall of fire|NICKED",
-				"watery sphere"
+				"watery sphere|NICKED"
             ],
 			"classFeatures": [
 				"Spellcaster|Druid N|NICKED|1|NICKED",
