@@ -3677,64 +3677,64 @@
 						"type": "number",
 						"scale": {
 							"1": {
-								"value": 1
+								"value": 2
 							},
 							"2": {
-								"value": 1
+								"value": 2
 							},
 							"3": {
-								"value": 1
+								"value": 3
 							},
 							"4": {
-								"value": 1
+								"value": 3
 							},
 							"5": {
-								"value": 2
+								"value": 3
 							},
 							"6": {
-								"value": 2
+								"value": 4
 							},
 							"7": {
-								"value": 2
+								"value": 4
 							},
 							"8": {
-								"value": 2
+								"value": 4
 							},
 							"9": {
-								"value": 2
+								"value": 4
 							},
 							"10": {
-								"value": 2
+								"value": 4
 							},
 							"11": {
-								"value": 2
+								"value": 4
 							},
 							"12": {
-								"value": 2
+								"value": 5
 							},
 							"13": {
-								"value": 2
+								"value": 5
 							},
 							"14": {
-								"value": 2
+								"value": 5
 							},
 							"15": {
-								"value": 2
+								"value": 5
 							},
 							"16": {
-								"value": 2
+								"value": 5
 							},
 							"17": {
-								"value": 3
+								"value": 6
 							},
 							"18": {
-								"value": 3
+								"value": 6
 							},
 							"19": {
-								"value": 3
+								"value": 6
 							},
 							"20": {
-								"value": 9001
+								"value": 9999
 							}
 						}
 					},
