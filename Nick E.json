@@ -3784,9 +3784,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"str": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"{@item shield|phb|shields}"
@@ -4111,9 +4108,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"cha": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light"
@@ -4780,9 +4774,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"wis": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -5352,9 +5343,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"wis": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -5914,14 +5902,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"or": [
-						{
-							"str": 13,
-							"dex": 13
-						}
-					]
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -6048,10 +6028,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"dex": 13,
-					"wis": 13
-				},
 				"proficienciesGained": {
 					"weapons": [
 						"simple"
@@ -6605,10 +6581,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"str": 13,
-					"cha": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -6970,10 +6942,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"dex": 13,
-					"wis": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -7450,9 +7418,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"dex": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light"
@@ -7907,11 +7872,6 @@
 						]
 					}
 				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"cha": 13
-				}
 			},
 			"classTableGroups": [
 				{
@@ -8666,9 +8626,6 @@
 				]
 			},
 			"multiclassing": {
-				"requirements": {
-					"cha": 13
-				},
 				"proficienciesGained": {
 					"armor": [
 						"light"
@@ -9080,11 +9037,6 @@
 						]
 					}
 				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"int": 13
-				}
 			},
 			"classTableGroups": [
 				{
