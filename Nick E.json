@@ -4620,7 +4620,6 @@
                 "Spellcaster|Bard N|NICKED|1|NICKED",
 				"Bardic Inspiration|Bard N|NICKED|1|NICKED",
 				"Spellcasting|Bard N|NICKED|1|NICKED",
-				"Jack of All Trades|Bard||2|",
 				"Jack of All Trades|Bard N|NICKED|2|NICKED",
 				"Song of Rest|Bard N|NICKED|2|NICKED",
 				{
@@ -8415,6 +8414,75 @@
 				"vitriolic sphere|NICKED",
 				"wall of fire|NICKED",
 				"watery sphere|NICKED"
+			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "sorcery-points",
+						"type": "number",
+						"scale": {
+							"2": {
+								"value": 2
+							},
+							"3": {
+								"value": 3
+							},
+							"4": {
+								"value": 4
+							},
+							"5": {
+								"value": 5
+							},
+							"6": {
+								"value": 6
+							},
+							"7": {
+								"value": 7
+							},
+							"8": {
+								"value": 8
+							},
+							"9": {
+								"value": 9
+							},
+							"10": {
+								"value": 10
+							},
+							"11": {
+								"value": 11
+							},
+							"12": {
+								"value": 12
+							},
+							"13": {
+								"value": 13
+							},
+							"14": {
+								"value": 14
+							},
+							"15": {
+								"value": 15
+							},
+							"16": {
+								"value": 16
+							},
+							"17": {
+								"value": 17
+							},
+							"18": {
+								"value": 18
+							},
+							"19": {
+								"value": 19
+							},
+							"20": {
+								"value": 20
+							}
+						}
+					},
+					"title": "Sorcery Points"
+				}
 			],
 			"classFeatures": [
 				"Spellcaster|Sorcerer N|NICKED|1|NICKED",
@@ -35590,11 +35658,23 @@
 			}
 		},
 		{
-			"name": "Martial",
+			"name": "Jack of All Trades",
 			"source": "NICKED",
-			"className": "Barbarian N",
+			"className": "Bard N",
 			"classSource": "NICKED",
-			"level": 1
+			"level": 2,
+			"effects": [
+				{
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.dnd5e.jackOfAllTrades",
+							"mode": "OVERRIDE",
+							"value": true
+						}
+					]
+				}
+			]
 		}
 	],
 	"optionalfeature": [
