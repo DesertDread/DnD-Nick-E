@@ -8845,7 +8845,7 @@
 				"fear|NICKED",
 				"fly|NICKED",
 				"gaseous form|NICKED",
-				"hunger of hadar|NICKED",
+				"hunger of the black void|NICKED",
 				"hypnotic pattern|NICKED",
 				"intellect fortress|NICKED",
 				"magic circle|NICKED",
@@ -30856,7 +30856,7 @@
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"{@spell toll the dead|NICKED}, {@spell arms of hadar|NICKED}, (At 3rd level){@spell augury|NICKED}, (at 3rd level){@spell moonbeam|NICKED}(black light energy)",
+				"{@spell toll the dead|NICKED}, {@spell arms of the dark hunger|NICKED}, (At 3rd level){@spell augury|NICKED}, (at 3rd level){@spell moonbeam|NICKED}(black light energy)",
 				"When you cast {@spell moonbeam|NICKED}, it deals necrotic damage instead of radiant damage. It does not illuminate the area it's in but dims it. The area counts as though it is now in darkness (nonmagical, restricting your ally's vision is not considered harmful).",
 				"Your corneas become like black voids and your irises glow slightly."
 			]
