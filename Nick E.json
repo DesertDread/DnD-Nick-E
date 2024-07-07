@@ -5715,7 +5715,7 @@
 				"enlarge reduce|NICKED",
 				"find traps|NICKED",
 				"flame blade|NICKED",
-				"flaming sphere|NICKED",
+				"flaming/lightning sphere|NICKED",
 				"gust of wind|NICKED",
 				"healing spirit|NICKED",
 				"heat metal|NICKED",
@@ -5757,7 +5757,6 @@
 				"charm monster|NICKED",
 				"confusion|NICKED",
 				"conjure minor elementals|NICKED",
-				"conjure woodland beings|NICKED",
 				"control water|NICKED",
 				"divination|NICKED",
 				"dominate beast|NICKED",
@@ -7236,7 +7235,6 @@
 				"daylight|NICKED",
 				"elemental weapon|NICKED",
 				"elemental munitions|NICKED",
-				"lightning arrow|NICKED",
 				"meld into stone|NICKED",
 				"nondetection|NICKED",
 				"plant growth|NICKED",
@@ -7249,7 +7247,6 @@
 				"water walk|NICKED",
 				"wind wall|NICKED",
 				"dominate beast|NICKED",
-				"conjure woodland beings|NICKED",
 				"faithful hound|NICKED",
 				"freedom of movement|NICKED",
 				"grasping vine|NICKED",
@@ -7257,7 +7254,7 @@
 				"locate creature|NICKED",
 				"stoneskin|NICKED",
 				"summon elemental|NICKED",
-				"summon giant insect"
+				"summon giant insect|NICKED"
             ],
 			"additionalSpells": [
 				{
@@ -8367,7 +8364,7 @@
 				"fast friends|NICKED",
 				"fear|NICKED",
 				"fireball|NICKED",
-				"flame runners stride|NICKED",
+				"flame runner's stride|NICKED",
 				"fly|NICKED",
 				"gaseous form|NICKED",
 				"haste|NICKED",
@@ -9430,7 +9427,7 @@
 				"earthen grasp|NICKED",
 				"enlarge/reduce|NICKED",
 				"enhanced ability|NICKED",
-				"flaming sphere|NICKED",
+				"flaming/lightning|NICKED",
 				"gentle repose|NICKED",
 				"gust of wind|NICKED",
 				"hold person|NICKED",
@@ -9439,12 +9436,12 @@
 				"levitate|NICKED",
 				"locate object|NICKED",
 				"magic mouth|NICKED",
-				"magic weapon|NICKED",
+				"magic honing|NICKED",
 				"mind spike|NICKED",
 				"mind whip|NICKED",
 				"mirror image|NICKED",
 				"misty step|NICKED",
-				"nystul's magic aura|NICKED",
+				"magic aura|NICKED",
 				"omni-ray x|NICKED",
 				"omni-wave x|NICKED",
 				"phantasmal force|NICKED",
@@ -13739,7 +13736,7 @@
 							"magic missile|NICKED"
 						],
 						"3": [
-							"magic weapon|NICKED",
+							"magic honing|NICKED",
 							"magic aura|NICKED"
 						],
 						"5": [
@@ -13844,7 +13841,7 @@
 						],
 						"3": [
 							"heat metal|NICKED",
-							"magic weapon|NICKED"
+							"magic honing|NICKED"
 						],
 						"5": [
 							"elemental weapon|NICKED",
@@ -14009,8 +14006,8 @@
 							"guiding bolt|NICKED"
 						],
 						"3": [
-							"flaming sphere|NICKED",
-							"scorching ray|NICKED"
+							"flaming/lightning sphere|NICKED",
+							"omni-ray X|NICKED"
 						],
 						"5": [
 							"daylight|NICKED",
@@ -14311,7 +14308,7 @@
 							"shield of faith|NICKED"
 						],
 						"3": [
-							"magic weapon|NICKED",
+							"magic honing|NICKED",
 							"spiritual weapon|NICKED"
 						],
 						"5": [
@@ -14718,8 +14715,8 @@
 							"cure wounds|NICKED"
 						],
 						"3": [
-							"flaming sphere|NICKED",
-							"scorching ray|NICKED"
+							"flaming/lightning sphere|NICKED",
+							"omni-ray X|NICKED"
 						],
 						"5": [
 							"plant growth|NICKED",
@@ -14727,7 +14724,7 @@
 						],
 						"7": [
 							"aura of life|NICKED",
-							"fire shield|NICKED"
+							"frostfire shield|NICKED"
 						],
 						"9": [
 							"flame strike|NICKED",
@@ -16252,7 +16249,7 @@
 							"magic missile|NICKED"
 						],
 						"5": [
-							"magic weapon|NICKED",
+							"magic honing|NICKED",
 							"magic aura|NICKED"
 						],
 						"9": [
@@ -16975,8 +16972,8 @@
 			"classSource": "NICKED",
 			"subclassSpells": [
 				{
-					"className": "Cleric",
-                    "classSource": "PHB"
+					"className": "Cleric N",
+                    "classSource": "NICKED"
 				}
 			],
 			"additionalSpells": [
@@ -17100,8 +17097,8 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"subclassSpells": [
-				"primal savagery|XGE",
-				"produce flame"
+				"primal savagery|NICKED",
+				"produce flame|NICKED"
 			],
 			"additionalSpells": [
 				{
@@ -17366,7 +17363,7 @@
 							"guiding bolt|NICKED"
 						],
 						"s2": [
-							"flaming sphere|NICKED",
+							"flaming/lightning sphere|NICKED",
 							"lesser restoration|NICKED"
 						],
 						"s3": [
@@ -17468,14 +17465,14 @@
 						],
 						"s2": [
 							"blindness/deafness|NICKED",
-							"scorching ray|NICKED"
+							"omni-ray X|NICKED"
 						],
 						"s3": [
 							"elemental weapon|NICKED",
 							"fireball|NICKED"
 						],
 						"s4": [
-							"fire shield|NICKED",
+							"frostfire shield|NICKED",
 							"wall of fire"
 						],
 						"s5": [
@@ -17890,17 +17887,16 @@
 				"purify food and drink|NICKED",
 				"zephyr strike|NICKED",
 				"barkskin|NICKED",
-				"cordon of arrows|NICKED",
+				"Cordon Trap/Auto Cordon Trap|NICKED",
 				"heat metal|NICKED",
 				"immovable object|NICKED",
 				"spike growth|NICKED",
 				"elemental weapon|NICKED",
-				"lightning arrow|NICKED",
+				"sunlight spear|NICKED",
 				"meld into stone|NICKED",
 				"plant growth|NICKED",
 				"speak with plants|NICKED",
 				"water walk|NICKED",
-				"giant insect|NICKED",
 				"guardian of nature|NICKED",
 				"awaken|NICKED",
 				"reincarnate|NICKED",
@@ -20414,7 +20410,7 @@
 						],
 						[
 							"3rd",
-							"{@spell magic weapon|NICKED}, {@spell magic aura|NICKED}"
+							"{@spell magic honing|NICKED}, {@spell magic aura|NICKED}"
 						],
 						[
 							"5th",
@@ -20684,7 +20680,7 @@
 						],
 						[
 							"3rd",
-							"{@spell heat metal|NICKED}, {@spell magic weapon|NICKED}"
+							"{@spell heat metal|NICKED}, {@spell magic honing|NICKED}"
 						],
 						[
 							"5th",
@@ -21330,7 +21326,7 @@
 						],
 						[
 							"3rd",
-							"{@spell flaming sphere|NICKED}, {@spell scorching ray|NICKED}"
+							"{@spell flaming/lightning sphere|NICKED}, {@spell omni-ray X|NICKED}"
 						],
 						[
 							"5th",
@@ -22393,7 +22389,7 @@
 						],
 						[
 							"3rd",
-							"{@spell magic weapon|NICKED}, {@spell spiritual weapon|NICKED}"
+							"{@spell magic honing|NICKED}, {@spell spiritual weapon|NICKED}"
 						],
 						[
 							"5th",
@@ -23519,7 +23515,7 @@
 						],
 						[
 							"3rd",
-							"{@spell flaming sphere|NICKED}, {@spell scorching ray|NICKED}"
+							"{@spell flaming/lightning sphere|NICKED}, {@spell omni-ray X|NICKED}"
 						],
 						[
 							"5th",
@@ -23527,7 +23523,7 @@
 						],
 						[
 							"7th",
-							"{@spell aura of life|NICKED}, {@spell fire shield|NICKED}"
+							"{@spell aura of life|NICKED}, {@spell frostfire shield|NICKED}"
 						],
 						[
 							"9th",
@@ -28833,7 +28829,7 @@
 						],
 						[
 							"5th",
-							"{@spell magic weapon|NICKED}, {@spell nystul's magic aura|NICKED}"
+							"{@spell magic honing|NICKED}, {@spell magic aura|NICKED}"
 						],
 						[
 							"9th",
@@ -32977,7 +32973,7 @@
 								],
 								[
 									"2nd",
-									"{@spell flaming sphere|NICKED}, {@spell lesser restoration|NICKED}"
+									"{@spell flaming/lightning sphere|NICKED}, {@spell lesser restoration|NICKED}"
 								],
 								[
 									"3rd",
@@ -33263,7 +33259,7 @@
 								],
 								[
 									"2nd",
-									"{@spell blindness/deafness|NICKED}, {@spell scorching ray|NICKED}"
+									"{@spell blindness/deafness|NICKED}, {@spell omni-ray X|NICKED}"
 								],
 								[
 									"3rd",
@@ -33271,7 +33267,7 @@
 								],
 								[
 									"4th",
-									"{@spell fire shield|NICKED}, {@spell wall of fire|NICKED}"
+									"{@spell frostfire shield|NICKED}, {@spell wall of fire|NICKED}"
 								],
 								[
 									"5th",
@@ -33945,7 +33941,7 @@
 								],
 								[
 									"3rd",
-									"{@spell ashardalon's stride|NICKED}, {@spell speak with dead|NICKED}"
+									"{@spell flame runner's stride|NICKED}, {@spell speak with dead|NICKED}"
 								],
 								[
 									"4th",
@@ -38796,7 +38792,7 @@
 			"entries": [
 				"When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).",
 				"To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level.", 
-				"For example, {@spell magic missile|NICKED} and {@spell scorching ray|NICKED} aren't eligible, but {@spell ray of frost|NICKED} and {@spell chromatic orb|NICKED} are."
+				"For example, {@spell magic missile|NICKED} and {@spell omni-ray X|NICKED} aren't eligible, but {@spell ray of frost|NICKED} and {@spell chromatic orb|NICKED} are."
 			]
 		},
 		{
@@ -45541,8 +45537,7 @@
 		},
 		{
 			"abbreviation": "RCH",
-			"source": "PHB",
-			"page": 147,
+			"source": "NICKED",
 			"entries": [
 				{
 					"type": "entries",
@@ -52720,7 +52715,6 @@
 		{
 			"name": "Frost Fingers",
 			"source": "NICKED",
-			"page": 318,
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -53443,12 +53437,6 @@
 		{
 			"name": "Inflict Wounds",
 			"source": "NICKED",
-			"otherSources": [
-				{
-					"source": "RMR",
-					"page": 55
-				}
-			],
 			"level": 1,
 			"school": "N",
 			"time": [
@@ -55017,6 +55005,44 @@
 			]
 		},
 		{
+			"name": "Borrowed Knowledge",
+			"source": "NICKED",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a book worth at least 25 gp",
+					"cost": 2500
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again."
+			]
+		},
+		{
 			"name": "Calm Emotions",
 			"source": "NICKED",
 			"level": 2,
@@ -55127,9 +55153,7 @@
 		},
 		{
 			"name": "Continual Flame",
-			"source": "PHB",
-			"page": 227,
-			"srd": true,
+			"source": "NICKED",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -55171,7 +55195,6 @@
 		{
 			"name": "Cordon Trap/Auto Cordon Trap",
 			"source": "NICKED",
-			"page": 228,
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -56976,7 +56999,6 @@
 		{
 			"name": "Mischief",
 			"source": "NICKED",
-			"page": 20,
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -58063,8 +58085,7 @@
 		},
 		{
 			"name": "Spray of Cards",
-			"source": "BMT",
-			"page": 50,
+			"source": "NICKED",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -58371,7 +58392,6 @@
 		{
 			"name": "Warp Sense",
 			"source": "NICKED",
-			"page": 12,
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -60193,12 +60213,6 @@
 		{
 			"name": "Lightning Bolt",
 			"source": "NICKED",
-			"otherSources": [
-				{
-					"source": "RMR",
-					"page": 56
-				}
-			],
 			"level": 3,
 			"school": "V",
 			"time": [
