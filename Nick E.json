@@ -24770,8 +24770,24 @@
 			"entries": [
 				{
 					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Energy Die|Fighter N|NICKED|Psi Warrior|NICKED|3|NICKED"
+				},
+				{
+					"type": "refSubclassFeature",
 					"subclassFeature": "Psionic Power|Fighter N|NICKED|Psi Warrior|NICKED|3|NICKED"
 				}
+			]
+		},
+		{
+			"name": "Psionic Energy Die",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"subclassShortName": "Psi Warrior",
+			"subclassSource": "NICKED",
+			"level": 3,
+			"entries": [
+				"You have a number of these dice equal to twice your proficiency bonus. You regain expended dice when you finish a long rest."
 			]
 		},
 		{
@@ -30632,12 +30648,28 @@
 			"entries": [
 				{
 					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Energy Die|Rogue N|NICKED|Soulknife|NICKED|3|NICKED"
+				},
+				{
+					"type": "refSubclassFeature",
 					"subclassFeature": "Psionic Power|Rogue N|NICKED|Soulknife|NICKED|3|NICKED"
 				},
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Psychic Blades|Rogue N|NICKED|Soulknife|NICKED|3|NICKED"
 				}
+			]
+		},
+		{
+			"name": "Psionic Energy Die",
+			"source": "NICKED",
+			"className": "Rogue N",
+			"classSource": "NICKED",
+			"subclassShortName": "Soulknife",
+			"subclassSource": "NICKED",
+			"level": 3,
+			"entries": [
+				"You have a number of these dice equal to double your proficiency bonus. You regain expended dice when you finish a long rest."
 			]
 		},
 		{
@@ -35797,6 +35829,34 @@
 				"uses.max": "@scale.sorcerer-n.sorcery-points"
 			},
 			"img": "icons/magic/control/silhouette-hold-change-blue.webp"
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Psionic Energy Die",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"subclassShortName": "Psi Warrior",
+			"subclassSource": "NICKED",
+			"level": 3,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "@attributes.prof*2"
+			}
+		},
+		{
+			"name": "Psionic Energy Die",
+			"source": "NICKED",
+			"className": "Rogue N",
+			"classSource": "NICKED",
+			"subclassShortName": "Soulknife",
+			"subclassSource": "NICKED",
+			"level": 3,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "@attributes.prof*2"
+			}
 		}
 	],
 	"optionalfeature": [
