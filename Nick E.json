@@ -13450,7 +13450,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 20,
-			"foundryImg": "icons/magic/lightning/buff-flight-wings-runes-purple-orange.webp",
+			"foundryImg": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
 			"entries": [
 				"Starting at 20th level, you gain a 10th level spell slot and select one tenth level spell. This spell does not count towards the number of spells known.",
 				"When you cast the 10th level spell, you cannot do so again unless otherwise stated by your DM or you fail the roll to cast the spell.",
@@ -31737,6 +31737,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 2,
+			"foundryImg": "icons/environment/settlement/watchtower-moonlit-blue.webp",
 			"entries": [
 				"Starting at 1st level, you gain {@sense darkvision} to 60 ft in which you can see in full color.",
 				"Additionally, you only need 4 hours of rest to complete a full rest instead of the usual 8 hours. You do not need to sleep during these 4 hours but cannot perform strenuous activity.",
@@ -39983,6 +39984,7 @@
 					"darkvision": 60
 				}
 			],
+			"foundryImg": "icons/magic/nature/stealth-hide-eyes-pink.webp",
 			"entries": [
 				"You gain darkvision out to 60 ft."
 			]
@@ -39998,6 +40000,7 @@
 					"darkvision": 120
 				}
 			],
+			"foundryImg": "icons/magic/nature/stealth-hide-eyes-pink.webp",
 			"entries": [
 				"You gain darkvision out to 120 ft."
 			]
