@@ -26346,7 +26346,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell thaumaturgy|NICKED}"
+							"{@spell thaumaturgy|NICKED}, {@spell punishing blade|NICKED}"
 						],
 						[
 							"2nd",
@@ -26409,12 +26409,17 @@
 			"entries": [
 				"Starting at 3rd level, you gain the following two Channel Oath options.",
 				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Conquering Presence|Paladin N|NICKED|Conquest|NICKED|3|NICKED"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Guided Strike|Paladin N|NICKED|Conquest|NICKED|3|NICKED"
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Conquering Presence|Paladin N|NICKED|Conquest|NICKED|3|NICKED"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Guided Strike|Paladin N|NICKED|Conquest|NICKED|3|NICKED"
+						}
+					]
 				}
 			]
 		},
@@ -26565,7 +26570,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell blade ward|NICKED}, {@spell mending|NICKED}"
+							"{@spell blade ward|NICKED}, {@spell mending|NICKED}, {@spell black-flame blade|NICKED}"
 						],
 						[
 							"2nd",
@@ -26614,14 +26619,19 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"entries": [
-				"Starting at 3rd leve, you gain the following Channel Oath options:",
+				"Starting at 3rd level, you gain the following Channel Oath options:",
 				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Sacred Weapon|Paladin N|NICKED|Devotion|NICKED|3|NICKED"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Gilded Words|Paladin N|NICKED|Devotion|NICKED|3|NICKED"
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Sacred Weapon|Paladin N|NICKED|Devotion|NICKED|3|NICKED"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Gilded Words|Paladin N|NICKED|Devotion|NICKED|3|NICKED"
+						}
+					]
 				}
 			]
 		},
@@ -26816,12 +26826,17 @@
 			"entries": [
 				"Starting at 3rd level, you gain the following Channel Oath options:",
 				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Emissary of Peace|Paladin N|NICKED|Redemption|NICKED|3|NICKED"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Rebuke the Violent|Paladin N|NICKED|Redemption|NICKED|3|NICKED"
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Emissary of Peace|Paladin N|NICKED|Redemption|NICKED|3|NICKED"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Rebuke the Violent|Paladin N|NICKED|Redemption|NICKED|3|NICKED"
+						}
+					]
 				}
 			]
 		},
@@ -27035,12 +27050,17 @@
 			"entries": [
 				"Starting at 3rd level, you gain the following Channel Oath options",
 				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Boon of the Elder Beast|Paladin N|NICKED|Ancients|NICKED|3|NICKED"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Nature's Warden|Paladin N|NICKED|Ancients|NICKED|3|NICKED"
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Boon of the Elder Beast|Paladin N|NICKED|Ancients|NICKED|3|NICKED"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Nature's Warden|Paladin N|NICKED|Ancients|NICKED|3|NICKED"
+						}
+					]
 				}
 			]
 		},
@@ -27225,7 +27245,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell minor illusion|NICKED}}"
+							"{@spell minor illusion|NICKED}}, {@spell elemental ammunitions|NICKED}"
 						],
 						[
 							"2nd",
@@ -27298,12 +27318,17 @@
 			"entries": [
 				"You gain the following Channel Oath options. See the Sacred Oath class feature for how Channel Oath works.",
 				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Vigil's Hunt|Paladin N|NICKED|Last Vigil|NICKED|3|NICKED"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Vigilant Path|Paladin N|NICKED|Last Vigil|NICKED|3|NICKED"
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Vigil's Hunt|Paladin N|NICKED|Last Vigil|NICKED|3|NICKED"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Vigilant Path|Paladin N|NICKED|Last Vigil|NICKED|3|NICKED"
+						}
+					]
 				}
 			]
 		},
@@ -27519,12 +27544,17 @@
 			"entries": [
 				"Starting at 3rd level, you gain the following Channel Oath options",
 				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Dark Presence|Paladin N|NICKED|Malice|NICKED|3|NICKED"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Castigation|Paladin N|NICKED|Malice|NICKED|3|NICKED"
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Dark Presence|Paladin N|NICKED|Malice|NICKED|3|NICKED"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Castigation|Paladin N|NICKED|Malice|NICKED|3|NICKED"
+						}
+					]
 				}
 			]
 		},
@@ -27703,7 +27733,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell thaumaturgy|NICKED}"
+							"{@spell thaumaturgy|NICKED}, {@spell word of suffering|NICKED}"
 						],
 						[
 							"2nd",
@@ -27788,12 +27818,17 @@
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following two Channel Oath options.",
 				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Abjure Enemy|Paladin N|NICKED|Vengeance|NICKED|3|NICKED"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Vow of Enmity|Paladin N|NICKED|Vengeance|NICKED|3|NICKED"
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Abjure Enemy|Paladin N|NICKED|Vengeance|NICKED|3|NICKED"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Vow of Enmity|Paladin N|NICKED|Vengeance|NICKED|3|NICKED"
+						}
+					]
 				}
 			]
 		},
@@ -27944,7 +27979,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell thaumaturgy|NICKED}"
+							"{@spell thaumaturgy|NICKED}, any cantrip"
 						],
 						[
 							"2nd",
@@ -28030,12 +28065,17 @@
 			"entries": [
 				"Starting at 3rd level, you gain the following two Channel Oath options.",
 				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Ascendent's Focus|Paladin N|NICKED|Oathbreaker|NICKED|3|NICKED"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Battle Pressure|Paladin N|NICKED|Oathbreaker|NICKED|3|NICKED"
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Ascendent's Focus|Paladin N|NICKED|Oathbreaker|NICKED|3|NICKED"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Battle Pressure|Paladin N|NICKED|Oathbreaker|NICKED|3|NICKED"
+						}
+					]
 				}
 			]
 		},
@@ -28048,6 +28088,10 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Oath",
+				"amount": 1
+			},
 			"entries": [
 				"As a bonus action you may expend a use of your channel oath. For the next 1 minute, choose Strength, Dexterity, or Charisma. You have +5 to all checks you make with that ability modifier."
 			]
@@ -28061,6 +28105,10 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Oath",
+				"amount": 1
+			},
 			"entries": [
 				"As a bonus action, you channel your inner power to bolster your attacks for 1 minute. Once per turn for the duration, when you hit a creature with a weapon attack, you can choose to push the target 10 feet away from you. If pushed into an obstacle or another creature, the target takes bludgeoning damage equal to your Charisma modifier."
 			]
