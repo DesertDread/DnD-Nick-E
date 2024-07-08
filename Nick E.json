@@ -6762,8 +6762,8 @@
 					"gainSubclassFeature": true
 				},
 				"Lay on Hands|Paladin N|NICKED|1|NICKED",
+				"Oath Spells|Paladin N|NICKED|1|NICKED",
 				"Fighting Style|Paladin N|NICKED|2|NICKED",
-				"Oath Spells|Paladin N|NICKED|2|NICKED",
 				"Divine Smite|Paladin N|NICKED|2|NICKED",
 				"Divine Health|Paladin N|NICKED|3|NICKED",
 				"Channel Oath|Paladin N|NICKED|3|NICKED",
@@ -11593,23 +11593,14 @@
 			]
 		},
 		{
-			"name": "Fighting Style",
-			"source": "NICKED",
-			"className": "Paladin N",
-			"classSource": "NICKED",
-			"level": 2,
-			"entries": [
-				"Starting at 2nd level, you gain the Fighting Style feat"
-			]
-		},
-		{
 			"name": "Oath Spells",
 			"source": "NICKED",
 			"className": "Paladin N",
 			"classSource": "NICKED",
-			"level": 2,
+			"level": 1,
 			"entries": [
-				"By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See {@book chapter 10|PHB|10} for the general rules of spellcasting.",
+				"At 1st level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See {@book chapter 10|PHB|10} for the general rules of spellcasting.",
+				"You learn the cantrips listed in the cantrip section of your oath spell list.",
 				{
 					"type": "entries",
 					"name": "Spellcasting Ability",
@@ -11639,6 +11630,16 @@
 					]
 				},
 				"Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description as part of the oath spells list."
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "NICKED",
+			"className": "Paladin N",
+			"classSource": "NICKED",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, you gain the Fighting Style feat."
 			]
 		},
 		{
@@ -11910,7 +11911,7 @@
 			"classSource": "NICKED",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, you gain the fighting style feat"
+				"Starting at 2nd level, you gain the fighting style feat."
 			]
 		},
 		{
@@ -15823,7 +15824,8 @@
 					},
 					"known": {
 						"1": [
-							"thaumaturgy|NICKED"
+							"thaumaturgy|NICKED",
+							"punishing blade|NICKED"
 						]
 					}
 				}
@@ -15889,7 +15891,8 @@
 					"known": {
 						"1": [
 							"blade ward|NICKED",
-							"mending|NICKED"
+							"mending|NICKED",
+							"black-flame blade|NICKED"
 						]
 					}
 				}
@@ -16088,7 +16091,8 @@
 					},
 					"known":{
 						"1": [
-							"minor illusion|NICKED"
+							"minor illusion|NICKED",
+							"elemental ammunition|NICKED"
 						]
 					}
 				}
@@ -16217,7 +16221,8 @@
 					},
 					"known": {
 						"1": [
-							"thaumaturgy|NICKED"
+							"thaumaturgy|NICKED",
+							"word of suffering|NICKED"
 						]
 					}
 				}
@@ -16281,7 +16286,10 @@
 					},
 					"known": {
 						"1": [
-							"thaumaturgy|NICKED"
+							"thaumaturgy|NICKED",
+							{
+								"choose": "level=0|source=NICKED"
+							}
 						]
 					}
 				}
