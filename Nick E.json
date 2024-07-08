@@ -42714,6 +42714,124 @@
 				"name": "Shadow",
 				"source": "MM"
 			}
+		},
+		{
+			"name": "Giant Insect",
+			"source": "NICKED",
+			"summonedBySpell": "Summon Giant Insect|NICKED",
+			"summonedBySpellLevel": 4,
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "13 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "30 + 10 for each spell level above 4th"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "see below for actual speeds"
+				}
+			},
+			"str": 14,
+			"dex": 17,
+			"con": 12,
+			"int": 4,
+			"wis": 15,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft.",
+				"blindsight 10 ft. (60 Scorpion only)"
+			],
+			"passive": 10,
+			"resist": [
+				"acid",
+				"poison"
+			],
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Speed",
+					"entries": [
+						"30 ft. (Scorpion only) / 10ft. & fly 40 ft. (Wasp only)/ 40ft., climb 20ft (Centipede only) / climb 30ft., 30ft (Spider only)"
+					]
+				},
+				{
+					"name": "Wall Climb (Centipede, Spider only)",
+					"entries": [
+						"The Giant Insect can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Paralytic Sting (Scorpion, Wasp only)",
+					"entries": [
+						"The Giant Insect can attempt to paralyze a creature hit with its sting attack. The creature must make a constitution saving throw or be {@condition paralyzed} for one minute. The creature can repeat its saving throw at the end of each of their turns to end the condition."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Giant Insect makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Bite (Centipede, Spider only)",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + summonSpellLevel} piercing damage.",
+						"On a hit, the creature must make a constitution saving throw or take {@damage 3d6} poison (acid, centipede only) damage, half as much on a success. If the poison (acid, centipede only) damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while poisoned in this way."
+					]
+				},
+				{
+					"name": "Claw (Scorpion only)",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 4 + summonSpellLevel} slashing damage."
+					]
+				},
+				{
+					"name": "Sting (Scorpion, Wasp only)",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + summonSpellLevel} piercing damage and {@damage 1d6} poison damage.",
+						"On hit, you may trigger paralytic sting."
+					]
+				},
+				{
+					"name": "Web (Spider only) (Recharges after 1 minute)",
+					"entries": [
+						"{@atk rw} {@hitYourSpellAttack} to hit, reach 30/60 ft., one target. {@h}The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hitpoints 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+					]
+				}
+			],
+			"senseTags": [
+				"D",
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"token": {
+				"name": "Giant Spider",
+				"source": "MM"
+			}
 		}
 	],
 	"condition": [
