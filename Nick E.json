@@ -9532,7 +9532,7 @@
 				"dispel magic|NICKED",
 				"enemies abound|NICKED",
 				"erupting earth|NICKED",
-				"elemental ammunition|NICKED",
+				"elemental ammunitions|NICKED",
 				"fear|NICKED",
 				"feign death|NICKED",
 				"fireball|NICKED",
@@ -16092,7 +16092,7 @@
 					"known":{
 						"1": [
 							"minor illusion|NICKED",
-							"elemental ammunition|NICKED"
+							"elemental ammunitions|NICKED"
 						]
 					}
 				}
