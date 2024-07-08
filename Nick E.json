@@ -12588,7 +12588,7 @@
 			"classSource": "NICKED",
 			"level": 20,
 			"entries": [
-				"Starting at 20th level, you gain 2 of the following features of your choice:",
+				"Starting at 20th level, you gain 3 of the following features of your choice:",
 				{
 					"type":"options",
 					"count": 3,
@@ -36394,6 +36394,18 @@
 				"uses.max": "@scale.sorcerer-n.sorcery-points"
 			},
 			"img": "icons/magic/control/silhouette-hold-change-blue.webp"
+		},
+		{
+			"name": "Nature's Veil",
+			"source": "NICKED",
+			"className": "Ranger N",
+			"classSource": "NICKED",
+			"level": 10,
+			"system": {
+				"activation.type": "bonus action",
+				"uses.per": "lr",
+				"uses.max": "@attributes.prof"
+			}
 		}
 	],
 	"foundrySubclassFeature": [
@@ -36463,6 +36475,20 @@
 				"activation.type": "special",
 				"uses.per": "sr",
 				"uses.max": "@scale.gloom-stalker.momentum"
+			}
+		},
+		{
+			"name": "Defender of the Last",
+			"source": "NICKED",
+			"className": "Paladin N",
+			"classSource": "NICKED",
+			"subclassShortName": "Last Vigil",
+			"subclassSource": "NICKED",
+			"level": 15,
+			"system": {
+				"activation.type": "reaction",
+				"uses.per": "sr",
+				"uses.max": "@abilities.cha.mod"
 			}
 		}
 	],
