@@ -11422,7 +11422,7 @@
 					"type": "list",
 					"items": [
 						"Replace a {@filter fighting style|optionalfeatures|feature type=F:FS} you know with another fighting style available to fighters.",
-						"If you know any {@filter maneuvers|optionalfeatures|feature type=MV:F} from the {@class fighter|phb|Battle Master|Battle Master|phb|2-0} archetype, you can replace one maneuver you know with a different maneuver."
+						"If you know any {@filter maneuvers|optionalfeatures|feature type=MV:F} from the {@class fighter N|NICKED|Battle Master|Battle Master|NICKED|2-0} archetype, you can replace one maneuver you know with a different maneuver."
 					]
 				}
 			]
@@ -16020,6 +16020,72 @@
 						"15": 9,
 						"18": 23
 					}
+				}
+			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "superiority-die",
+						"type": "number",
+						"scale": {
+							"3": {
+								"value": 4
+							},
+							"4": {
+								"value": 4
+							},
+							"5": {
+								"value": 4
+							},
+							"6": {
+								"value": 4
+							},
+							"7": {
+								"value": 6
+							},
+							"8": {
+								"value": 6
+							},
+							"9": {
+								"value": 6
+							},
+							"10": {
+								"value": 6
+							},
+							"11": {
+								"value": 6
+							},
+							"12": {
+								"value": 6
+							},
+							"13": {
+								"value": 6
+							},
+							"14": {
+								"value": 6
+							},
+							"15": {
+								"value": 8
+							},
+							"16": {
+								"value": 8
+							},
+							"17": {
+								"value": 8
+							},
+							"18": {
+								"value": 8
+							},
+							"19": {
+								"value": 8
+							},
+							"20": {
+								"value": 8
+							}
+						}
+					},
+					"title": "Superiority Die"
 				}
 			],
 			"subclassFeatures": [
@@ -25700,12 +25766,29 @@
 			"entries": [
 				{
 					"type": "refSubclassFeature",
+					"subclassFeature": "Superiority Die|Fighter N|NICKED|Battle Master|NICKED|3|NICKED"
+				},
+				{
+					"type": "refSubclassFeature",
 					"subclassFeature": "Combat Superiority|Fighter N|NICKED|Battle Master|NICKED|3|NICKED"
 				},
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Student of War|Fighter N|NICKED|Battle Master|NICKED|3|NICKED"
 				}
+			]
+		},
+		{
+			"name": "Superiority Die",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"subclassShortName": "Battle Master",
+			"subclassSource": "NICKED",
+			"level": 3,
+			"entries": [
+				"You have four superiority dice, which are {@dice d8}s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.",
+				"You gain 2 more superiority dice at 7th level and two more at 15th level."
 			]
 		},
 		{
@@ -25740,7 +25823,7 @@
 							"name": "Superiority Dice",
 							"entries": [
 								"You have four superiority dice, which are {@dice d8}s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.",
-								"You gain another superiority die at 7th level and one more at 15th level."
+								"You gain two more superiority dice at 7th level and two more at 15th level."
 							]
 						}
 					]
@@ -25826,7 +25909,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"You gain another superiority die at 7th level."
+				"You gain 2 superiority dice at 7th level."
 			]
 		},
 		{
@@ -25903,7 +25986,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"You gain another superiority die at 15th level."
+				"You gain 2 superiority dice at 15th level."
 			]
 		},
 		{
@@ -36246,6 +36329,20 @@
 				"activation.type": "special",
 				"uses.per": "lr",
 				"uses.max": "(@classes.wizard-n.levels*2) + @abilities.int.mod"
+			}
+		},
+		{
+			"name": "Superiority Die",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"subclassShortName": "Battle Master",
+			"subclassSource": "NICKED",
+			"level": 2,
+			"system": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "@scale.battle-master.superiority-die"
 			}
 		}
 	],
