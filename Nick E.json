@@ -6494,7 +6494,6 @@
 			],
 			"spellcastingAbility": "cha",
 			"casterProgression": "1/2",
-			"preparedSpells": "<$level$> / 2 + <$cha_mod$>",
 			"optionalfeatureProgression": [
 				{
 					"name": "Fighting Style",
@@ -6541,7 +6540,7 @@
 					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
 					"{@item Chain mail|phb} and a {@item holy symbol|phb}"
 				],
-				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"goldAlternative": "{@dice 5d4 x 10|5d4 x 10|Starting Gold}",
 				"defaultData": [
 					{
 						"a": [
