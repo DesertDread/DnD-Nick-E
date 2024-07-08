@@ -20197,7 +20197,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, spirits provide you with supernatural insights. You can conduct an hour-long ritual channeling spirits (which can be done during a short or long rest) using your Spiritual Focus. You can conduct the ritual with a number of willing creatures equal to your proficiency bonus (including yourself). At the end of the ritual, you temporarily learn {@filter one spell of your choice from any class|spells|school=d;n|level=0;1;2;3;4;5;6}.",
+				"Starting at 6th level, spirits provide you with supernatural insights. You can conduct an hour-long ritual channeling spirits (which can be done during a short or long rest) using your Spiritual Focus. You can conduct the ritual with a number of willing creatures equal to your proficiency bonus (including yourself). At the end of the ritual, you temporarily learn {@filter one spell of your choice from any class|spells|school=d;n|level=0;1;2;3;4;5;6|source=NICKED}.",
 				"The spell you choose must be of a level equal to the number of creatures that conducted the ritual or less, the spell must be of a level you can cast, and it must be in the school of divination or necromancy. The chosen spell counts as a bard spell for you but doesn't count against the number of bard spells you know.",
 				"Once you perform the ritual, you can't do so again until you start a long rest, and you know the chosen spell until you start a long rest."
 			]
@@ -20212,7 +20212,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, when you cast a bard spell that deals damage or restores hit points through the Spiritual Focus, roll a {@dice d6}, and you gain a bonus to one damage or healing roll of the spell equal to the number rolled. Starting at 14th level this increases to {@dice 2d6}."
+				"Starting at 6th level, when you cast a bard spell that deals damage or restores hit points through the Spiritual Focus, roll a {@dice d6}, and you gain a bonus to one damage or healing roll of the spell equal to the number rolled.", 
+				"Starting at 14th level this increases to {@dice 2d6}."
 			]
 		},
 		{
@@ -36232,6 +36233,20 @@
 				"uses.per": "lr",
 				"uses.max": "@attributes.prof*2"
 			}
+		},
+		{
+			"name": "Arcane Ward",
+			"source": "NICKED",
+			"className": "Wizard N",
+			"classSource": "NICKED",
+			"subclassShortName": "Abjuration",
+			"subclassSource": "NICKED",
+			"level": 2,
+			"system": {
+				"activation.type": "special",
+				"uses.per": "lr",
+				"uses.max": "(@classes.wizard-n.levels*2) + @abilities.int.mod"
+			}
 		}
 	],
 	"optionalfeature": [
@@ -48305,6 +48320,7 @@
 			"source": "NICKED",
 			"level": 0,
 			"school": "V",
+			"foundryImg": "icons/magic/water/strike-weapon-blade-ice-blue.webp",
 			"time": [
 				{
 					"number": 1,
