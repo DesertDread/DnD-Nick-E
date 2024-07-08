@@ -4637,12 +4637,13 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Bard||8",
-				"Song of Rest|Bard N|NICKED|9|NICKED",
+				"Song of Rest (15 Minutes)|Bard N|NICKED|9|NICKED",
 				"Bardic Inspiration (d10)|Bard N|NICKED|10|NICKED",
 				"Expertise|Bard||10",
 				"Magical Secrets|Bard N|NICKED|10|NICKED",
 				"Ability Score Improvement|Bard||12",
-				"Song of Rest|Bard N|NICKED|13|NICKED",
+				"Reliable Skill|Bard N|NICKED|12|NICKED",
+				"Song of Rest (5 Minutes)|Bard N|NICKED|13|NICKED",
 				"Magical Secrets|Bard N|NICKED|14|NICKED",
 				{
 					"classFeature": "Bard College feature|Bard N|NICKED|14|NICKED",
@@ -4650,9 +4651,10 @@
 				},
 				"Bardic Inspiration (d12)|Bard N|NICKED|15|NICKED",
 				"Ability Score Improvement|Bard||16",
-				"Song of Rest|Bard N|NICKED|17|NICKED",
+				"Song of Rest (Action)|Bard N|NICKED|17|NICKED",
 				"Magical Secrets|Bard N|NICKED|18|NICKED",
 				"Ability Score Improvement|Bard||19",
+				"Reliable Skill|Bard N|NICKED|19|NICKED",
 				"Magnum Opus|Bard N|NICKED|20|NICKED"
 			],
 			"subclassTitle": "Bard College"
@@ -10277,7 +10279,86 @@
 			"classSource": "NICKED",
 			"level": 4,
 			"entries": [
-				"At 4th and 12th and 19th you are versed and practiced enough to master one skill. Select a skill you have expertise in. Whenever you make an ability check with that skill, you can treat a d20 roll of 9 or lower as a 10."
+				"At 4th level, you are versed and practiced enough to master one skill. Select a skill you have expertise in. Whenever you make an ability check with that skill, you can treat a d20 roll of 9 or lower as a 10.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Acrobatics|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Animal Handling|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Arcana|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Athletics|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Deception|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "History|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Insight|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Intimidation|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Investigation|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Medicine|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Nature|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Perception|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Performance|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Persuasion|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Religion|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sleight of Hand|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Stealth|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Survival|NICKED"
+						}
+					]
+				},
+				"You gain this feature again at 12th and 19th level."
 			]
 		},
 		{
@@ -10322,7 +10403,7 @@
 			]
 		},
 		{
-			"name": "Song of Rest",
+			"name": "Song of Rest (15 Minutes)",
 			"source": "NICKED",
 			"className": "Bard N",
 			"classSource": "NICKED",
@@ -10364,7 +10445,96 @@
 			]
 		},
 		{
-			"name": "Song of Rest",
+			"name": "Reliable Skill",
+			"source": "NICKED",
+			"className": "Bard N",
+			"classSource": "NICKED",
+			"level": 12,
+			"entries": [
+				"At 12th level, you are versed and practiced enough to master one skill. Select a skill you have expertise in. Whenever you make an ability check with that skill, you can treat a d20 roll of 9 or lower as a 10.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Acrobatics|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Animal Handling|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Arcana|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Athletics|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Deception|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "History|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Insight|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Intimidation|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Investigation|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Medicine|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Nature|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Perception|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Performance|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Persuasion|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Religion|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sleight of Hand|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Stealth|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Survival|NICKED"
+						}
+					]
+				},
+				"You gain this feature again at 19th level."
+			]
+		},
+		{
+			"name": "Song of Rest (5 Minutes)",
 			"source": "NICKED",
 			"className": "Bard N",
 			"classSource": "NICKED",
@@ -10405,7 +10575,7 @@
 			]
 		},
 		{
-			"name": "Song of Rest",
+			"name": "Song of Rest (Action)",
 			"source": "NICKED",
 			"className": "Bard N",
 			"classSource": "NICKED",
@@ -10423,6 +10593,94 @@
 			"entries": [
 				"At 18th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.",
 				"The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table."
+			]
+		},
+		{
+			"name": "Reliable Skill",
+			"source": "NICKED",
+			"className": "Bard N",
+			"classSource": "NICKED",
+			"level": 19,
+			"entries": [
+				"At 19th level, you are versed and practiced enough to master one skill. Select a skill you have expertise in. Whenever you make an ability check with that skill, you can treat a d20 roll of 9 or lower as a 10.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Acrobatics|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Animal Handling|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Arcana|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Athletics|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Deception|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "History|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Insight|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Intimidation|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Investigation|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Medicine|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Nature|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Perception|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Performance|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Persuasion|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Religion|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sleight of Hand|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Stealth|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Survival|NICKED"
+						}
+					]
+				}
 			]
 		},
 		{
@@ -35876,6 +36134,18 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Cleansing Touch",
+			"source": "NICKED",
+			"className": "Paladin N",
+			"classSource": "NICKED",
+			"level": 14,
+			"system": {
+				"activation.type": "action",
+				"uses.per": "lr",
+				"uses.max": "@abilities.cha.mod"
+			}
 		},
 		{
 			"name": "Reliable Talent",
