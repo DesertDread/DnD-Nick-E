@@ -7798,6 +7798,7 @@
 		},
 		{
 			"name": "Sorcerer N",
+			"foundryImg": "icons/magic/lightning/projectile-tendrils-red.webp",
 			"source": "NICKED",
 			"hd": {
 				"number": 1,
@@ -13182,6 +13183,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/lightning/bolt-strike-explosion-blue.webp",
 			"entries": [
 				"An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter sorcerer spell list|spells|class=Sorcerer N (NICKED)}.",
 				{
@@ -13238,6 +13240,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 2,
+			"foundryImg": "icons/magic/lightning/explosion-stone-smoke-teal.webp",
 			"entries": [
 				"At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.",
 				{
@@ -13268,6 +13271,7 @@
 			"classSource": "NICKED",
 			"level": 2,
 			"header": 1,
+			"foundryImg": "icons/magic/lightning/bolt-strike-hand-gray.webp",
 			"entries": [
 				"You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.",
 				{
@@ -13326,6 +13330,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/magic/lightning/orb-ball-spiral-blue.webp",
 			"entries": [
 				"At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 6th, 10th and 17th level.",
 				"You can use only one Metamagic option on a spell when you cast it, unless otherwise noted."
@@ -13337,6 +13342,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 4,
+			"foundryImg": "icons/magic/lightning/fist-unarmed-strike-blue.webp",
 			"entries": [
 				"Starting at 4th level, whenever you reach a level in this class that grants a feat, you can do one of the following, representing the magic within you flowing in new ways:",
 				{
@@ -13355,8 +13361,9 @@
 			"classSource": "NICKED",
 			"level": 5,
 			"consumes": {
-				"name": "Sorcery Point"
+				"name": "Sorcery Points"
 			},
+			"foundryImg": "icons/magic/control/buff-luck-fortune-clover-green.webp",
 			"entries": [
 				"Starting at 5th level, you can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the {@dice d20}, and you must use the new roll, potentially turning the failure into a success."
 			]
@@ -13367,6 +13374,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 6,
+			"foundryImg": "icons/magic/lightning/orb-ball-spiral-blue.webp",
 			"entries": [
 				"At 6th level, you learn an additional metamagic option."
 			]
@@ -13387,6 +13395,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/lightning/orb-ball-spiral-blue.webp",
 			"entries": [
 				"At 10th level, you learn an additional metamagic option."
 			]
@@ -13407,6 +13416,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/magic/lightning/orb-ball-spiral-blue.webp",
 			"entries": [
 				"At 17th level, you learn an additional metamagic option."
 			]
@@ -13417,6 +13427,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
 			"entries": [
 				"At 17th level, you begin to take on additional aspects of your heritage in a tangible way.", 
 				"Talk to your DM on what this may mean to change about your appearance.", 
@@ -13439,6 +13450,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 20,
+			"foundryImg": "icons/magic/lightning/buff-flight-wings-runes-purple-orange.webp",
 			"entries": [
 				"Starting at 20th level, you gain a 10th level spell slot and select one tenth level spell. This spell does not count towards the number of spells known.",
 				"When you cast the 10th level spell, you cannot do so again unless otherwise stated by your DM or you fail the roll to cast the spell.",
@@ -17641,6 +17653,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/nature/symbol-moon-stars-white.webp",
 			"subclassFeatures": [
 				"Lunar Origin|Sorcerer N|NICKED|Lunar|NICKED|1|NICKED",
 				"Shift Lunar Alignment|Sorcerer N|NICKED|Lunar|NICKED|2|NICKED",
@@ -31703,6 +31716,7 @@
 			"subclassShortName": "Lunar",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/nature/symbol-moon-stars-white.webp",
 			"entries": [
 				{
 					"type": "refSubclassFeature",
@@ -31742,6 +31756,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 2,
+			"foundryImg": "icons/magic/nature/meteorite-purple.webp",
 			"entries": [
 				"Starting at 1st level, select a lunar alignment from the chart below. You begin in that lunar alignment. Your eyes glow and shift with the changes of the lunar cycle. You gain additional spells and abilities based on your lunar cycle you are aligned with. Regardless of their source while in that lunar cycle, they count as sorcerer spells for you.",
 				{
@@ -31800,9 +31815,10 @@
 			"level": 2,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 1
 			},
+			"foundryImg": "icons/magic/nature/moon-crescent.webp",
 			"entries": [
 				"When you reach 2nd level, whenever you change a spell's damage type with your Esoteric Spell Metamagic, you may have your lunar alignment shift to match the type of damage you choose.",
 				"Additionally, you may spend 1 sorcery point as a bonus action to shift the phase of your Lunar Alignment to another phase of your choice.",
@@ -31838,6 +31854,7 @@
 			"subclassSource": "NICKED",
 			"level": 2,
 			"header": 2,
+			"foundryImg": "icons/magic/nature/moon-crescent.webp",
 			"entries": [
 				"{@spell eldritch blast}, {@spell magic missile|NICKED}, {@spell identify|NICKED}, (at 3rd level){@spell moonbeam|NICKED}(gray light energy)",
 				"When you cast {@spell moonbeam|NICKED}, it deals force damage instead of radiant damage and is a strength save instead of constitution. The area is now weighed down in lunar energy. Whenever a creature fails the save against {@spell moonbeam|NICKED}, their movement speed is reduced by half until the end of their turn.",
@@ -31853,6 +31870,7 @@
 			"subclassSource": "NICKED",
 			"level": 2,
 			"header": 2,
+			"foundryImg": "icons/magic/nature/moon-crescent.webp",
 			"entries": [
 				"{@spell sacred flame}, {@spell guiding bolt|NICKED}, {@spell find familiar|NICKED} (bat, cat, or owl only), (at 3rd level){@spell moonbeam|NICKED}(blue light energy)",
 				"When you cast {@spell moonbeam|NICKED}, it centers on you and follows you as you move (no action required). You have advantage on all concentration checks you make to maintain this spell. You gain +2 to your AC while within the moonbeam's light.",
@@ -31868,6 +31886,7 @@
 			"subclassSource": "NICKED",
 			"level": 2,
 			"header": 2,
+			"foundryImg": "icons/magic/nature/moon-crescent.webp",
 			"entries": [
 				"{@spell mind sliver|NICKED}, {@spell dissonant whispers|NICKED}, {@spell disguise self|NICKED}, (at 3rd level){@spell moonbeam|NICKED}(purple light energy)",
 				"When you cast {@spell moonbeam|NICKED}, it deals psychic damage instead of radiant damage and is an intelligence save instead of constitution. Its radius increases to a 10 foot radius. Creatures dealt damage by {@spell moonbeam|NICKED} have disadvantage on all concentration checks they make to maintain their spells.",
@@ -31883,6 +31902,7 @@
 			"subclassSource": "NICKED",
 			"level": 2,
 			"header": 2,
+			"foundryImg": "icons/magic/nature/moon-crescent.webp",
 			"entries": [
 				"{@spell toll the dead|NICKED}, {@spell arms of the dark hunger|NICKED}, (At 3rd level){@spell augury|NICKED}, (at 3rd level){@spell moonbeam|NICKED}(black light energy)",
 				"When you cast {@spell moonbeam|NICKED}, it deals necrotic damage instead of radiant damage. It does not illuminate the area it's in but dims it. The area counts as though it is now in darkness (nonmagical, restricting your ally's vision is not considered harmful).",
@@ -31898,6 +31918,7 @@
 			"subclassSource": "NICKED",
 			"level": 2,
 			"header": 2,
+			"foundryImg": "icons/magic/nature/plant-undersea-orb-purple.webp",
 			"entries": [
 				"Starting at 2nd level, you learn the Esoteric Spell Metamagic. This ability improves at 6th level.",
 				"This does not affect your level 3 sorcerer feature and cannot be exchanged for another Metamagic as you gain levels in this class. (See level 3 for rules about Metamagic).",
@@ -31917,6 +31938,7 @@
 			"subclassSource": "NICKED",
 			"level": 6,
 			"header": 2,
+			"foundryImg": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
 			"entries": [
 				"Starting at 6th level, once per long rest, you may cast {@spell lunar sanctum|NICKED} without expending a spell slot. The spell is treated as though you cast it with any spell slot level of your choosing up to your highest-level spell slot you have available."
 			]
@@ -31930,6 +31952,7 @@
 			"subclassSource": "NICKED",
 			"level": 6,
 			"header": 2,
+			"foundryImg": "icons/magic/nature/plant-undersea-orb-purple.webp",
 			"entries": [
 				"Starting at 6th level, when you use your Esoteric Spell Metamagic on a spell, that spell counts as though you up cast it one spell level higher (max level 10) than the expended spell slot."
 			]
@@ -31943,6 +31966,7 @@
 			"subclassSource": "NICKED",
 			"level": 14,
 			"header": 2,
+			"foundryImg": "icons/magic/symbols/ring-circle-smoke-blue.webp",
 			"entries": [
 				"Starting at 14th level, the power of a lunar phase saturates your being. While you are in a Lunar Alignment, you also gain the following benefit associated with that phase:",
 				{
@@ -31977,6 +32001,7 @@
 			"subclassSource": "NICKED",
 			"level": 14,
 			"header": 2,
+			"foundryImg": "icons/magic/symbols/ring-circle-smoke-blue.webp",
 			"entries": [
 				"Your jumping distance is tripled as you feel the light tug of the Moon's gravitational pull. You have advantage on all ability checks or saving throws you make to avoid being {@condition grappled} or knocked {@condition prone}."
 			]
@@ -31990,6 +32015,7 @@
 			"subclassSource": "NICKED",
 			"level": 14,
 			"header": 2,
+			"foundryImg": "icons/magic/symbols/ring-circle-smoke-blue.webp",
 			"entries": [
 				"You can use a bonus action to shed dim lunar blue light for 15 ft. You and creatures of your choice have advantage on Intelligence ({@skill investigation}) and Wisdom ({@skill perception}) checks while within the dim light you shed.", 
 				"You can douse this light as a bonus action, or it ends when you shift lunar phases."
@@ -32008,6 +32034,7 @@
 				"name":"Sorcery Point",
 				"amount": 1
 			},
+			"foundryImg": "icons/magic/symbols/ring-circle-smoke-blue.webp",
 			"entries": [
 				"You gain the Moon's foresight. Whenever a friendly creature you see within 30 feet of you fails an ability check, you may spend 1 sorcery point to reroll the d20 and must use the new roll.", 
 				"You may use this ability only once for each ability check."
@@ -32022,6 +32049,7 @@
 			"subclassSource": "NICKED",
 			"level": 14,
 			"header": 2,
+			"foundryImg": "icons/magic/symbols/ring-circle-smoke-blue.webp",
 			"entries": [
 				"You have advantage on Dexterity ({@skill stealth}) checks. In addition, while you are entirely in darkness, attack rolls have disadvantage against you."
 			]
@@ -32035,6 +32063,7 @@
 			"subclassSource": "NICKED",
 			"level": 18,
 			"header": 2,
+			"foundryImg": "icons/magic/symbols/runes-star-pentagon-blue.webp",
 			"entries": [
 				"Starting at 18th level, you may cast your lunar spells without expending your spell slots at their lowest level (including {@spell moonbeam|NICKED}).",
 				"Additionally, you gain resistance to the damage type of your current lunar phase.",
@@ -32059,9 +32088,10 @@
 			"level": 14,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 2
 			},
+			"foundryImg": "icons/magic/symbols/runes-star-pentagon-blue.webp",
 			"entries": [
 				"When you cast {@spell moonbeam|NICKED}, you can expend 2 sorcery points to duplicate the spell (at its current level), you may choose the same or another location for the duplicate spell to appear. It is considered the same spell, so you may move both with a bonus action.", 
 				"The second {@spell moonbeam|NICKED} takes the form of another lunar alignment and gains those alignment benefits separately.", 
@@ -32177,7 +32207,7 @@
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point"
+				"name": "Sorcery Points"
 			},
 			"entries": [
 				"You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As an action, you can expend 1 to 5 sorcery points to create a magical ward around yourself or another creature you can see within 30 feet of you. The ward lasts until you finish a long rest or until you use this feature again.",
@@ -32306,7 +32336,7 @@
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 1
 			},
 			"entries": [
@@ -32664,7 +32694,7 @@
 			"level": 3,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 2
 			},
 			"entries": [
@@ -32748,7 +32778,7 @@
 			"level": 18,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 5
 			},
 			"entries": [
@@ -32802,7 +32832,7 @@
 			"level": 1,
 			"header": 1,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 5
 			},
 			"entries": [
@@ -32838,7 +32868,7 @@
 			"level": 3,
 			"header": 1,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 2
 			},
 			"entries": [
@@ -32856,7 +32886,7 @@
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 3
 			},
 			"entries": [
@@ -32909,7 +32939,7 @@
 			"level": 18,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 6
 			},
 			"entries": [
@@ -33045,7 +33075,7 @@
 			"level": 14,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 1
 			},
 			"entries": [
@@ -33183,7 +33213,7 @@
 			"level": 14,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 5
 			},
 			"entries": [
@@ -33398,7 +33428,7 @@
 			"level": 18,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 5
 			},
 			"entries": [
@@ -36402,7 +36432,7 @@
 			"classSource": "NICKED",
 			"level": 10,
 			"system": {
-				"activation.type": "bonus action",
+				"activation.type": "bonus",
 				"uses.per": "lr",
 				"uses.max": "@attributes.prof"
 			}
@@ -39551,7 +39581,7 @@
 				"S:MM"
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 1
 			},
 			"prerequisite": [
@@ -39559,6 +39589,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
 			"entries": [
 				"When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your proficiency bonus. Those creatures are unaffected by the spell.",
 				"You can use Careful Spell even if you have already used a different Metamagic option during the casting of the spell."
@@ -39571,7 +39602,7 @@
 				"S:MM"
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 1
 			},
 			"prerequisite": [
@@ -39579,6 +39610,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/movement/trail-streak-impact-blue.webp",
 			"entries": [
 				"When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.",
 				"When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.",
@@ -39592,7 +39624,7 @@
 				"S:MM"
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 2
 			},
 			"prerequisite": [
@@ -39600,6 +39632,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/fire/flame-burning-embers-orange.webp",
 			"entries": [
 				"When you roll damage for a spell, you can spend 2 sorcery points to add an additional damage dice of the same type as the damage dice would be rolled when determining damage from the spell, then roll two sets of damage dice for the spell. You then select which set of dice you would like to use.",
 				"You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
@@ -39612,7 +39645,7 @@
 				"S:MM"
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 1
 			},
 			"prerequisite": [
@@ -39620,6 +39653,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/nature/plant-undersea-orb-purple.webp",
 			"entries": [
 				"When you cast a spell that deals force, necrotic, psychic, or radiant damage, you can spend 1 sorcery point to change the spell's damage to another type from the list above."
 			]
@@ -39631,7 +39665,7 @@
 				"S:MM"
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 2
 			},
 			"prerequisite": [
@@ -39639,6 +39673,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/movement/trail-streak-zigzag-teal.webp",
 			"entries": [
 				"When you cast a spell that teleports a creature, you may spend two sorcery points. If you do, you can teleport one additional willing creature within 5 feet of you. Additional creatures teleport to the same location as one of the creatures teleported with the spell within 5 feet of that creature in an unoccupied space."
 			]
@@ -39650,7 +39685,7 @@
 				"S:MM"
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 1
 			},
 			"prerequisite": [
@@ -39658,6 +39693,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/time/clock-stopwatch-white-blue.webp",
 			"entries": [
 				"When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
 			]
@@ -39673,6 +39709,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
 			"entries": [
 				"When you cast a spell that has concentration, you can spend a number of sorcery points equal to the spell's level (one for cantrips) to automatically succeed on Constitution saving throws to maintain that spell for the duration."
 			]
@@ -39688,6 +39725,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/perception/third-eye-blue-red.webp",
 			"entries": [
 				"When you cast a cantrip spell that forces a creature to make a saving throw to resist its effects, you can spend 1 sorcery point to give one target of the spell disadvantage on its first saving throw made against the spell.",
 				"When you cast a leveled spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell."
@@ -39704,6 +39742,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/movement/portal-vortex-orange.webp",
 			"entries": [
 				"When you use a spell slot to cast a spell with a range of self, you can spend Sorcery Points equal to the spell's level to change the spell's casting range to touch. You still suffer all the drawbacks of casting the spell and must maintain its concentration if there is concentration.",
 				"Cantrips cost 1 sorcery point to cast with this Metamagic.",
@@ -39722,6 +39761,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/movement/chevrons-down-yellow.webp",
 			"entries": [
 				"When you cast a spell that reduces a creature to 0 hit points, you can spend 1 sorcery point to knock the creature out, rendering it {@condition unconscious}, rather than deal a killing blow. If your spell would deal a killing blow to multiple creatures, you spend 1 sorcery point for every two creatures.",
 				"If the spell you cast was a cantrip, you may use this effect without spending a sorcery point."
@@ -39739,9 +39779,10 @@
 				}
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 2
 			},
+			"foundryImg": "icons/magic/symbols/triangle-glowing-green.webp",
 			"entries": [
 				"If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.",
 				"You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.",
@@ -39759,6 +39800,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/unholy/orb-hands-pink.webp",
 			"entries": [
 				"When you cast a spell that deals damage, you can spend a number of sorcery points equal to the spell's level (minimum 2) to heal yourself by an amount equal to half the damage dealt to a single target, rounded down. You can use this effect before you roll damage. You cannot regain hitpoints more than half of the total damage rolled on the damage dice.",
 				"(you would regain less from a creature resistant to the attack but you would not gain double the hp if a creature is vulnerable)"
@@ -39776,7 +39818,7 @@
 				}
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 1
 			},
 			"entries": [
@@ -39795,7 +39837,7 @@
 				}
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 1
 			},
 			"entries": [
@@ -39813,6 +39855,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/unholy/projectiles-binary-pink.webp",
 			"entries": [
 				"When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).",
 				"To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level.", 
@@ -39831,9 +39874,10 @@
 				}
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"name": "Sorcery Points",
 				"amount": 2
 			},
+			"foundryImg": "icons/magic/lightning/bolt-forked-red.webp",
 			"entries": [
 				"When you cast a cantrip that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
 			]
