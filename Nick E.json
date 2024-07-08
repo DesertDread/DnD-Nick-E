@@ -6874,6 +6874,7 @@
 		},
 		{
 			"name": "Ranger N",
+			"foundryImg": "icons/magic/nature/leaf-arrowheads-glow-green.webp",
 			"source": "NICKED",
 			"hd": {
 				"number": 1,
@@ -7331,7 +7332,7 @@
 											"feign death|NICKED",
 											"find familiar|NICKED",
 											"speak with animals|NICKED",
-											"leomund's tiny hut|NICKED",
+											"tiny hut|NICKED",
 											"water breathing|NICKED",
 											"water walk|NICKED"
 										],
@@ -12243,6 +12244,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/nature/plant-bamboo-green.webp",
 			"entries": [
 				"You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain:", "arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
 				"While traveling for an hour or more in your favored terrain, you gain the following benefits:",
@@ -12289,6 +12291,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 2,
+			"foundryImg": "icons/magic/nature/beam-hand-leaves-green.webp",
 			"entries": [
 				"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter ranger spell list|spells|class=Ranger N (NICKED)}.",
 				{
@@ -12301,11 +12304,18 @@
 				},
 				{
 					"type": "entries",
-					"name": "Spells Known of 1st Level and Higher",
+					"name": "Preparing and Casting Spells",
 					"entries": [
-						"You know two 1st-level spells of your choice from the ranger spell list.",
-						"The Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
-						"Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots."
+						"You prepare the list of ranger spells that are available for you to cast, choosing from the ranger spell list. When you do so, choose a number of ranger spells equal to prepared spells column in the ranger table. The spells must be of a level for which you have spell slots.",
+						"For example, if you are a 5th-level ranger, you have four 1st-level and two 2nd-level spell slots. You can prepare up to 4 spells out of your spell list of which spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"You can also change your list of prepared spells when you finish a long rest. Preparing a new list of ranger spells requires time spent in preparation and planning: at least 1 minute per spell level for each spell on your list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Innate Spells",
+					"entries": [
+						"You know the {@spell hunter's mark|NICKED} and {@spell ensnaring strike|NICKED} spells. These spells are always prepared for you and do not count against the numbver of spells prepared."
 					]
 				},
 				{
@@ -12347,6 +12357,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/magic/perception/eye-ringed-green.webp",
 			"entries": [
 				"Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number."
 			]
@@ -12368,7 +12379,6 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 4,
-			"isClassFeatureVariant": true,
 			"entries": [
 				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice."
 			]
@@ -12389,6 +12399,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/magic/life/heart-area-circle-red-green.webp",
 			"entries": [
 				"At 5th level as an action, you can give yourself a number of temporary hitpoints equal to {@dice 1d10} + your Wisdom modifier (minimum 1). You can you this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
 				"In addition, whenever you finish a short rest, your exhaustion level (if currently exhausted) is decreased by 1."
@@ -12400,6 +12411,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/magic/nature/wolf-paw-glow-large-green.webp",
 			"entries": [
 				"Starting at 5th level, your walking speed increases by 5 ft.",
 				"You gain a climbing speed and swimming speed equal to your walking speed."
@@ -12416,6 +12428,7 @@
 					"anyProficientSkill": 1
 				}
 			],
+			"foundryImg": "icons/skills/social/diplomacy-peace-alliance.webp",
 			"entries": [
 				"Starting at 6th level, choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.",
 				"At 13th level, you may choose another skill."
@@ -12427,6 +12440,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 6,
+			"foundryImg": "icons/consumables/potions/potion-round-corked-glowing-green.webp",
 			"entries": [
 				"Starting at 6th level, you gain a few spells that you can cast as rituals. Choose 2 of the following spells to add to your list of spells. These do not count against your known spells and can only be cast as a ritual even if you do or do not have the spell slot level to cast them.",
 				{
@@ -12438,7 +12452,7 @@
 						"{@spell feign death|NICKED}",
 						"{@spell find familiar|NICKED}",
 						"{@spell speak with animals|NICKED}",
-						"{@spell leomund's tiny hut|NICKED}",
+						"{@spell tiny hut|NICKED}",
 						"{@spell water breathing|NICKED}",
 						"{@spell water walk|NICKED}"
 					]
@@ -12461,6 +12475,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 8,
+			"foundryImg": "icons/magic/nature/leaf-rune-glow-green.webp",
 			"entries": [
 				"Starting at 8th level, moving through nonmagical {@quickref difficult terrain||3} costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
 				"In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the {@spell entangle|NICKED} spell."
@@ -12472,6 +12487,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
 			"entries": [
 				"You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become {@condition invisible}, along with any equipment you are wearing or carrying, until the start of your next turn.",
 				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
@@ -12483,6 +12499,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/nature/plant-bamboo-green.webp",
 			"entries": [
 				"You gain an additional favored terrain."
 			]
@@ -12519,6 +12536,7 @@
 					"anyProficientSkill": 1
 				}
 			],
+			"foundryImg": "icons/skills/social/diplomacy-peace-alliance.webp",
 			"entries": [
 				"At 13th level, you may choose another skill to gain expertise in"
 			]
@@ -12529,6 +12547,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 14,
+			"foundryImg": "icons/magic/nature/stealth-hide-eyes-green.webp",
 			"entries": [
 				"Starting at 14th level, you can use the {@action Hide} action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail."
 			]
@@ -12549,6 +12568,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/magic/nature/root-vine-spiral-thorns-teal.webp",
 			"entries": [
 				"Starting at 17th level, your {@spell hunter's mark|NICKED} and ensnaring strike spells improve.", 
 				{
@@ -12566,6 +12586,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 18,
+			"foundryImg": "icons/creatures/eyes/lizard-single-slit-green.webp",
 			"entries": [
 				"At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.", 
 				"You are also aware of the location of any {@condition invisible} creature within 60 feet of you, provided that the creature isn't hidden from you and you aren't {@condition blinded} or {@condition deafened}."
@@ -12588,6 +12609,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 20,
+			"foundryImg": "icons/magic/nature/trap-spikes-thorns-green.webp",
 			"entries": [
 				"Starting at 20th level, you gain 3 of the following features of your choice:",
 				{
@@ -17020,6 +17042,7 @@
 			"source": "NICKED",
 			"className": "Ranger N",
 			"classSource": "NICKED",
+			"foundryImg": "icons/magic/unholy/hands-cloud-light-pink.webp",
 			"additionalSpells": [
 				{
 					"known": {
@@ -29765,6 +29788,7 @@
 			"subclassShortName": "Reclaimer",
 			"subclassSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/magic/unholy/hands-cloud-light-pink.webp",
 			"entries": [
 				{
 					"type": "refSubclassFeature",
@@ -29793,6 +29817,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"foundryImg": "icons/magic/unholy/hand-marked-pink.webp",
 			"entries": [
 				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Reclaimer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
 				{
@@ -29841,6 +29866,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"foundryImg": "icons/weapons/swords/greatsword-evil-green.webp",
 			"entries": [
 				"Starting at 3rd level, choose one type of ranged weapon and one type of melee weapon. You may use your wisdom modifier for attack and damage rolls with weapons of those types. They count as magical weapons while you wield them.",
 				"Those weapons count as spell focuses for your ranger spells",
@@ -29874,6 +29900,7 @@
 					"infernal": true
 				}
 			],
+			"foundryImg": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
 			"entries": [
 				"You gain proficiency in {@skill religion}. If you were already proficient, then double your proficiency bonus on checks using that skill.",
 				"You can read and write {@language celestial} and {@language infernal}"
@@ -29888,6 +29915,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"foundryImg": "icons/magic/unholy/orb-glowing-yellow-purple.webp",
 			"entries": [
 				"Starting at 3rd level, whenever you cast a ranger spell you choose as part of your reclaimer spells or regular ranger spells gain the following effect:",
 				{
@@ -29918,6 +29946,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"foundryImg": "icons/magic/light/explosion-star-large-blue-yellow.webp",
 			"entries": [
 				"If you cast a spell gained from the clerics spell list, you may heal a friendly creature within 30ft of you that you can see or that can hear you equal to {@dice 1d8}."
 			]
@@ -29931,6 +29960,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"foundryImg": "icons/magic/light/explosion-impact-purple.webp",
 			"entries": [
 				"If you cast a spell gained from the warlock spell list, the next creature damaged by one of your reclaimer's armaments within 1 minute causes any creature of size large or smaller to gain the {@condition Reeling|NICKED} condition until the end of your next turn."
 			]
@@ -29944,6 +29974,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"foundryImg": "icons/magic/unholy/orb-glowing-yellow-purple.webp",
 			"entries": [
 				"If you cast a ranger spell not gained from this subclass, the next creature dealt damage by one of your reclaimer's armaments within 1 minute cannot regain hitpoints until the start of your next turn."
 			]
@@ -29961,6 +29992,7 @@
 				"radiant",
 				"necrotic"
 			],
+			"foundryImg": "icons/magic/defensive/shield-barrier-blades-teal.webp",
 			"entries": [
 				"Starting at 7th level, you are immune to the effects (both positive and negative) of divination magic regardless if you allow the effect or not. You cannot be tracked or located magically. (If you allow a spell or ability, you must allow the whole spell or ability.)",
 				"You gain resistance to radiant and necrotic damage"
@@ -29975,6 +30007,7 @@
 			"subclassSource": "NICKED",
 			"level": 11,
 			"header": 2,
+			"foundryImg": "icons/weapons/swords/sword-winged-pink.webp",
 			"entries": [
 				"Starting at 11th level, whenever you cast a spell of first level or higher as an action, you may make a single weapon attack as part of that spell. The attack happens before or after you complete the spell as you choose.", 
 				"This always triggers your Enigmatic Soul before you attack.",
@@ -29990,6 +30023,7 @@
 			"subclassSource": "NICKED",
 			"level": 15,
 			"header": 2,
+			"foundryImg": "icons/magic/life/cross-embers-glow-yellow-purple.webp",
 			"entries": [
 				"Starting at 15th level, you are always under the effects of the {@spell bless|NICKED} spell."
 			]
@@ -39165,6 +39199,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/skills/movement/figure-running-gray.webp",
 			"entries": [
 				"You gain a feat." 
 			]
@@ -39180,6 +39215,7 @@
 					"tremorsense": 15
 				}
 			],
+			"foundryImg": "icons/magic/earth/laval-stone-orange.webp",
 			"entries": [
 				"You gain tremorsense 15 ft." 
 			]
@@ -39190,6 +39226,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/magic/time/day-night-sun-moon.webp",
 			"entries": [
 				"You can concentrate on 2 ranger spells at once." 
 			]
@@ -39200,6 +39237,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/skills/targeting/target-glowing-yellow.webp",
 			"entries": [
 				"Once per turn when you miss and attack you may add your wisdom modifier to the attack possibly turning a miss into a hit." 
 			]
@@ -39210,6 +39248,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
 			"entries": [
 				"You can take {@action dash} action without needing to use an action to do so once per minute." 
 			]
@@ -39220,6 +39259,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/magic/control/buff-strength-muscle-damage-red.webp",
 			"entries": [
 				"Your dexterity or strength increases by 2, this increase can increase your stat above 20." 
 			]
@@ -39230,6 +39270,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/magic/control/silhouette-aura-energy.webp",
 			"entries": [
 				"While you are an unseen attacker you critically strike on a 19-20." 
 			]
@@ -39240,6 +39281,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/magic/air/weather-wind-gust.webp",
 			"entries": [
 				"You do not provoke opportunity attacks." 
 			]
@@ -39250,6 +39292,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/skills/targeting/crosshair-bars-yellow.webp",
 			"entries": [
 				"You have advantage on all attack rolls against creatures that you could track at advantage." 
 			]
@@ -39260,6 +39303,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/skills/trades/academics-book-study-runes.webp",
 			"entries": [
 				"As a bonus action you can determine all of a creature's resistances and immunities of a creature you can see that is not immune to divination." 
 			]
@@ -39270,6 +39314,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/magic/nature/root-vine-entangled-humanoid.webp",
 			"entries": [
 				"You can escape all restraints magical or mundane using 10 ft of movement. ({@condition restrained} condition)" 
 			]
@@ -39280,18 +39325,9 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/magic/nature/lotus-glow-pink.webp",
 			"entries": [
 				"Double your proficiency bonus to a saving throw of your choice that you are proficient in." 
-			]
-		},
-		{
-			"name": "Saving Throw Expertise",
-			"source": "NICKED",
-			"featureType": [
-				"RHSS"
-			],
-			"entries": [
-				"Double your proficiency bonus you add to a saving throw of your choice that you are proficient in." 
 			]
 		},
 		{
@@ -39300,6 +39336,7 @@
 			"featureType": [
 				"RHSS"
 			],
+			"foundryImg": "icons/magic/symbols/cross-circle-blue.webp",
 			"entries": [
 				"Once per turn when you hit a creature with a melee attack you may add your wisdom modifier to that attack's damage." 
 			]
@@ -39315,6 +39352,7 @@
 					"darkvision": 60
 				}
 			],
+			"foundryImg": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
 			"entries": [
 				"You gain {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision} from your race, its range increases by 30 feet." 
 			]
