@@ -6441,6 +6441,75 @@
 					]
 				}
 			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "chakra",
+						"type": "number",
+						"scale": {
+							"2": {
+								"value": 3
+							},
+							"3": {
+								"value": 5
+							},
+							"4": {
+								"value": 5
+							},
+							"5": {
+								"value": 7
+							},
+							"6": {
+								"value": 7
+							},
+							"7": {
+								"value": 9
+							},
+							"8": {
+								"value": 9
+							},
+							"9": {
+								"value": 10
+							},
+							"10": {
+								"value": 10
+							},
+							"11": {
+								"value": 11
+							},
+							"12": {
+								"value": 11
+							},
+							"13": {
+								"value": 12
+							},
+							"14": {
+								"value": 12
+							},
+							"15": {
+								"value": 12
+							},
+							"16": {
+								"value": 13
+							},
+							"17": {
+								"value": 13
+							},
+							"18": {
+								"value": 14
+							},
+							"19": {
+								"value": 14
+							},
+							"20": {
+								"value": 15
+							}
+						}
+					},
+					"title": "Chakra"
+				}
+			],
 			"classFeatures": [
 				"Martial|Monk N|NICKED|1|NICKED",
 				{
@@ -35817,6 +35886,19 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Chakra",
+			"source": "NICKED",
+			"className": "Monk N",
+			"classSource": "NICKED",
+			"level": 2,
+			"system": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "@scale.monk-n.chakra"
+			},
+			"img": "icons/magic/control/silhouette-hold-change-blue.webp"
 		},
 		{
 			"name": "Sorcery Points",
