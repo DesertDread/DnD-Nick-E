@@ -9727,6 +9727,7 @@
 			"className": "Barbarian N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/weapons/swords/greatsword-crossguard-steel.webp",
 			"entries": [
 				"You are considered a martial character."
 			]
@@ -10124,6 +10125,7 @@
 			"className": "Bard N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/trades/academics-investigation-study-blue.webp",
 			"entries": [
 				"You are considered an expert character."
 			]
@@ -10134,6 +10136,7 @@
 			"className": "Bard N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/movement/trail-streak-impact-blue.webp",
 			"entries": [
 				"You are considered a spellcaster character."
 			]
@@ -10460,6 +10463,7 @@
 			"className": "Cleric N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/movement/trail-streak-impact-blue.webp",
 			"entries": [
 				"You are considered a spellcaster character."
 			]
@@ -10724,6 +10728,7 @@
 			"className": "Druid N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/movement/trail-streak-impact-blue.webp",
 			"entries": [
 				"You are considered a spellcaster character."
 			]
@@ -10973,6 +10978,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/weapons/swords/greatsword-crossguard-steel.webp",
 			"entries": [
 				"You are considered a martial character."
 			]
@@ -11313,6 +11319,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/weapons/swords/greatsword-crossguard-steel.webp",
 			"entries": [
 				"You are considered a martial character."
 			]
@@ -11639,6 +11646,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/weapons/swords/greatsword-crossguard-steel.webp",
 			"entries": [
 				"You are considered a martial character."
 			]
@@ -11919,6 +11927,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/weapons/swords/greatsword-crossguard-steel.webp",
 			"entries": [
 				"You are considered a martial character."
 			]
@@ -11929,6 +11938,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/trades/academics-investigation-study-blue.webp",
 			"entries": [
 				"You are considered an expert character."
 			]
@@ -12360,6 +12370,7 @@
 			"className": "Rogue N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/trades/academics-investigation-study-blue.webp",
 			"entries": [
 				"You are considered an expert character."
 			]
@@ -12863,6 +12874,7 @@
 			"className": "Sorcerer N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/movement/trail-streak-impact-blue.webp",
 			"entries": [
 				"You are considered a spellcaster character."
 			]
@@ -13154,6 +13166,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/movement/trail-streak-impact-blue.webp",
 			"entries": [
 				"You are considered a spellcaster character."
 			]
@@ -13406,6 +13419,7 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/movement/trail-streak-impact-blue.webp",
 			"entries": [
 				"You are considered a spellcaster character."
 			]
@@ -19993,6 +20007,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"foundryImg": "icons/weapons/swords/greatsword-crossguard-steel.webp",
 			"entries": [
 				"You are considered a martial character."
 			]
@@ -20168,6 +20183,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"foundryImg": "icons/weapons/swords/greatsword-crossguard-steel.webp",
 			"entries": [
 				"You are considered a martial character."
 			]
@@ -20577,6 +20593,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"foundryImg": "icons/weapons/swords/greatsword-crossguard-steel.webp",
 			"entries": [
 				"You are considered a martial character."
 			]
@@ -35898,7 +35915,7 @@
 				"uses.per": "sr",
 				"uses.max": "@scale.monk-n.chakra"
 			},
-			"img": "icons/magic/control/silhouette-hold-change-blue.webp"
+			"img": "icons/magic/control/silhouette-aura-energy.webp"
 		},
 		{
 			"name": "Sorcery Points",
