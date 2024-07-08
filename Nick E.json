@@ -11657,6 +11657,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/holy/barrier-shield-winged-cross.webp",
 			"entries": [
 				"At level 1 select a divine oath to take.",
 				"Your choice grants you features at 1st level and again at 3rd, 7th, 15th, and 20th level. Those features include oath spells and the Channel oath feature.",
@@ -11669,6 +11670,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
 			"entries": [
 				"Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.",
 				"As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.",
@@ -11682,6 +11684,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp",
 			"entries": [
 				"At 1st level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See {@book chapter 10|PHB|10} for the general rules of spellcasting.",
 				"You learn the cantrips listed in the cantrip section of your oath spell list.",
@@ -11732,6 +11735,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 2,
+			"foundryImg": "icons/weapons/swords/sword-gold-holy.webp",
 			"entries": [
 				"Starting at 2nd level, {@bold once per turn} when you hit a creature with a {@bold weapon or unarmed attack}, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of {@dice 5d8}."
 			]
@@ -11742,6 +11746,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/magic/holy/chalice-glowing-gold-water.webp",
 			"entries": [
 				"By 3rd level, the divine magic flowing through you makes you immune to disease."
 			]
@@ -11752,6 +11757,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/magic/holy/barrier-shield-winged-blue.webp",
 			"entries": [
 				"Starting at 3rd level, your oath allows you to channel divine energy to fuel magical effects. Each Channel Oath option provided by your purpose explains how to use it.",
 				"When you use your Channel Oath, you choose which option to use. You must then finish a short or long rest to use your Channel Oath again.",
