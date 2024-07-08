@@ -9837,6 +9837,7 @@
 			"className": "Barbarian N",
 			"classSource": "NICKED",
 			"level": 4,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -10019,6 +10020,7 @@
 			"className": "Barbarian N",
 			"classSource": "NICKED",
 			"level": 12,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -10106,6 +10108,7 @@
 			"className": "Barbarian N",
 			"classSource": "NICKED",
 			"level": 19,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -11406,6 +11409,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 4,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -11497,6 +11501,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 12,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -11557,6 +11562,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 19,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -11686,6 +11692,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 4,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -11782,6 +11789,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 12,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -11869,6 +11877,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 19,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -12038,6 +12047,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 4,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -12068,6 +12078,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/commodities/materials/bowl-liquid-white.webp",
 			"entries": [
 				"Beginning at 5th level, you may spend 5 minutes to recover all of you paladin class features that recover on a short rest.",
 				"Additionally, you recover 2 1st level spell slots.",
@@ -12088,6 +12099,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 6,
+			"foundryImg": "icons/equipment/shield/heater-steel-gold.webp",
 			"entries": [
 				"Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.",
 				"At 18th level, the range of this aura increases to 30 feet."
@@ -12109,6 +12121,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/equipment/shield/heater-emossed-spiral-green.webp",
 			"entries": [
 				"Starting at 10th level, you and friendly creatures within 10 feet of you can't be {@condition frightened} while you are conscious.",
 				"At 18th level, the range of this aura increases to 30 feet."
@@ -12120,6 +12133,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 11,
+			"foundryImg": "icons/weapons/swords/sword-gold-holy.webp",
 			"entries": [
 				"By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a weapon or unarmed attack, the creature takes an extra {@damage 1d8} radiant damage."
 			]
@@ -12130,6 +12144,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 12,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -12140,6 +12155,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 14,
+			"foundryImg": "icons/consumables/potions/bottle-conical-corked-green.webp",
 			"entries": [
 				"Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.",
 				"You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest."
@@ -12161,6 +12177,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 18,
+			"foundryImg": "icons/magic/sonic/explosion-shock-sound-wave.webp",
 			"entries": [
 				"At 18th level, the range of your auras increase to 30 feet."
 			]
@@ -12171,6 +12188,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 19,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -12338,6 +12356,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 4,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -12483,6 +12502,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 12,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -12556,6 +12576,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 19,
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
 			]
@@ -16465,6 +16486,7 @@
 			"source": "NICKED",
 			"className": "Paladin N",
 			"classSource": "NICKED",
+			"foundryImg": "icons/skills/ranged/arrows-flying-salvo-yellow.webp",
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -26853,6 +26875,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp",
 			"entries": [
 				"You gain spells at the paladin levels listed.",
 				{
@@ -27077,6 +27100,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp",
 			"entries": [
 				"You gain oath spells at the paladin levels listed.",
 				{
@@ -27280,6 +27304,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp",
 			"entries": [
 				"You gain oath spells at the paladin levels listed.",
 				{
@@ -27495,6 +27520,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp",
 			"entries": [
 				"You gain oath spells at the paladin levels listed.",
 				{
@@ -27713,6 +27739,7 @@
 			"subclassShortName": "Last Vigil",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/ranged/arrows-flying-salvo-yellow.webp",
 			"entries": [
 				{
 					"type": "refSubclassFeature",
@@ -27737,6 +27764,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/skills/social/diplomacy-writing-letter.webp",
 			"entries": [
 				"The Hunt Eternal",
 				"Vigilance in duty will bring peace everywhere",
@@ -27752,6 +27780,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp",
 			"entries": [
 				"You gain oath spells at the paladin levels listed in the Oath of the Last Vigil table. See the Sacred Oath class feature for how oath spells work.",
 				{
@@ -27803,6 +27832,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/skills/movement/feet-bladed-boots-fire.webp",
 			"skillProficiencies": [
 				{
 					"choose": {
@@ -27868,6 +27898,7 @@
 				"name": "Channel Oath",
 				"amount": 1
 			},
+			"foundryImg": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
 			"entries": [
 				"You use your channel oath as an action to start the ancient hunt and bolster yourself. You gain the ability to see in magical darkness, darkness, and dim light as though it was bright light. You do not have disadvantage on ranged attacks while creatures are within 5 ft of you.", 
 				"This effect lasts until you finish a short or long rest."
@@ -27886,6 +27917,7 @@
 				"name": "Channel Oath",
 				"amount": 1
 			},
+			"foundryImg": "icons/environment/wilderness/mine-interior-dungeon-door.webp",
 			"entries": [
 				"You use your channel oath as an action to call upon the last vigil's ancestors to travel quickly and quietly.", 
 				"You and a number of other creatures equal to 2 x your charisma modifier can travel at a normal pace while traveling stealthily. This effect lasts until you finish a short or long rest.", 
@@ -27901,6 +27933,7 @@
 			"subclassSource": "NICKED",
 			"level": 7,
 			"header": 2,
+			"foundryImg": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
 			"entries": [
 				"Beginning at 7th level, your walking speed increases by 10ft.",
 				"Additionally, you may use an action to bless a creature other than yourself and enhance its movement. You may use this feature a number of times equal to your charisma modifier.",
@@ -27917,6 +27950,7 @@
 			"subclassSource": "NICKED",
 			"level": 15,
 			"header": 2,
+			"foundryImg": "icons/equipment/shield/kite-wooden-dragon-green.webp",
 			"entries": [
 				"Starting at 15th level, you can defend your allies and yourself with the spirits of the vigil.", 
 				"When you or another creature you can see within the range of your weapon is hit by an attack roll, you can grant that creature a bonus to their armor class against that attack, potentially causing it to miss. This bonus equals your charisma modifier (minimum of +1).",
@@ -27933,6 +27967,7 @@
 			"subclassSource": "NICKED",
 			"level": 20,
 			"header": 2,
+			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"entries": [
 				"Starting at 20th level, you follow in the steps of your forbears leading the hunt.", 
 				"You are always under the effects of the {@spell freedom of movement|NICKED} spell.", 
@@ -27971,6 +28006,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/skills/social/diplomacy-writing-letter.webp",
 			"entries": [
 				"Hatred and Love",
 				"Forget all else but those you Hate",
@@ -27986,6 +28022,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp",
 			"entries": [
 				"You gain oath spells at the paladin levels listed.",
 				{
@@ -28225,6 +28262,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/skills/social/diplomacy-writing-letter.webp",
 			"entries": [
 				"Fight Greater Evil",
 				"Bring no Mercy for the Wicked ones",
@@ -28240,6 +28278,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp",
 			"entries": [
 				"You gain oath spells at the paladin levels listed.",
 				{
@@ -28473,6 +28512,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"header": 1,
+			"foundryImg": "icons/skills/social/diplomacy-writing-letter.webp",
 			"entries": [
 				"Your path Ascendent ignores all for the glory and focus of one's own beliefs above any oath or any other's beliefs, be they gods or otherwise. You have no oath, and you care little."
 			]
