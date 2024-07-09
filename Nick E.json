@@ -14191,7 +14191,7 @@
 				{
 					"name": "Fighting Style",
 					"featureType": [
-						"FS:F"
+						"F:FS"
 					],
 					"progression": {
 						"3": 1
@@ -15633,7 +15633,7 @@
 				{
 					"name": "Fighting Style",
 					"featureType": [
-						"FS:F"
+						"F:FS"
 					],
 					"progression": {
 						"10": 1
@@ -20435,17 +20435,6 @@
 			"subclassShortName": "Battle",
 			"subclassSource": "NICKED",
 			"level": 3,
-			"optionalfeatureProgression": [
-				{
-					"name": "Fighting Style",
-					"featureType": [
-						"F:FS"
-					],
-					"progression": {
-						"3": 1
-					}
-				}
-			],
 			"entries": [
 				{
 					"type": "refSubclassFeature",
