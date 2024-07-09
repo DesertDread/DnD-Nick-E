@@ -36592,6 +36592,7 @@
 			"featureType": [
 				"SG:BA"
 			],
+			"foundryImg": "icons/magic/control/silhouette-hold-beam-blue.webp",
 			"entries": [
 				"Your bardic dice improve now adding your charisma bonus to the roll. Increase the maximum number of bardic inspirations you have by 1."
 			]
@@ -36602,6 +36603,7 @@
 			"featureType": [
 				"SG:BA"
 			],
+			"foundryImg": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
 			"entries": [
 				"You may attack an additional time when you take the attack action. This ability stacks with extra attack. You gain proficiency in a save of your choice that you are not proficient in."
 			]
@@ -36612,6 +36614,7 @@
 			"featureType": [
 				"SG:BA"
 			],
+			"foundryImg": "icons/tools/scribal/ink-quill-red.webp",
 			"entries": [
 				"Once per long rest when you roll a d20 on anything that isn't an attack roll you may have that dice be treated as though you rolled a 20. You can use this feature before or after you see the roll but not after you know the outcome. Your jack of all trades improves adding an additional +1 to all skills that it affects."
 			]
@@ -36622,6 +36625,7 @@
 			"featureType": [
 				"SG:BA"
 			],
+			"foundryImg": "icons/sundries/scrolls/scroll-magical-yellow.webp",
 			"entries": [
 				"Whenever you take a short rest you regain 1 spell slot of each level up to 4th level (one 1st, one 2nd, one 3rd, one 4th). Your spell attack rolls gain +1 and your spell save dc is increased by 1."
 			]
