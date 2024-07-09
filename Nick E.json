@@ -109,6 +109,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -241,6 +242,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -374,6 +376,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -511,6 +514,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -643,6 +647,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 166
 			},
 			"size": [
@@ -765,6 +770,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 300
 			},
 			"size": [
@@ -900,6 +906,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -1027,6 +1034,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -1157,6 +1165,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 1006
 			},
 			"size": [
@@ -1323,6 +1332,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -1449,6 +1459,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -1604,6 +1615,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -1765,6 +1777,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -1944,6 +1957,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -2077,6 +2091,7 @@
 				}
 			],
             "age": {
+				"mature": 16,
 				"max": 106
 			},
 			"size": [
@@ -2270,6 +2285,7 @@
 				"Monstrous Race"
 			],
             "age": {
+				"mature": 16,
                 "max": 206
             },
             "darkvision": 120,
@@ -14429,7 +14445,7 @@
 							"ray of enfeeblement|NICKED"
 						],
 						"5": [
-							"animate dead|NICKED",
+							"summon undead|NICKED",
 							"vampiric touch|NICKED"
 						],
 						"7": [
@@ -15000,7 +15016,7 @@
 							"gentle repose|NICKED"
 						],
 						"5": [
-							"animate dead|NICKED",
+							"summon undead|NICKED",
 							"gaseous form|NICKED"
 						],
 						"7": [
@@ -21294,7 +21310,7 @@
 						],
 						[
 							"5th",
-							"{@spell animate dead|NICKED}, {@spell vampiric touch|NICKED}"
+							"{@spell summon undead|NICKED}, {@spell vampiric touch|NICKED}"
 						],
 						[
 							"7th",
@@ -23434,7 +23450,7 @@
 						],
 						[
 							"5th",
-							"{@spell animate dead|NICKED}, {@spell gaseous form|NICKED}"
+							"{@spell summon undead|NICKED}, {@spell gaseous form|NICKED}"
 						],
 						[
 							"7th",
@@ -23500,7 +23516,7 @@
 				"In combat, the zombie's shares your turn. It obeys your mental commands, and the only actions it can take is the {@action Attack} action, spore burst action, and {@action Dash} action.",
 				"Only the first {@creature Fungal Zombie|NICKED} counts toward your familiar limit.",
 				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.",
-				"When you cast {@spell animate dead|NICKED}, you may have it form as another {@creature Fungal Zombie|NICKED}."
+				"When you cast {@spell summon undead|NICKED}, you may have it form as another {@creature Fungal Zombie|NICKED}."
 			]
 		},
 		{
@@ -41345,7 +41361,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"animate dead|NICKED"
+									"summon undead|NICKED"
 								]
 							}
 						}
@@ -41353,7 +41369,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell animate dead|NICKED} without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest."
+				"You can cast {@spell summon undead|NICKED} without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest."
 			]
 		},
 		{
@@ -63026,6 +63042,7 @@
 			],
 			"entries": [
 				"Duration: Concentration until you begin your next short or long rest",
+				"{@bold Focused}",
 				"(This spell creature counts as a familiar)",
 				"You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fey Spirit|TCE} stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
 				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
@@ -66097,7 +66114,7 @@
 				}
 			],
 			"entries": [
-				"{@bold Focused}",
+				"Duration: Concentration until you begin your next short or long rest; {@bold Focused}",
 				"(This spell creature counts as a familiar)",
 				"You call forth an giant insect from the earth. It manifests in an unoccupied space that you can see within range appearing as though it crawled from out of the ground if able. This creatures form uses the {@creature Giant Insect|NICKED} stat block. When you cast the spell, choose Centipede, Scorpion, Spider, or Wasp. The creature resembles an beast of that kind, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
 				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, and it takes its turn during yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action disengage} action and uses its move to avoid danger."
