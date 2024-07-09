@@ -1053,9 +1053,11 @@
 				}
 			],
             "creatureTypes": [
-                "humanoid",
-				"fey"
+                "humanoid"
             ],
+			"creatureTypeTags": [
+				"fey"
+			],
 			"entries": [
 				{
 					"type": "entries",
