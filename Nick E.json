@@ -54895,7 +54895,7 @@
 			},
 			"entries": [
 				"You touch a creature. The creature's {@book jump distance|phb|8|Jumping} is tripled until the spell ends.",
-				"If you cast this spell as a ritual, it only takes an additional 12 seconds instead of 10 minutes to cas. (3 rounds in total)"
+				"If you cast this spell as a ritual, it only takes an additional 12 seconds instead of 10 minutes to cast. (3 rounds in total)"
 			],
 			"areaTags": [
 				"ST"
