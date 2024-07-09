@@ -20435,6 +20435,17 @@
 			"subclassShortName": "Battle",
 			"subclassSource": "NICKED",
 			"level": 3,
+			"optionalfeatureProgression": [
+				{
+					"name": "Fighting Style",
+					"featureType": [
+						"F:FS"
+					],
+					"progression": {
+						"3": 1
+					}
+				}
+			],
 			"entries": [
 				{
 					"type": "refSubclassFeature",
@@ -20497,21 +20508,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you adopt a style of fighting as your specialty. You gain the fighting style feat. (TODO:add fighting style list choices)",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Dueling"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Two-Weapon Fighting"
-						}
-					]
-				}
+				"At 3rd level, you adopt a style of fighting as your specialty. You gain the fighting style feat."
 			]
 		},
 		{
