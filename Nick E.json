@@ -10406,6 +10406,7 @@
 			"className": "Bard N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/magic/symbols/runes-carved-stone-yellow.webp",
 			"entries": [
 				"Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest."
 			]
@@ -10416,6 +10417,7 @@
 			"className": "Bard N",
 			"classSource": "NICKED",
 			"level": 6,
+			"foundryImg": "icons/tools/instruments/horn-white-gray.webp",
 			"entries": [
 				"Starting at 6th level, your magic and inspiration becomes more potent allowing you to bolster your allies' resolve and protect them from faltering by your very presence. Whenever you cast a leveled spell or use a bardic inspiration dice that affects a friendly creature, you may end one {@condition charmed} condition on it.",
                 "Additionally after you cast a leveled spell or use a bardic inspiration on a friendly creature, that creatures gains advantage on saves against charm and fear spells, abilities, and effects for 1 minute while they remain within 15 feet of you."
@@ -10606,6 +10608,7 @@
 			"className": "Bard N",
 			"classSource": "NICKED",
 			"level": 15,
+			"foundryImg": "icons/tools/instruments/harp-lap-brown.webp",
 			"entries": [
 				"At 15th level, your Bardic Inspiration die changes to a {@dice d12}."
 			]
