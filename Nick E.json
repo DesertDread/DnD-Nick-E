@@ -15695,6 +15695,72 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"spellcastingAbility": "int",
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "spell-points",
+						"type": "number",
+						"scale": {
+							"3": {
+								"value": 2
+							},
+							"4": {
+								"value": 3
+							},
+							"5": {
+								"value": 5
+							},
+							"6": {
+								"value": 8
+							},
+							"7": {
+								"value": 8
+							},
+							"8": {
+								"value": 8
+							},
+							"9": {
+								"value": 9
+							},
+							"10": {
+								"value": 10
+							},
+							"11": {
+								"value": 10
+							},
+							"12": {
+								"value": 10
+							},
+							"13": {
+								"value": 16
+							},
+							"14": {
+								"value": 16
+							},
+							"15": {
+								"value": 16
+							},
+							"16": {
+								"value": 19
+							},
+							"17": {
+								"value": 19
+							},
+							"18": {
+								"value": 19
+							},
+							"19": {
+								"value": 20
+							},
+							"20": {
+								"value": 20
+							}
+						}
+					},
+					"title": "Spell Points"
+				}
+			],
 			"cantripProgression": [
 				0,
 				0,
@@ -17214,6 +17280,72 @@
 			"source": "NICKED",
 			"className": "Rogue N",
 			"classSource": "NICKED",
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "spell-points",
+						"type": "number",
+						"scale": {
+							"3": {
+								"value": 2
+							},
+							"4": {
+								"value": 3
+							},
+							"5": {
+								"value": 5
+							},
+							"6": {
+								"value": 8
+							},
+							"7": {
+								"value": 8
+							},
+							"8": {
+								"value": 8
+							},
+							"9": {
+								"value": 9
+							},
+							"10": {
+								"value": 10
+							},
+							"11": {
+								"value": 10
+							},
+							"12": {
+								"value": 10
+							},
+							"13": {
+								"value": 16
+							},
+							"14": {
+								"value": 16
+							},
+							"15": {
+								"value": 16
+							},
+							"16": {
+								"value": 19
+							},
+							"17": {
+								"value": 19
+							},
+							"18": {
+								"value": 19
+							},
+							"19": {
+								"value": 20
+							},
+							"20": {
+								"value": 20
+							}
+						}
+					},
+					"title": "Spell Points"
+				}
+			],
 			"spellcastingAbility": "int",
 			"subclassSpells": [
 				{
@@ -25157,6 +25289,10 @@
 			"entries": [
 				{
 					"type": "refSubclassFeature",
+					"subclassFeature": "Spell Points|Fighter N|NICKED|Bladesinger|NICKED|3|NICKED"
+				},
+				{
+					"type": "refSubclassFeature",
 					"subclassFeature": "Training in War and Magic|Fighter N|NICKED|Bladesinger|NICKED|3|NICKED"
 				},
 				{
@@ -25167,6 +25303,19 @@
 					"type": "refSubclassFeature",
 					"subclassFeature": "Spellcasting|Fighter N|NICKED|Bladesinger|NICKED|3|NICKED"
 				}
+			]
+		},
+		{
+			"name": "Spell Points",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"subclassShortName": "Bladesinger",
+			"subclassSource": "NICKED",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You have spell points instead of spell slots."
 			]
 		},
 		{
@@ -30585,12 +30734,29 @@
 			"entries": [
 				{
 					"type": "refSubclassFeature",
+					"subclassFeature": "Spell Points|Rogue N|NICKED|Arcane Scoundrel|NICKED|3|NICKED"
+				},
+				{
+					"type": "refSubclassFeature",
 					"subclassFeature": "Mage Hand Legerdemain|Rogue N|NICKED|Arcane Scoundrel|NICKED|3|NICKED"
 				},
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Spellcasting|Rogue N|NICKED|Arcane Scoundrel|NICKED|3|NICKED"
 				}
+			]
+		},
+		{
+			"name": "Spell Points",
+			"source": "NICKED",
+			"className": "Rogue N",
+			"classSource": "NICKED",
+			"subclassShortName": "Arcane Scoundrel",
+			"subclassSource": "NICKED",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You have spell points instead of spell slots."
 			]
 		},
 		{
@@ -36511,6 +36677,48 @@
 		}
 	],
 	"foundrySubclassFeature": [
+		{
+			"name": "Arcane Shots",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"subclassShortName": "Arcane Marksman",
+			"subclassSource": "NICKED",
+			"level": 3,
+			"system": {
+				"activation.type": "special",
+				"uses.per": "lr",
+				"uses.max": "3"
+			}
+		},
+		{
+			"name": "Spell Points",
+			"source": "NICKED",
+			"className": "Rogue N",
+			"classSource": "NICKED",
+			"subclassShortName": "Arcane Scoundrel",
+			"subclassSource": "NICKED",
+			"level": 3,
+			"system": {
+				"activation.type": "special",
+				"uses.per": "lr",
+				"uses.max": "@scale.arcane-scoundrel.spell-points"
+			}
+		},
+		{
+			"name": "Spell Points",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"subclassShortName": "Bladesinger",
+			"subclassSource": "NICKED",
+			"level": 3,
+			"system": {
+				"activation.type": "special",
+				"uses.per": "lr",
+				"uses.max": "@scale.bladesinger.spell-points"
+			}
+		},
 		{
 			"name": "Psionic Energy Die",
 			"source": "NICKED",
