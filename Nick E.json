@@ -31894,7 +31894,7 @@
 			"header": 2,
 			"foundryImg": "icons/magic/nature/moon-crescent.webp",
 			"entries": [
-				"{@spell eldritch blast}, {@spell magic missile|NICKED}, {@spell identify|NICKED}, (at 3rd level){@spell moonbeam|NICKED}(gray light energy)",
+				"{@spell eldritch blast|NICKED}, {@spell magic missile|NICKED}, {@spell identify|NICKED}, (at 3rd level){@spell moonbeam|NICKED}(gray light energy)",
 				"When you cast {@spell moonbeam|NICKED}, it deals force damage instead of radiant damage and is a strength save instead of constitution. The area is now weighed down in lunar energy. Whenever a creature fails the save against {@spell moonbeam|NICKED}, their movement speed is reduced by half until the end of their turn.",
 				"The corneas of your eyes shift to a gray background, and your irises and pupils look like the waxing of the moon."
 			]
@@ -31910,7 +31910,7 @@
 			"header": 2,
 			"foundryImg": "icons/magic/nature/moon-crescent.webp",
 			"entries": [
-				"{@spell sacred flame}, {@spell guiding bolt|NICKED}, {@spell find familiar|NICKED} (bat, cat, or owl only), (at 3rd level){@spell moonbeam|NICKED}(blue light energy)",
+				"{@spell sacred flame|NICKED}, {@spell guiding bolt|NICKED}, {@spell find familiar|NICKED} (bat, cat, or owl only), (at 3rd level){@spell moonbeam|NICKED}(blue light energy)",
 				"When you cast {@spell moonbeam|NICKED}, it centers on you and follows you as you move (no action required). You have advantage on all concentration checks you make to maintain this spell. You gain +2 to your AC while within the moonbeam's light.",
 				"Your eyes look somewhat normal, but the corneas shimmer with a slight pale blue light."
 			]
