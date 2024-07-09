@@ -12233,6 +12233,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
 			"entries": [
 				"Starting at level 1 choose one of the following options to choose how you traverse, hunt, and handle the environments.",
 				"You gain an additional tracking and hunting style once you reach level 14."
@@ -38938,7 +38939,7 @@
 					"investigation": true
 				}
 			],
-			
+			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
 			"entries": [
 				"Gain proficiency in {@skill investigation}.",
 				"You have advantage on all wisdom {@skill survival} checks that you use to track humanoids and all intelligence {@skill history} checks to recall information on humanoids.",
@@ -38965,6 +38966,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
 			"entries": [
 				"Gain proficiency in {@skill arcana}.",
 				"You have advantage on all wisdom {@skill survival} checks that you use to track fey creatures and all intelligence {@skill history} checks to recall information on fey creatures.", 
@@ -38987,6 +38989,7 @@
 					"heavy": true
 				}
 			],
+			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
 			"entries": [
 				"Gain proficiency in {@skill history}.",
 				"You have advantage on all wisdom {@skill survival} checks you use to track dragons and monstrosities and all intelligence {@skill history} checks to recall information on dragons and monstrosities.",
@@ -39013,6 +39016,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
 			"entries": [
 				"Gain proficiency in {@skill nature}.",
 				"You have advantage on all wisdom {@skill survival} checks you use to track plants and plant creatures and all intelligence {@skill history} checks to recall information on plants and plant creatures.",
@@ -39048,6 +39052,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
 			"entries": [
 				"Gain proficiency in {@skill religion}.",
 				"You have advantage on all wisdom {@skill survival} checks you use to track celestials and fiends and all intelligence {@skill history} checks to recall information on celestials and fiends.",
@@ -39066,6 +39071,7 @@
 					"athletics": true
 				}
 			],
+			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
 			"entries": [
 				"Gain proficiency in {@skill athletics}.",
 				"You have advantage on all wisdom {@skill survival} checks you use to track beasts and all intelligence {@skill history} checks to recall information on beasts.", 
@@ -39084,6 +39090,7 @@
 					"perception": true
 				}
 			],
+			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
 			"entries": [
 				"Gain proficiency in {@skill religion} and {@skill perception}.",
 				"You have advantage on all {@skill survival} checks you use to track aberrations and undead and all intelligence {@skill history} checks to recall information on aberrations and undead." 
@@ -39098,6 +39105,7 @@
 			"resist": [
 				"cold"				
 			],
+			"foundryImg": "icons/magic/water/water-iceberg-bubbles.webp",
 			"entries": [
 				"You gain resistance to Cold Damage." 
 			]
@@ -39111,6 +39119,7 @@
 			"resist": [
 				"lightning"				
 			],
+			"foundryImg": "icons/environment/wilderness/island.webp",
 			"entries": [
 				"You gain resistance to Lightning Damage." 
 			]
@@ -39124,6 +39133,7 @@
 			"resist": [
 				"fire"				
 			],
+			"foundryImg": "icons/magic/earth/projectiles-stone-salvo.webp",
 			"entries": [
 				"You gain resistance to Fire Damage." 
 			]
@@ -39137,6 +39147,7 @@
 			"resist": [
 				"acid"				
 			],
+			"foundryImg": "icons/environment/wilderness/tree-oak.webp",
 			"entries": [
 				"You gain resistance to Acid Damage." 
 			]
@@ -39150,6 +39161,7 @@
 			"resist": [
 				"fire"				
 			],
+			"foundryImg": "icons/environment/wilderness/arch-stone.webp",
 			"entries": [
 				"You gain resistance to Fire Damage." 
 			]
@@ -39163,6 +39175,7 @@
 			"resist": [
 				"cold"				
 			],
+			"foundryImg": "icons/environment/wilderness/cave-entrance-mountain.webp",
 			"entries": [
 				"You gain resistance to Cold Damage." 
 			]
@@ -39176,6 +39189,7 @@
 			"resist": [
 				"poison"				
 			],
+			"foundryImg": "icons/skills/toxins/cauldron-bubbles-overflow-green.webp",
 			"entries": [
 				"You gain resistance to Poison Damage." 
 			]
@@ -39189,6 +39203,7 @@
 			"resist": [
 				"psychic"				
 			],
+			"foundryImg": "icons/magic/perception/eye-slit-pink.webp",
 			"entries": [
 				"You gain resistance to Psychic Damage." 
 			]
@@ -41567,6 +41582,7 @@
 			"featureType": [
 				"F:FS"
 			],
+			"foundryImg": "icons/weapons/thrown/dagger-ringed-steel.webp",
 			"entries": [
 				"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
 				"You can throw all other non-improvised melee weapons that do not have the heavy property as though they have the thrown weapon property. They have a base thrown range of 20/60. (reminder that you cannot throw weapons using their versatile dice even if you throw it with “two hands”)",
