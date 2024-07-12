@@ -5381,7 +5381,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Druid}"
+						"{@filter Cantrips Known|spells|level=0|class=Druid N (NICKED)}"
 					],
 					"rows": [
 						[
@@ -5929,6 +5929,7 @@
 					"armor": [
 						"light",
 						"medium",
+						"heavy",
 						"{@item shield|phb|shields}"
 					],
 					"weapons": [
@@ -6682,6 +6683,7 @@
 					"armor": [
 						"light",
 						"medium",
+						"heavy",
 						"{@item shield|phb|shields}"
 					],
 					"weapons": [
@@ -7027,23 +7029,6 @@
 						"light",
 						"medium",
 						"{@item shield|phb|shields}"
-					],
-					"skills": [
-						{
-							"choose": {
-								"from": [
-									"animal handling",
-									"athletics",
-									"insight",
-									"investigation",
-									"nature",
-									"perception",
-									"stealth",
-									"survival"
-								],
-								"count": 1
-							}
-						}
 					],
 					"weapons": [
 						"simple",
@@ -7511,7 +7496,7 @@
 					],
 					"skills": [
 						{
-							"any": 1
+							"any": 2
 						}
 					],
 					"tools": [
