@@ -26148,7 +26148,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
-			"foundryImg": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+			"foundryImg": "icons/skills/melee/maneuver-greatsword-yellow.webp",
 			"entries": [
 				"When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.",
 				{
@@ -26415,6 +26415,7 @@
 					"athletics": true
 				}
 			],
+			"foundryImg": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
 			"entries": [
 				{
 					"type":"list",
@@ -26435,6 +26436,7 @@
 			"subclassShortName": "Kensei",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
 			"entries": [
 				{
 					"type":"list",
@@ -26453,6 +26455,7 @@
 			"subclassShortName": "Kensei",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
 			"entries": [
 				{
 					"type":"list",
@@ -26471,8 +26474,9 @@
 			"subclassShortName": "Kensei",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
 			"entries": [
-				"Kensei gain an additional +1 to their hp every time they level up in this class as well as when they choose this monastic kata at level 1"
+				"Kensei gain an additional +1 to their hitpoints every time they level up in this class as well as when they choose this monastic kata at level 1"
 			]
 		},
 		{
@@ -26483,6 +26487,7 @@
 			"subclassShortName": "Kensei",
 			"subclassSource": "NICKED",
 			"level": 11,
+			"foundryImg": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
 			"entries": [
 				"You may now attack twice as a bonus action as part of your Kensei ability"
 			]
@@ -26495,6 +26500,7 @@
 			"subclassShortName": "Kensei",
 			"subclassSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
 			"entries": [
 				"Your mastery of Kensei weapons grants you extraordinary accuracy. If you miss with an attack roll using a monk weapon or unarmed strike on your turn, you can reroll it. You can use this feature only once on each of your turns."
 			]
@@ -37473,6 +37479,7 @@
 					"herbalism kit": true
 				}
 			],
+			"foundryImg": "icons/skills/social/peace-luck-insult.webp",
 			"entries": [
 				"You gain proficiency with {@skill medicine} and Herbalists tools.",
 				"You gain the Healing hands jutsu, this jutsu doesn't count against the number of jutsu known. If you already know this jutsu you may replace it with another you could learn at this level.",
@@ -37511,6 +37518,7 @@
 					"darkvision": 60
 				}
 			],
+			"foundryImg": "icons/magic/unholy/hands-praying-fire-green.webp",
 			"entries": [
 				"You can see normally in darkness, both magical and nonmagical, to a distance of 60ft", 
 				"You learn the {@spell minor illusion|NICKED} cantrip. This spell uses your Monastic Kata ability modifier for spellcasting.",
@@ -37542,6 +37550,7 @@
 					"darkvision": 60
 				}
 			],
+			"foundryImg": "icons/creatures/abilities/dragon-breath-purple.webp",
 			"entries": [
 				{
 					"type": "options",
@@ -37589,6 +37598,7 @@
 			"featureType": [
 				"MF"
 			],
+			"foundryImg": "icons/magic/light/projectile-stars-blue.webp",
 			"entries": [
 				"Your attacks may reach an additional 5 ft. Creatures may still trigger opportunity attacks within you normal range as though you didn't have this additional reach if you so choose.", 
 				"Creatures trigger opportunity attacks if they move out of your new range.",
@@ -37618,6 +37628,7 @@
 					"brewer's supplies": true
 				}
 			],
+			"foundryImg": "icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp",
 			"entries": [
 				"Your attacks may reach an additional 5 ft. Creatures may still trigger opportunity attacks within you normal range as though you didn't have this additional reach if you so choose.", 
 				"Creatures trigger opportunity attacks if they move out of your new range.",
@@ -37672,6 +37683,7 @@
 					"level": 6
 				}
 			],
+			"foundryImg": "icons/magic/unholy/projectile-helix-blood-red.webp",
 			"entries": [
 				"If you start your turn under the effects of the {@condition charmed}, {@condition frightened} or under a spell or ability that charms you, you may end one of those effects. You may do this even if you do not have control over your mind or body. If you end an effect in this way, you lose your action for that turn.",
 				"Though you still have and recover you bonus action, reaction, and movement.",
@@ -37689,6 +37701,7 @@
 					"level": 6
 				}
 			],
+			"foundryImg": "icons/magic/unholy/orb-swirling-teal.webp",
 			"entries": [
 				"You gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn."
 			]
@@ -37716,6 +37729,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/light/projectile-smoke-yellow.webp",
 			"entries": [
 				"When you heal a creature with 0 hitpoints you always restore the maximum amount of hitpoints to that creature.",
 				"You learn the {@spell light|NICKED} and {@spell control flames|NICKED} cantrips, this spell uses your Monastic Kata ability modifier for spellcasting",
@@ -37737,6 +37751,7 @@
 				"name": "Chakra",
 				"amount": 2
 			},
+			"foundryImg": "icons/magic/symbols/runes-carved-stone-purple.webp",
 			"entries": [
 				"When a creature misses you with a melee attack roll, you may use your reaction to cause that attack to hit one creature of your choice other than the attacker, that you can see within 5 feet of you. You can do this a number of times equal to your monastic kata ability modifier. You recover all of the uses on a short rest.",
 				"When you miss with an attack, you may spend 2 chakra to attempt to change that attack to a hit. Roll your unarmed strike damage and add the total to the attack roll."
@@ -37757,6 +37772,7 @@
 				"name": "Chakra",
 				"amount": 1
 			},
+			"foundryImg": "icons/magic/defensive/armor-stone-skin.webp",
 			"entries": [
 				"As a bonus action you may spend one chakra, if you do you gain resistance to piercing, bludgeoning, and slashing damage until the start of your next turn."
 			]
@@ -37776,6 +37792,7 @@
 				"name": "Chakra",
 				"amount": 1
 			},
+			"foundryImg": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
 			"entries": [
 				"When you are reduced to 0 hit points, you can expend 1 chakra point (no action required) to have 1 hit point instead."
 			]
@@ -37795,6 +37812,7 @@
 				"name": "Chakra",
 				"amount": 1
 			},
+			"foundryImg": "icons/magic/lightning/fist-unarmed-strike-blue.webp",
 			"entries": [
 				"You've honed your awareness and reflexes through mental aptitude and pattern recognition. Once per turn, if you've already taken your reaction, you may spend 1 chakra point to take an additional reaction. You can use only one reaction per triggering effect."
 			]
@@ -37814,6 +37832,7 @@
 				"name": "Chakra",
 				"amount": 1
 			},
+			"foundryImg": "icons/magic/holy/yin-yang-balance-symbol.webp",
 			"entries": [
 				"Whenever you activate a stance jutsu, you may select a creature within 30 feet of you that can see or hear you and spend one chakra. That creature gains the benefits of that stance if they choose to. If they are already in a stance, they lose the effects of that stance and gain the effects of the new one as usual.",
 				"Once you grant another creature the effects of a jutsu stance, you may not do so again until you finish a short rest.",
@@ -37836,6 +37855,7 @@
 				"name": "Chakra",
 				"amount": 3
 			},
+			"foundryImg": "icons/creatures/reptiles/dragon-horned-blue.webp",
 			"entries": [
 				"The power of your draconic spirit now radiates from you, warding your allies or inspiring fear in your enemies. As a bonus action, you can create an aura of draconic power that radiates 10 feet from you for 1 minute. For the duration, you gain one of the following effects of your choice:",
 				{
@@ -37895,6 +37915,7 @@
 					"anyProficientTool": 1
 				}
 			],
+			"foundryImg": "icons/tools/scribal/pen-steel-grey-brown.webp",
 			"entries": [
 				"You are always under the effects of the {@spell guidance|NICKED} spell. You do not gain guidance sickness.",
 				"Choose 2 skills. you gain proficiency in those skills",
@@ -37917,6 +37938,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/creatures/abilities/wings-birdlike-blue.webp",
 			"entries": [
 				"Bonus Action; 30 second duration",
 				"You may perform all your movement as though you have a flying speed. Whenever you stop moving on a turn you lose that flying speed and plummet. You cannot fly higher than 2 X [Your monastic kata ability modifier] with this movement.", 
@@ -37939,6 +37961,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/magic/water/water-hand.webp",
 			"entries": [
 				"1 Minute; Duration 1 minute",
 				"You imbue a liquid that you can drink with chakra. The amount of liquid must be at least the size of a single drop of water. Your careful study and regulation of your body allow you to drink that liquid a gain the following benefits:",
@@ -37968,6 +37991,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/magic/nature/leaf-glow-orange.webp",
 			"entries": [
 				"1 Reaction; Duration 1 minute",
 				"You and up to one creature of your same size or smaller within 5 ft of you begin to fall slowly. A falling creature's rate of descent slows to 60 feet per round until the jutsu ends.", 
@@ -37990,6 +38014,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/magic/fire/projectile-bolt-zigzag-orange.webp",
 			"entries": [
 				"No Action Required; until the end of your turn",
 				"During this turn your melee attacks reach up to 60ft, you slash with your weapon changing all the damage to fire damage. You gain +1 to attack rolls this turn."
@@ -38010,6 +38035,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/magic/earth/projectile-boulder-debris.webp",
 			"entries": [
 				"1 Action",
 				"You slap the ground at your feet forcing all creatures within 10 feet of you except you on the ground to make a constitution saving throw. On a failure those creatures take {@damage 2d8} thunder damage and are forced away to 15 feet of you. They take half the damage on a successful save.",
@@ -38033,6 +38059,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
 			"entries": [
 				"1 Action",
 				"You heal a creature within 5ft of you (including yourself) equal to your unarmed strike damage.",
@@ -38055,6 +38082,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/magic/movement/chevrons-down-yellow.webp",
 			"entries": [
 				"1 Action",
 				"You take the {@action attack} action. The first weapon attack or unarmed strike you make against each different creature this turn forces that creature to make a strength saving throw if that attack hits them. Upon a failed saving throw the creature is knocked {@condition prone}."
@@ -38075,6 +38103,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/creatures/claws/claw-curved-jagged-yellow.webp",
 			"entries": [
 				"30 second duration",
 				"During your turn you have +5 AC.",
@@ -38098,6 +38127,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/creatures/mammals/ox-bull-horned-glowing-orange.webp",
 			"entries": [
 				"Bonus Action; 30 second duration",
 				"You gain +2 Armor class.",
@@ -38133,6 +38163,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/air/air-pressure-shield-blue.webp",
 			"entries": [
 				"1 Bonus Action",
 				"You may cast the spell {@spell sanctuary|NICKED} without verbal, somatic, or material components on a creature within 5ft (including you)."
@@ -38153,6 +38184,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/magic/light/explosion-star-large-blue-yellow.webp",
 			"entries": [
 				"When you hit a creature with a weapon attack or unarmed strike, you may deal additional damage on that attack equal to your monastic kata ability modifier in the form of a kick. Then you may “Vault” the creature. You may use this jutsu only once per turn, and only during your turn.",
 				"If you choose to 'Vault' over them, you may move around, over, or under them to the opposite side of the creature passing through their space given that there is a (reasonably) large enough gap above them, to their sides, or between their legs. This movement does not consume movement as part of your turn and does not trigger attacks of opportunity. You cannot use this jutsu more than once each turn."
@@ -38173,6 +38205,7 @@
 					"level": 2
 				}
 			],
+			"foundryImg": "icons/magic/water/tendrils-ice-thorns.webp",
 			"entries": [
 				"1 Action",
 				"You attempt to pull a creature within 45 feet closer to you. That creature must make a strength saving throw or take {@damage 2d10} and be pulled up to 15 feet in a straight line toward you until the creature ends within 5 ft of you.",
@@ -38194,6 +38227,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/nature/plant-sprout-snow-green.webp",
 			"entries": [
 				"1 Action; 30 Seconds",
 				"You begin to react so fast that you gain the benefits of the {@condition dodge} condition. You must focus on this stance as though you were focusing on a spell. You automatically succeed on concentration checks until the start of your next turn to maintain this stance the turn you activate it.",
@@ -38232,6 +38266,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/unholy/orb-glowing-purple.webp",
 			"entries": [
 				"1 Action",
 				"You can cast {@spell silence|NICKED} without Verbal, Somatic, or Material components. The duration of the spell is 5 minutes",
@@ -38272,6 +38307,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/nature/stealth-hide-eyes-pink.webp",
 			"entries": [
 				"1 Action",
 				"You can cast {@spell pass without trace|NICKED} without Verbal, Somatic, or Material components.",
@@ -38310,6 +38346,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/air/wind-vortex-swirl-purple.webp",
 			"entries": [
 				"1 Action",
 				"You can cast {@spell darkness|NICKED} without Verbal, Somatic, or Material components."
@@ -38330,6 +38367,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/air/wind-swirl-red-orange.webp",
 			"entries": [
 				"1 Bonus Action",
 				"You become {@condition invisible}, gain a flying speed, and move up to that speed as part of this bonus action.", 
@@ -38366,6 +38404,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/nature/moon-crescent.webp",
 			"entries": [
 				"1 Action",
 				"You can cast {@spell calm emotions|NICKED} without Verbal, Somatic, or Material components, but it only affects one creature of your choice within range. That creature must be able to hear you."
@@ -38386,6 +38425,7 @@
 					"level": 3
 				}
 			],
+			"foundryImg": "icons/magic/nature/symbol-sun-yellow.webp",
 			"entries": [
 				"When you make a {@skill persuasion}, {@skill performance}, or {@skill intimidation} check, after you roll but before you know the outcome, you may roll your unarmed strike damage and add it to the total. You may use this ability only once on an ability check, per ability check."
 			]
@@ -38405,6 +38445,7 @@
 					"level": 5
 				}
 			],
+			"foundryImg": "icons/magic/control/silhouette-hold-beam-blue.webp",
 			"entries": [
 				"1 Action",
 				"You open up your body to the universe and attempt to bend it to you will. Once you open the first gate, you cannot use a jutsu that opens the first gate again until you finish a long rest.",
@@ -38448,6 +38489,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/control/debuff-energy-snare-brown.webp",
 			"entries": [
 				"1 Action; 1 Minute Duration",
 				"You cast {@spell hold person|NICKED} without verbal or material components on a creature within 5 ft of you. The somatic component of this spell is you hitting a pressure point of the creature. (you must still concentrate on the spell)",
@@ -38472,6 +38514,7 @@
 					]
 				}
 			],
+			"foundryImg": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
 			"entries": [
 				"1 Bonus Action; 30 Second Duration",
 				"You gain the benefits of the enlarge half of the {@spell enlarge/reduce|NICKED} spell (no concentration required). While under the effects of this stance, a spectral Oni mask adorns your face. You may end its effects as a bonus action.",
@@ -38494,6 +38537,7 @@
 					"level": 5
 				}
 			],
+			"foundryImg": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 			"entries": [
 				"1 Action; 1 Hour Duration",
 				"You summon an almost perfect copy of yourself within 5 feet and transfer your consciousness to it. You can see through its eyes, use its senses, and speak through its mouth.", 
@@ -38518,6 +38562,7 @@
 					"level": 5
 				}
 			],
+			"foundryImg": "icons/magic/unholy/projectile-bolts-salvo-pink.webp",
 			"entries": [
 				"1 Action",
 				"You summon a shadow shuriken that duplicates itself as it flies spreading out in a 60ft-cone creating a deadly hail of blades. Each creature in that cone takes {@damage 3d8} piercing damage. (Like with all cones; this effect is blocked by full cover)", 
@@ -38541,6 +38586,7 @@
 					"level": 5
 				}
 			],
+			"foundryImg": "icons/magic/perception/third-eye-blue-red.webp",
 			"entries": [
 				"1 Bonus Action; 1 Hour Duration",
 				"A third astral eye appears in the center of your forehead for the duration of the jutsu. While this jutsu is active you gain the following benefits.",
@@ -38573,6 +38619,7 @@
 					]
 				}
 			],
+			"foundryImg": "icons/magic/light/projectile-smoke-blue-white.webp",
 			"additionalSpells": [
 				{
 					"resourceName": "Chakra",
@@ -38613,6 +38660,7 @@
 					]
 				}
 			],
+			"foundryImg": "icons/magic/light/orb-shadow-blue.webp",
 			"entries": [
 				"1 Action; 1 Round Duration",
 				"Make an unarmed strike against a creature against a creature (a willing creature may choose to have this attack hit them). You may forgo the damage that the unarmed strike would deal to a creature if you choose.",
@@ -38640,6 +38688,7 @@
 					]
 				}
 			],
+			"foundryImg": "icons/magic/nature/tree-spirit-green.webp",
 			"entries": [
 				"1 Action; 30 Second Duration",
 				"You assume a life-giving stance that radiates energy. When you activate this jutsu and at the start of each of your turns, roll your unarmed strike damage. You heal up to a number of creatures of your choice within 30 feet of you equal to your proficiency bonus for the amount of unarmed strike damage rolled.", 
@@ -38664,6 +38713,7 @@
 					"level": 9
 				}
 			],
+			"foundryImg": "icons/magic/air/weather-wind-gust.webp",
 			"entries": [
 				"When you fail an {@skill acrobatics} or {@skill athletics} check, you may reroll the d20 and take the higher of the rolls possibly changing the outcome. You may use this ability multiple times on the same attempt. If the roll fails, each subsequent time you use this jutsu on an ability check increase the chakra cost of this effect by 1 stacking up to a maximum of 4 chakra (in total)."
 			]
@@ -38695,6 +38745,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/water/projectile-water-rings.webp",
 			"entries": [
 				"1 Action; Until next short or long rest",
 				"You gain the benefits of the {@spell water walk|NICKED} spell (This jutsu only affects you). You may end the effect as a bonus action.",
@@ -38730,6 +38781,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/control/debuff-chains-orb-movement-blue.webp",
 			"entries": [
 				"1 Action; 1 Minute Duration",
 				"You may cast {@spell slow|NICKED} on all creatures of your choice within 5 feet of you without verbal or material components. You must be able to touch the creature in order to cast this spell in this way. (you must still concentrate on the spell)",
@@ -38751,6 +38803,7 @@
 					"level": 9
 				}
 			],
+			"foundryImg": "icons/magic/air/air-wave-gust-smoke-yellow.webp",
 			"entries": [
 				"1 Bonus Action; 12 Seconds (2 rounds)",
 				"You bring your hands together and make a slicing motion in a direction summoning a great dividing wind in a 5 foot wide, 10 foot tall, line that stretches out 30 feet originating from you. For each creature in that line, they must make a strength saving throw or be shoved 5 feet to the side (you choose which side for each creature).",
@@ -38777,6 +38830,7 @@
 					]
 				}
 			],
+			"foundryImg": "icons/magic/fire/projectile-feathers-embers-gold.webp",
 			"entries": [
 				"1 Action",
 				"You gain a temporary flying speed and launch in a straight line carried by wings of flame and light to a point within 80 feet of you that you can see when you activate this jutsu.", 
@@ -38801,6 +38855,7 @@
 					"level": 9
 				}
 			],
+			"foundryImg": "icons/magic/holy/meditation-chi-focus-blue.webp",
 			"entries": [
 				"1 Action; Until the creature's next short or long rest",
 				"You touch a creature and can end either one disease or one condition afflicting it. The condition can be {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}.",
@@ -38824,6 +38879,7 @@
 					"level": 9
 				}
 			],
+			"foundryImg": "icons/magic/water/wave-water-teal.webp",
 			"entries": [
 				"1 Action",
 				"You breathe out a mist of healing water that bolsters your allies and yourself with rejuvenating properties. You heal all creatures (of your choice) within 60 ft of you (including yourself) equal to your unarmed strike damage.",
@@ -38862,6 +38918,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/unholy/barrier-fire-pink.webp",
 			"entries": [
 				"1 Bonus Action; 1 Minute Duration",
 				"You may cast {@spell spirit shroud|NICKED} without verbal or somatic components. (you must still concentrate on the spell)"
@@ -38882,6 +38939,7 @@
 					"level": 13
 				}
 			],
+			"foundryImg": "icons/magic/control/silhouette-hold-beam-blue.webp",
 			"entries": [
 				"1 Bonus Action; 30 Second Duration (5 rounds)",
 				"You open up your mind to the universe and attempt to bend it to you will. Once you open the second gate you cannot use a jutsu that opens the second gate again until you finish a long rest.",
@@ -38925,6 +38983,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/perception/eye-ringed-green.webp",
 			"entries": [
 				"1 Action; 1 Hour Duration",
 				"You may cast {@spell summon construct|NICKED}. (you must still concentrate on the spell) Rather than its normal components, you need a monastery bell worth 400gp to summon this construct, which you strike causing it to ring. You may only select stone material in which it takes the form of a terracotta warrior.",
@@ -38948,6 +39007,7 @@
 					"level": 13
 				}
 			],
+			"foundryImg": "icons/magic/symbols/runes-etched-steel-blade.webp",
 			"entries": [
 				"1 Action; Until your next short or long rest",
 				"You touch a weapon within 5 feet of you or use it to enhance your unarmed strikes. You spend 1 to 3 chakra to grant a bonus to attack rolls equal to the number of chakra spent.",
@@ -38981,6 +39041,7 @@
 					]
 				}
 			],
+			"foundryImg": "icons/creatures/eyes/void-single-black-purple.webp",
 			"entries": [
 				"On your turn; 1 Minute Duration",
 				"You radiate a shadow of dim light in a 30ft radius around you, and your eyes become blank voids that pour forth shadows as though they were tears. This shadow spreads around corners and through cracks as small as one inch wide but is blocked by total cover.",
@@ -39019,6 +39080,7 @@
 					]
 				}
 			],
+			"foundryImg": "icons/magic/light/beam-rays-yellow-blue-large.webp",
 			"entries": [
 				"1 Action; 1 Minute Duration",
 				"Light floods out from you in all directions creating a beacon of light that dispels even magical darkness of 5th level or lower. The bright light reaches as far as 40 feet from you with 20ft of dim light beyond that.",
@@ -39056,6 +39118,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/earth/orb-ringed-lava-black-orange.webp",
 			"entries": [
 				"1 Minute Ritual; 1 Minute Duration",
 				"You cast {@spell contact other plane|NICKED}. You do this as part of a meditation which requires material components of incense and somatic components of a meditative stance rather than the normal only verbal components required of the spell.",
@@ -39077,6 +39140,7 @@
 					"level": 17
 				}
 			],
+			"foundryImg": "icons/magic/control/silhouette-hold-beam-blue.webp",
 			"entries": [
 				"1 Reaction; 1 Round",
 				"You open up your spirit to the universe and attempt to bend it to you will. Once you open the third gate you cannot use a jutsu that opens the third gate again until you finish a long rest.",
@@ -39120,6 +39184,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/unholy/hand-grasping-green.webp",
 			"entries": [
 				"1 Action; 1 Minute Duration",
 				"You cast {@spell hold monster|NICKED} without Verbal or Material components on a creature within 5 ft of you. The somatic component of this spell is you hitting a pressure point of the creature. (you must still concentrate on the spell)",
@@ -39158,6 +39223,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/unholy/silhouette-robe-evil-power.webp",
 			"entries": [
 				"1 Bonus Action; 1 Minute Duration",
 				"You cast {@spell mislead|NICKED} without Verbal or Material components on a creature within 5 ft of you. The somatic component of this spell is you hitting a pressure point of the creature. (you must still concentrate on the spell)"
@@ -39178,6 +39244,7 @@
 					"level": 17
 				}
 			],
+			"foundryImg": "icons/creature/abilities/mouth-teeth-long-red.webp",
 			"entries": [
 				"1 Action; 30 second Duration (5 rounds)",
 				"Choose a creature within 80 feet of you that you can see. You teleport to an unoccupied space within 5 feet of the chosen creature and let out a bestial howl. The creature must make a wisdom save or become {@condition frightened} of you. For the duration of this jutsu, you have advantage on all attacks and {@skill intimidation} and {@skill athletics} checks against that creature if it failed the save.",
@@ -39201,6 +39268,7 @@
 					"level": 17
 				}
 			],
+			"foundryImg": "icons/creature/abilities/paw-print-orange.webp",
 			"entries": [
 				"No Action Required; 30 second Duration (5 rounds)",
 				"When the {@action attack} action on your turn, you may make an additional unarmed strike (no action required). You may use this effect only once per turn.",
@@ -39222,6 +39290,7 @@
 					"level": 17
 				}
 			],
+			"foundryImg": "icons/skills/ranged/daggers-thrown-salvo-teal.webp",
 			"entries": [
 				"1 Action",
 				"You throw a nonmagical weapon which this jutsu consumes. That weapon turns into hundreds of duplicates which either fall from above or fly in a straight line (your choice). Choose one of the following:",
@@ -39269,6 +39338,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/light/projectile-beams-salvo-yellow.webp",
 			"entries": [
 				"1 Bonus Action; 10 Minute Duration",
 				"You may cast {@spell wall of light|NICKED} without verbal, somatic, or material components. (you must still concentrate on the spell)"
@@ -39285,6 +39355,7 @@
 					"truesight": 120
 				}
 			],
+			"foundryImg": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
 			"entries": [
 				"You have truesight with a range of 120 ft."
 			]
@@ -39300,7 +39371,7 @@
 					"investigation": true
 				}
 			],
-			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
+			"foundryImg": "icons/skills/targeting/crosshair-bars-yellow.webp",
 			"entries": [
 				"Gain proficiency in {@skill investigation}.",
 				"You have advantage on all wisdom {@skill survival} checks that you use to track humanoids and all intelligence {@skill history} checks to recall information on humanoids.",
@@ -39327,7 +39398,7 @@
 					}
 				}
 			],
-			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
+			"foundryImg": "icons/magic/nature/leaf-armor-scale-green",
 			"entries": [
 				"Gain proficiency in {@skill arcana}.",
 				"You have advantage on all wisdom {@skill survival} checks that you use to track fey creatures and all intelligence {@skill history} checks to recall information on fey creatures.", 
@@ -39350,7 +39421,7 @@
 					"heavy": true
 				}
 			],
-			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
+			"foundryImg": "icons/equipment/head/helm-barbute-thin-steel.webp",
 			"entries": [
 				"Gain proficiency in {@skill history}.",
 				"You have advantage on all wisdom {@skill survival} checks you use to track dragons and monstrosities and all intelligence {@skill history} checks to recall information on dragons and monstrosities.",
@@ -39377,7 +39448,7 @@
 					}
 				}
 			],
-			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
+			"foundryImg": "icons/equipment/head/hat-cocked-feather-green.webp",
 			"entries": [
 				"Gain proficiency in {@skill nature}.",
 				"You have advantage on all wisdom {@skill survival} checks you use to track plants and plant creatures and all intelligence {@skill history} checks to recall information on plants and plant creatures.",
@@ -39413,7 +39484,7 @@
 					}
 				}
 			],
-			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
+			"foundryImg": "icons/sundries/lights/candle-pillar-lit-yellow.webp",
 			"entries": [
 				"Gain proficiency in {@skill religion}.",
 				"You have advantage on all wisdom {@skill survival} checks you use to track celestials and fiends and all intelligence {@skill history} checks to recall information on celestials and fiends.",
@@ -39432,7 +39503,7 @@
 					"athletics": true
 				}
 			],
-			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
+			"foundryImg": "icons/skills/ranged/arrow-strike-glowing-teal.webp",
 			"entries": [
 				"Gain proficiency in {@skill athletics}.",
 				"You have advantage on all wisdom {@skill survival} checks you use to track beasts and all intelligence {@skill history} checks to recall information on beasts.", 
@@ -39451,7 +39522,7 @@
 					"perception": true
 				}
 			],
-			"foundryImg": "icons/magic/nature/wolf-paw-glow-small-green.webp",
+			"foundryImg": "icons/skills/ranged/arrows-flying-salvo-purple.webp",
 			"entries": [
 				"Gain proficiency in {@skill religion} and {@skill perception}.",
 				"You have advantage on all {@skill survival} checks you use to track aberrations and undead and all intelligence {@skill history} checks to recall information on aberrations and undead." 
