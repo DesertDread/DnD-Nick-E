@@ -5836,6 +5836,7 @@
 		},
 		{
 			"name": "Fighter N",
+			"foundryImg": "icons/weapons/swords/greatsword-guard-jewel-green.webp",
 			"source": "NICKED",
 			"hd": {
 				"number": 1,
@@ -11277,6 +11278,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/melee/strike-blade-knife-white-red.webp",
 			"entries": [
 				"You may choose Acrobatics or Athletics a Second time. If you do double your proficiency bonus with that skill.",
 				"{@underline Choose two skills from:} Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, and Survival.",
@@ -11327,6 +11329,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/skills/melee/strike-blade-hooked-white-red.webp",
 			"entries": [
 				"You gain expertise in either {@skill athletics} or {@skill acrobatics}",
 				"Choose 1 skill from {@skill acrobatics}, {@skill animal handling}, {@skill athletics}, {@skill history}, {@skill insight}, {@skill intimidation}, {@skill perception}, {@skill survival}"
@@ -11372,6 +11375,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/skills/melee/strike-blade-knife-white-red.webp",
 			"entries": [
 				"Choose 2 skills from {@skill acrobatics}, {@skill animal handling}, {@skill athletics}, {@skill history}, {@skill insight}, {@skill intimidation}, {@skill perception}, {@skill survival}"
 			]
@@ -11382,6 +11386,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/equipment/hand/gauntlet-simple-leather-steel.webp",
 			"entries": [
 				"You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again."
 			]
@@ -11392,6 +11397,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/life/heart-red-blue.webp",
 			"entries": [
 				"You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to {@dice 1d10} + your fighter level.",
 				"Once you use this feature, you must finish a short or long rest before you can use it again."
@@ -11403,6 +11409,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/melee/weapons-crossed-poleaxes-white.webp",
 			"entries": [
 				"As part of an action, bonus action, reaction or when you make a weapon attack, you may stow any weapons you currently have in your hands and draw a new weapon or set of weapons (if each is a single handed weapon or if you wish just stow weapon/s).", 
 				"You may also equip a shield as a free action on your turn rather than an action.",
@@ -11415,6 +11422,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 2,
+			"foundryImg": "icons/magic/control/buff-strength-muscle-damage-red.webp",
 			"entries": [
 				"Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action.",
 				"Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
@@ -11447,6 +11455,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 4,
+			"foundryImg": "icons/equipment/waist/belt-bukle-square-leather.webp",
 			"entries": [
 				"Whenever you reach a level in this class that grants the feat feature, you can do one of the following, as you shift the focus of your martial practice:",
 				{
@@ -11475,6 +11484,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/equipment/head/mask-carved-wood-brown.webp",
 			"entries": [
 				"Beginning at 5th level, you may spend 5 Minutes to recover all of your fighter class features that recover on a short rest. During this time you may not perform any actions, bonus actions, reactions. You cannot climb or swim unless you have a climb speed or swim speed. If you perform an action this will break your recovery and you must start over to gain the benefits of this ability.", 
 				"Once you use this ability you cannot use it again until you finish a long rest."
@@ -11496,6 +11506,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 9,
+			"foundryImg": "icons/skills/wounds/injury-pain-body-orange.webp",
 			"entries": [
 				"Beginning at 9th level, once per long rest if you fail a saving throw, you can choose to succeed instead.",
 				"This feature recovers on a short rest at 13th level (in addition to long rests).",
@@ -11539,6 +11550,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 13,
+			"foundryImg": "icons/skills/wounds/injury-pain-body-orange.webp",
 			"entries": [
 				"This feature recovers on a short rest at 13th level (in addition to long rests)."
 			]
@@ -11559,6 +11571,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/magic/control/buff-strength-muscle-damage-red.webp",
 			"entries": [
 				"At 17th level, you can use Action Surge twice before a rest, but only once on the same turn."
 			]
@@ -11569,8 +11582,9 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/skills/wounds/injury-pain-body-orange.webp",
 			"entries": [
-				"At 17th level, you can use Indomitable three times between long rests."
+				"At 17th level, you can use Indomitable two times between long rests."
 			]
 		},
 		{
@@ -16165,7 +16179,7 @@
 						"7": 5,
 						"10": 7,
 						"15": 9,
-						"18": 23
+						"18": 999
 					}
 				}
 			],
@@ -19079,7 +19093,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 14th level, you've learned to throw your weight around and slam into creatures with your armor effectively. When a creature within 5 feet of you hits you with a melee attack, the attacker takes bludgeoning damage equal to you rage damage, if you are raging, aren't incapacitated, and are wearing heavy armor.",
-				"Additionally, while raging, you add your rage damage to any ally you inspire to make a melee attack through abilities such as 'Battleragers Tactics' or even the battle masters 'Commander's Strike'."
+				"Additionally, while raging, you add your rage damage to any ally you inspire to make a melee attack through abilities such as 'Battlerager's Tactics' or even the battle master's 'Commander's Strike'."
 			]
 		},
 		{
@@ -26080,6 +26094,7 @@
 			"subclassShortName": "Battle Master",
 			"subclassSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/sundries/gaming/dice-pair-white-green.webp",
 			"entries": [
 				"You have four superiority dice, which are {@dice d8}s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.",
 				"You gain 2 more superiority dice at 7th level and two more at 15th level."
@@ -26094,6 +26109,7 @@
 			"subclassSource": "NICKED",
 			"level": 3,
 			"header": 1,
+			"foundryImg": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
 			"entries": [
 				"When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.",
 				{
@@ -26176,6 +26192,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/tools/hand/scale-balances-merchant-brown.webp",
 			"entries": [
 				"At 3rd level, you gain proficiency with one type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} of your choice."
 			]
@@ -26189,6 +26206,7 @@
 			"subclassSource": "NICKED",
 			"level": 7,
 			"header": 2,
+			"foundryImg": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
 			"entries": [
 				"At 7th level, you learn two additional maneuvers of your choice."
 			]
@@ -26202,6 +26220,7 @@
 			"subclassSource": "NICKED",
 			"level": 7,
 			"header": 2,
+			"foundryImg": "icons/sundries/gaming/dice-runed-brown.webp",
 			"entries": [
 				"You gain 2 superiority dice at 7th level."
 			]
@@ -26215,6 +26234,7 @@
 			"subclassSource": "NICKED",
 			"level": 7,
 			"header": 2,
+			"foundryImg": "icons/magic/control/encase-creature-monster-hold.webp",
 			"entries": [
 				"If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:",
 				{
@@ -26240,6 +26260,7 @@
 			"subclassSource": "NICKED",
 			"level": 10,
 			"header": 2,
+			"foundryImg": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
 			"entries": [
 				"At 10th level, you learn two additional maneuvers of your choice."
 			]
@@ -26253,6 +26274,7 @@
 			"subclassSource": "NICKED",
 			"level": 10,
 			"header": 2,
+			"foundryImg": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
 			"entries": [
 				"At 10th level, your superiority dice turn into {@dice d10}s."
 			]
@@ -26266,6 +26288,7 @@
 			"subclassSource": "NICKED",
 			"level": 15,
 			"header": 2,
+			"foundryImg": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
 			"entries": [
 				"At 15th level, you learn two additional maneuvers of your choice."
 			]
@@ -26279,6 +26302,7 @@
 			"subclassSource": "NICKED",
 			"level": 15,
 			"header": 2,
+			"foundryImg": "icons/sundries/gaming/dice-runed-brown.webp",
 			"entries": [
 				"You gain 2 superiority dice at 15th level."
 			]
@@ -26292,6 +26316,7 @@
 			"subclassSource": "NICKED",
 			"level": 15,
 			"header": 2,
+			"foundryImg": "icons/skills/melee/strike-sword-gray.webp",
 			"entries": [
 				"Starting at 15th level, when you roll initiative, you regain 1 superiority die."
 			]
@@ -26305,6 +26330,7 @@
 			"subclassSource": "NICKED",
 			"level": 18,
 			"header": 2,
+			"foundryImg": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
 			"entries": [
 				"At 18th level, your superiority dice turn into {@dice d12}s."
 			]
@@ -26318,6 +26344,7 @@
 			"subclassSource": "NICKED",
 			"level": 18,
 			"header": 2,
+			"foundryImg": "icons/skills/ranged/projectile-strike-impale-gray.webp",
 			"entries": [
 				"Starting at 18th level, you have access to every maneuver."
 			]
@@ -36659,6 +36686,30 @@
 				"uses.per": "lr",
 				"uses.max": "@attributes.prof"
 			}
+		},
+		{
+			"name": "Action Surge",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"level": 2,
+			"system": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "floor(@details.level/17) + 1"
+			}
+		},
+		{
+			"name": "Indomitable",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"level": 9,
+			"system": {
+				"activation.type": "special",
+				"uses.per": "lr",
+				"uses.max": "floor(@details.level/17) + 1"
+			}
 		}
 	],
 	"foundrySubclassFeature": [
@@ -37037,6 +37088,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/strike-dagger-white-orange.webp",
 			"entries": [
 				"When you make a Dexterity ({@skill Stealth}) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren't {@condition incapacitated}."
 			]
@@ -37050,6 +37102,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/movement/arrow-upward-white.webp",
 			"entries": [
 				"When you're within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn't {@condition incapacitated}. This movement doesn't provoke opportunity attacks.",
 				"Roll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled."
@@ -37064,6 +37117,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/sword-shield-stylized-white.webp",
 			"entries": [
 				"When a creature you can see moves into the reach you have with the melee weapon you're wielding, you can use your reaction to expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weapon's damage roll."
 			]
@@ -37077,6 +37131,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/sword-echo-stylized-tan.webp",
 			"entries": [
 				"When you take the {@action Attack} action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll."
 			]
@@ -37090,6 +37145,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/sword-winged-holy-orange.webp",
 			"entries": [
 				"When you make a Charisma ({@skill Intimidation}), a Charisma ({@skill Performance}), or a Charisma ({@skill Persuasion}) check, you can expend one superiority die and add the superiority die to the ability check."
 			]
@@ -37103,6 +37159,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/sword-damaged-broken-purple.webp",
 			"entries": [
 				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
 			]
@@ -37116,6 +37173,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/shield-damaged-broken-orange.webp",
 			"entries": [
 				"When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
 			]
@@ -37129,6 +37187,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
 			"entries": [
 				"Roll a superiority die, you gain the benefits of the {@action dodge} condition for the next number of attacks or dexterity saves as the number you rolled, this lasts until your next turn."
 			]
@@ -37142,6 +37201,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/shield-damaged-broken-blue.webp",
 			"entries": [
 				"You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature this turn. If that attack hits, add the superiority die to the attack's damage roll."
 			]
@@ -37155,6 +37215,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/magic/control/mouth-smile-deception-purple.webp",
 			"entries": [
 				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
 			]
@@ -37168,6 +37229,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
 			"entries": [
 				"Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target as a bonus action (see the Player's Handbook for rules on grappling). Add the superiority die to your Strength ({@skill Athletics}) check."
 			]
@@ -37181,6 +37243,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/spear-tips-three-green.webp",
 			"entries": [
 				"When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll.",
 				"If you are falling (without the aid of flying or the effects of slow fall) at least 15ft before you make the attack roll. Your critical strike range for this attack is increased by the number rolled on the dice."
@@ -37195,6 +37258,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/strike-hammer-destructive-blue.webp",
 			"entries": [
 				"When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
 			]
@@ -37208,6 +37272,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/strike-blade-claw-red.webp",
 			"entries": [
 				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is {@condition frightened} of you until the end of your next turn."
 			]
@@ -37221,6 +37286,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/swords-parry-block-blue.webp",
 			"entries": [
 				"When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier."
 			]
@@ -37234,6 +37300,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/strike-polearm-light-orange.webp",
 			"entries": [
 				"When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."
 			]
@@ -37247,6 +37314,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/shield-block-bash-yellow.webp",
 			"entries": [
 				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."
 			]
@@ -37260,6 +37328,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/shield-block-gray-orange.webp",
 			"entries": [
 				"When a friendly creature within 30 feet of you is surprised but you are not, you can immediately expend one superiority die to spur the creature into action and allow them to act on their initiative count. However, that creature cannot take bonus actions, make more than a single weapon attack, or cast a spell except a cantrip during that turn. A creature must be able to see or hear you to benefit from this maneuver."
 			]
@@ -37273,6 +37342,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/ranged/shuriken-thrown-orange.webp",
 			"entries": [
 				"As a bonus action, you can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weapon's damage roll."
 			]
@@ -37286,6 +37356,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/hand-grip-hammer-spiked-blue.webp",
 			"entries": [
 				"On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier."
 			]
@@ -37299,6 +37370,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/sword-twirl-orange.webp",
 			"entries": [
 				"When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
 			]
@@ -37312,6 +37384,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/melee/strike-sword-blood-red.webp",
 			"entries": [
 				"You may expend a use of your superiority dice to attack an additional creature within the range of your melee attack. You may add the superiority dice to the first damage roll you make."
 			]
@@ -37325,6 +37398,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/skills/trades/academics-book-study-purple.webp",
 			"entries": [
 				"When you make an Intelligence ({@skill Investigation}), an Intelligence ({@skill History}), or a Wisdom ({@skill Insight}) check, you can expend one superiority die and add the superiority die to the ability check."
 			]
@@ -37338,6 +37412,7 @@
 			"consumes": {
 				"name": "Superiority Die"
 			},
+			"foundryImg": "icons/magic/control/silhouette-fall-slip-prone.webp",
 			"entries": [
 				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target {@condition prone}."
 			]
@@ -41797,6 +41872,7 @@
 			"featureType": [
 				"F:FS"
 			],
+			"foundryImg": "icons/skills/melee/shield-block-fire-orange.webp",
 			"entries": [
 				"When a creature you can see successfully attacks a target other than you that is within 5 feet of you, you can use your reaction to force that creature to reroll that attack using the lower of the two rolls. The new attack roll is now against your armor class instead of the target's. If that attack would still hit, you reduce the damage the target takes by {@dice 1d6} + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial melee weapon to use this reaction."
 			]
