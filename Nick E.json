@@ -16247,6 +16247,28 @@
 						}
 					},
 					"title": "Superiority Die"
+				},
+				{
+					"type": "ScaleValue",
+					"title": "Battle Master Die",
+					"configuration": {
+						"identifier": "bm-die",
+						"type": "dice",
+						"scale": {
+							"1": {
+								"n": 1,
+								"die": 8
+							},
+							"10": {
+								"n": 1,
+								"die": 10
+							},
+							"18": {
+								"n": 1,
+								"die": 12
+							}
+						}
+					}
 				}
 			],
 			"subclassFeatures": [
@@ -36806,7 +36828,8 @@
 			"system": {
 				"activation.type": "special",
 				"uses.per": "sr",
-				"uses.max": "@scale.battle-master.superiority-die"
+				"uses.max": "@scale.battle-master.superiority-die",
+				"formula": "@scale.battle-master.bm-die"
 			}
 		},
 		{
