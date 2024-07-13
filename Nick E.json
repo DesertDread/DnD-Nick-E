@@ -5990,6 +5990,7 @@
 		},
 		{
 			"name": "Monk N",
+			"foundryImg": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
 			"source": "NICKED",
 			"hd": {
 				"number": 1,
@@ -11635,6 +11636,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/movement/pinwheel-turning-blue.webp",
 			"entries": [
 				"Starting at 1st level, select a monastic path that alters how you fight.",
 				"{@bold Your choice alters your chakra feature at 2nd level.}",
@@ -11647,6 +11649,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/melee/unarmed-punch-fist-blue.webp",
 			"entries": [
 				"You unarmed strikes deal {@damage 1d6} bludgeoning damage + (stat based on your monistic kata) in place of the normal damage of your unarmed strike.",
 				"This dice improves to a 1d8 at level 11.",
@@ -11659,6 +11662,7 @@
 			"source": "NICKED",
 			"className": "Monk N",
 			"classSource": "NICKED",
+			"foundryImg": "icons/magic/light/orbs-hand-gray.webp",
 			"level": 2,
 			"entries": [
 				"Starting at 2nd level, your training allows you to harness the mystic energy of chakra. Your access to this energy is represented by a number of chakra points. Your monk level determines the number of points you have, as shown in the Chakra column of the Monk table.",
@@ -11673,6 +11677,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 2,
+			"foundryImg": "icons/skills/movement/feet-spurred-boots-brown.webp",
 			"entries": [
 				"Starting at 2nd level, your speed increases by 10 feet. This bonus increases when you reach certain monk levels, as shown in the Monk table."
 			]
@@ -11683,6 +11688,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/magic/water/orb-water-bubbles.webp",
 			"entries": [
 				"When you reach 3rd level, select a monastic focus that could be gained at level 3. Gain that feature.",
 				{
@@ -11723,6 +11729,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/magic/water/shield-barrier-deflect-gold.webp",
 			"entries": [
 				"Starting at 3rd level, you can use your reaction to deflect the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by your unarmed strike damage + your monk level."
 			]
@@ -11754,6 +11761,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/magic/water/shield-barrier-blades-teal.webp",
 			"entries": [
 				"Beginning at 5th level, you may spend 5 minutes to recover all of your Monk class features that recover on a short rest."
 			]
@@ -11764,6 +11772,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 6,
+			"foundryImg": "icons/magic/water/orb-water-bubbles.webp",
 			"entries": [
 				"When you reach 6th level, select a monastic focus that could be gained at level 6. Gain that feature.",
 				{
@@ -11800,6 +11809,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 7,
+			"foundryImg": "icons/magic/air/wind-swirl-gray-blue.webp",
 			"entries": [
 				"At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a {@spell fireball|NICKED} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
 			]
@@ -11810,6 +11820,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/air/barrier-shield-dome-deflect-teal.webp",
 			"entries": [
 				"Beginning at 10th level, your mastery of chakra grants you proficiency in all saving throws, immune to disease and immune to the {@condition poisoned} condition. You gain resistance to poison damage."
 			]
@@ -11841,6 +11852,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 13,
+			"foundryImg": "icons/magic/fire/orbs-silhouette-sun.webp",
 			"entries": [
 				"Starting at 13th level, you learn to touch other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say."
 			]
@@ -11851,6 +11863,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 14,
+			"foundryImg": "icons/magic/control/silhouette-hold-change-blue.webp",
 			"entries": [
 				"At 14th level, your chakra sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water."
 			]
@@ -11861,6 +11874,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 15,
+			"foundryImg": "icons/magic/water/orb-water-bubbles.webp",
 			"entries": [
 				"When you reach 15th level, select a monastic focus that could be gained at level 15. Gain that feature.",
 				{
@@ -11907,6 +11921,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 18,
+			"foundryImg": "icons/magic/control/silhouette-aura-energy.webp",
 			"entries": [
 				"Beginning at 18th level, you can use your action to spend 4 chakra points to become {@condition invisible} for 1 minute. During that time, you also have resistance to all damage but force damage.",
 				"Additionally, you can spend 8 chakra points to cast the {@spell astral projection|NICKED} spell, without needing material components. When you do so, you can't take any other creatures with you."
@@ -11929,6 +11944,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 20,
+			"foundryImg": "icons/skills/melee/blade-tips-double-blue.webp",
 			"entries": [
 				"At 20th level choose a weapon type you are proficient with and unarmed strikes, you cannot roll a 1 with attack rolls with that weapon and unarmed strikes, If you roll a 1, reroll that roll until you get a new roll greater than 1."
 			]
@@ -11939,6 +11955,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 20,
+			"foundryImg": "icons/environment/settlement/church.webp",
 			"entries": [
 				"Starting at 20th level, like your predecessors before you, you now gain the ability through the power of your chakra to manifest a gate to a personal demi-plane. You must consume 25,000 GP worth of gems and or gold pieces to make a permanent gate to your new monastery. You are deemed the master of this monastery until your death or until someone of your choosing is ready to bear the mantel of master. This demi-plane is large enough to house a full set of fields for growing crops, a local forest, a mountain with waterfall, and a monastery that takes the relative shape of the creator's desired design.",
 				"The created monastery is fashioned with the most bare-bones designs and needs. (talk with your DM on what this means to your campaign)",
