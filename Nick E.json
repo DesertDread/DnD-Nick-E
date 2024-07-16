@@ -23719,7 +23719,7 @@
 				"In combat, the zombie's shares your turn. It obeys your mental commands, and the only actions it can take is the {@action Attack} action, spore burst action, and {@action Dash} action.",
 				"Only the first {@creature Fungal Zombie|NICKED} counts toward your familiar limit.",
 				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.",
-				"When you cast {@spell summon undead|NICKED}, you may have it form as another {@creature Fungal Zombie|NICKED}."
+				"When you cast {@spell summon undead|NICKED}, you may have it form as another {@creature Fungal Zombie|NICKED}. When you form the zombie in this way the spell does not require concentration"
 			]
 		},
 		{
