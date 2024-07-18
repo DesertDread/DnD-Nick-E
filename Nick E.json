@@ -53030,7 +53030,7 @@
 					"type": "entries",
 					"name": "Funeral Rite",
 					"entries": [
-						"You touch one corpse, and for the next 7 days, the target can't become undead by any means short of a {@spell wish|NICKED} spell."
+						"You touch one corpse, and for the next 7 days, the target can't become undead by any means short of a wish spell."
 					]
 				},
 				{
@@ -56607,7 +56607,7 @@
 				}
 			],
 			"entries": [
-				"You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting {@spell knock} on the object suppresses {@spell arcane lock} for 10 minutes.",
+				"You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting {@spell knock|NICKED} on the object suppresses {@spell arcane lock|NICKED} for 10 minutes.",
 				"While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10."
 			],
 			"miscTags": [
@@ -58536,7 +58536,7 @@
 			"entries": [
 				"Choose an object that you can see within range. The object can be a door, a box, a {@item chest|phb}, a set of {@item manacles|phb}, a padlock, or another object that contains a mundane or magical means that prevents access.",
 				"A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.",
-				"If you choose a target that is held shut with {@spell arcane lock}, that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.",
+				"If you choose a target that is held shut with {@spell arcane lock|NICKED}, that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.",
 				"When you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object."
 			],
 			"miscTags": [
@@ -58743,14 +58743,14 @@
 					"type": "entries",
 					"name": "False Aura",
 					"entries": [
-						"You change the way the target appears to spells and magical effects, such as {@spell detect magic}, that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object's magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item."
+						"You change the way the target appears to spells and magical effects, such as {@spell detect magic|NICKED}, that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object's magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Mask",
 					"entries": [
-						"You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's {@classFeature Divine Sense|Paladin|PHB|1} or the trigger of a {@spell symbol} spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment."
+						"You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's {@classFeature Divine Sense|Paladin|PHB|1} or the trigger of a {@spell symbol|NICKED} spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment."
 					]
 				}
 			],
@@ -60770,7 +60770,7 @@
 						"While the target is cursed, your attacks and spells deal an extra {@damage 1d8} necrotic damage to the target."
 					]
 				},
-				"A {@spell remove curse} spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect."
+				"A {@spell remove curse|NICKED} spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect."
 			],
 			"entriesHigherLevel": [
 				{
@@ -60982,7 +60982,7 @@
 			"entries": [
 				"You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can't be attacked or otherwise interacted with.",
 				"When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.",
-				"A creature that can see the sensor (such as a creature benefiting from {@spell see invisibility} or {@sense truesight}) sees a luminous, intangible orb about the size of your fist."
+				"A creature that can see the sensor (such as a creature benefiting from {@spell see invisibility|NICKED} or {@sense truesight}) sees a luminous, intangible orb about the size of your fist."
 			]
 		},
 		{
@@ -65209,7 +65209,7 @@
 				"You summon a spirit that assumes the form of a loyal, majestic mount. Appearing in an unoccupied space within range, the spirit takes on a form you choose: a {@creature griffon}, a {@creature pegasus}, a {@creature peryton}, a {@creature dire wolf}, a {@creature rhinoceros}, or a {@creature saber-toothed tiger}. The creature has the statistics provided in the Monster Manual for the chosen form, though it is a celestial, a fey, or a fiend (your choice) instead of its normal creature type. Additionally, if it has an Intelligence score of 5 or lower, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.",
 				"You control the mount in combat. While the mount is within 1 mile of you, you can communicate with it telepathically. While mounted on it, you can make any spell you cast that targets only you also target the mount.",
 				"The mount disappears temporarily when it drops to 0 hit points or when you dismiss it as an action. Casting this spell again re-summons the bonded mount, with all its hit points restored and any conditions removed.",
-				"You can't have more than one mount bonded by this spell or {@spell find steed} at the same time. As an action, you can release a mount from its bond, causing it to disappear permanently.",
+				"You can't have more than one mount bonded by this spell or {@spell find steed|NICKED} at the same time. As an action, you can release a mount from its bond, causing it to disappear permanently.",
 				"Whenever the mount disappears, it leaves behind any objects it was wearing or carrying.",
 				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, and takes its turn during your turn. It obeys your commands (no action required by you). If you don't issue any, it takes the disengage action and uses its move to avoid danger.",
 				"*Unlike most ritual spells, this spell may be ritual cast by any class that has this spell prepared or learned, regardless of whether or not the class has the ability to cast spells as a ritual."
@@ -65734,7 +65734,7 @@
 			],
 			"entries": [
 				"Describe or name a creature that is familiar to you. You sense the direction to the creature's location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.",
-				"The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a {@creature unicorn}), so long as you have seen such a creature up close\u2014within 30 feet\u2014at least once. If the creature you described or named is in a different form, such as being under the effects of a {@spell polymorph} spell, this spell doesn't locate the creature.",
+				"The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a {@creature unicorn}), so long as you have seen such a creature up close\u2014within 30 feet\u2014at least once. If the creature you described or named is in a different form, such as being under the effects of a {@spell polymorph|NICKED} spell, this spell doesn't locate the creature.",
 				"This spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature."
 			]
 		},
@@ -67468,7 +67468,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take {@damage 6d6} psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A {@spell greater restoration} spell cast on you ends this effect.",
+				"You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take {@damage 6d6} psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A {@spell greater restoration|NICKED} spell cast on you ends this effect.",
 				"On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as \"yes,\" \"no,\" \"maybe,\" \"never,\" \"irrelevant,\" or \"unclear\" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer."
 			],
 			"damageInflict": [
@@ -67537,7 +67537,7 @@
 					"type": "entries",
 					"name": "Mindfire",
 					"entries": [
-						"The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the {@spell confusion} spell during combat."
+						"The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the {@spell confusion|NICKED} spell during combat."
 					]
 				},
 				{
@@ -68292,7 +68292,7 @@
 			"entries": [
 				"You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become {@condition charmed} by you for the duration. While the creature is {@condition charmed} by you, it takes {@damage 5d10} psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can't understand you is unaffected by the spell.",
 				"You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.",
-				"You can end the spell early by using an action to dismiss it. A {@spell remove curse}, {@spell greater restoration}, or {@spell wish} spell also ends it."
+				"You can end the spell early by using an action to dismiss it. A {@spell remove curse|NICKED}, {@spell greater restoration|NICKED}, or wish spell also ends it."
 			],
 			"entriesHigherLevel": [
 				{
@@ -69046,7 +69046,7 @@
 				"While this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.",
 				"You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.",
 				"A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.",
-				"A {@spell remove curse} or {@spell greater restoration} spell cast on the target restores the creature's true memory."
+				"A {@spell remove curse|NICKED} or {@spell greater restoration|NICKED} spell cast on the target restores the creature's true memory."
 			],
 			"entriesHigherLevel": [
 				{
@@ -69196,7 +69196,7 @@
 				}
 			],
 			"entries": [
-				"With this spell, you attempt to bind a {@filter celestial|bestiary|type=celestial|miscellaneous=!swarm}, an {@filter elemental|bestiary|type=elemental|miscellaneous=!swarm}, a {@filter fey|bestiary|type=fey|miscellaneous=!swarm}, or a {@filter fiend|bestiary|type=fiend|miscellaneous=!swarm} to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted {@spell magic circle} in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a Charisma saving throw. On a failed save, it is bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell.",
+				"With this spell, you attempt to bind a {@filter celestial|bestiary|type=celestial|miscellaneous=!swarm}, an {@filter elemental|bestiary|type=elemental|miscellaneous=!swarm}, a {@filter fey|bestiary|type=fey|miscellaneous=!swarm}, or a {@filter fiend|bestiary|type=fiend|miscellaneous=!swarm} to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted {@spell magic circle|NICKED} in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a Charisma saving throw. On a failed save, it is bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell.",
 				"A bound creature must follow your instructions to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. The creature obeys the letter of your instructions, but if the creature is hostile to you, it strives to twist your words to achieve its own objectives. If the creature carries out your instructions completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane of existence, it returns to the place where you bound it and remains there until the spell ends."
 			],
 			"entriesHigherLevel": [
@@ -70180,7 +70180,7 @@
 			"entries": [
 				"{@bold Focused}",
 				"An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).",
-				"Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by {@spell dispel magic}. A {@spell disintegrate} spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall."
+				"Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by {@spell dispel magic|NICKED}. A {@spell disintegrate|NICKED} spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall."
 			],
 			"damageImmune": [
 				"force"
@@ -70461,7 +70461,7 @@
 				"You touch an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an invisible mark on its surface and invisibly inscribes the name of the item on the wand. If you bind another object to the same wand the previous mark disappears.",
 				"At any time thereafter, you can use your action to speak the item's name and flick the wand. The item instantly appears in your hand regardless of physical or planar distances, and the spell ends.",
 				"If another creature is holding or carrying the item, the wand doesn't transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment, and the spell ends.",
-				"{@spell Dispel magic} or a similar effect successfully applied to the wand ends this spell's effect."
+				"{@spell Dispel magic|NICKED} or a similar effect successfully applied to the wand ends this spell's effect."
 			],
 			"miscTags": [
 				"OBJ"
@@ -70790,7 +70790,7 @@
 				}
 			],
 			"entries": [
-				"Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell\u2014called the contingent spell\u2014as part of casting contingency, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a contingency cast with {@spell water breathing} might stipulate that {@spell water breathing} comes into effect when you are engulfed in water or a similar liquid.",
+				"Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell\u2014called the contingent spell\u2014as part of casting contingency, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a contingency cast with {@spell water breathing|NICKED} might stipulate that {@spell water breathing|NICKED} comes into effect when you are engulfed in water or a similar liquid.",
 				"The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to, and then contingency ends.",
 				"The contingent spell takes effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person."
 			]
@@ -70879,9 +70879,9 @@
 				}
 			],
 			"entries": [
-				"A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by {@spell wall of force}.",
+				"A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by {@spell wall of force|NICKED}.",
 				"A creature targeted by this spell must make a Dexterity saving throw. On a failed save, the target takes {@damage 10d6 + 40} force damage. The target is disintegrated if this damage leaves it with 0 hit points.",
-				"A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a {@spell true resurrection} or a {@spell wish} spell.",
+				"A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a {@spell true resurrection|NICKED} or a wish spell.",
 				"This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it. A magic item is unaffected by this spell."
 			],
 			"entriesHigherLevel": [
@@ -70944,7 +70944,7 @@
 			"entries": [
 				"You invoke the spirits of nature to protect an area outdoors or underground. The area can be as small as a 30-foot cube or as large as a 90-foot cube. Buildings and other structures are excluded from the affected area. If you cast this spell in the same area every day for a year, the spell lasts until dispelled.",
 				"The spell creates the following effects within the area. When you cast this spell, you can specify creatures as friends who are immune to the effects. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.",
-				"The entire warded area radiates magic. A {@spell dispel magic} cast on the area, if successful, removes only one of the following effects, not the entire area. That spell's caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.",
+				"The entire warded area radiates magic. A {@spell dispel magic|NICKED} cast on the area, if successful, removes only one of the following effects, not the entire area. That spell's caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.",
 				{
 					"type": "entries",
 					"name": "Solid Fog",
@@ -70956,7 +70956,7 @@
 					"type": "entries",
 					"name": "Grasping Undergrowth",
 					"entries": [
-						"You can fill any number of 5-foot squares on the ground that aren't filled with fog with grasping weeds and vines, as if they were affected by an {@spell entangle} spell. To a creature immune to this effect, the weeds and vines feel soft and reshape themselves to serve as temporary seats or beds."
+						"You can fill any number of 5-foot squares on the ground that aren't filled with fog with grasping weeds and vines, as if they were affected by an {@spell entangle|NICKED} spell. To a creature immune to this effect, the weeds and vines feel soft and reshape themselves to serve as temporary seats or beds."
 					]
 				},
 				{
@@ -70976,12 +70976,12 @@
 				{
 					"type": "list",
 					"items": [
-						"A constant {@spell gust of wind} in two locations of your choice",
-						"{@spell Spike growth} in one location of your choice",
-						"{@spell Wind wall} in two locations of your choice"
+						"A constant {@spell gust of wind|NICKED} in two locations of your choice",
+						"{@spell Spike growth|NICKED} in one location of your choice",
+						"{@spell Wind wall|NICKED} in two locations of your choice"
 					]
 				},
-				"To a creature immune to this effect, the winds are a fragrant, gentle breeze, and the area of {@spell spike growth} is harmless."
+				"To a creature immune to this effect, the winds are a fragrant, gentle breeze, and the area of {@spell spike growth|NICKED} is harmless."
 			],
 			"miscTags": [
 				"OBS",
@@ -71378,14 +71378,14 @@
 					"type": "entries",
 					"name": "Doors",
 					"entries": [
-						"All doors in the warded area are magically locked, as if sealed by an {@spell arcane lock|NICKED} spell. In addition, you can cover up to ten doors with an illusion (equivalent to the illusory object function of the {@spell minor illusion} spell) to make them appear as plain sections of wall."
+						"All doors in the warded area are magically locked, as if sealed by an {@spell arcane lock|NICKED} spell. In addition, you can cover up to ten doors with an illusion (equivalent to the illusory object function of the {@spell minor illusion|NICKED} spell) to make them appear as plain sections of wall."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Stairs",
 					"entries": [
-						"Webs fill all stairs in the warded area from top to bottom, as the {@spell web} spell. These strands regrow in 10 minutes if they are burned or torn away while guards and wards lasts."
+						"Webs fill all stairs in the warded area from top to bottom, as the {@spell web|NICKED} spell. These strands regrow in 10 minutes if they are burned or torn away while guards and wards lasts."
 					]
 				},
 				{
@@ -71396,16 +71396,16 @@
 						{
 							"type": "list",
 							"items": [
-								"Place {@spell dancing lights} in four corridors. You can designate a simple program that the lights repeat as long as guards and wards lasts.",
-								"Place {@spell magic mouth} in two locations.",
-								"Place {@spell stinking cloud} in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while guards and wards lasts.",
-								"Place a constant {@spell gust of wind} in one corridor or room.",
-								"Place a {@spell suggestion} in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally."
+								"Place {@spell dancing lights|NICKED} in four corridors. You can designate a simple program that the lights repeat as long as guards and wards lasts.",
+								"Place {@spell magic mouth|NICKED} in two locations.",
+								"Place {@spell stinking cloud|NICKED} in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while guards and wards lasts.",
+								"Place a constant {@spell gust of wind|NICKED} in one corridor or room.",
+								"Place a {@spell suggestion|NICKED} in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally."
 							]
 						}
 					]
 				},
-				"The whole warded area radiates magic. A {@spell dispel magic} cast on a specific effect, if successful, removes only that effect.",
+				"The whole warded area radiates magic. A {@spell dispel magic|NICKED} cast on a specific effect, if successful, removes only that effect.",
 				"You can create a permanently guarded and warded structure by casting this spell there every day for one year."
 			],
 			"miscTags": [
@@ -71898,7 +71898,7 @@
 			"entries": [
 				"{@bold Focused}",
 				"Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell's material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container's space. You can't move or use reactions. The only action you can take is to project your soul up to 100 feet out of the container, either returning to your living body (and ending the spell) or attempting to possess a humanoid's body.",
-				"You can attempt to possess any humanoid within 100 feet of you that you can see (creatures warded by a {@spell protection from evil and good} or {@spell magic circle} spell can't be possessed). The target must make a Charisma saving throw. On a failure, your soul moves into the target's body, and the target's soul becomes trapped in the container. On a success, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 hours.",
+				"You can attempt to possess any humanoid within 100 feet of you that you can see (creatures warded by a {@spell protection from evil and good|NICKED} or {@spell magic circle|NICKED} spell can't be possessed). The target must make a Charisma saving throw. On a failure, your soul moves into the target's body, and the target's soul becomes trapped in the container. On a success, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 hours.",
 				"Once you possess a creature's body, you control it. Your game statistics are replaced by the statistics of the creature, though you retain your alignment and your Intelligence, Wisdom, and Charisma scores. You retain the benefit of your own class features. If the target has any class levels, you can't use any of its class features.",
 				"Meanwhile, the possessed creature's soul can perceive from the container using its own senses, but it can't move or take actions at all.",
 				"While possessing a body, you can use your action to return from the host body to the container if it is within 100 feet of you, returning the host creature's soul to its body. If the host body dies while you're in it, the creature dies, and you must make a Charisma saving throw against your own spellcasting DC. On a success, you return to the container if it is within 100 feet of you. Otherwise, you die.",
@@ -72397,7 +72397,7 @@
 						"You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were {@status concentration||concentrating} on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses."
 					]
 				},
-				"A creature that can see the sensor (such as one using {@spell see invisibility} or {@sense truesight}) sees a translucent image of the tormented humanoid whose soul you caged."
+				"A creature that can see the sensor (such as one using {@spell see invisibility|NICKED} or {@sense truesight|NICKED}) sees a translucent image of the tormented humanoid whose soul you caged."
 			],
 			"affectsCreatureType": [
 				"humanoid"
@@ -73101,7 +73101,7 @@
 						"20 hit points or fewer: killed instantly"
 					]
 				},
-				"Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a {@spell wish} spell."
+				"Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a wish spell."
 			],
 			"conditionInflict": [
 				"blinded",
@@ -74481,14 +74481,14 @@
 					"type": "entries",
 					"name": "Targeted Effects",
 					"entries": [
-						"Spells and other magical effects, such as {@spell magic missile} and {@spell charm person}, that target a creature or an object in the sphere have no effect on that target."
+						"Spells and other magical effects, such as {@spell magic missile|NICKED} and {@spell charm person|NICKED}, that target a creature or an object in the sphere have no effect on that target."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Areas of Magic",
 					"entries": [
-						"The area of another spell or magical effect, such as {@spell fireball}, can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough."
+						"The area of another spell or magical effect, such as {@spell fireball|NICKED}, can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough."
 					]
 				},
 				{
@@ -74524,7 +74524,7 @@
 					"type": "entries",
 					"name": "Dispel Magic",
 					"entries": [
-						"Spells and magical effects such as {@spell dispel magic} have no effect on the sphere. Likewise, the spheres created by different {@spell antimagic field} spells don't nullify each other."
+						"Spells and magical effects such as {@spell dispel magic|NICKED} have no effect on the sphere. Likewise, the spheres created by different {@spell antimagic field|NICKED} spells don't nullify each other."
 					]
 				}
 			],
@@ -75005,7 +75005,7 @@
 				"You blast the mind of a creature that you can see within range, attempting to shatter its intellect and personality. The target takes {@damage 4d6} psychic damage and must make an Intelligence saving throw.",
 				"On a failed save, the creature's Intelligence and Charisma scores become 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them.",
 				"At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.",
-				"The spell can also be ended by {@spell greater restoration}, {@spell heal}, or {@spell wish}."
+				"The spell can also be ended by {@spell greater restoration|NICKED}, {@spell heal|NICKED}, or wish."
 			],
 			"damageInflict": [
 				"psychic"
@@ -75451,7 +75451,7 @@
 				}
 			],
 			"entries": [
-				"Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the {@condition charmed} condition. The spell even foils {@spell wish} spells and spells or effects of similar power used to affect the target's mind or to gain information about the target."
+				"Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the {@condition charmed} condition. The spell even foils wish spells and spells or effects of similar power used to affect the target's mind or to gain information about the target."
 			],
 			"damageImmune": [
 				"psychic"
@@ -75684,7 +75684,7 @@
 				"Your astral body resembles your mortal form in almost every way, replicating your game statistics and possessions. The principal difference is the addition of a silvery cord that extends from between your shoulder blades and trails behind you, fading to invisibility after 1 foot. This cord is your tether to your material body. As long as the tether remains intact, you can find your way home. If the cord is cut-something that can happen only when an effect specifically states that it does-your soul and body are separated, killing you instantly.",
 				"Your astral form can freely travel through the Astral Plane and can pass through portals there leading to any other plane. If you enter a new plane or return to the plane you were on when casting this spell, your body and possessions are transported along the silver cord, allowing you to re-enter your body as you enter the new plane. Your astral form is a separate incarnation. Any damage or other effects that apply to it have no effect on your physical body, nor do they persist when you return to it.",
 				"The spell ends for you and your companions when you use your action to dismiss it. When the spell ends, the affected creature returns to its physical body, and it awakens.",
-				"The spell might also end early for you or one of your companions. A successful {@spell dispel magic} spell used against an astral or physical body ends the spell for that creature. If a creature's original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature's astral form back to its body, ending its state of suspended animation.",
+				"The spell might also end early for you or one of your companions. A successful {@spell dispel magic|NICKED} spell used against an astral or physical body ends the spell for that creature. If a creature's original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature's astral form back to its body, ending its state of suspended animation.",
 				"If you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points."
 			],
 			"conditionInflict": [
@@ -75732,7 +75732,7 @@
 			"entries": [
 				"You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. On a hit, the target takes {@damage 4d12} force damage. This attack scores a critical hit if the number on the {@dice d20} is 18 or higher. On a critical hit, the blade deals an extra {@damage 8d12} force damage (for a total of {@damage 12d12} force damage).",
 				"As a bonus action on your turn, you can move the blade up to 30 feet to an unoccupied space you can see and then make up to two melee spell attacks with it again.",
-				"The blade can harmlessly pass through any barrier, including a {@spell wall of force}."
+				"The blade can harmlessly pass through any barrier, including a {@spell wall of force|NICKED}."
 			],
 			"damageInflict": [
 				"force"
@@ -75960,7 +75960,7 @@
 						"During the casting of the spell, in any of its versions, you can specify a condition that will cause the spell to end and release the target. The condition can be as specific or as elaborate as you choose, but the DM must agree that the condition is reasonable and has a likelihood of coming to pass. The conditions can be based on a creature's name, identity, or deity but otherwise must be based on observable actions or qualities and not based on intangibles such as level, class, or hit points."
 					]
 				},
-				"A {@spell dispel magic} spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.",
+				"A {@spell dispel magic|NICKED} spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.",
 				"You can use a particular special component to create only one prison at a time. If you cast the spell again using the same component, the target of the first casting is immediately freed from its binding."
 			],
 			"conditionInflict": [
@@ -76294,7 +76294,7 @@
 				"A shimmering, multicolored plane of light forms a vertical opaque wall\u2014up to 90 feet long, 30 feet high, and 1 inch thick\u2014centered on a point you can see within range. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range. The wall remains in place for the duration. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your action and the spell slot are wasted.",
 				"The wall sheds bright light out to a range of 100 feet and dim light for an additional 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature that can see the wall moves to within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or become {@condition blinded} for 1 minute.",
 				"The wall consists of seven layers, each with a different color. When a creature attempts to reach into or pass through the wall, it does so one layer at a time through all the wall's layers. As it passes or reaches through each layer, the creature must make a Dexterity saving throw or be affected by that layer's properties as described below.",
-				"The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. An {@spell antimagic field} has no effect on a prismatic wall.",
+				"The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. An {@spell antimagic field|NICKED} has no effect on a prismatic wall.",
 				{
 					"type": "entries",
 					"name": "Red",
@@ -76320,7 +76320,7 @@
 					"type": "entries",
 					"name": "Green",
 					"entries": [
-						"The creature takes {@damage 10d6} poison damage on a failed save, or half as much damage on a successful one. A {@spell passwall} spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer."
+						"The creature takes {@damage 10d6} poison damage on a failed save, or half as much damage on a successful one. A {@spell passwall|NICKED} spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer."
 					]
 				},
 				{
@@ -76335,14 +76335,14 @@
 					"name": "Indigo",
 					"entries": [
 						"On a failed save, the creature is {@condition restrained}. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the {@condition petrified} condition. The successes and failures don't need to be consecutive; keep track of both until the creature collects three of a kind.",
-						"While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a {@spell daylight} spell or a similar spell of equal or higher level."
+						"While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a {@spell daylight|NICKED} spell or a similar spell of equal or higher level."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Violet",
 					"entries": [
-						"On a failed save, the creature is {@condition blinded}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a {@spell dispel magic} spell or a similar spell of equal or higher level that can end spells and magical effects."
+						"On a failed save, the creature is {@condition blinded}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a {@spell dispel magic|NICKED} spell or a similar spell of equal or higher level that can end spells and magical effects."
 					]
 				}
 			],
