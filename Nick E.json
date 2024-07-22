@@ -11281,8 +11281,7 @@
 			"level": 1,
 			"foundryImg": "icons/skills/melee/strike-blade-knife-white-red.webp",
 			"entries": [
-				"You may choose Acrobatics or Athletics a Second time. If you do double your proficiency bonus with that skill.",
-				"{@underline Choose two skills from:} Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, and Survival.",
+				"Choose one of the following features:",
 				{
 					"type": "options",
 					"count": 1,
