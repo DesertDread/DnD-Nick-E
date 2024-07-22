@@ -4603,7 +4603,60 @@
 				"locate creature|NICKED",
 				"phantasmal killer|NICKED",
 				"polymorph|NICKED",
-				"secret chest|NICKED"
+				"secret chest|NICKED",
+				"animate object|NICKED",
+				"awaken|NICKED",
+				"dominate person|NICKED",
+				"dream|NICKED",
+				"divine celerity|NICKED",
+				"enderspell|NICKED",
+				"geas|NICKED",
+				"greater restoration|NICKED",
+				"hold monster|NICKED",
+				"legend lore|NICKED",
+				"mass cure wounds|NICKED",
+				"mislead|NICKED",
+				"modify memory|NICKED",
+				"planar binding|NICKED",
+				"raise dead|NICKED",
+				"scrying|NICKED",
+				"seeming|NICKED",
+				"synaptic static|NICKED",
+				"telepathic bond|NICKED",
+				"teleportation circle|NICKED",
+				"eyebite|NICKED",
+				"find the path|NICKED",
+				"guards and wards|NICKED",
+				"heroes' feast|NICKED",
+				"irresistible dance|NICKED",
+				"mass suggestion|NICKED",
+				"programmed illusion|NICKED",
+				"true seeing|NICKED",
+				"dream of the blue veil|NICKED",
+				"etherealness|NICKED",
+				"forcecage|NICKED",
+				"magnificent mansion|NICKED",
+				"mirage arcane|NICKED",
+				"planar sword|NICKED",
+				"prismatic spray|NICKED",
+				"project image|NICKED",
+				"regenerate|NICKED",
+				"resurrection|NICKED",
+				"symbol|NICKED",
+				"teleport|NICKED",
+				"antipathy/sympathy|NICKED",
+				"dominate monster|NICKED",
+				"feeblemind|NICKED",
+				"glibness|NICKED",
+				"mind blank|NICKED",
+				"power word stun|NICKED",
+				"foresight|NICKED",
+				"mass polymorph|NICKED",
+				"power word heal|NICKED",
+				"power word kill|NICKED",
+				"prismatic wall|NICKED",
+				"psychic scream|NICKED",
+				"true polymorph|NICKED"
             ],
             "foundryAdvancement": [
 				{
@@ -5190,7 +5243,54 @@
 				"freedom of movement|NICKED",
 				"guardian of faith|NICKED",
 				"locate creature|NICKED",
-				"stone shape|NICKED"
+				"stone shape|NICKED",
+				"commune|NICKED",
+				"contagion|NICKED",
+				"dawn|NICKED",
+				"dispel evil and good|NICKED",
+				"divine celerity|NICKED",
+				"flame strike|NICKED",
+				"geas|NICKED",
+				"greater restoration|NICKED",
+				"hallow|NICKED",
+				"holy weapon|NICKED",
+				"insect plague|NICKED",
+				"legend lore|NICKED",
+				"mass cure wounds|NICKED",
+				"planar binding|NICKED",
+				"raise dead|NICKED",
+				"scrying|NICKED",
+				"summon celestial|NICKED",
+				"blade barrier|NICKED",
+				"create undead|NICKED",
+				"find the path|NICKED",
+				"forbiddance|NICKED",
+				"harm|NICKED",
+				"heal|NICKED",
+				"heroes' feast|NICKED",
+				"planar ally|NICKED",
+				"sunbeam|NICKED",
+				"true seeing|NICKED",
+				"warrior's transformation|NICKED",
+				"word of recall|NICKED",
+				"divine word|NICKED",
+				"etherealness|NICKED",
+				"fire storm|NICKED",
+				"plane shift|NICKED",
+				"regenerate|NICKED",
+				"resurrection|NICKED",
+				"symbol|NICKED",
+				"temple of the gods|NICKED",
+				"antimagic field|NICKED",
+				"control weather|NICKED",
+				"earthquake|NICKED",
+				"holy aura|NICKED",
+				"sunburst|NICKED",
+				"astral projection|NICKED",
+				"gate|NICKED",
+				"mass heal|NICKED",
+				"power word heal|NICKED",
+				"true resurrection|NICKED"
             ],
 			"classFeatures": [
 				"Spellcaster|Cleric N|NICKED|1|NICKED",
@@ -5797,7 +5897,63 @@
 				"summon elemental|NICKED",
 				"summon giant insect|NICKED",
 				"wall of fire|NICKED",
-				"watery sphere|NICKED"
+				"watery sphere|NICKED",
+				"antilife shell|NICKED",
+				"awaken|NICKED",
+				"commune with nature|NICKED",
+				"cone of cold|NICKED",
+				"conjure elemental guardian|NICKED",
+				"contagion|NICKED",
+				"control winds|NICKED",
+				"geas|NICKED",
+				"greater restoration|NICKED",
+				"insect plague|NICKED",
+				"maelstrom|NICKED",
+				"mass cure wounds|NICKED",
+				"planar binding|NICKED",
+				"reincarnate|NICKED",
+				"scrying|NICKED",
+				"summon draconic spirit|NICKED",
+				"transmute rock|NICKED",
+				"tree stride|NICKED",
+				"wall of stone|NICKED",
+				"wrath of nature|NICKED",
+				"bones of the earth|NICKED",
+				"druid grove|NICKED",
+				"find the path|NICKED",
+				"flesh to stone|NICKED",
+				"heal|NICKED",
+				"heroes' feast|NICKED",
+				"investiture of flame|NICKED",
+				"investiture of ice|NICKED",
+				"investiture of stone|NICKED",
+				"investiture of wind|NICKED",
+				"move earth|NICKED",
+				"primordial ward|NICKED",
+				"sunbeam|NICKED",
+				"transport via plants|NICKED",
+				"wall of thorns|NICKED",
+				"wind walk|NICKED",
+				"draconic transformation|NICKED",
+				"fire storm|NICKED",
+				"mirage arcane|NICKED",
+				"plane shift|NICKED",
+				"regenerate|NICKED",
+				"reverse gravity|NICKED",
+				"symbol|NICKED",
+				"whirlwind|NICKED",
+				"animal shapes|NICKED",
+				"antipathy/sympathy|NICKED",
+				"control weather|NICKED",
+				"earthquake|NICKED",
+				"feeblemind|NICKED",
+				"incendiary cloud|NICKED",
+				"sunburst|NICKED",
+				"tsunami|NICKED",
+				"foresight|NICKED",
+				"shapechange|NICKED",
+				"storm of vengeance|NICKED",
+				"true resurrection|NICKED"
             ],
 			"classFeatures": [
 				"Spellcaster|Druid N|NICKED|1|NICKED",
@@ -7339,7 +7495,16 @@
 				"locate creature|NICKED",
 				"stoneskin|NICKED",
 				"summon elemental|NICKED",
-				"summon giant insect|NICKED"
+				"summon giant insect|NICKED",
+				"circle of power|NICKED",
+				"commune with nature|NICKED",
+				"conjure volley|NICKED",
+				"destructive wave|NICKED",
+				"greater restoration|NICKED",
+				"steel wind strike|NICKED",
+				"swift quiver|NICKED",
+				"tree stride|NICKED",
+				"wrath of nature|NICKED"
             ],
 			"additionalSpells": [
 				{
@@ -8492,7 +8657,73 @@
 				"storm sphere|NICKED",
 				"vitriolic sphere|NICKED",
 				"wall of fire|NICKED",
-				"watery sphere|NICKED"
+				"watery sphere|NICKED",
+				"a greater mage's hand|NICKED",
+				"animate object|NICKED",
+				"cloudkill|NICKED",
+				"cone of cold|NICKED",
+				"control winds|NICKED",
+				"creation|NICKED",
+				"dominate person|NICKED",
+				"enervation|NICKED",
+				"far step|NICKED",
+				"hold monster|NICKED",
+				"immolation|NICKED",
+				"insect plague|NICKED",
+				"seeming|NICKED",
+				"summon draconic spirit|NICKED",
+				"synaptic static|NICKED",
+				"telekinesis|NICKED",
+				"teleportation circle|NICKED",
+				"wall of light|NICKED",
+				"wall of stone|NICKED",
+				"arcane gate|NICKED",
+				"chain lightning|NICKED",
+				"circle of death|NICKED",
+				"disintegrate|NICKED",
+				"eyebite|NICKED",
+				"flesh to stone|NICKED",
+				"freezing sphere|NICKED",
+				"globe of invulnerability|NICKED",
+				"investiture of flame|NICKED",
+				"investiture of ice|NICKED",
+				"investiture of stone|NICKED",
+				"investiture of wind|NICKED",
+				"mass suggestion|NICKED",
+				"mental prison|NICKED",
+				"move earth|NICKED",
+				"platinum shield|NICKED",
+				"scatter|NICKED",
+				"sunbeam|NICKED",
+				"true seeing|NICKED",
+				"crown of stars|NICKED",
+				"delayed blast fireball|NICKED",
+				"draconic transformation|NICKED",
+				"dream of the blue veil|NICKED",
+				"etherealness|NICKED",
+				"finger of death|NICKED",
+				"fire storm|NICKED",
+				"plane shift|NICKED",
+				"power word pain|NICKED",
+				"prismatic spray|NICKED",
+				"reverse gravity|NICKED",
+				"teleport|NICKED",
+				"whirlwind|NICKED",
+				"demiplane|NICKED",
+				"dominate monster|NICKED",
+				"earthquake|NICKED",
+				"horrid wilting|NICKED",
+				"incendiary cloud|NICKED",
+				"power word stun|NICKED",
+				"sunburst|NICKED",
+				"blade of disaster|NICKED",
+				"enderspell|NICKED",
+				"gate|NICKED",
+				"mass polymorph|NICKED",
+				"meteor swarm|NICKED",
+				"power word kill|NICKED",
+				"psychic scream|NICKED",
+				"time stop|NICKED"
 			],
 			"foundryAdvancement": [
 				{
@@ -9029,7 +9260,60 @@
 				"spirit of death|NICKED",
 				"sickening radiance|NICKED",
 				"summon aberration|NICKED",
-				"summon greater demon|NICKED"
+				"summon greater demon|NICKED",
+				"contact other plane|NICKED",
+				"danse macabre|NICKED",
+				"dream|NICKED",
+				"enervation|NICKED",
+				"far step|NICKED",
+				"hold monster|NICKED",
+				"infernal calling|NICKED",
+				"mislead|NICKED",
+				"negative energy flood|NICKED",
+				"planar binding|NICKED",
+				"scrying|NICKED",
+				"synaptic static|NICKED",
+				"teleportation circle|NICKED",
+				"temporal shunt|NICKED",
+				"wall of light|NICKED",
+				"accio|NICKED",
+				"arcane gate|NICKED",
+				"circle of death|NICKED",
+				"create undead|NICKED",
+				"eyebite|NICKED",
+				"flesh to stone|NICKED",
+				"investiture of flame|NICKED",
+				"investiture of ice|NICKED",
+				"investiture of stone|NICKED",
+				"investiture of wind|NICKED",
+				"mass suggestion|NICKED",
+				"mental prison|NICKED",
+				"scatter|NICKED",
+				"soul cage|NICKED",
+				"summon fiend|NICKED",
+				"true seeing|NICKED",
+				"crown of stars|NICKED",
+				"dream of the blue veil|NICKED",
+				"etherealness|NICKED",
+				"finger of death|NICKED",
+				"forcecage|NICKED",
+				"plane shift|NICKED",
+				"power word pain|NICKED",
+				"demiplane|NICKED",
+				"dominate monster|NICKED",
+				"feeblemind|NICKED",
+				"glibness|NICKED",
+				"maddening darkness|NICKED",
+				"power word stun|NICKED",
+				"astral projection|NICKED",
+				"blade of disaster|NICKED",
+				"foresight|NICKED",
+				"gate|NICKED",
+				"imprisonment|NICKED",
+				"power word kill|NICKED",
+				"psychic scream|NICKED",
+				"true polymorph|NICKED",
+				"weird|NICKED"
 			],
 			"classFeatures": [
 				"Spellcaster|Warlock N|NICKED|1|NICKED",
@@ -9702,7 +9986,132 @@
 				"summon greater demon|NICKED",
 				"vitriolic sphere|NICKED",
 				"wall of fire|NICKED",
-				"watery sphere|NICKED"
+				"watery sphere|NICKED",
+				"a greater mage's hand|NICKED",
+				"animate object|NICKED",
+				"cloudkill|NICKED",
+				"cone of cold|NICKED",
+				"conjure elemental guardian|NICKED",
+				"contact other plane|NICKED",
+				"control winds|NICKED",
+				"creation|NICKED",
+				"danse macabre|NICKED",
+				"dawn|NICKED",
+				"dominate person|NICKED",
+				"dream|NICKED",
+				"enervation|NICKED",
+				"far step|NICKED",
+				"geas|NICKED",
+				"hold monster|NICKED",
+				"immolation|NICKED",
+				"infernal calling|NICKED",
+				"legend lore|NICKED",
+				"mislead|NICKED",
+				"modify memory|NICKED",
+				"negative energy flood|NICKED",
+				"passwall|NICKED",
+				"planar binding|NICKED",
+				"scrying|NICKED",
+				"seeming|NICKED",
+				"steel wind strike|NICKED",
+				"summon draconic spirit|NICKED",
+				"synaptic static|NICKED",
+				"telekinesis|NICKED",
+				"telepathic bond|NICKED",
+				"teleportation circle|NICKED",
+				"transmute rock|NICKED",
+				"wall of force|NICKED",
+				"wall of light|NICKED",
+				"wall of stone|NICKED",
+				"accio|NICKED",
+				"arcane gate|NICKED",
+				"chain lightning|NICKED",
+				"circle of death|NICKED",
+				"contingency|NICKED",
+				"create undead|NICKED",
+				"disintegrate|NICKED",
+				"eyebite|NICKED",
+				"flesh to stone|NICKED",
+				"freezing sphere|NICKED",
+				"globe of invulnerability|NICKED",
+				"gravity fissure|NICKED",
+				"guards and wards|NICKED",
+				"investiture of flame|NICKED",
+				"investiture of ice|NICKED",
+				"investiture of stone|NICKED",
+				"investiture of wind|NICKED",
+				"irresistible dance|NICKED",
+				"magic jar|NICKED",
+				"mass suggestion|NICKED",
+				"mental prison|NICKED",
+				"move earth|NICKED",
+				"platinum shield|NICKED",
+				"programmed illusion|NICKED",
+				"scatter|NICKED",
+				"soul cage|NICKED",
+				"summon fiend|NICKED",
+				"sunbeam|NICKED",
+				"true seeing|NICKED",
+				"warrior's transformation|NICKED",
+				"wall of ice|NICKED",
+				"crown of stars|NICKED",
+				"delayed blast fireball|NICKED",
+				"draconic transformation|NICKED",
+				"dream of the blue veil|NICKED",
+				"etherealness|NICKED",
+				"finger of death|NICKED",
+				"forcecage|NICKED",
+				"magnificent mansion|NICKED",
+				"mirage arcane|NICKED",
+				"planar sword|NICKED",
+				"plane shift|NICKED",
+				"power word pain|NICKED",
+				"prismatic spray|NICKED",
+				"project image|NICKED",
+				"reverse gravity|NICKED",
+				"sequester|NICKED",
+				"simulacrum|NICKED",
+				"symbol|NICKED",
+				"teleport|NICKED",
+				"tether essence|NICKED",
+				"whirlwind|NICKED",
+				"antimagic field|NICKED",
+				"antipathy/sympathy|NICKED",
+				"clone|NICKED",
+				"control weather|NICKED",
+				"dark star|NICKED",
+				"demiplane|NICKED",
+				"dominate monster|NICKED",
+				"feeblemind|NICKED",
+				"horrid wilting|NICKED",
+				"illusory dragon|NICKED",
+				"incendiary cloud|NICKED",
+				"maddening darkness|NICKED",
+				"maze|NICKED",
+				"mighty fortress|NICKED",
+				"mind blank|NICKED",
+				"power word stun|NICKED",
+				"reality break|NICKED",
+				"sunburst|NICKED",
+				"telepathy|NICKED",
+				"astral projection|NICKED",
+				"blade of disaster|NICKED",
+				"enderspell|NICKED",
+				"foresight|NICKED",
+				"gate|NICKED",
+				"imprisonment|NICKED",
+				"invulnerability|NICKED",
+				"mass polymorph|NICKED",
+				"meteor swarm|NICKED",
+				"power word kill|NICKED",
+				"prismatic wall|NICKED",
+				"psychic scream|NICKED",
+				"ravenous void|NICKED",
+				"shapechange|NICKED",
+				"time ravage|NICKED",
+				"time stop|NICKED",
+				"true polymorph|NICKED",
+				"weird|NICKED"
 			],
 			"additionalSpells": [
 				{
@@ -70085,6 +70494,57 @@
 			]
 		},
 		{
+			"name": "Temporal Shunt",
+			"source": "NICKED",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "taken when a creature you can see makes an attack roll or starts to cast a spell"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You target the triggering creature, which must succeed on a Wisdom saving throw or vanish, being thrown to another point in time and causing the attack to miss or the spell to be wasted. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn't remember you casting the spell or being affected by it."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. All targets must be within 30 feet of each other."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
 			"name": "Transmute Rock",
 			"source": "NICKED",
 			"level": 5,
@@ -71380,6 +71840,57 @@
 			],
 			"areaTags": [
 				"S"
+			]
+		},
+		{
+			"name": "Gravity Fissure",
+			"source": "NICKED",
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a fistful of iron filings"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You manifest a ravine of gravitational energy in a line originating from you that is 100 feet long and 5 feet wide. Each creature in that line must make a Constitution saving throw, taking {@damage 8d8} force damage on a failed save, or half as much damage on a successful one.",
+				"Each creature within 10 feet of the line but not in it must succeed on a Constitution saving throw or take {@damage 8d8} force damage and be pulled toward the line until the creature is in its area."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@scaledamage 8d8|6-9|1d8} for each slot level above 6th."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"L"
 			]
 		},
 		{
@@ -74394,6 +74905,56 @@
 			}
 		},
 		{
+			"name": "Tether Essence",
+			"source": "NICKED",
+			"level": 7,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a spool of platinum cord worth at least 250 gp, which the spell consumes",
+					"cost": 25000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Two creatures you can see within range must make a Constitution saving throw, with disadvantage if they are within 30 feet of each other. Either creature can willingly fail the save. If either save succeeds, the spell has no effect. If both saves fail, the creatures are magically linked for the duration, regardless of the distance between them. When damage is dealt to one of them, the same damage is dealt to the other one. If hit points are restored to one of them, the same number of hit points are restored to the other one. If either of the tethered creatures is reduced to 0 hit points, the spell ends on both. If the spell ends on one creature, it ends on both."
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			]
+		},
+		{
 			"name": "Whirlwind",
 			"source": "NICKED",
 			"level": 7,
@@ -74843,6 +75404,65 @@
 						]
 					]
 				}
+			]
+		},
+		{
+			"name": "Dark Star",
+			"source": "NICKED",
+			"page": 186,
+			"level": 8,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a shard of onyx and a drop of the caster's blood, both of which the spell consumes",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"This spell creates a sphere centered on a point you choose within range. The sphere can have a radius of up to 40 feet. The area within this sphere is filled with magical darkness and crushing gravitational force.",
+				"For the duration, the spell's area is {@quickref difficult terrain||3}. A creature with darkvision can't see through the magical darkness, and nonmagical light can't illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are {@condition deafened} while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
+				"Any creature that enters the spell's area for the first time on a turn or starts its turn there must make a Constitution saving throw. The creature takes {@damage 8d10} force damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"deafened"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"DFT",
+				"OBJ"
+			],
+			"areaTags": [
+				"S"
 			]
 		},
 		{
@@ -75553,6 +76173,95 @@
 				"constitution"
 			],
 			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Reality Break",
+			"source": "NICKED",
+			"level": 8,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a crystal prism"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You shatter the barriers between realities and timelines, thrusting a creature into turmoil and madness. The target must succeed on a Wisdom saving throw, or it can't take reactions until the spell ends. The affected target must also roll a {@dice d10} at the start of each of its turns; the number rolled determines what happens to the target, as shown on the Reality Break Effects table.",
+				"At the end of each of its turns, the affected target can repeat the Wisdom saving throw, ending the spell on itself on a success.",
+				{
+					"type": "table",
+					"caption": "Reality Break Effects",
+					"colLabels": [
+						"d10",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1-2",
+							"{@b Vision of the Far Realm.} The target takes {@damage 6d12} psychic damage, and it is {@condition stunned} until the end of the turn."
+						],
+						[
+							"3-5",
+							"{@b Rending Rift.} The target must make a Dexterity saving throw, taking {@damage 8d12} force damage on a failed save, or half as much damage on a successful one."
+						],
+						[
+							"6-8",
+							"{@b Wormhole.} The target is teleported, along with everything it is wearing and carrying, up to 30 feet to an unoccupied space of your choice that you can see. The target also takes {@damage 10d12} force damage and is knocked {@condition prone}."
+						],
+						[
+							"9-10",
+							"{@b Chill of the Dark Void.} The target takes {@damage 10d12} cold damage, and it is {@condition blinded} until the end of the turn."
+						]
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic",
+				"force",
+				"cold"
+			],
+			"conditionInflict": [
+				"stunned",
+				"prone",
+				"blinded"
+			],
+			"savingThrow": [
+				"wisdom",
+				"dexterity"
+			],
+			"miscTags": [
+				"RO",
 				"SGT"
 			],
 			"areaTags": [
@@ -76479,6 +77188,69 @@
 			]
 		},
 		{
+			"name": "Ravenous Void",
+			"source": "NICKED",
+			"level": 9,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 1000
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small, nine-pointed star made of iron"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a 20-foot-radius sphere of destructive gravitational force centered on a point you can see within range. For the spell's duration, the sphere and any space within 100 feet of it are {@quickref difficult terrain||3}, and nonmagical objects fully inside the sphere are destroyed if they aren't being worn or carried.",
+				"When the sphere appears and at the start of each of your turns until the spell ends, unsecured objects within 100 feet of the sphere are pulled toward the sphere's center, ending in an unoccupied space as close to the center as possible.",
+				"A creature that starts its turn within 100 feet of the sphere must succeed on a Strength saving throw or be pulled straight toward the sphere's center, ending in an unoccupied space as close to the center as possible. A creature that enters the sphere for the first time on a turn or starts its turn there takes {@damage 5d10} force damage and is {@condition restrained} until it is no longer in the sphere. If the sphere is in the air, the {@condition restrained} creature hovers inside the sphere. A creature can use its action to make a Strength check against your spell save DC, ending this {@condition restrained} condition on itself or another creature in the sphere that it can reach. A creature reduced to 0 hit points by this spell is annihilated, along with any nonmagical items it is wearing or carrying."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"abilityCheck": [
+				"strength"
+			],
+			"miscTags": [
+				"OBJ",
+				"SGT"
+			],
+			"areaTags": [
+				"S"
+			],
+			"foundrySystem": {
+				"target.value": 20,
+				"target.units": "ft",
+				"target.type": "sphere"
+			}
+		},
+		{
 			"name": "Shapechange",
 			"source": "NICKED",
 			"level": 9,
@@ -76622,6 +77394,54 @@
 			],
 			"areaTags": [
 				"Y"
+			]
+		},
+		{
+			"name": "Time Ravage",
+			"source": "NICKED",
+			"level": 9,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "an hourglass filled with diamond dust worth at least 5,000 gp, which the spell consumes",
+					"cost": 500000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You target a creature you can see within range, putting its physical form through the devastation of rapid aging. The target must make a Constitution saving throw, taking {@damage 10d12} necrotic damage on a failed save, or half as much damage on a successful one. If the save fails, the target also ages to the point where it has only 30 days left before it dies of old age. In this aged state, the target has disadvantage on attack rolls, ability checks, and saving throws, and its walking speed is halved. Only the wish spell or the {@spell greater restoration|NICKED} cast with a 9th-level spell slot can end these effects and restore the target to its previous age."
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
 			]
 		},
 		{
