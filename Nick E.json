@@ -46772,7 +46772,7 @@
 			],
 			"additionalSpells": [
 				{
-					"name": "Bard Spells",
+					"name": "Bard Attack Spells",
 					"ability": "cha",
 					"known": {
 						"_": [
@@ -46784,7 +46784,19 @@
 					}
 				},
 				{
-					"name": "Cleric Spells",
+					"name": "Bard Saving Spells",
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Bard N (NICKED)|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=NICKED",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Cleric Attack Spells",
 					"ability": "wis",
 					"known": {
 						"_": [
@@ -46796,7 +46808,19 @@
 					}
 				},
 				{
-					"name": "Druid Spells",
+					"name": "Cleric Saving Spells",
+					"ability": "wis",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric N (NICKED)|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=NICKED",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Druid Attack Spells",
 					"ability": "wis",
 					"known": {
 						"_": [
@@ -46808,7 +46832,19 @@
 					}
 				},
 				{
-					"name": "Sorcerer Spells",
+					"name": "Druid Saving Spells",
+					"ability": "wis",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Druid N (NICKED)|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=NICKED",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Sorcerer Attack Spells",
 					"ability": "cha",
 					"known": {
 						"_": [
@@ -46820,7 +46856,19 @@
 					}
 				},
 				{
-					"name": "Warlock Spells",
+					"name": "Sorcerer Saving Spells",
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Sorcerer N (NICKED)|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=NICKED",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Warlock Attack Spells",
 					"ability": "cha",
 					"known": {
 						"_": [
@@ -46832,12 +46880,36 @@
 					}
 				},
 				{
-					"name": "Wizard Spells",
+					"name": "Warlock Saving Spells",
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Warlock N (NICKED)|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=NICKED",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Wizard Attack Spells",
 					"ability": "int",
 					"known": {
 						"_": [
 							{
 								"choose": "level=0|class=Wizard N (NICKED)|spell attack=m;r;o|source=NICKED",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Wizard Saving Spells",
+					"ability": "int",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard N (NICKED)|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=NICKED",
 								"count": 1
 							}
 						]
@@ -72297,7 +72369,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 7rd level or higher, you teleport up to an additional 2 willing creatures for each level above 6th."
+						"When you cast this spell using a spell slot of 7rd level or higher, you teleport up to an additional 2 creatures for each level above 6th."
 					]
 				}
 			],
