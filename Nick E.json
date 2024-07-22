@@ -5867,6 +5867,23 @@
 				"weapons": [
 					"simple",
 					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"animal handling",
+								"athletics",
+								"history",
+								"insight",
+								"intimidation",
+								"persuasion",
+								"survival"
+							],
+							"count": 2
+						}
+					}
 				]
 			},
 			"startingEquipment": {
@@ -5877,7 +5894,7 @@
 					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) two {@item handaxe|phb|handaxes}",
 					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
 				],
-				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"goldAlternative": "{@dice 5d4 x 10|5d4 x 10|Starting Gold}",
 				"defaultData": [
 					{
 						"a": [
@@ -11288,7 +11305,7 @@
 					"entries": [
 						{
 							"type": "refClassFeature",
-							"classFeature": "Athletic Expertise|Fighter N|NICKED|1|NICKED"
+							"classFeature": "Athletic Expertise (If Skilled In Either)|Fighter N|NICKED|1|NICKED"
 						},
 						{
 							"type": "refClassFeature",
@@ -11299,7 +11316,7 @@
 			]
 		},
 		{
-			"name": "Athletic Expertise",
+			"name": "Athletic Expertise (If Skilled In Either)",
 			"source": "NICKED",
 			"className": "Fighter N",
 			"classSource": "NICKED",
@@ -11312,6 +11329,17 @@
 					"acrobatics": true
 				}
 			],
+			"foundryImg": "icons/skills/melee/strike-blade-hooked-white-red.webp",
+			"entries": [
+				"You gain expertise in either {@skill athletics} or {@skill acrobatics} if you're proficient."
+			]
+		},
+		{
+			"name": "Skilled",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"level": 1,
 			"skillProficiencies": [
 				{
 					"choose": {
@@ -11329,55 +11357,9 @@
 					}
 				}
 			],
-			"foundryImg": "icons/skills/melee/strike-blade-hooked-white-red.webp",
-			"entries": [
-				"You gain expertise in either {@skill athletics} or {@skill acrobatics}",
-				"Choose 1 skill from {@skill acrobatics}, {@skill animal handling}, {@skill athletics}, {@skill history}, {@skill insight}, {@skill intimidation}, {@skill perception}, {@skill survival}"
-			]
-		},
-		{
-			"name": "Skilled",
-			"source": "NICKED",
-			"className": "Fighter N",
-			"classSource": "NICKED",
-			"level": 1,
-			"skillProficiencies": [
-				{
-					"athletics": true,
-					"choose": {
-						"from": [
-							"acrobatics",
-							"animal handling",
-							"athletics",
-							"history",
-							"insight",
-							"intimidation",
-							"perception",
-							"survival"
-						],
-						"count": 2
-					}
-				},
-				{
-					"acrobatics": true,
-					"choose": {
-						"from": [
-							"acrobatics",
-							"animal handling",
-							"athletics",
-							"history",
-							"insight",
-							"intimidation",
-							"perception",
-							"survival"
-						],
-						"count": 2
-					}
-				}
-			],
 			"foundryImg": "icons/skills/melee/strike-blade-knife-white-red.webp",
 			"entries": [
-				"Choose 2 skills from {@skill acrobatics}, {@skill animal handling}, {@skill athletics}, {@skill history}, {@skill insight}, {@skill intimidation}, {@skill perception}, {@skill survival}"
+				"Choose 1 skill from {@skill acrobatics}, {@skill animal handling}, {@skill athletics}, {@skill history}, {@skill insight}, {@skill intimidation}, {@skill perception}, {@skill survival}"
 			]
 		},
 		{
