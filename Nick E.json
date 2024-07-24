@@ -2526,7 +2526,7 @@
                     "longsword|phb": true,
                     "shortsword|phb": true,
                     "shortbow|phb": true,
-					"twin-blade|NICKED": true
+					"twin blade|NICKED": true
                 }
             ],
 			"entries": [
@@ -2542,7 +2542,7 @@
 					"type": "entries",
 					"name": "Ancient Predators",
 					"entries": [
-						"Your people are the Ancient protectors of the Mother-Tree and Moonwell. Your weapon training grants you proficiency with the Longsword, Shortsword, Twin-Blade, and Shortbow"
+						"Your people are the Ancient protectors of the Mother-Tree and Moonwell. Your weapon training grants you proficiency with the Longsword, Shortsword, Twin Blade, and Shortbow"
 					]
 				}
 			]
@@ -47975,7 +47975,22 @@
 			"club": true,
 			"weapon": true,
 			"entries": [
-				"Concussive Smash"
+				"Concussive Smash",
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grappler",
+					"entries": [
+						"This weapon is small enough and leaves your hands open enough to grapple a creature with this weapon still in the hand you use to grapple the creature. You may still attack with this weapon but only if the attack targets only the creature that you are grappling with this weapon."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -47999,7 +48014,44 @@
 			"dagger": true,
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Combat Vault"
+				"Strength or Dexterity; Combat Vault",
+				{
+					"type": "entries",
+					"name": "Aquatic",
+					"entries": [
+						"This weapon does not have disadvantage on attacks while being used underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grappler",
+					"entries": [
+						"This weapon is small enough and leaves your hands open enough to grapple a creature with this weapon still in the hand you use to grapple the creature. You may still attack with this weapon but only if the attack targets only the creature that you are grappling with this weapon."
+					]
+				},
+				"Equip Weight: 0"
 			]
 		},
 		{
@@ -48018,7 +48070,15 @@
 			"club": true,
 			"weapon": true,
 			"entries": [
-				"Concussive Smash"
+				"Concussive Smash",
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48039,7 +48099,23 @@
 			"axe": true,
 			"weapon": true,
 			"entries": [
-				"Crippling Strike"
+				"Crippling Strike",
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48061,7 +48137,30 @@
 			"spear": true,
 			"weapon": true,
 			"entries": [
-				"Mobile Shot"
+				"Mobile Shot",
+				{
+					"type": "entries",
+					"name": "Aquatic",
+					"entries": [
+						"This weapon does not have disadvantage on attacks while being used underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quickdraw",
+					"entries": [
+						"Drawing this weapon costs no action to draw."
+					]
+				},
+				"Equip Weight: 0"
 			]
 		},
 		{
@@ -48073,14 +48172,32 @@
 			"value": 200,
 			"weaponCategory": "simple",
 			"property": [
-				"L",
-				"T"
+				"LGT",
+				"THR"
 			],
 			"range": "20/60",
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"hammer": true,
-			"weapon": true
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				"Equip Weight: 1"
+			]
 		},
 		{
 			"name": "Mace",
@@ -48095,7 +48212,8 @@
 			"mace": true,
 			"weapon": true,
 			"entries": [
-				"Sunder Armor"
+				"Sunder Armor",
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48114,7 +48232,15 @@
 			"dmg2": "1d8",
 			"weapon": true,
 			"entries": [
-				"Topple"
+				"Topple",
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48134,7 +48260,29 @@
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
-				"Cleave"
+				"Cleave",
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brace",
+					"entries": [
+						"You may spend 15 feet of movement on your turn. If you do, you roll all damage dice twice (roll two sets if there are multiple dice) You may choose which dice (or sets of dice) you wish to use."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48153,7 +48301,22 @@
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Bleed"
+				"Strength or Dexterity; Bleed",
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48177,7 +48340,37 @@
 			"spear": true,
 			"weapon": true,
 			"entries": [
-				"Rush Attack"
+				"Rush Attack",
+				{
+					"type": "entries",
+					"name": "Aquatic",
+					"entries": [
+						"This weapon does not have disadvantage on attacks while being used underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brace",
+					"entries": [
+						"You may spend 15 feet of movement on your turn. If you do, you roll all damage dice twice (roll two sets if there are multiple dice) You may choose which dice (or sets of dice) you wish to use."
+					]
+				},
+				"Equip Weight: 0"
 			]
 		},
 		{
@@ -48198,7 +48391,22 @@
 			"axe": true,
 			"weapon": true,
 			"entries": [
-				"Pommel Strike"
+				"Pommel Strike",
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Executioner",
+					"entries": [
+						"Whenever you attack a creature that is {@condition prone}, {@condition stunned}, {@condition paralyzed}, or {@condition restrained}, you add an additional weapon dice to your first attack you make each turn."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48210,14 +48418,21 @@
 			"value": 1000,
 			"weaponCategory": "martial",
 			"property": [
-				
 				"EXEC"
 			],
 			"dmg1": "1d8",
 			"dmgType": "B",
 			"weapon": true,
 			"entries": [
-				"Bleed"
+				"Bleed",
+				{
+					"type": "entries",
+					"name": "Executioner",
+					"entries": [
+						"Whenever you attack a creature that is {@condition prone}, {@condition stunned}, {@condition paralyzed}, or {@condition restrained}, you add an additional weapon dice to your first attack you make each turn."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48239,7 +48454,37 @@
 			"polearm": true,
 			"weapon": true,
 			"entries": [
-				"Cleave"
+				"Cleave",
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"This weapon requires at least 15 strength to wield effectively.", 
+						"A creature without at least 15 strength that attempts to make an attack with this weapon cannot benefit from any advantage and rolls the attack roll with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brace",
+					"entries": [
+						"You may spend 15 feet of movement on your turn. If you do, you roll all damage dice twice (roll two sets if there are multiple dice) You may choose which dice (or sets of dice) you wish to use."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48260,7 +48505,30 @@
 			"axe": true,
 			"weapon": true,
 			"entries": [
-				"Overwhelm"
+				"Overwhelm",
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"This weapon requires at least 15 strength to wield effectively.", 
+						"A creature without at least 15 strength that attempts to make an attack with this weapon cannot benefit from any advantage and rolls the attack roll with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Executioner",
+					"entries": [
+						"Whenever you attack a creature that is {@condition prone}, {@condition stunned}, {@condition paralyzed}, or {@condition restrained}, you add an additional weapon dice to your first attack you make each turn."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48281,7 +48549,31 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"Pommel Strike"
+				"Pommel Strike",
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"This weapon requires at least 15 strength to wield effectively.", 
+						"A creature without at least 15 strength that attempts to make an attack with this weapon cannot benefit from any advantage and rolls the attack roll with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Iron Spirit",
+					"entries": [
+						"When you have advantage on attack rolls with this weapon you gain an expanded critical range of 19-20. This effect stacks with other critical range effects.", 
+						"For example if you already had a critical range of 19-20 you now crit on 18-20."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48303,7 +48595,37 @@
 			"polearm": true,
 			"weapon": true,
 			"entries": [
-				"Cleave"
+				"Cleave",
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"This weapon requires at least 15 strength to wield effectively.", 
+						"A creature without at least 15 strength that attempts to make an attack with this weapon cannot benefit from any advantage and rolls the attack roll with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brace",
+					"entries": [
+						"You may spend 15 feet of movement on your turn. If you do, you roll all damage dice twice (roll two sets if there are multiple dice) You may choose which dice (or sets of dice) you wish to use."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48324,7 +48646,23 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Unusual Guard"
+				"Strength or Dexterity; Unusual Guard",
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Iron Spirit",
+					"entries": [
+						"When you have advantage on attack rolls with this weapon you gain an expanded critical range of 19-20. This effect stacks with other critical range effects.", 
+						"For example if you already had a critical range of 19-20 you now crit on 18-20."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48349,11 +48687,41 @@
 				"Rush Attack",
 				{
 					"type": "entries",
+					"name": "Aquatic",
+					"entries": [
+						"This weapon does not have disadvantage on attacks while being used underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"This weapon requires at least 15 strength to wield effectively.", 
+						"A creature without at least 15 strength that attempts to make an attack with this weapon cannot benefit from any advantage and rolls the attack roll with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Special",
 					"entries": [
 						"You have disadvantage when you use a lance to attack a target within 5 feet of you."
 					]
-				}
+				},
+				{
+					"type": "entries",
+					"name": "Brace",
+					"entries": [
+						"You may spend 15 feet of movement on your turn. If you do, you roll all damage dice twice (roll two sets if there are multiple dice) You may choose which dice (or sets of dice) you wish to use."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48374,7 +48742,23 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"Pommel Strike"
+				"Pommel Strike",
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Iron Spirit",
+					"entries": [
+						"When you have advantage on attack rolls with this weapon you gain an expanded critical range of 19-20. This effect stacks with other critical range effects.", 
+						"For example if you already had a critical range of 19-20 you now crit on 18-20."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48395,7 +48779,30 @@
 			"hammer": true,
 			"weapon": true,
 			"entries": [
-				"Concussive Smash"
+				"Concussive Smash",
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"This weapon requires at least 15 strength to wield effectively.", 
+						"A creature without at least 15 strength that attempts to make an attack with this weapon cannot benefit from any advantage and rolls the attack roll with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Executioner",
+					"entries": [
+						"Whenever you attack a creature that is {@condition prone}, {@condition stunned}, {@condition paralyzed}, or {@condition restrained}, you add an additional weapon dice to your first attack you make each turn."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48414,7 +48821,15 @@
 			"mace": true,
 			"weapon": true,
 			"entries": [
-				"Bleed"
+				"Bleed",
+				{
+					"type": "entries",
+					"name": "Tenacity",
+					"entries": [
+						"Even if you miss with this weapon, it deals damage to the target equal to half your strength modifier rounded up."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48436,7 +48851,44 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"Rush Attack"
+				"Rush Attack",
+				{
+					"type": "entries",
+					"name": "Aquatic",
+					"entries": [
+						"This weapon does not have disadvantage on attacks while being used underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"This weapon requires at least 15 strength to wield effectively.", 
+						"A creature without at least 15 strength that attempts to make an attack with this weapon cannot benefit from any advantage and rolls the attack roll with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brace",
+					"entries": [
+						"You may spend 15 feet of movement on your turn. If you do, you roll all damage dice twice (roll two sets if there are multiple dice) You may choose which dice (or sets of dice) you wish to use."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48457,7 +48909,30 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Swords Dance"
+				"Strength or Dexterity; Swords Dance",
+				{
+					"type": "entries",
+					"name": "Aquatic",
+					"entries": [
+						"This weapon does not have disadvantage on attacks while being used underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defensive",
+					"entries": [
+						"If you are wielding this weapon, and you do not have a shield or another weapon in your other hand. You gain +1 to your AC.", 
+						"If your weapon is the trident, you may wield a net in your other hand and still gain this benefit."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48478,7 +48953,29 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Swords Dance"
+				"Strength or Dexterity; Swords Dance",
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Executioner",
+					"entries": [
+						"Whenever you attack a creature that is {@condition prone}, {@condition stunned}, {@condition paralyzed}, or {@condition restrained}, you add an additional weapon dice to your first attack you make each turn."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48499,7 +48996,30 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Crippling Strike"
+				"Strength or Dexterity; Crippling Strike",
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Iron Spirit",
+					"entries": [
+						"When you have advantage on attack rolls with this weapon you gain an expanded critical range of 19-20. This effect stacks with other critical range effects.", 
+						"For example if you already had a critical range of 19-20 you now crit on 18-20."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48522,11 +49042,42 @@
 			"dmg2": "1d8",
 			"weapon": true,
 			"entries": [
-				"Crippling Strike"
+				"Crippling Strike",
+				{
+					"type": "entries",
+					"name": "Aquatic",
+					"entries": [
+						"This weapon does not have disadvantage on attacks while being used underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defensive",
+					"entries": [
+						"If you are wielding this weapon, and you do not have a shield or another weapon in your other hand. You gain +1 to your AC.", 
+						"If your weapon is the trident, you may wield a net in your other hand and still gain this benefit."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
-			"name": "Twin-Blade",
+			"name": "Twin Blade",
 			"source": "NICKED",
 			"type": "M",
 			"rarity": "none",
@@ -48544,7 +49095,30 @@
 			"dmg2": "1d8",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Second Blade"
+				"Strength or Dexterity; Second Blade",
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defensive",
+					"entries": [
+						"If you are wielding this weapon, and you do not have a shield or another weapon in your other hand. You gain +1 to your AC.", 
+						"If your weapon is the trident, you may wield a net in your other hand and still gain this benefit."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48564,7 +49138,22 @@
 			"dmg2": "1d10",
 			"weapon": true,
 			"entries":[
-				"Sunder Armor"
+				"Sunder Armor",
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon's Grasp",
+					"entries": [
+						"A creature that is hit by this weapons attack as part of an opportunity attack has its speed set to 0."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48585,7 +49174,23 @@
 			"hammer": true,
 			"weapon": true,
 			"entries": [
-				"Concussive Smash"
+				"Concussive Smash",
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Iron Spirit",
+					"entries": [
+						"When you have advantage on attack rolls with this weapon you gain an expanded critical range of 19-20. This effect stacks with other critical range effects.", 
+						"For example if you already had a critical range of 19-20 you now crit on 18-20."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48605,7 +49210,29 @@
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Crippling Strike"
+				"Strength or Dexterity; Crippling Strike",
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon's Grasp",
+					"entries": [
+						"A creature that is hit by this weapons attack as part of an opportunity attack has its speed set to 0."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48628,7 +49255,37 @@
 			"firearm": true,
 			"weapon": true,
 			"entries": [
-				"Crack Shot"
+				"Crack Shot",
+				{
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complex Loading",
+					"entries": [
+						"If your character does not have proficiency with this weapon, or does not have an intelligence score of at least 13, it takes an action to reload this weapon. Otherwise, you may draw and load a piece of ammunition as part of an attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Packed Powder",
+					"entries": [
+						"This weapon can take advantage of special powders to augment its attack. Only one special powder can be use per turn, and it can only be used on your turn."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48652,7 +49309,37 @@
 			"weapon": true,
 			"ammoType": "crossbow bolt|phb",
 			"entries": [
-				"Combat Vault"
+				"Combat Vault",
+				{
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Loading",
+					"entries": [
+						"If your character does not have proficiency with this weapon, it takes an action to reload it. Otherwise, you may draw and load a piece of ammunition as part of an attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Ammunition",
+					"entries": [
+						"This weapon can take advantage of ammunitions to augment its attack. Only one ammunition can be use per turn and it can only be used on your turn."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48673,7 +49360,30 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Point Blank"
+				"Strength or Dexterity; Point Blank",
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quickdraw",
+					"entries": [
+						"Drawing this weapon costs no action to draw."
+					]
+				},
+				"Equip Weight: 0"
 			]
 		},
 		{
@@ -48694,7 +49404,30 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Point Blank"
+				"Strength or Dexterity; Point Blank",
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quickdraw",
+					"entries": [
+						"Drawing this weapon costs no action to draw."
+					]
+				},
+				"Equip Weight: 0"
 			]
 		},
 		{
@@ -48715,7 +49448,30 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Point Blank"
+				"Strength or Dexterity; Point Blank",
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quickdraw",
+					"entries": [
+						"Drawing this weapon costs no action to draw."
+					]
+				},
+				"Equip Weight: 0"
 			]
 		},
 		{
@@ -48736,7 +49492,30 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Point Blank"
+				"Strength or Dexterity; Point Blank",
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"This melee weapon can be used with Rogue Sneak Attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quickdraw",
+					"entries": [
+						"Drawing this weapon costs no action to draw."
+					]
+				},
+				"Equip Weight: 0"
 			]
 		},
 		{
@@ -48759,7 +49538,30 @@
 			"weapon": true,
 			"ammoType": "arrow|phb",
 			"entries": [
-				"Strength; Hamstring"
+				"Strength; Hamstring",
+				{
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Ammunition",
+					"entries": [
+						"This weapon can take advantage of ammunitions to augment its attack. Only one ammunition can be use per turn and it can only be used on your turn."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48780,7 +49582,33 @@
 			"dmgType": "P",
 			"bow": true,
 			"weapon": true,
-			"ammoType": "arrow|phb"
+			"ammoType": "arrow|phb",
+			"entries": [
+				"Hamstring",
+				{
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Ammunition",
+					"entries": [
+						"This weapon can take advantage of ammunitions to augment its attack. Only one ammunition can be use per turn and it can only be used on your turn."
+					]
+				},
+				"Equip Weight: 2"
+			]
 		},
 		{
 			"name": "Sling",
@@ -48832,7 +49660,8 @@
 							]
 						}
 					]
-				}
+				},
+				"Equip Weight: 0"
 			]
 		},
 		{
@@ -48853,7 +49682,24 @@
 			"weapon": true,
 			"ammoType": "blowgun needle|phb",
 			"entries": [
-				"Hit The Vein"
+				"Hit The Vein",
+				{
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Apply Reagent",
+					"entries": [
+						"This weapon can apply a reagent to its ammunition and weapon as part of an attack, instead of any other requirement that applying something would require.", 
+						"For example, if it would take an action to apply a poison to a piece of ammunition it instead happens as part of the attack."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48878,7 +49724,44 @@
 			"weapon": true,
 			"ammoType": "crossbow bolt|phb",
 			"entries": [
-				"Mobile Shot"
+				"Mobile Shot",
+				{
+					"type": "entries",
+					"name": "Aquatic",
+					"entries": [
+						"This weapon does not have disadvantage on attacks while being used underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Loading",
+					"entries": [
+						"If your character does not have proficiency with this weapon, it takes an action to reload it. Otherwise, you may draw and load a piece of ammunition as part of an attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Ammunition",
+					"entries": [
+						"This weapon can take advantage of ammunitions to augment its attack. Only one ammunition can be use per turn and it can only be used on your turn."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48903,7 +49786,44 @@
 			"weapon": true,
 			"ammoType": "crossbow bolt|phb",
 			"entries": [
-				"Combat Vault"
+				"Combat Vault",
+				{
+					"type": "entries",
+					"name": "Aquatic",
+					"entries": [
+						"This weapon does not have disadvantage on attacks while being used underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Loading",
+					"entries": [
+						"If your character does not have proficiency with this weapon, it takes an action to reload it. Otherwise, you may draw and load a piece of ammunition as part of an attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Ammunition",
+					"entries": [
+						"This weapon can take advantage of ammunitions to augment its attack. Only one ammunition can be use per turn and it can only be used on your turn."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48927,7 +49847,37 @@
 			"weapon": true,
 			"ammoType": "bullet",
 			"entries": [
-				"Mobile Shot"
+				"Mobile Shot",
+				{
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complex Loading",
+					"entries": [
+						"If your character does not have proficiency with this weapon, or does not have an intelligence score of at least 13, it takes an action to reload this weapon. Otherwise, you may draw and load a piece of ammunition as part of an attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Packed Powder",
+					"entries": [
+						"This weapon can take advantage of special powders to augment its attack. Only one special powder can be use per turn, and it can only be used on your turn."
+					]
+				},
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -48951,7 +49901,38 @@
 			"weapon": true,
 			"ammoType": "arrow|phb",
 			"entries": [
-				"Strength; Hamstring"
+				"Strength; Hamstring",
+				{
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"This weapon requires at least 15 strength to wield effectively.", 
+						"A creature without at least 15 strength that attempts to make an attack with this weapon cannot benefit from any advantage and rolls the attack roll with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Ammunition",
+					"entries": [
+						"This weapon can take advantage of ammunitions to augment its attack. Only one ammunition can be use per turn and it can only be used on your turn."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -48979,6 +49960,29 @@
 				"Lead the Target",
 				{
 					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"This weapon requires at least 15 strength to wield effectively.", 
+						"A creature without at least 15 strength that attempts to make an attack with this weapon cannot benefit from any advantage and rolls the attack roll with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Special",
 					"entries": [
 						"This weapon takes 1 minute to reload.",
@@ -48987,7 +49991,15 @@
 						"You ignore the heavy property if you are prone.",
 						"It takes an action to draw this weapon."
 					]
-				}
+				},
+				{
+					"type": "entries",
+					"name": "Packed Powder",
+					"entries": [
+						"This weapon can take advantage of special powders to augment its attack. Only one special powder can be use per turn, and it can only be used on your turn."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -49011,7 +50023,37 @@
 			"weapon": true,
 			"ammoType": "bullet",
 			"entries": [
-				"Crack Shot"
+				"Crack Shot",
+				{
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complex Loading",
+					"entries": [
+						"If your character does not have proficiency with this weapon, or does not have an intelligence score of at least 13, it takes an action to reload this weapon. Otherwise, you may draw and load a piece of ammunition as part of an attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Packed Powder",
+					"entries": [
+						"This weapon can take advantage of special powders to augment its attack. Only one special powder can be use per turn, and it can only be used on your turn."
+					]
+				},
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -49035,6 +50077,14 @@
 				"Bind to Mount",
 				{
 					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Special",
 					"entries": [
 						"You do not have disadvantage with attack rolls with this weapon as a result of being within 5ft of a hostile creature.", 
@@ -49043,7 +50093,23 @@
 						"A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.", 
 						"When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make"
 					]
-				}
+				},
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack with ease. Instead of it taking a whole action to throw, it takes only a single attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.", 
+						"For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quickdraw",
+					"entries": [
+						"Drawing this weapon costs no action to draw."
+					]
+				},
+				"Equip Weight: 0"
 			]
 		},
 		{
