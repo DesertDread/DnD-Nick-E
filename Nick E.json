@@ -42480,6 +42480,12 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1",
+				"formula": "1d4"
+			},
 			"entries": [
 				"Once per short rest when you hit with an attack roll, you may attempt to cause the target to {@condition bleed|NICKED}. The creature must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus].", 
 				"Activate this effect only if you are proficient with the weapon."
@@ -42491,6 +42497,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "action",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest, you may use an action to bind a creature who is caught by your net to a mount, vehicle, or other creature or object that is at least one size larger than it.", 
 				"While bound by the net, the creature is dragged behind the object or creature it is bound to. It does not cost this creature or object extra movement to drag the creature in this way."
@@ -42502,6 +42513,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest, (no action required) you may make a single weapon attack at disadvantage. This attack cannot gain advantage from any sources."
 			]
@@ -42512,6 +42528,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest, you may replace one attack to cleave with this weapon. You may attack up to three targets within 5 feet of each other instead of one."
 			]
@@ -42522,8 +42543,13 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
-				"Once per short rest, you can tumble into and launch away from a creature. If you do push both creatures (you and your target) back 5ft. this tumble does not push creatures of a larger size than you, however you still are pushed back vaulting off the target by 5 ft.", 
+				"Once per short rest, you can tumble into and launch away from a creature. If you do push both creatures (you and your target) back 5ft. this tumble does not push creatures of a larger size than you, however you still are pushed back vaulting off the target by 5 feet.", 
 				"If you were {@condition prone} you stand up (this movement does not trigger attacks of opportunity.)"
 			]
 		},
@@ -42533,8 +42559,13 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
-				"Once per short rest, you may have an attack that you hit with become a concussive smash, a creature dealt damage by this attack must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or become {@condition stunned} on a failure until the start of your next turn."
+				"Once per short rest, you may have an attack that you hit with become a concussive smash. A creature dealt damage by this attack must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or become {@condition stunned} on a failure until the start of your next turn."
 			]
 		},
 		{
@@ -42543,8 +42574,13 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
-				"Once per short rest, you may have an attack that you hit with become a crippling strike, a creature dealt damage by this attack must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or have their move speed reduced to 15ft until the end of your next turn. An affected creature cannot gain any additional movement or take the dash action until the end of your next turn."
+				"Once per short rest, you may have an attack that you hit with become a crippling strike. A creature dealt damage by this attack must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or have their move speed reduced to 15 feet until the end of your next turn. An affected creature cannot gain any additional movement or take the {@action dash} action until the end of your next turn."
 			]
 		},
 		{
@@ -42553,6 +42589,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest before you make a weapon attack, you can make that attack a hamstring shot. If that attack hits and deals damage, the creature must make a dexterity saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or halve their move speed until the end of your next turn."
 			]
@@ -42563,6 +42604,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "lr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per long rest, when you hit with an attack, you may have that attack become a critical hit. This effect can only be used against humanoid and beast type monsters."
 			]
@@ -42573,6 +42619,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "action",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest, while you are {@condition prone}, you may spend an action to lead the target. If you do, until the end of your next turn you gain the following benefits:",
 				{
@@ -42591,6 +42642,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "bonus",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short, after you take the {@action dash} or {@action disengage} action, you may use your bonus action to make one weapon attack with this weapon."
 			]
@@ -42601,6 +42657,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest, when you take the {@action attack} action, you may attempt to overwhelm your foes. Until the start of your next turn, you may add your constitution modifier to damage for this weapon (minimum of +1, in addition to its regular bonuses)"
 			]
@@ -42611,6 +42672,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest whenever you make an attack at disadvantage as a result of being within 5 feet of a creature, you may instead attack at advantage with that attack."
 			]
@@ -42621,8 +42687,13 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "bonus",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
-				"Once per short rest whenever you make an attack at disadvantage as a result of being within 5 feet of a creature, you may instead attack at advantage with that attack."
+				"Once per short rest, you may attack with this weapon as a bonus action. If this aƩack hits, it deals bludgeoning damage instead of piercing or slashing damage. A creature hit and dealt damage by this aƩack must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or become {@condition reeling|NICKED} until the end of your next turn."
 			]
 		},
 		{
@@ -42631,6 +42702,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest whenever you move at least 20 feet in a straight line towards a creature, you may make one weapon attack as part of that movement."
 			]
@@ -42641,6 +42717,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest, when you attack with this weapon, you may make one additional attack as part of that attack action."
 			]
@@ -42651,6 +42732,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest when you hit a creature and deal damage with that attack, you may reduce the armor of a target that has a natural, light, medium, or heavy armor by an amount equal to your proficiency bonus, until the end of your next turn."
 			]
@@ -42661,6 +42747,12 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "bonus",
+				"uses.per": "sr",
+				"uses.max": "1",
+				"formula": "1d4"
+			},
 			"entries": [
 				"Once per short rest as a bonus action, you may gain the benefits of the {@spell bless|NICKED} spell on yourself (without concentration) until the end of your turn."
 			]
@@ -42671,6 +42763,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest when you hit a creature with this weapon, you may attempt to knock a creature {@condition prone}. They must make a strength saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or become {@condition prone}."
 			]
@@ -42681,6 +42778,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "reaction",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest when you are hit with an attack, you may use your reaction to gain a bonus to your armor class equal to your proficiency bonus possibly turning that attack into a miss."
 			]
@@ -42691,6 +42793,11 @@
 			"featureType": [
 				"WSK"
 			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
 			"entries": [
 				"Once per short rest, when you take the {@action attack} action, you must forgo all your extra attacks. You may double the ranges of your sling's ammunition. For each extra attack you forgo, gain an extra damage dice of the type your ammunition provides."
 			]
