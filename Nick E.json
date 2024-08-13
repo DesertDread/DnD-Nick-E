@@ -41350,7 +41350,7 @@
 			],
 			"entries": [
 				"You gain proficiency with medium armor and shields.",
-				"You can use your action to create a set pact armor you are proficient with. You can choose the form that this pact armor takes each time you create it, you may select {@item leather armor}, {@item chain shirt} armor, or {@item chainmail} armor (if you are proficient in heavy armor). This armor counts as magical.",
+				"You can use your action to create a set pact armor you are proficient with. You can choose the form that this pact armor takes each time you create it, you may select {@item leather armor|NICKED}, {@item chain shirt|NICKED} armor, or {@item chainmail|NICKED} armor (if you are proficient in heavy armor). This armor counts as magical.",
 				"Additionally, you may bind and create a shield in the same way.",
 				"Your pact armaments disappear if they are more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the armor (no action required), or if you die.",
 				"You can transform one magic armor and one magic shield into your pact armaments by performing a special ritual while you hold them. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the armor and shield, shunting them into an extradimensional space, and they appear whenever you create your pact armaments thereafter. You can't affect an artifact or a sentient armor or shields in this way. The armaments ceases being your pact armaments if you die, if you perform the 1-hour ritual on a different armor or shield, or if you use a 1-hour ritual to break your bond to them. The armaments appear at your feet if it is in the extradimensional space when the bond breaks.",
@@ -50255,7 +50255,8 @@
 			"ac": 12,
 			"armor": true,
 			"entries": [
-				"When you are hit by a weapon attack, reduce that attack's damage by 2. (Taken off before any resistance or other forms of damage reduction)"
+				"When you are hit by a weapon attack, reduce that attack's damage by 2. (Taken off before any resistance or other forms of damage reduction)",
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -50295,7 +50296,8 @@
 			"stealth": true,
 			"armor": true,
 			"entries": [
-				"You have advantage on saving throws against weapon martial skills."
+				"You have advantage on saving throws against weapon martial skills.",
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -50309,7 +50311,8 @@
 			"armor": true,
 			"stealth": true,
 			"entries": [
-				"When standing up from being {@condition prone}, attacks of opportunity have disadvantage when targeting you."
+				"When standing up from being {@condition prone}, attacks of opportunity have disadvantage when targeting you.",
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -50322,7 +50325,8 @@
 			"ac": 14,
 			"armor": true,
 			"entries": [
-				"Attacks that equal your armor class now deal half of their damage instead of the normal amount unless they are critical hits. (Taken off before any resistance or other forms of damage reduction) (stacks with steel shield to turn those attacks into misses)"
+				"Attacks that equal your armor class now deal half of their damage instead of the normal amount unless they are critical hits. (Taken off before any resistance or other forms of damage reduction) (stacks with steel shield to turn those attacks into misses)",
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -50336,7 +50340,8 @@
 			"armor": true,
 			"stealth": true,
 			"entries": [ 
-				"When you are hit by a weapon attack, reduce that attack's damage by 3. (Taken off before any resistance or other forms of damage reduction)"
+				"When you are hit by a weapon attack, reduce that attack's damage by 3. (Taken off before any resistance or other forms of damage reduction)",
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -50351,7 +50356,8 @@
 			"armor": true,
 			"stealth": true,
 			"entries": [ 
-				"You have advantage on saving throws against weapon martial skills."
+				"You have advantage on saving throws against weapon martial skills.",
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -50366,7 +50372,8 @@
 			"armor": true,
 			"stealth": true,
 			"entries": [
-				"You have advantage on saving throws against weapon martial skills."
+				"You have advantage on saving throws against weapon martial skills.",
+				"Equip Weight: 2"
 			]
 		},
 		{
@@ -50378,7 +50385,10 @@
 			"value": 5000,
 			"ac": 18,
 			"strength": "13",
-			"armor": true
+			"armor": true,
+			"entries": [
+				"Equip Weight: 2"
+			]
 		},
 		{
 			"name": "Light Splint",
@@ -50392,7 +50402,8 @@
 			"armor": true,
 			"stealth": true,
 			"entries": [
-				"This armor can be worn by creatures with a natural flying speed without hindering them. (though it must be made to accommodate them)."
+				"This armor can be worn by creatures with a natural flying speed without hindering them. (though it must be made to accommodate them).",
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -50407,7 +50418,8 @@
 			"armor": true,
 			"stealth": true,
 			"entries": [
-				"When you are hit by a weapon attack, reduce that attack's damage by 3. (Taken off before any resistance or other forms of damage reduction)"
+				"When you are hit by a weapon attack, reduce that attack's damage by 3. (Taken off before any resistance or other forms of damage reduction)",
+				"Equip Weight: 3"
 			]
 		},
 		{
@@ -50428,7 +50440,8 @@
 			"value": 1000,
 			"ac": 2,
 			"entries": [
-				"Attacks that equal your armor class now deal half of their damage instead of the normal amount unless they are critical hits. (Taken off before any resistance or other forms of damage reduction) (stacks with the breastplate to turn those attacks into misses)"
+				"Attacks that equal your armor class now deal half of their damage instead of the normal amount unless they are critical hits. (Taken off before any resistance or other forms of damage reduction) (stacks with the breastplate to turn those attacks into misses)",
+				"Equip Weight: 1"
 			]
 		},
 		{
@@ -50455,7 +50468,8 @@
 						"As an Action, you can deploy this shield in an unoccupied space within 5ft of you that you can see.", 
 						"While deployed, the shield becomes a 5 ft wide wall that grants 3/4 cover to one medium or smaller creature standing behind it. The shield can be picked up using an Action."
 					]
-				}
+				},
+				"Equip Weight: 1"
 			]
 		}
 	],
