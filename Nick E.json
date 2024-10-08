@@ -38020,7 +38020,7 @@
 			],
 			"foundryImg": "icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp",
 			"entries": [
-				"You gain proficiency with {@skill performance} and brewers supplies",
+				"You gain proficiency with {@skill performance} and brewer's supplies",
 				{
 					"type": "options",
 					"entries": [
