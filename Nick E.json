@@ -38020,8 +38020,7 @@
 			],
 			"foundryImg": "icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp",
 			"entries": [
-				"Your attacks may reach an additional 5 ft. Creatures may still trigger opportunity attacks within you normal range as though you didn't have this additional reach if you so choose.", 
-				"Creatures trigger opportunity attacks if they move out of your new range.",
+				"You gain proficiency with {@skill performance} and brewers supplies",
 				{
 					"type": "options",
 					"entries": [
