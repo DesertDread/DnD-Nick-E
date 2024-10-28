@@ -40637,10 +40637,10 @@
 			],
 			"foundryImg": "icons/magic/movement/portal-vortex-orange.webp",
 			"entries": [
-				"When you use a spell slot to cast a spell with a range of self, you can spend Sorcery Points equal to the spell's level to change the spell's casting range to touch. You still suffer all the drawbacks of casting the spell and must maintain its concentration if there is concentration.",
-				"Cantrips cost 1 sorcery point to cast with this Metamagic.",
-				"If the spell requires you to make an attack roll as part of its effect, then the creature you're casting this on must use their reaction to make that attack roll.",
-				"If a spell would be able to trigger as a reaction with target fulfilling the conditions of the reaction, you may cast the spell as a reaction transferring the effect to the creature. The creature must use their reaction to activate the spell."
+				"When you use a spell slot to cast a spell with a range of self, you can spend Sorcery Points equal to the spell's level to change the spell's casting range to touch. If the touched creature is unwilling the spell fails. You still suffer all the drawbacks of casting the spell and must maintain its concentration if there is concentration.",
+                "Cantrips cost 1 sorcery point to cast with this Metamagic.",
+                "If the spell requires you to make an attack roll as part of its effect, then the creature you're casting this on must use their reaction to make that attack roll.",
+                "If a spell would be able to trigger as a reaction with target fulfilling the conditions of the reaction, you may cast the spell as a reaction transferring the effect to the creature. The creature must use their reaction to activate the spell. If an affected creature becomes unwilling or cannot (or will not) provide their reaction to fulfill a spells effect the spell slot and sorcery points are lost."
 			]
 		},
 		{
