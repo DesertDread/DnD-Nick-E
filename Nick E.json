@@ -1,5 +1,6 @@
 {
 	"_meta": {
+		"edition": "one",
 		"sources": [
 			{
 				"json": "NICKED",
@@ -11,7 +12,7 @@
 				"convertedBy": [
 					"Jinix"
 				],
-				"version": "1.0",
+				"version": "1.1",
 				"color": "5d782e",
 				"url": "https://github.com/DesertDread/DnD-Nick-E"
 			}
@@ -60,8 +61,8 @@
 			"T:AC": "Tiefling: Acceptance"
 		},
 		"dateAdded": 1657295680,
-		"dateLastModified": 1714342913,
-		"_dateLastModifiedHash": "478076ca0f"
+		"dateLastModified": 3242025,
+		"_dateLastModifiedHash": "478076ca1f"
 	},
 	"race": [
 		{
@@ -6013,6 +6014,27 @@
 					}
 				}
 			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "action-surge",
+						"type": "number",
+						"scale": {
+							"2": {
+								"value": 1
+							},
+							"17": {
+								"value": 2
+							},
+							"20": {
+								"value": 3
+							}
+						}
+					},
+					"title": "Action Surge Charges"
+				}
+			],
 			"startingProficiencies": {
 				"armor": [
 					"light",
@@ -6157,6 +6179,7 @@
 				},
 				"Ability Score Improvement|Fighter||19",
 				"Martial Ability Boost|Fighter N|NICKED|19|NICKED",
+				"Action Surge (three uses)|Fighter N|NICKED|20|NICKED",
 				"Extra Attack (3)|Fighter N|NICKED|20|NICKED"
 			],
 			"subclassTitle": "Martial Archetype"
@@ -11816,7 +11839,9 @@
 			"foundryImg": "icons/magic/control/buff-strength-muscle-damage-red.webp",
 			"entries": [
 				"Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action.",
-				"Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
+				"Once you use this feature, you must finish a short or long rest before you can use it again.",
+				"Starting at 17th level, you can use it twice before a rest, but only once on the same turn.",
+				"At 20th level, you can use it three times before a rest, but only once on the same turn."
 			]
 		},
 		{
@@ -11997,6 +12022,16 @@
 			"foundryImg": "icons/equipment/head/crown-gold-blue.webp",
 			"entries": [
 				"You gain a +1 to a stat of your choice (max 20)."
+			]
+		},
+		{
+			"name": "Action Surge (three uses)",
+			"source": "NICKED",
+			"className": "Fighter N",
+			"classSource": "NICKED",
+			"level": 20,
+			"entries": [
+				"At 20th level, you can use Action Surge three times before a rest, but only once on the same turn."
 			]
 		},
 		{
@@ -37131,7 +37166,7 @@
 			"system": {
 				"activation.type": "special",
 				"uses.per": "sr",
-				"uses.max": "floor(@details.level/17) + 1"
+				"uses.max": "@scale.fighter-n.action-surge"
 			}
 		},
 		{
