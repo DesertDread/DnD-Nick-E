@@ -26885,8 +26885,8 @@
 				{
 					"type":"list",
 					"items": [
-						"Regardless of armor class your armor provides, provided you are proficient with it you your minimum armor class is equals 10 + your Dexterity modifier + your strength modifier.",
-						"If you are wielding only one weapon in your hand and nothing in your other or are two handing your weapon, and you are proficient with that weapon, you gain +2 to your ac. (this stacks with your minimum armor defense)."
+						"Regardless of armor class your armor provides, provided you are proficient with it you your minimum armor class is equals 10 + your Dexterity modifier + your Strength modifier.",
+						"If you are wielding only one weapon in your hand and nothing in your other or are two handing your weapon, and you are proficient with that weapon, you gain +2 to your AC. (this stacks with your minimum armor defense)."
 					]
 				}
 			]
@@ -26997,7 +26997,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"Once on your turn, if you have a {@item poisoner's kit} you may coat your weapon or a small bit of cloth around your fist (unarmed strike) with an oil that augments an attack. This oil is quick to dissolve so it only lasts until the start of your next turn or if it is used once. Choose Fire, Cold, Acid, Poison, Necrotic damage. That weapon deals an extra {@dice 1d6} of that damage type. (this ability improves at certain levels)"
+				"Once on your turn if you have a {@item poisoner's kit}, you may coat your weapon or a small bit of cloth around your fist (unarmed strike) with an oil that augments an attack. This oil is quick to dissolve so it only lasts until the start of your next turn or if it is used once. Choose Fire, Cold, Acid, Poison, Necrotic damage. That weapon deals an extra {@dice 1d6} of that damage type. (this ability improves at certain levels)"
 			]
 		},
 		{
@@ -27009,7 +27009,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"While you are wearing no armor and not wielding a shield your armor class equals 10 + twice your dexterity modifier."
+				"While you are not wearing armor and not wielding a shield, your armor class equals 10 + twice your Dexterity modifier."
 			]
 		},
 		{
@@ -27103,7 +27103,7 @@
 					"type":"list",
 					"items": [
 						"Your unarmed strikes count as heavy weapon attacks (as long as you have 15 strength).",
-						"You may take {@action hide} action as a bonus action."
+						"You may take the {@action hide} action as a bonus action."
 					]
 				},
 				{
@@ -27123,7 +27123,7 @@
 			"entries": [
 				"As a bonus action you may push a creature within 5 feet of you that is a size smaller than you. You push them away from you up to a distance equal to your kata movement bonus, minimum of 5ft (you may push them away less than your maximum kata movement if you choose to).", 
 				"If the creature is the same size as you, you may attempt to push it in the same way by making a contested {@skill athletics} check.",
-				"You count as one size larger for the purposes of using your shugoki shove, grappling, shoving, and carry weight."
+				"You count as one size larger for the purposes of using your Shugoki Shove, grappling, shoving, and carry weight."
 			]
 		},
 		{
@@ -27135,7 +27135,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"Regardless of armor class your armor provides, provided you are proficient with it you your minimum armor class is equals 10 + your Dexterity modifier + your Constitution modifier."
+				"Regardless of armor class your armor provides provided you are proficient with it, your minimum armor class is equals 10 + your Dexterity modifier + your Constitution modifier."
 			]
 		},
 		{
@@ -27255,7 +27255,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"While you are wearing no armor and not wielding a shield your armor class equals 10 + Dexterity modifier + your intelligence modifier. Your body is wreathed in a light shadow energy that is barely discernible to the eye."
+				"While you are wearing no armor and not wielding a shield your armor class equals 10 + Dexterity modifier + your Intelligence modifier. Your body is wreathed in a light shadow energy that is barely discernible to the eye."
 			]
 		},
 		{
@@ -27267,7 +27267,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"Kyoshin gain an additional +1 to their hp every time they level up in this class as well as when they choose this monastic kata at level 1"
+				"Kyoshin gain an additional +1 to their hitpoints every time they level up in this class as well as when they choose this monastic kata at level 1"
 			]
 		},
 		{
@@ -27279,7 +27279,8 @@
 			"subclassSource": "NICKED",
 			"level": 11,
 			"entries": [
-				"You gain +2 to hit on all your thrown weapon attacks, you may now fling your weapons with a range of 120/180. You gain 4 more maximum chakra points."
+				"You gain +2 to hit on all your thrown weapon attacks.", 
+				"You may now fling your weapons with a range of 120/180. You gain 4 more maximum chakra points."
 			]
 		},
 		{
@@ -27366,7 +27367,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"While you are wearing no armor and not wielding a shield your armor class equals 10 + Dexterity modifier + your intelligence modifier. Your body is wreathed in a light shadow energy that is barely discernible to the eye."
+				"While you are wearing no armor and not wielding a shield your armor class equals 10 + Dexterity modifier + your Wisdom modifier. You can still wield a shield and gain the benefits of this defense."
 			]
 		},
 		{
@@ -27378,7 +27379,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"Sohei gain an additional +1 to their hp every time they level up in this class as well as when they choose this monastic kata at level 1."
+				"Sohei gain an additional +1 to their hitpoints every time they level up in this class as well as when they choose this monastic kata at level 1."
 			]
 		},
 		{
@@ -27487,7 +27488,7 @@
 			"subclassSource": "NICKED",
 			"level": 1,
 			"entries": [
-				"Regardless of armor class your armor provides, provided you are proficient with it you your minimum armor class is equals 10 + [your Dexterity modifier or strength modifier (whichever is higher)] + your Charisma modifier.",
+				"Regardless of armor class your armor provides, provided you are proficient with it you your minimum armor class is equals 10 + [your Dexterity modifier or Strength modifier (whichever is higher)] + your Charisma modifier.",
 				"If you are wielding at least one weapon in each hand that you are proficient with, you gain +1 to your armor class."
 			]
 		},
