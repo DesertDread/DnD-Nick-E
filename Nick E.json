@@ -6732,6 +6732,7 @@
 			],
 			"classFeatures": [
 				"Martial|Monk N|NICKED|1|NICKED",
+				"Monk Strikes|Monk N|NICKED|1|NICKED",
 				{
 					"classFeature": "Monastic Kata|Monk N|NICKED|1|NICKED",
 					"gainSubclassFeature": true
