@@ -26954,6 +26954,7 @@
 					"stealth": true
 				}
 			],
+			"foundryImg": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
 			"entries": [
 				{
 					"type":"list",
@@ -26974,6 +26975,7 @@
 			"subclassShortName": "Shinobi",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
 			"entries": [
 				{
 					"type":"list",
@@ -26996,6 +26998,7 @@
 			"subclassShortName": "Shinobi",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
 			"entries": [
 				"Once on your turn if you have a {@item poisoner's kit}, you may coat your weapon or a small bit of cloth around your fist (unarmed strike) with an oil that augments an attack. This oil is quick to dissolve so it only lasts until the start of your next turn or if it is used once. Choose Fire, Cold, Acid, Poison, Necrotic damage. That weapon deals an extra {@dice 1d6} of that damage type. (this ability improves at certain levels)"
 			]
@@ -27008,6 +27011,7 @@
 			"subclassShortName": "Shinobi",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
 			"entries": [
 				"While you are not wearing armor and not wielding a shield, your armor class equals 10 + twice your Dexterity modifier."
 			]
@@ -27020,6 +27024,7 @@
 			"subclassShortName": "Shinobi",
 			"subclassSource": "NICKED",
 			"level": 11,
+			"foundryImg": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
 			"entries": [
 				"You gain +2 to dexterity. This improvement increases your ability cap for that ability to 22.", 
 				"You may now use your viper's strike twice during your turn instead of once."
@@ -27033,6 +27038,7 @@
 			"subclassShortName": "Shinobi",
 			"subclassSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
 			"entries": [
 				"You now are able to exploit a creature's momentary distraction when it is hit by an attack.", 
 				"Whenever a creature you can see is hit by an attack made by a creature other than you, you can use your reaction to make a weapon or unarmed attack against that creature.", 
@@ -27076,6 +27082,7 @@
 					"intimidation": true
 				}
 			],
+			"foundryImg": "icons/creatures/mammals/bull-horned-blue.webp",
 			"entries": [
 				{
 					"type":"list",
@@ -27098,6 +27105,7 @@
 			"subclassShortName": "Shugoki",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/creatures/mammals/bull-horned-blue.webp",
 			"entries": [
 				{
 					"type":"list",
@@ -27120,6 +27128,7 @@
 			"subclassShortName": "Shugoki",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/creatures/mammals/bull-horned-blue.webp",
 			"entries": [
 				"As a bonus action you may push a creature within 5 feet of you that is a size smaller than you. You push them away from you up to a distance equal to your kata movement bonus, minimum of 5ft (you may push them away less than your maximum kata movement if you choose to).", 
 				"If the creature is the same size as you, you may attempt to push it in the same way by making a contested {@skill athletics} check.",
@@ -27134,6 +27143,7 @@
 			"subclassShortName": "Shugoki",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/creatures/mammals/bull-horned-blue.webp",
 			"entries": [
 				"Regardless of armor class your armor provides provided you are proficient with it, your minimum armor class is equals 10 + your Dexterity modifier + your Constitution modifier."
 			]
@@ -27146,6 +27156,7 @@
 			"subclassShortName": "Shugoki",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/creatures/mammals/bull-horned-blue.webp",
 			"entries": [
 				"Shugoki gain an additional +2 to their hp every time they level up in this class as well as when they choose this monastic kata at level 1"
 			]
@@ -27158,6 +27169,7 @@
 			"subclassShortName": "Shugoki",
 			"subclassSource": "NICKED",
 			"level": 11,
+			"foundryImg": "icons/creatures/mammals/bull-horned-blue.webp",
 			"entries": [
 				"When you push a creature as a bonus action with your Shugoki Shove, you deal damage to that creature equal to your Constitution Modifier.",
 				"When you take your first attack each turn with a heavy weapon, you may attack two creatures within 5 feet of each other with one attack roll. You roll once for damage. If the attack roll is high enough to hit each of the creatures deal damage to both of them, otherwise if the attack roll is high enough to hit only one of the creatures, you only hit that creature. (you use your size and large weapons to sweep and hit both of them)"
@@ -27171,6 +27183,7 @@
 			"subclassShortName": "Shugoki",
 			"subclassSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/creatures/mammals/bull-horned-blue.webp",
 			"entries": [
 				"You gain +2 to constitution or strength (choose when you gain this ability) this improvement increases your ability cap for that ability to 22."
 			]
@@ -27196,6 +27209,7 @@
 					"arcana": true
 				}
 			],
+			"foundryImg": "icons/skills/ranged/dagger-thrown-jeweled-green.webp",
 			"entries": [
 				{
 					"type":"list",
@@ -27214,6 +27228,7 @@
 			"subclassShortName": "Kyoshin",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/ranged/dagger-thrown-jeweled-green.webp",
 			"entries": [
 				{
 					"type": "refSubclassFeature",
@@ -27239,6 +27254,7 @@
 			"subclassShortName": "Kyoshin",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/ranged/dagger-thrown-jeweled-green.webp",
 			"entries": [
 				"Whenever you complete a short or long rest you may bind a weapon to your chakra. If you bind a new weapon in this way your old weapon appears within 5 feet of you. It also appears within 5 feet of you if you die. you can't be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon, causing it to teleport instantly to your hand (no action required).", 
 				"That weapon gains the thrown property with a range of 60ft/120ft. When you summon the weapon, it appears as though it is melding from your shadow or sliding out of a sleeve or pocket, it can also manifest itself in a different way out of sight if you so choose.", 
@@ -27254,6 +27270,7 @@
 			"subclassShortName": "Kyoshin",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/ranged/dagger-thrown-jeweled-green.webp",
 			"entries": [
 				"While you are wearing no armor and not wielding a shield your armor class equals 10 + Dexterity modifier + your Intelligence modifier. Your body is wreathed in a light shadow energy that is barely discernible to the eye."
 			]
@@ -27266,6 +27283,7 @@
 			"subclassShortName": "Kyoshin",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/ranged/dagger-thrown-jeweled-green.webp",
 			"entries": [
 				"Kyoshin gain an additional +1 to their hitpoints every time they level up in this class as well as when they choose this monastic kata at level 1"
 			]
@@ -27278,6 +27296,7 @@
 			"subclassShortName": "Kyoshin",
 			"subclassSource": "NICKED",
 			"level": 11,
+			"foundryImg": "icons/skills/ranged/dagger-thrown-jeweled-green.webp",
 			"entries": [
 				"You gain +2 to hit on all your thrown weapon attacks.", 
 				"You may now fling your weapons with a range of 120/180. You gain 4 more maximum chakra points."
@@ -27295,6 +27314,7 @@
 				"amount": 4
 			},
 			"level": 17,
+			"foundryImg": "icons/skills/ranged/dagger-thrown-jeweled-green.webp",
 			"entries": [
 				"You gain the ability to set up lethal shadow blades in someone's body.", 
 				"When you hit a creature with an unarmed strike or your shadow bound weapon, you can spend 4 chakra points to cause these shadow blades to slice, which lasts for a number of days equal to your monk level.", 
@@ -27332,6 +27352,7 @@
 					"shield|phb": true
 				}
 			],
+			"foundryImg": "icons/magic/holy/meditation-chi-focus-blue.webp",
 			"entries": [
 				{
 					"type":"list",
@@ -27353,6 +27374,7 @@
 			"subclassShortName": "Sohei",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/holy/meditation-chi-focus-blue.webp",
 			"entries": [
 				"You may make a single weapon attack with an unarmed strike, quarterstaff or improvised weapon as a bonus action. (no attack action required)",
 				"You may take the {@action dash} action as a bonus action."
@@ -27366,6 +27388,7 @@
 			"subclassShortName": "Sohei",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/holy/meditation-chi-focus-blue.webp",
 			"entries": [
 				"While you are wearing no armor and not wielding a shield your armor class equals 10 + Dexterity modifier + your Wisdom modifier. You can still wield a shield and gain the benefits of this defense."
 			]
@@ -27378,6 +27401,7 @@
 			"subclassShortName": "Sohei",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/holy/meditation-chi-focus-blue.webp",
 			"entries": [
 				"Sohei gain an additional +1 to their hitpoints every time they level up in this class as well as when they choose this monastic kata at level 1."
 			]
@@ -27390,6 +27414,7 @@
 			"subclassShortName": "Sohei",
 			"subclassSource": "NICKED",
 			"level": 11,
+			"foundryImg": "icons/magic/holy/meditation-chi-focus-blue.webp",
 			"entries": [
 				"You may now attack twice as a bonus action as part of your Sohei ability."
 			]
@@ -27402,6 +27427,7 @@
 			"subclassShortName": "Sohei",
 			"subclassSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/magic/holy/meditation-chi-focus-blue.webp",
 			"entries": [
 				"Your mastery of life energy opens the door to the ultimate mercy.", 
 				"As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 4 chakra points. The creature then returns to life, regaining a number of hit points equal to 4d10 + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: blinded, deafened, paralyzed, poisoned, and stunned.", 
@@ -27445,6 +27471,7 @@
 					"medium": true
 				}
 			],
+			"foundryImg": "icons/skills/social/peace-luck-insult.webp",
 			"entries": [
 				{
 					"type":"list",
@@ -27465,6 +27492,7 @@
 			"subclassShortName": "Aramusha",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/social/peace-luck-insult.webp",
 			"entries": [
 				"You gain the fighting style feat, you can only select the 'Dual Wielding' fighting style from the list of fighting styles as part of the Aramusha feature.",
 				{
@@ -27487,6 +27515,7 @@
 			"subclassShortName": "Aramusha",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/social/peace-luck-insult.webp",
 			"entries": [
 				"Regardless of armor class your armor provides, provided you are proficient with it you your minimum armor class is equals 10 + [your Dexterity modifier or Strength modifier (whichever is higher)] + your Charisma modifier.",
 				"If you are wielding at least one weapon in each hand that you are proficient with, you gain +1 to your armor class."
@@ -27500,6 +27529,7 @@
 			"subclassShortName": "Aramusha",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/skills/social/peace-luck-insult.webp",
 			"entries": [
 				"Aramusha gain an additional +1 to their hp every time they level up in this class as well as when they choose this monastic kata at level 1"
 			]
@@ -27512,6 +27542,7 @@
 			"subclassShortName": "Aramusha",
 			"subclassSource": "NICKED",
 			"level": 11,
+			"foundryImg": "icons/skills/social/peace-luck-insult.webp",
 			"entries": [
 				"You may add your charisma modifier to your weapon attacks you make while dual wielding."
 			]
@@ -27524,6 +27555,7 @@
 			"subclassShortName": "Aramusha",
 			"subclassSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/skills/social/peace-luck-insult.webp",
 			"entries": [
 				"You can activate two stance jutsu if one of them is the Tiger stance jutsu. You gain the tiger stance jutsu if you do not know it, it does not count against the number of jutsu known.",
 				{
