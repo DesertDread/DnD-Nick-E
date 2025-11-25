@@ -12077,7 +12077,7 @@
 			"level": 1,
 			"foundryImg": "icons/skills/melee/unarmed-punch-fist-blue.webp",
 			"entries": [
-				"You unarmed strikes deal {@damage 1d6} bludgeoning damage + (stat based on your monistic kata) in place of the normal damage of your unarmed strike.",
+				"You unarmed strikes deal {@damage 1d6} bludgeoning damage + (stat based on your monastic kata) in place of the normal damage of your unarmed strike.",
 				"This dice improves to a 1d8 at level 11.",
 				"These strikes count as magical for the purposes of overcoming magical resistances and immunities to non-magical attacks.",
 				"{{@italic If an ability references your unarmed strike attacks but only damage, roll damage as though you had hit a creature with your unarmed strike both rolling the additional monk strikes damage dice and adding your relevant modifier.}"
