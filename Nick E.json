@@ -46804,7 +46804,7 @@
 					"type": "item",
 					"name": "Potent Poison",
 					"entries": [
-						"This poison retains its potency on a piece of ammunition or weapon for 1 minute. This poison deals {@damage 1d8} poison damage on a successful hit. Then the creature must make a Constitution saving throw based on the ability improved by this feat. On a failure the creature becomes {@condition poisoned} until the end of your next turn. After a successful hit, the poison is consumed.", 
+						"This poison retains its potency on a piece of ammunition or weapon for 1 minute. This poison deals {@damage 1d8} poison damage on a successful hit. Then the creature must make a Constitution saving throw based on the ability improved by this feat. On a failure the creature becomes {@condition poisoned} until the end of your next turn.", 
 						"After a successful hit the poison is consumed."
 					]
 				}
