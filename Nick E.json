@@ -20970,8 +20970,8 @@
 				"name": "Bardic Inspiration"
 			},
 			"entries": [
-				"You reach out to spirits who tell their tales through you. While you are holding your Spiritual Focus, you can use a bonus action to expend one use of your Bardic Inspiration and roll on the Spirit Tales table using your Bardic Inspiration die to determine the tale the spirits direct you to tell. You retain the tale in mind until you bestow the tale's effect or you finish a short or long rest.",
-				"You can use an action to choose one creature you can see within 30 feet of you (this can be you) to be the target of the tale's effect. Once you do so, you can't bestow the tale's effect again until you roll it again.",
+				"You reach out to spirits who tell their tales through you. When you finish a short or long rest while having access to your Spiritual Focus, you can roll two Bardic Inspiration dice and choose one (this does not consume them). You gain the ability to bestow an effect equal to the roll you choose on the spirit tale's table. You retain the tale in mind until you bestow the tale's effect or you finish a short or long rest",
+				"You can use a bonus action to choose one creature you can see within 30 feet of you (this can be you) to be the target of the tale's effect. Once you do so, you can't bestow the tale's effect again until you roll it again.",
 				"You can retain only one of these tales in mind at a time, and rolling on the Spirit Tales table immediately ends the effect of the previous tale.",
 				"If the tale requires a saving throw, the DC equals your spell save DC.",
 				{
@@ -21394,7 +21394,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level whenever you roll initiative, you may inspire an ally to act quickly. You may expend a use of your bardic inspiration as a reaction and add it to the roll. That creature also gains a use of bardic inspiration."
+				"Starting at 6th level whenever your allies roll initiative, you may inspire an ally to act quickly and decisively. When your allies roll initiative, you may expend a use of your bardic inspiration and add it to their initiative roll (no action required). That creature also gains a use of bardic inspiration.",
+				"You may use this ability only once per combat."
 			]
 		},
 		{
@@ -21568,8 +21569,16 @@
 					"religion": true
 				}
 			],
+			"armorProficiencies": [
+				{
+					"medium": true,
+					"heavy": true,
+					"shield|phb": true
+				}
+			],
 			"entries": [
-				"You gain proficiency in {@skill religion}"
+				"You gain proficiency in {@skill religion}.",
+				"You gain proficiency with medium armor, heavy armor, and shields"
 			]
 		},
 		{
@@ -21604,6 +21613,7 @@
 					]
 				},
 				"This effect lasts until the start of your next turn.",
+				"That ally also has resistance to the first instance of piercing, bludgeoning, or slashing damager they take until the start of your next turn.",
 				"At 14th level, this lasts for one minute."
 			]
 		},
