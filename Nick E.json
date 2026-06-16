@@ -9383,6 +9383,7 @@
 		},
 		{
 			"name": "Wizard N",
+			"foundryImg": "icons/equipment/head/hat-pointed-leather-brown.webp",
 			"source": "NICKED",
 			"hd": {
 				"number": 1,
