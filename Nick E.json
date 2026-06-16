@@ -12491,7 +12491,7 @@
 			"level": 2,
 			"foundryImg": "icons/weapons/swords/sword-gold-holy.webp",
 			"entries": [
-				"Starting at 2nd level, {@bold once per turn} when you hit a creature with a {@bold weapon or unarmed attack}, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of {@dice 5d8}."
+				"Starting at 2nd level, when you hit a creature with a {@bold weapon or unarmed strike attack}, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of {@dice 5d8}. You may use this ability any number of times on a turn but only once on each attack and only once against any single creature on each of those turns."
 			]
 		},
 		{
@@ -39172,10 +39172,10 @@
 			"foundryImg": "icons/magic/nature/tree-spirit-green.webp",
 			"entries": [
 				"1 Action; 30 Second Duration",
-				"You assume a life-giving stance that radiates energy. When you activate this jutsu and at the start of each of your turns, roll your unarmed strike damage. You heal up to a number of creatures of your choice within 30 feet of you equal to your proficiency bonus for the amount of unarmed strike damage rolled.", 
+				"You assume a life-giving stance that radiates energy. When you activate this jutsu and at the start of each of your turns, roll your unarmed strike damage. You heal up to a number of creatures of your choice that you can see within 30 feet of you equal to your proficiency bonus for the amount of unarmed strike damage rolled.", 
 				"If you heal a creature at 0 hitpoints, double the amount of healing that creature receives.",
 				"You do not drop this stance if you are knocked {@condition unconscious} from being at 0 hitpoints, however this stance will only heal you at the start of your turn while you are at 0 hitpoints.",
-				"You can only active this stance once, after which you need to finish a short or long rest to assume the stance again.",
+				"You can only active this stance once, after which you need to finish a long rest to assume the stance again.",
 				"You may only have one chakra stance active at any time. If you activate a new one end the effect of the old one. If you are knocked {@condition unconscious} or {@condition paralyzed}, you lose this stance."
 			]
 		},
@@ -47711,7 +47711,7 @@
 			],
 			"entries": [
 				"You may wield two-handed melee weapons in one hand as though it did not have the heavy property",
-				"You may use heavy weapons while two weapon fighting.",
+				"You may use heavy weapons while two weapon fighting if you have Two-Weapon Fighting Style",
 				"You do not need to two hand versatile weapons to use their higher damage dice."
 			]
 		},
