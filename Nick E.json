@@ -7106,7 +7106,7 @@
 			],
 			"spellcastingAbility": "wis",
 			"casterProgression": "1/2",
-			"preparedSpells": "(<$level$> + 1)/2 + 1)",
+			"preparedSpells": "<$level$>",
 			"optionalfeatureProgression": [
 				{
 					"name": "Fighting Style",
@@ -39873,7 +39873,7 @@
 					}
 				}
 			],
-			"foundryImg": "icons/magic/nature/leaf-armor-scale-green",
+			"foundryImg": "icons/magic/nature/leaf-armor-scale-green.webp",
 			"entries": [
 				"Gain proficiency in {@skill arcana}.",
 				"You have advantage on all wisdom {@skill survival} checks that you use to track fey creatures and all intelligence {@skill history} checks to recall information on fey creatures.", 
