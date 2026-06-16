@@ -12155,7 +12155,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 3,
-			"foundryImg": "icons/magic/water/shield-barrier-deflect-gold.webp",
+			"foundryImg": "icons/skills/ranged/daggers-thrown-salvo-orange.webp",
 			"entries": [
 				"Starting at 3rd level, you can use your reaction to deflect the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by your unarmed strike damage + your monk level."
 			]
@@ -16758,6 +16758,7 @@
 			"source": "NICKED",
 			"className": "Monk N",
 			"classSource": "NICKED",
+			"foundryImg": "icons/magic/perception/silhouette-stealth-shadow.webp",
 			"subclassFeatures": [
 				"Shinobi Proficiencies|Monk N|NICKED|Shinobi|NICKED|1|NICKED",
 				"Shinobi Abilities|Monk N|NICKED|Shinobi|NICKED|1|NICKED",
@@ -19129,6 +19130,7 @@
 			"source": "NICKED",
 			"className": "Wizard N",
 			"classSource": "NICKED",
+			"foundryImg": "icons/tools/scribal/ink-quill-pink.webp",
 			"subclassFeatures": [
 				"Order of Scribes|Wizard N|NICKED|Scribes|NICKED|2|NICKED",
 				"Manifest Mind|Wizard N|NICKED|Scribes|NICKED|6|NICKED",
@@ -35712,7 +35714,6 @@
 			"subclassShortName": "Scribes",
 			"subclassSource": "NICKED",
 			"level": 2,
-			"foundryImg": "icons/tools/scribal/ink-quill-pink.webp",
 			"entries": [
 				{
 					"type": "refSubclassFeature",
