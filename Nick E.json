@@ -14232,6 +14232,7 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/air/air-wave-gust-blue.webp",
 			"entries": [
 				"As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter wizard spell list|spells|class=Wizard N (NICKED)}.",
 				{
@@ -14356,6 +14357,7 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/time/arrows-circling-green.webp",
 			"entries": [
 				"You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.",
 				"For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots."
@@ -14367,6 +14369,7 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"level": 2,
+			"foundryImg": "icons/magic/time/orb-crystal-ball-scrying.webp",
 			"entries": [
 				"When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. The School of Evocation is detailed at the end of the class description, and more choices are available in other sources.", 
 				"Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
@@ -14378,6 +14381,7 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/magic/time/hourglass-tilted-gray.webp",
 			"entries": [
 				"Starting at 5th level, you may spend a minute studying your spell book as a ritual. After you finish the ritual, you may unprepare a spell you currently have prepared and then prepare another spell. If you unprepare a cantrip spell in this way, you can only prepare another cantrip."
 			]
@@ -14388,6 +14392,7 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"level": 6,
+			"foundryImg": "icons/skills/trades/academics-book-study-purple.webp",
 			"entries": [
 				"At 6th level, you gain a feature granted by your Arcane Tradition."
 			]
@@ -14398,6 +14403,7 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/skills/trades/academics-book-study-purple.webp",
 			"entries": [
 				"At 10th level, you gain a feature granted by your Arcane Tradition."
 			]
@@ -14408,6 +14414,7 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"level": 14,
+			"foundryImg": "icons/skills/trades/academics-book-study-purple.webp",
 			"entries": [
 				"At 14th level, you gain a feature granted by your Arcane Tradition."
 			]
@@ -14418,6 +14425,7 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"level": 18,
+			"foundryImg": "icons/skills/trades/academics-book-study-runes.webp",
 			"entries": [
 				"At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.",
 				"By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels."
@@ -14429,6 +14437,7 @@
 			"className": "Wizard N",
 			"classSource": "NICKED",
 			"level": 20,
+			"foundryImg": "icons/magic/control/buff-flight-wings-runes-blue-white.webp",
 			"entries": [
 				"When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells and one 4th-level wizard spell in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level and 4th level respectively without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.",
 				"If you want to cast either spell at a higher level, you must expend a spell slot as normal."
@@ -35703,6 +35712,7 @@
 			"subclassShortName": "Scribes",
 			"subclassSource": "NICKED",
 			"level": 2,
+			"foundryImg": "icons/tools/scribal/ink-quill-pink.webp",
 			"entries": [
 				{
 					"type": "refSubclassFeature",
@@ -35722,6 +35732,7 @@
 			"subclassShortName": "Scribes",
 			"subclassSource": "NICKED",
 			"level": 2,
+			"foundryImg": "icons/tools/scribal/ink-quill-red.webp",
 			"header": 1,
 			"entries": [
 				"As a bonus action, you can magically create a Tiny quill in your free hand. The magic quill has the following properties:",
@@ -35744,6 +35755,7 @@
 			"subclassShortName": "Scribes",
 			"subclassSource": "NICKED",
 			"level": 2,
+			"foundryImg": "icons/sundries/scrolls/scroll-yellow-teal.webp",
 			"header": 1,
 			"entries": [
 				"Using specially prepared inks and ancient incantations passed down by your wizardly order, you have awakened an arcane sentience within your spellbook.",
@@ -35767,6 +35779,7 @@
 			"subclassShortName": "Scribes",
 			"subclassSource": "NICKED",
 			"level": 6,
+			"foundryImg": "icons/magic/control/energy-stream-link-orange.webp",
 			"header": 2,
 			"entries": [
 				"You can conjure forth the mind of your Awakened Spellbook. As a bonus action while the book is on your person, you can cause the mind to manifest as a Tiny spectral object, hovering in an unoccupied space of your choice within 60 feet of you. The spectral mind is intangible and doesn't occupy its space, and it sheds dim light in a 10-foot radius. It looks like a ghostly tome, a cascade of text, or a scholar from the past (your choice).",
@@ -35785,6 +35798,7 @@
 			"subclassShortName": "Scribes",
 			"subclassSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/sundries/scrolls/scroll-writing-orange-black.webp",
 			"header": 2,
 			"entries": [
 				"Whenever you finish a long rest, you can create one magic scroll by touching your Wizardly Quill to a blank piece of paper or parchment and causing one spell from your Awakened Spellbook to be copied onto the scroll. The spellbook must be within 5 feet of you when you make the scroll.",
@@ -35800,6 +35814,7 @@
 			"subclassShortName": "Scribes",
 			"subclassSource": "NICKED",
 			"level": 14,
+			"foundryImg": "icons/magic/control/energy-stream-link-spiral-teal.webp",
 			"header": 2,
 			"entries": [
 				"Your connection to your Awakened Spellbook has become so profound that your soul has become entwined with it. While the book is on your person, you have advantage on all Intelligence ({@skill Arcana}) checks, as the spellbook helps you remember magical lore.",
