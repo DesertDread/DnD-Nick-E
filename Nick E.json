@@ -10304,10 +10304,10 @@
 		{
 			"name": "Extra Attack",
 			"source": "NICKED",
-			"foundryImg": "icons/skills/melee/spear-tips-triple-orange.webp",
 			"className": "Barbarian N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/skills/melee/spear-tips-triple-orange.webp",
 			"entries": [
 				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. (you also gain this feature if you have 5 total levels in classes that have the Martial Tag)"
 			]
@@ -11891,6 +11891,7 @@
 			"className": "Fighter N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/skills/melee/spear-tips-triple-orange.webp",
 			"entries": [
 				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
 				"The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
@@ -12178,6 +12179,7 @@
 			"className": "Monk N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/skills/melee/spear-tips-triple-orange.webp",
 			"entries": [
 				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
 			]
@@ -12543,6 +12545,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 4,
+			"foundryImg": "icons/equipment/waist/belt-bukle-square-leather.webp",
 			"entries": [
 				"Whenever you reach a level in this class that grants the feat feature, you can replace a {@filter fighting style|optionalfeatures|feature type=F:FS} you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice."
 			]
@@ -12553,6 +12556,7 @@
 			"className": "Paladin N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/skills/melee/spear-tips-triple-orange.webp",
 			"entries": [
 				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
 			]
@@ -12863,6 +12867,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 4,
+			"foundryImg": "icons/equipment/waist/belt-bukle-square-leather.webp",
 			"entries": [
 				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice."
 			]
@@ -12873,6 +12878,7 @@
 			"className": "Ranger N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/skills/melee/spear-tips-triple-orange.webp",
 			"entries": [
 				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
 			]
