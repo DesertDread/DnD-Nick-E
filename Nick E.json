@@ -42566,7 +42566,8 @@
 			]
 		},
 		{
-			"name": "Bleed",
+			"name": "Bleed (Flail, Morningstar)",
+			"foundryImg": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42583,7 +42584,26 @@
 			]
 		},
 		{
-			"name": "Bind to Mount",
+			"name": "Bleed (Flail, Morningstar)",
+			"foundryImg": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+			"source": "NICKED",
+			"featureType": [
+				"WSK"
+			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1",
+				"formula": "1d4"
+			},
+			"entries": [
+				"Once per short rest when you hit with an attack roll, you may attempt to cause the target to {@condition bleed|NICKED}. The creature must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus].", 
+				"Activate this effect only if you are proficient with the weapon."
+			]
+		},
+		{
+			"name": "Bind to Mount (Net)",
+			"foundryImg": "icons/creatures/webs/web-spider-caught-hand-purple.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42599,7 +42619,8 @@
 			]
 		},
 		{
-			"name": "Crack Shot",
+			"name": "Crack Shot (Blunderbuss, Musket)",
+			"foundryImg": "icons/weapons/guns/gun-blunderbuss-steel.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42614,7 +42635,8 @@
 			]
 		},
 		{
-			"name": "Cleave",
+			"name": "Cleave (Scythe, Glaive)",
+			"foundryImg": "icons/weapons/sickles/scythe-wrapped-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42629,7 +42651,8 @@
 			]
 		},
 		{
-			"name": "Combat Vault",
+			"name": "Combat Vault (Legacy)",
+			"foundryImg": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42645,7 +42668,8 @@
 			]
 		},
 		{
-			"name": "Concussive Smash",
+			"name": "Concussive Smash (Maul)",
+			"foundryImg": "icons/weapons/maces/mace-flanged-steel-grey.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42660,7 +42684,8 @@
 			]
 		},
 		{
-			"name": "Crippling Strike",
+			"name": "Crippling Strike (Handaxe, Shortsword, Trident, Whip)",
+			"foundryImg": "icons/skills/melee/sword-damaged-broken-glow-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42675,7 +42700,8 @@
 			]
 		},
 		{
-			"name": "Hamstring",
+			"name": "Hamstring (Bow)",
+			"foundryImg": "icons/skills/melee/strike-blade-blood-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42690,7 +42716,8 @@
 			]
 		},
 		{
-			"name": "Hit the Vein",
+			"name": "Hit the Vein (Blowgun)",
+			"foundryImg": "icons/skills/ranged/dart-thrown-poison-green.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42705,7 +42732,8 @@
 			]
 		},
 		{
-			"name": "Lead the Target",
+			"name": "Lead the Target (Long Gun)",
+			"foundryImg": "icons/weapons/guns/rifle-bolt-action.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42728,7 +42756,8 @@
 			]
 		},
 		{
-			"name": "Mobile Shot",
+			"name": "Mobile Shot (Javelin, Crossbow, Pistol)",
+			"foundryImg": "icons/skills/movement/figure-running-gray.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42743,7 +42772,8 @@
 			]
 		},
 		{
-			"name": "Overwhelm",
+			"name": "Overwhelm (Greataxe)",
+			"foundryImg": "icons/skills/melee/strike-axe-energy-pink.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42758,7 +42788,8 @@
 			]
 		},
 		{
-			"name": "Point Blank",
+			"name": "Point Blank (Heavy Crossbow)",
+			"foundryImg": "icons/skills/ranged/person-archery-bow-attack-orange.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42773,7 +42804,8 @@
 			]
 		},
 		{
-			"name": "Pommel Strike",
+			"name": "Pommel Strike (Battleaxe, Greatsword, Longsword)",
+			"foundryImg": "icons/skills/melee/hand-grip-sword-orange.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42784,11 +42816,12 @@
 				"uses.max": "1"
 			},
 			"entries": [
-				"Once per short rest, you may attack with this weapon as a bonus action. If this aƩack hits, it deals bludgeoning damage instead of piercing or slashing damage. A creature hit and dealt damage by this aƩack must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or become {@condition reeling|NICKED} until the end of your next turn."
+				"Once per short rest, you may attack with this weapon as a bonus action. If this aƩack hits, it deals bludgeoning damage instead of piercing or slashing damage. A creature hit and dealt damage by this attack must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or become {@condition reeling|NICKED} until the end of your next turn."
 			]
 		},
 		{
-			"name": "Rush Attack",
+			"name": "Rush Attack (Spear, Lance, Pike)",
+			"foundryImg": "icons/skills/melee/strike-sword-blood-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42803,7 +42836,8 @@
 			]
 		},
 		{
-			"name": "Second Blade",
+			"name": "Second Strike (Halberd, Twin Blade)",
+			"foundryImg": "icons/skills/melee/blade-tips-double-blue.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42814,11 +42848,13 @@
 				"uses.max": "1"
 			},
 			"entries": [
-				"Once per short rest, when you attack with this weapon, you may make one additional attack as part of that attack action."
+				"Once per short rest, when you attack with this weapon, you may make one additional attack as part of that attack action.",
+				"If this weapon is a halberd, you strike with the handle dealing bludgeoning damage instead of slashing damage"
 			]
 		},
 		{
-			"name": "Sunder Armor",
+			"name": "Sunder Armor (Mace, War Pick)",
+			"foundryImg": "icons/skills/melee/strike-morningstar-gray.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42833,7 +42869,8 @@
 			]
 		},
 		{
-			"name": "Swords Dance",
+			"name": "Swords Dance (Rapier, Scimitar)",
+			"foundryImg": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42849,7 +42886,8 @@
 			]
 		},
 		{
-			"name": "Topple",
+			"name": "Topple (Quarterstaff)",
+			"foundryImg": "icons/skills/melee/hand-grip-staff-teal.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42864,7 +42902,8 @@
 			]
 		},
 		{
-			"name": "Unusual Guard",
+			"name": "Unusual Guard (Katana)",
+			"foundryImg": "icons/skills/melee/swords-parry-block-blue.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -42879,7 +42918,25 @@
 			]
 		},
 		{
-			"name": "Wind Up",
+			"name": "Vex (Dagger, Sickle, Dart)",
+			"foundryImg": "icons/skills/ranged/shuriken-thrown-yellow.webp",
+			"source": "NICKED",
+			"featureType": [
+				"WSK"
+			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "sr",
+				"uses.max": "1"
+			},
+			"entries": [
+				"Once per short rest, whenever you hit a creature with an aƩack with this weapon you may vex the target.", 
+				"Before the end of your next turn the next weapon attack roll made against that creature with a weapon that has vex has advantage."
+			]
+		},
+		{
+			"name": "Wind Up (Sling)",
+			"foundryImg": "icons/skills/ranged/projectile-spiral-gray.webp",
 			"source": "NICKED",
 			"featureType": [
 				"WSK"
@@ -48212,7 +48269,7 @@
 			"dagger": true,
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Combat Vault",
+				"Strength or Dexterity; Vex",
 				{
 					"type": "entries",
 					"name": "Aquatic",
@@ -48499,7 +48556,7 @@
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Bleed",
+				"Strength or Dexterity; Vex",
 				{
 					"type": "entries",
 					"name": "Finesse",
@@ -48793,7 +48850,7 @@
 			"polearm": true,
 			"weapon": true,
 			"entries": [
-				"Cleave",
+				"Second Strike",
 				{
 					"type": "entries",
 					"name": "Heavy",
@@ -49293,7 +49350,7 @@
 			"dmg2": "1d8",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Second Blade",
+				"Strength or Dexterity; Second Strike",
 				{
 					"type": "entries",
 					"name": "Finesse",
@@ -49558,7 +49615,7 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Point Blank",
+				"Strength or Dexterity; Vex",
 				{
 					"type": "entries",
 					"name": "Finesse",
@@ -49602,7 +49659,7 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Point Blank",
+				"Strength or Dexterity; Vex",
 				{
 					"type": "entries",
 					"name": "Finesse",
@@ -49646,7 +49703,7 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Point Blank",
+				"Strength or Dexterity; Vex",
 				{
 					"type": "entries",
 					"name": "Finesse",
@@ -49690,7 +49747,7 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"Strength or Dexterity; Point Blank",
+				"Strength or Dexterity; Vex",
 				{
 					"type": "entries",
 					"name": "Finesse",
