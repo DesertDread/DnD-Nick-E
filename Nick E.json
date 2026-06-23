@@ -42826,7 +42826,7 @@
 				"uses.max": "1"
 			},
 			"entries": [
-				"Once per short rest, you may attack with this weapon as a bonus action. If this aƩack hits, it deals bludgeoning damage instead of piercing or slashing damage. A creature hit and dealt damage by this attack must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or become {@condition reeling|NICKED} until the end of your next turn."
+				"Once per short rest, you may attack with this weapon as a bonus action. If this attack hits, it deals bludgeoning damage instead of piercing or slashing damage. A creature hit and dealt damage by this attack must make a constitution saving throw vs a DC of [8 + (Str or Dex modifier) + your proficiency bonus] or become {@condition reeling|NICKED} until the end of your next turn."
 			]
 		},
 		{
@@ -42940,7 +42940,7 @@
 				"uses.max": "1"
 			},
 			"entries": [
-				"Once per short rest, whenever you hit a creature with an aƩack with this weapon you may vex the target.", 
+				"Once per short rest, whenever you hit a creature with an attack with this weapon you may vex the target.", 
 				"Before the end of your next turn the next weapon attack roll made against that creature with a weapon that has vex has advantage."
 			]
 		},
