@@ -827,7 +827,7 @@
 					"type": "entries",
 					"name": "Clan (Choose)",
 					"entries": [
-                        "Dwarven society is built around their cities and high mountain holds. They are a strong people with a good sense of humor and a love of alcohol. They have a love for crafting and treasure that is unmatched by any other race. The are known to plumb the depths of tombs and dig wide tunnel systems into the sides of mountains and hills in search of rare minerals. They divide themselves into clans which carry the weight of lawmaking and keeping the peace. They are one of the most common races next to humans and have found a mutual respect for each other. In today’s day and age humans and dwarves are very intertwined with each other and share in each other’s cultures. They are far longer lived than humans so have a bit of a soft spot for “the youngins”. They have a long rivalry with elves from times past but were the first to break the animosity towards their peoples. As such the elves and the dwarves will often come to each other’s aid in times of strife and its not uncommon to see elves among the councilors of their kingdoms.",
+                        "Dwarven society is built around their cities and high mountain holds. They are a strong people with a good sense of humor and a love of alcohol. They have a love for crafting and treasure that is unmatched by any other race. The are known to plumb the depths of tombs and dig wide tunnel systems into the sides of mountains and hills in search of rare minerals. They divide themselves into clans which carry the weight of lawmaking and keeping the peace. They are one of the most common races next to humans and have found a mutual respect for each other. In today's day and age humans and dwarves are very intertwined with each other and share in each other's cultures. They are far longer lived than humans so have a bit of a soft spot for “the youngins”. They have a long rivalry with elves from times past but were the first to break the animosity towards their peoples. As such the elves and the dwarves will often come to each other's aid in times of strife and its not uncommon to see elves among the councilors of their kingdoms.",
 						"Dwarven customs of sharing food and hospitality are well known. They are not a people known for their forgiving nature and stealing is something that almost no dwarf will do. A thief in their culture is treated the same way that a kidnapper and murderer is dealt with, swiftly and usually at the point of a sword. Their grudges can blind them to the truth and they have been known to be quite stubborn. When a dwarf does change his mind though, they do so quickly and decisively.",
                         {
                             "type": "list",
@@ -952,7 +952,7 @@
 					"type": "entries",
 					"name": "Feline Agility",
 					"entries": [
-						"Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns."
+						"Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
 					]
 				},
 				{
@@ -1259,7 +1259,7 @@
 					"type": "entries",
 					"name": "Lifestyle (Choose)",
 					"entries": [
-                        "Gnomish people are known for keeping as small families of four or five. They are a long-lived race and are known for being cranky with the younger races. They often seem forgetful or feign a lack of knowledge on purpose. Often, they try to simply outlive their problems and don’t really hold grudges. If they have a problem they often just walk away as they live long enough to rebuild. They make their way into positions of power among humans or other races if they so choose. But most live like hermits and keep away from other people that they have no trust for. Which given enough time, is everyone.",
+                        "Gnomish people are known for keeping as small families of four or five. They are a long-lived race and are known for being cranky with the younger races. They often seem forgetful or feign a lack of knowledge on purpose. Often, they try to simply outlive their problems and don't really hold grudges. If they have a problem they often just walk away as they live long enough to rebuild. They make their way into positions of power among humans or other races if they so choose. But most live like hermits and keep away from other people that they have no trust for. Which given enough time, is everyone.",
                         {
                             "type": "list",
                             "items": [
@@ -8856,6 +8856,7 @@
 		},
 		{
 			"name": "Warlock N",
+			"foundryImg": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
 			"source": "NICKED",
 			"hd": {
 				"number": 1,
@@ -13986,6 +13987,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/unholy/silhouette-light-fire-blue.webp",
 			"entries": [
 				"At 1st level choose the nature of your pact but not the full understanding of it. You gain access to an expanded list of spells to select from found in the pact magic section of each subclass. Choose the nature of the creature that acts as your patron which is detailed at the end of the class description, or one from another source.",
 				"suggestion: It's unlikely that your character knows the exact nature of the creature."
@@ -13997,6 +13999,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/perception/hand-eye-black.webp",
 			"entries": [
 				"At 1st level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice."
 			]
@@ -14007,6 +14010,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/perception/hand-eye-pink.webp",
 			"entries": [
 				{
 					"type": "entries",
@@ -14068,6 +14072,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 2,
+			"foundryImg": "icons/magic/unholy/projectiles-binary-pink.webp",
 			"entries": [
 				"In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.",
 				"At 2nd level, you gain two eldritch invocations of your choice. A list of the available options can be found on the {@filter Optional Features|optionalfeatures|Feature Type=W:EI} page. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.",
@@ -14081,6 +14086,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
 			"entries": [
 				"At 3rd level, the more exact nature of your bargain with an otherworldly being reveals itself. Your patron now grants you features at 3rd level and again at 6th, 10th, and 14th level. These features are based on the choice you made for your pact magic granted at level 1 of this class.",
 				"Starting at 3rd level, your patron comes to you in a dream, in a fire, arriving in the night, or some other way relevant to their character. They will then pose to you a requirement or request to maintain the powers of your pact."
@@ -14092,6 +14098,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 4,
+			"foundryImg": "icons/magic/unholy/strike-beam-blood-small-red-blue.webp",
 			"entries": [
 				"Whenever you reach a level in this class that grants a feat feature, you can do one of the following, representing a change of focus in your occult studies:",
 				{
@@ -14111,6 +14118,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/magic/unholy/hands-praying-fire-green.webp",
 			"entries": [
 				"Beginning at 5th level, you may spend 5 minutes to recover all of you Warlock class features that recover on a short rest.",
 				"During this time you may not perform any actions, bonus actions, reactions. You cannot climb or swim unless you have a climb speed or swim speed. If you perform an action this will break your recovery and you must start over to gain the benefits of this ability. Once you use this ability you cannot use it again until you finish a long rest."
@@ -14122,6 +14130,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 5,
+			"foundryImg": "icons/magic/unholy/hand-weapon-glow-black-green.webp",
 			"entries": [
 				"If your pact boon grants you the martial tag beginning at 5th level, you can attack twice instead of once whenever you take the {@action attack} action on your turn."
 			]
@@ -14132,6 +14141,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 6,
+			"foundryImg": "icons/magic/unholy/orb-droplet-pink.webp",
 			"entries": [
 				"At 6th level, you gain a feature granted by your Otherworldly Patron."
 			]
@@ -14142,6 +14152,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/unholy/orb-droplet-pink.webp",
 			"entries": [
 				"At 10th level, you gain a feature granted by your Otherworldly Patron."
 			]
@@ -14152,6 +14163,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 11,
+			"foundryImg": "icons/magic/unholy/strike-beam-blood-large-red-blue.webp",
 			"entries": [
 				"At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 6th-level spell from the warlock spell list|spells|level=6|class=Warlock N (NICKED)} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.",
@@ -14164,6 +14176,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 13,
+			"foundryImg": "icons/magic/unholy/strike-beam-blood-large-red-gray.webp",
 			"entries": [
 				"At 13th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 7th-level spell from the warlock spell list|spells|level=7|class=Warlock N (NICKED)} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
@@ -14175,6 +14188,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 14,
+			"foundryImg": "icons/magic/unholy/orb-droplet-pink.webp",
 			"entries": [
 				"At 14th level, you gain a feature granted by your Otherworldly Patron."
 			]
@@ -14185,6 +14199,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 15,
+			"foundryImg": "icons/magic/unholy/strike-beam-blood-large-red-green.webp",
 			"entries": [
 				"At 15th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 8th-level spell from the warlock spell list|spells|level=8|class=Warlock N (NICKED)} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
@@ -14196,6 +14211,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 17,
+			"foundryImg": "icons/magic/unholy/strike-beam-blood-large-red-purple.webp",
 			"entries": [
 				"At 17th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 9th-level spell from the warlock spell list|spells|level=9|class=Warlock N (NICKED)} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
@@ -14207,6 +14223,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 20,
+			"foundryImg": "icons/magic/death/skull-humanoid-crown-white-blue.webp",
 			"entries": [
 				"At 20th level, your patron is well pleased with you and allows you to act partially on their behalf. You may initiate newcomers into a pact the same as you. Discuss what this may mean with your dungeon master when you gain this ability."
 			]
@@ -14217,6 +14234,7 @@
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"level": 20,
+			"foundryImg": "icons/magic/unholy/orb-swirling-teal.webp",
 			"entries": [
 				"At 20th level, you may tempt other creatures with a taste of your patron's powers. Once per long rest you may perform a sermon, ritual, process or other offering or temptation of your patron to grant up to a number of other creatures equal to your charisma bonus the benefits of one of your invocations. Chosen creatures must have the prerequisites required to use those invocations to gain the ability.",
 				"This effect lasts until your next long rest."
@@ -15608,7 +15626,7 @@
 							"freedom of movement|NICKED"
 						],
 						"9": [
-							"conjure elemental|NICKED",
+							"conjure elemental guardian|NICKED",
 							"scrying|NICKED"
 						]
 					}
@@ -18674,6 +18692,7 @@
 		},
 		{
 			"name": "The 4th Dimensional Being",
+			"foundryImg": "icons/magic/time/clock-stopwatch-white-blue.webp",
 			"shortName": "Dimensional Being",
 			"source": "NICKED",
 			"className": "Warlock N",
@@ -18711,11 +18730,11 @@
 			],
 			"subclassFeatures": [
 				"The 4th Dimensional Being|Warlock N|NICKED|Dimensional Being|NICKED|1|NICKED",
-				"Precognition|Warlock N|NICKED|Dimensional Being|NICKED|3|NICKED",
-				"Beyond Time and Space|Warlock N|NICKED|Dimensional Being|NICKED|3|NICKED",
-				"Steal Time|Warlock N|NICKED|Dimensional Being|NICKED|6|NICKED",
-				"Fracture Reality|Warlock N|NICKED|Dimensional Being|NICKED|10|NICKED",
-				"Esoteric Regression of Convergent Outcomes|Warlock N|NICKED|Dimensional Being|NICKED|14|NICKED"
+				"ᛈᚱᛖᚲᛟᚷᚾᛁᛏᛁᛟᚾ (Precognition)|Warlock N|NICKED|Dimensional Being|NICKED|3|NICKED",
+				"ᛒᛖᚤᛟᚾᛞ ᛏᛁᛗᛖ ᚨᚾᛞ ᛋᛈᚨᚲᛖ (Beyond Time and Space)|Warlock N|NICKED|Dimensional Being|NICKED|3|NICKED",
+				"ᛋᛏᛖᚨᛚ ᛏᛁᛗᛖ (Steal Time)|Warlock N|NICKED|Dimensional Being|NICKED|6|NICKED",
+				"ᚠᚱᚨᚲᛏᚢᚱᛖ ᚱᛖᚨᛚᛁᛏᚤ (Fracture Reality)|Warlock N|NICKED|Dimensional Being|NICKED|10|NICKED",
+				"ᛖᛋᛟᛏᛖᚱᛁᚲ ᚱᛖᚷᚱᛖᛋᛋᛁᛟᚾ ᛟᚠ ᚲᛟᚾᚡᛖᚱᚷᛖᚾᛏ ᛟᚢᛏᚲᛟᛗᛖᛋ (Esoteric Regression of Convergent Outcomes)|Warlock N|NICKED|Dimensional Being|NICKED|14|NICKED"
 			]
 		},
 		{
@@ -19559,7 +19578,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level You bring out the best in your other combatants leading the charge and making openings for others to exploit. You may use your bonus action to command another friendly creature that can see or hear you, within 60ft to make a single weapon attack or unarmed strike against a hostile creature within 5 feet of you.",
+				"Starting at 10th level You bring out the best in your other combatants leading the charge and making openings for others to exploit. You may use your bonus action to command another friendly creature that can see or hear you, within 60 feet to make a single weapon attack or unarmed strike against a hostile creature within 5 feet of you.",
 				"A creature commanded this way may move up to ½ its speed to make this attack as part of its reaction. (even if it cannot make the attack)",
 				"Additionally, you may use this ability as part of your dash if you pushed a creature with battleragers charge."
 			]
@@ -20244,7 +20263,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you gain a guardian based on a totem animal of your choice. During a long rest, while you are asleep a spiritual manifestation of your chosen totem animal watches over you from within 5 feet of you. It will rouse you if danger approaches while you are asleep. It assesses the threat based on its intelligence which is 8 and has the same passive perception and perception bonus as you and has Darkvision up to 120ft in which it sees in dull color. When you awaken the spirit disappears.",
+				"Starting at 10th level, you gain a guardian based on a totem animal of your choice. During a long rest, while you are asleep a spiritual manifestation of your chosen totem animal watches over you from within 5 feet of you. It will rouse you if danger approaches while you are asleep. It assesses the threat based on its intelligence which is 8 and has the same passive perception and perception bonus as you and has Darkvision up to 120 feet in which it sees in dull color. When you awaken the spirit disappears.",
 				"After you finish a long rest you and up to one other creature of your choice gain a small benefit from your spirits guidance.",
 				{
 					"type": "options",
@@ -20319,7 +20338,7 @@
 			"subclassSource": "NICKED",
 			"level": 10,
 			"entries": [
-				"Your dreams are filled with visions of ferocity and aggression. The tiger's guidance grants each of you the ability to leap additional distances, when you jump you can move an additional 10 ft both horizontally and vertically."
+				"Your dreams are filled with visions of ferocity and aggression. The tiger's guidance grants each of you the ability to leap additional distances, when you jump you can move an additional 10 feet both horizontally and vertically."
 			]
 		},
 		{
@@ -21240,7 +21259,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level when you use a flourish you inspire the will to continue in yourself and others. You or a friendly creature within 60ft of you gain temporary hit points equal to the {{@classFeature Bardic Inspiration|Bard N|NICKED|1|NICKED|Bardic Inspiration}} roll."
+				"Starting at 6th level when you use a flourish you inspire the will to continue in yourself and others. You or a friendly creature within 60 feet of you gain temporary hit points equal to the {{@classFeature Bardic Inspiration|Bard N|NICKED|1|NICKED|Bardic Inspiration}} roll."
 			]
 		},
 		{
@@ -21641,7 +21660,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 6th level, whenever you inspire a creature with your bardic Inspiration, they become immune to the {@condition poisoned} condition until the start of your next turn.",
-				"Whenever you inspire a creature with your bardic inspiration you may force all creatures of your choice within 5ft of the inspired creature to make a dexterity save vs your spell save DC. All creatures that fail take fire or radiant damage, your choice, equal to two rolls of your bardic inspiration dice, half as much on a successful save.",
+				"Whenever you inspire a creature with your bardic inspiration you may force all creatures of your choice within 5 feet of the inspired creature to make a dexterity save vs your spell save DC. All creatures that fail take fire or radiant damage, your choice, equal to two rolls of your bardic inspiration dice, half as much on a successful save.",
 				"At 14th level, the {@condition poison} immunity now lasts for one minute."
 			]
 		},
@@ -21794,7 +21813,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, your dance bolsters not only yourself but to your allies. When you inspire an ally with your bardic inspiration you and that ally gain an additional 15ft of movement until the start of your next turn."
+				"Starting at 6th level, your dance bolsters not only yourself but to your allies. When you inspire an ally with your bardic inspiration you and that ally gain an additional 15 feet of movement until the start of your next turn."
 			]
 		},
 		{
@@ -22343,7 +22362,7 @@
 				},
 				"During a long rest you may spend a bone, in which this ability consumes, to change the form that this creature takes. The creature's stats are listed in the stat block located at the end of this class.",
 				"This creature takes its turn the same time you do. You may command this creature mentally as a bonus action (no verbal commands required). If you do not command it as a bonus action on your turn it takes no action but can still use its movement.",
-				"As long as the bone familiar is on the same plane of existence you may spend a bone, in which this ability consumes, and use your action and bonus action to teleport it to a location within 5ft of you, in an unoccupied space.",
+				"As long as the bone familiar is on the same plane of existence you may spend a bone, in which this ability consumes, and use your action and bonus action to teleport it to a location within 5 feet of you, in an unoccupied space.",
 				"The creature shatters into dust once its hp is reduced to 0. This familiar does not count against your familiar limit."
 			]
 		},
@@ -22803,7 +22822,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Also at 1st level, as a reaction, you can interpose divine light between yourself and an attacking enemy. The enemy must be within 30 feet of you and you must be able to see them. You impose disadvantage on the attack roll. You must use this ability before the creature hits or misses with that attack. An attacker that can’t be {@condition blinded} is immune to this feature."
+				"Also at 1st level, as a reaction, you can interpose divine light between yourself and an attacking enemy. The enemy must be within 30 feet of you and you must be able to see them. You impose disadvantage on the attack roll. You must use this ability before the creature hits or misses with that attack. An attacker that can't be {@condition blinded} is immune to this feature."
 			]
 		},
 		{
@@ -24192,7 +24211,7 @@
 				"While the cube of spores persists, you can't use your symbiotic entity reaction.",
 				"If a creature dies within the cube and that creature is a medium or small humanoid or beast you may use your reaction to activate your fungal infestation on that creature's corpse. (replacing the required “action”, can only be used immediately after the creature dies)",
 				"At 14th level you become lightly obscured within the spores to creatures that are hostile to you within the cloud.",
-				"At 17th level, the cube can be a 10, 15, or 20ft cube"
+				"At 17th level, the cube can be a 10, 15, or 20 foot cube"
 			]
 		},
 		{
@@ -24503,7 +24522,7 @@
 						],
 						[
 							"9th",
-							"{@spell conjure elemental|NICKED}, {@spell scrying|NICKED}"
+							"{@spell conjure elemental guardian|NICKED}, {@spell scrying|NICKED}"
 						]
 					]
 				},
@@ -25097,9 +25116,9 @@
 			"subclassSource": "NICKED",
 			"level": 2,
 			"entries": [
-				"Add {@damage 1d6} cold damage. A layer of ice takes the form of grasping hands and cover the creature's body, slowing its movement speed by 15ft until the end of your next turn.", 
+				"Add {@damage 1d6} cold damage. A layer of ice takes the form of grasping hands and cover the creature's body, slowing its movement speed by 15 feet until the end of your next turn.", 
 				"While grasped by the hands, if you deal cold damage by source other than this feature, you may have the hands drag the creature up to 15 feet in a direction you can see.", 
-				"The distance you can drag the creature increases to 20ft at 11th level."
+				"The distance you can drag the creature increases to 20 feet at 11th level."
 			]
 		},
 		{
@@ -25140,7 +25159,7 @@
 			"level": 2,
 			"entries": [
 				"Add {@damage 1d6} poison damage. The creature begins to suffer preventing it from healing or gaining temporary hp until the end of your next turn.",
-				"While it is suffering from this effect, if you deal poison damage to the creature from a source other than this feature, creatures within 5ft of that creature that you choose become inspired with hope and gain resistance to the next source of damage that the afflicted creature would deal. (this effect ends on all creatures that you have chosen once the first instance of damage is resisted) "
+				"While it is suffering from this effect, if you deal poison damage to the creature from a source other than this feature, creatures within 5 feet of that creature that you choose become inspired with hope and gain resistance to the next source of damage that the afflicted creature would deal. (this effect ends on all creatures that you have chosen once the first instance of damage is resisted) "
 			]
 		},
 		{
@@ -25170,8 +25189,8 @@
 				"amount": 1
 			},
 			"entries": [
-				"Starting at 6th level, can use your wildshape as a bonus action. Rather than turning into a beast, you open a small gateway in the form of a small rift for one minute. A creature within 5ft of the may use an action to enter the rift and step into the Ethereal plane. They can see and hear the plane they originated from which is cast within 60 ft in shades of gray. They can only affect and be affected by other creatures on the ethereal plane and can't be perceived by normal means.", 
-				"Once entered in the portal, a creature can't move more than 60 ft away from the entrance. A creature on this plane may use their action to exit the plane appearing in the location they entered the plane from or in an unoccupied space closest to the place they entered the plane from.",
+				"Starting at 6th level, can use your wildshape as a bonus action. Rather than turning into a beast, you open a small gateway in the form of a small rift for one minute. A creature within 5 feet of the may use an action to enter the rift and step into the Ethereal plane. They can see and hear the plane they originated from which is cast within 60 feet in shades of gray. They can only affect and be affected by other creatures on the ethereal plane and can't be perceived by normal means.", 
+				"Once entered in the portal, a creature can't move more than 60 feet away from the entrance. A creature on this plane may use their action to exit the plane appearing in the location they entered the plane from or in an unoccupied space closest to the place they entered the plane from.",
 				"The rift can be destroyed by similar effect akin to {@spell dispel magic|NICKED} or can be attacked as a physical object. It has an hp of 15 x your druid level and 15 AC. ",
 				"If the rift is destroyed or the ability ends, it expels all creatures and objects placed there in the nearest unoccupied spaces to the rift."
 			]
@@ -25375,7 +25394,7 @@
 				"Your body gains claws extending from your hands and feet made of your chosen element if you did not already have them.", 
 				"You grow a tail at the base of your spine made of your chosen element if you did not already have one.", 
 				"You gain temporary hp equal to 3X the number of elemental charges you have accrued. Your unarmed strikes deal {@damage 1d6} damage of the type of your chosen element, you use your wisdom modifier for attack and damage rolls instead of strength.", 
-				"Whenever you cast a leveled spell of your chosen element as an action you may use your bonus action to make a weapon attack using your tail. Your tail has a reach of 10ft and uses your unarmed strike damage."
+				"Whenever you cast a leveled spell of your chosen element as an action you may use your bonus action to make a weapon attack using your tail. Your tail has a reach of 10 feet and uses your unarmed strike damage."
 			]
 		},
 		{
@@ -25389,7 +25408,7 @@
 			"entries": [
 				"While in wildshape, once per long rest, you may use an action to expend any number of elemental charges to recover a number of expended spell slots which have a combined level equal to 1/2 the number of elemental charges expended.", 
 				"None of the spell slots you recover can be greater than 5th level.", 
-				"Then each creature of your choice within 10ft of you must make a dexterity saving throw vs your druid spell save dc or take 2x the number of elemental charges you expended in this way, half as much on a successful save."
+				"Then each creature of your choice within 10 feet of you must make a dexterity saving throw vs your druid spell save dc or take 2x the number of elemental charges you expended in this way, half as much on a successful save."
 			]
 		},
 		{
@@ -25407,7 +25426,7 @@
 					"items": [
 						"You have resistance to your chosen element.",
 						"Creatures that resist damage from your chosen element are treated as though they didn't have the ability.",
-						"Ranged spell attack rolls you make against creatures within 5 ft of you do not have disadvantage if those spells deal damage of your chosen element. (you still would have disadvantage on attack rolls against creatures not within 5ft of you if another hostile creature is within 5ft of you)"
+						"Ranged spell attack rolls you make against creatures within 5 feet of you do not have disadvantage if those spells deal damage of your chosen element. (you still would have disadvantage on attack rolls against creatures not within 5 feet of you if another hostile creature is within 5 feet of you)"
 					]
 				}
 			]
@@ -26446,7 +26465,7 @@
 			"header": 1,
 			"entries": [
 				"Starting at 3rd level, you learn how to inspire your allies to fight on past their injuries.",
-				"You gain an additional two uses of your Second wind Feature (three in total). You may use these as a bonus action to heal an ally within 60ft that can hear you instead of yourself. (you can still use the feature to heal yourself)",
+				"You gain an additional two uses of your Second wind Feature (three in total). You may use these as a bonus action to heal an ally within 60 feet that can hear you instead of yourself. (you can still use the feature to heal yourself)",
 				"You gain an additional use of second wind at 10th level."
 			]
 		},
@@ -26460,7 +26479,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, during another creature's turn that is within 10ft of you, you may expend a use of your action surge. If you do that creature can take an additional action on their turn. If they do not then the ability is not wasted and you recover the use of your action surge."
+				"Starting at 3rd level, during another creature's turn that is within 10 feet of you, you may expend a use of your action surge. If you do that creature can take an additional action on their turn. If they do not then the ability is not wasted and you recover the use of your action surge."
 			]
 		},
 		{
@@ -26473,7 +26492,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, once during each of your turns when you take the attack action, you may forgo one attack to allow another friendly creature that can see or hear you within 60ft to use their reaction to make one weapon attack."
+				"Starting at 3rd level, once during each of your turns when you take the attack action, you may forgo one attack to allow another friendly creature that can see or hear you within 60 feet to use their reaction to make one weapon attack."
 			]
 		},
 		{
@@ -26487,7 +26506,7 @@
 			"header": 1,
 			"entries": [
 				"Starting at 3rd level, you may now summon a banner with bolstering magic. Once per short rest, you may summon banner within 5 feet of you magically that plants itself in the location it was summoned (it does not need to contact a surface).",
-				"{@bold Aura:} Friendly creatures gain an additional +1 to their weapon attack rolls while within 30ft of the banner. The banner can be destroyed and has 5 x your fighter level worth of hp and 10 AC. Once placed, the banner cannot be moved by any means. It is ethereal in nature and does not actually occupy its location."
+				"{@bold Aura:} Friendly creatures gain an additional +1 to their weapon attack rolls while within 30 feet of the banner. The banner can be destroyed and has 5 x your fighter level worth of hp and 10 AC. Once placed, the banner cannot be moved by any means. It is ethereal in nature and does not actually occupy its location."
 			]
 		},
 		{
@@ -26500,7 +26519,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, whenever you see a friendly creature that can see or hear you within 60ft of you drop to 0 hp, you may use your reaction to expend a use of your second wind to heal them with your Rallying Cry feature."
+				"Starting at 7th level, whenever you see a friendly creature that can see or hear you within 60 feet of you drop to 0 hp, you may use your reaction to expend a use of your second wind to heal them with your Rallying Cry feature."
 			]
 		},
 		{
@@ -26553,7 +26572,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Beginning at 18th level, whenever you see or hear an ally within 60 ft of you fail a saving throw, you may use your reaction and expend a use of your indomitable to grant them the benefits of it."
+				"Beginning at 18th level, whenever you see or hear an ally within 60 feet of you fail a saving throw, you may use your reaction and expend a use of your indomitable to grant them the benefits of it."
 			]
 		},
 		{
@@ -27159,7 +27178,7 @@
 			"level": 1,
 			"foundryImg": "icons/creatures/mammals/bull-horned-blue.webp",
 			"entries": [
-				"As a bonus action you may push a creature within 5 feet of you that is a size smaller than you. You push them away from you up to a distance equal to your kata movement bonus, minimum of 5ft (you may push them away less than your maximum kata movement if you choose to).", 
+				"As a bonus action you may push a creature within 5 feet of you that is a size smaller than you. You push them away from you up to a distance equal to your kata movement bonus, minimum of 5 feet (you may push them away less than your maximum kata movement if you choose to).", 
 				"If the creature is the same size as you, you may attempt to push it in the same way by making a contested {@skill athletics} check.",
 				"You count as one size larger for the purposes of using your Shugoki Shove, grappling, shoving, and carry weight."
 			]
@@ -28458,7 +28477,7 @@
 				"Starting at 15th level, if a creature attempts to use any method of extradimensional movement, including teleportation or travel to a different plane of existence, you may use your reaction to block that effect. That creature remains blocked from attempting to travel or teleport until the start of your next turn.",
 				"If a creature used a spell slot, ability, or effect with limited used to move, it is not consumed. (However, the creature still loses any actions used in the attempt.)",
 				"You cannot prevent the creature from passing through an interdimensional portal.",
-				"If you perform a one-hour ritual upon a creature who is restrained or willing, you block any method of extradimensional movement, including teleportation or travel to a different plane of existence the creature attempts. This effect lasts until you end it as an action, until 48 hours pass, or until the creature moves over 250 ft away from you. If a creature is affected by this effect, you cannot use your reaction to block a creature from attempting such travel"
+				"If you perform a one-hour ritual upon a creature who is restrained or willing, you block any method of extradimensional movement, including teleportation or travel to a different plane of existence the creature attempts. This effect lasts until you end it as an action, until 48 hours pass, or until the creature moves over 250 feet away from you. If a creature is affected by this effect, you cannot use your reaction to block a creature from attempting such travel"
 			]
 		},
 		{
@@ -28665,7 +28684,7 @@
 			},
 			"foundryImg": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
 			"entries": [
-				"You use your channel oath as an action to start the ancient hunt and bolster yourself. You gain the ability to see in magical darkness, darkness, and dim light as though it was bright light. You do not have disadvantage on ranged attacks while creatures are within 5 ft of you.", 
+				"You use your channel oath as an action to start the ancient hunt and bolster yourself. You gain the ability to see in magical darkness, darkness, and dim light as though it was bright light. You do not have disadvantage on ranged attacks while creatures are within 5 feet of you.", 
 				"This effect lasts until you finish a short or long rest."
 			]
 		},
@@ -28851,7 +28870,7 @@
 				{
 					"type": "list",
 					"items": [
-						"They may use your deception skill bonus in place of their own if they are within 30ft of you.",
+						"They may use your deception skill bonus in place of their own if they are within 30 feet of you.",
 						"When a creature gains this blessing, they gain {@dice 1d4} + your charisma bonus as maximum hp. They heal for that same amount of hp. This hp lasts until the creature loses this blessing. (roll only once when you bestow corruption and apply it to all affected creatures). The dice you roll increases at certain levels."
 					]
 				}
@@ -28922,9 +28941,9 @@
 				"amount": 1
 			},
 			"entries": [
-				"You may expend a use of your channel oath as a reaction whenever you see a friendly corrupted creature within 60 ft take damage from a hostile creature you can see.", 
-				"You may teleport to an unoccupied space within 5 ft of the friendly creature or teleport up to 120 ft to an unoccupied space within 5 ft of the hostile creature that was the source of the damage.",
-				"After you teleport in this way, each creature of you choice within 10 ft of you takes psychic damage equal to your paladin level.",
+				"You may expend a use of your channel oath as a reaction whenever you see a friendly corrupted creature within 60 feet take damage from a hostile creature you can see.", 
+				"You may teleport to an unoccupied space within 5 feet of the friendly creature or teleport up to 120 feet to an unoccupied space within 5 feet of the hostile creature that was the source of the damage.",
+				"After you teleport in this way, each creature of you choice within 10 feet of you takes psychic damage equal to your paladin level.",
 				"This teleportation does not trigger attacks of opportunity."
 			]
 		},
@@ -29205,7 +29224,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you emit an aura of alertness while you aren't incapacitated. When you and any creatures of you choic within 10 ft of you roll initiative, you all gain a bonus to initiative equal to you proficiency bonus.",
+				"Starting at 7th level, you emit an aura of alertness while you aren't incapacitated. When you and any creatures of you choic within 10 feet of you roll initiative, you all gain a bonus to initiative equal to you proficiency bonus.",
 				"At 18th level, range of this aura increases to 30 ft."
 			]
 		},
@@ -29466,7 +29485,7 @@
 			"entries": [
 				"Starting at 7th level, you fill nearby creatures with the energy of movement.", 
 				"While you're not incapacitated, you and creatures of your choice within 10 feet of you cannot be grappled or restrained, and ignore penalties on movement and attacks due to naturally occurring/nonmagical environments, such as dense foliage, blizzards, underwater, heavy winds, or another natural phenomenon.",
-				"Creatures that are already grappled or restrained when they enter the aura can spend 5 ft of movement to automatically escape unless they are bound by magic restraints.",
+				"Creatures that are already grappled or restrained when they enter the aura can spend 5 feet of movement to automatically escape unless they are bound by magic restraints.",
 				"When you reach 18th level in this class, the aura increases to 30 ft."
 			]
 		},
@@ -29664,7 +29683,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"You may expend 1 point during your turn to increase your walking speed by 10 ft until the end of your turn.", 
+				"You may expend 1 point during your turn to increase your walking speed by 10 feet until the end of your turn.", 
 				"You can activate this only once per turn.",
 				"At 15th level, this movement speed increases to 15 ft."
 			]
@@ -29770,7 +29789,7 @@
 					"type": "list",
 					"items":[
 						"You may use your Feral Attack feature on opportunity attacks as thought they were the attack action.",
-						"Whenever you use your Stalker's Rush feature, it increases your movement speed by 15 ft instead.",
+						"Whenever you use your Stalker's Rush feature, it increases your movement speed by 15 feet instead.",
 						"Whenevery you use you Umbral Launch feature, triple your jumping distance.",
 						"You may use your Stalker's Eye feature on {@skill investigation} checks as well as {@skill perception}.",
 						"Whenever you use your Adrenaline Rush feature, you gain advantage on the first attack you make against each unique hostile creature you attack during your first turn in combat."
@@ -30184,7 +30203,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 15th level when you {@action dash}, {@action disengage}, or {@action hide}, your walking speed increases by 15ft.", 
-				"(This distance is added “before” calculating the amount of movement you have from dashing. For example, if you have 35ft of movement and {@action dash}, you would have 100ft of movement.)"
+				"(This distance is added “before” calculating the amount of movement you have from dashing. For example, if you have 35 feet of movement and {@action dash}, you would have 100 feet of movement.)"
 			]
 		},
 		{
@@ -30677,7 +30696,7 @@
 			"header": 1,
 			"foundryImg": "icons/magic/light/explosion-star-large-blue-yellow.webp",
 			"entries": [
-				"If you cast a spell gained from the clerics spell list, you may heal a friendly creature within 30ft of you that you can see or that can hear you equal to {@dice 1d8}."
+				"If you cast a spell gained from the clerics spell list, you may heal a friendly creature within 30 feet of you that you can see or that can hear you equal to {@dice 1d8}."
 			]
 		},
 		{
@@ -31060,7 +31079,7 @@
 					"type": "entries",
 					"name": "Primal Bond",
 					"entries": [
-						"Starting at 7th level, you can see everything your companion sees, and your companion cna see everything you can see as long as you are within 150 ft of each other."
+						"Starting at 7th level, you can see everything your companion sees, and your companion cna see everything you can see as long as you are within 150 feet of each other."
 					]
 				},
 				{
@@ -31103,7 +31122,7 @@
 					"type": "entries",
 					"name": "Arcane Bond",
 					"entries": [
-						"Starting at 7th level, when you cast a spell, your companion can deliver that spell as if it had cast the spell. Your companion must be within 100ft of you. (It uses your modifiers and spell save dc's, if the spell has concentration, you must still concentrate on the spell.)"
+						"Starting at 7th level, when you cast a spell, your companion can deliver that spell as if it had cast the spell. Your companion must be within 100 feet of you. (It uses your modifiers and spell save dc's, if the spell has concentration, you must still concentrate on the spell.)"
 					]
 				},
 				{
@@ -31146,7 +31165,7 @@
 					"type": "entries",
 					"name": "Primal Bond",
 					"entries": [
-						"Starting at 7th level, you can see everything your companion sees, and your companion cna see everything you can see as long as you are within 150 ft of each other."
+						"Starting at 7th level, you can see everything your companion sees, and your companion cna see everything you can see as long as you are within 150 feet of each other."
 					]
 				},
 				{
@@ -31184,14 +31203,14 @@
 						"Your companions senses: {@sense darkvision} 60 ft",
 						"Bond language: Your companion understands {@language draconic}. You now understand {@language draconic}.",
 						"{@underline Elemental Resistance}: Your companion gains resistance to an element of your choice that corresponds with its draconic nature.",
-						"{@underline Dragon Breath}: Once per short or long rest as your companion's bonus action, your companion can use its magic to exhale destructive energy as a breath weapon. This breath weapon deals {@damage 2d6} elemental damage in a 15 ft cone corresponding to its 'Elemental resistance'. The damage increases to {@dice 3d6}, {@dice 4d6}, and {@dice 5d6} at 7th, 11th, and 15th level respectively."
+						"{@underline Dragon Breath}: Once per short or long rest as your companion's bonus action, your companion can use its magic to exhale destructive energy as a breath weapon. This breath weapon deals {@damage 2d6} elemental damage in a 15 feet cone corresponding to its 'Elemental resistance'. The damage increases to {@dice 3d6}, {@dice 4d6}, and {@dice 5d6} at 7th, 11th, and 15th level respectively."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Arcane Bond",
 					"entries": [
-						"Starting at 7th level, when you cast a spell, your companion can deliver that spell as if it had cast the spell. Your companion must be within 100ft of you. (It uses your modifiers and spell save dc's, if the spell has concentration, you must still concentrate on the spell.)"
+						"Starting at 7th level, when you cast a spell, your companion can deliver that spell as if it had cast the spell. Your companion must be within 100 feet of you. (It uses your modifiers and spell save dc's, if the spell has concentration, you must still concentrate on the spell.)"
 					]
 				},
 				{
@@ -31199,7 +31218,7 @@
 					"name": "Dragon's Prowess",
 					"entries": [
 						"Starting at 15th level, your companion gains immunity to the element corresponding with its 'Elemental resistance'.",
-						"In addition, your companion gains a {@sense blindsight} of 30 ft and {@sense darkvision} of 120 ft. Your companion can now see magical essence and can sense the presence of magic within 15 ft of it. If your companion senses magic in this way, it can use its action to see a faint aura around any visible creature or object in the area that bears magic, and it learns its school of magic, if any and can share this information with you as part of this action.",
+						"In addition, your companion gains a {@sense blindsight} of 30 feet and {@sense darkvision} of 120 feet Your companion can now see magical essence and can sense the presence of magic within 15 feet of it. If your companion senses magic in this way, it can use its action to see a faint aura around any visible creature or object in the area that bears magic, and it learns its school of magic, if any and can share this information with you as part of this action.",
 						"This sense can penetrate most barriers but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
 						"Your companion has resistance to all damage from spells."
 					]
@@ -31725,7 +31744,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 9th level, whenever you sneak attack a creature, that creature has disadvantage on all attack rolls targeting you unitl the start of your next turn.",
-				"Melee attacks made without disadvantage now trigger your sneak attack if you're within 5 ft of your target."
+				"Melee attacks made without disadvantage now trigger your sneak attack if you're within 5 feet of your target."
 			]
 		},
 		{
@@ -32471,7 +32490,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 14th level, once per long rest when you finish a short rest, you can aid in the recovery of spells or in constructing a mana barrier for you and your allies.",
-				"Each creature within 30ft of you including yourself recovers a number of expended spell slots. The spell slots can have a combined level that is equal to your proficiency bonus.",
+				"Each creature within 30 feet of you including yourself recovers a number of expended spell slots. The spell slots can have a combined level that is equal to your proficiency bonus.",
 				"For each level of spell slot not regained with this ability, it forms a mana barrier of temporary hitpoints that last until those creature's next long rest. This barrier equals 5x the number of unrecovered spell levels."
 			]
 		},
@@ -32485,7 +32504,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, once per long rest when a creature you can see within 60 ft of you (including yourself) makes an attack roll with a spell you may treat that attack roll as though it rolled a 1 or a 20."
+				"Starting at 18th level, once per long rest when a creature you can see within 60 feet of you (including yourself) makes an attack roll with a spell you may treat that attack roll as though it rolled a 1 or a 20."
 			]
 		},
 		{
@@ -32519,7 +32538,7 @@
 			"header": 2,
 			"foundryImg": "icons/environment/settlement/watchtower-moonlit-blue.webp",
 			"entries": [
-				"Starting at 1st level, you gain {@sense darkvision} to 60 ft in which you can see in full color.",
+				"Starting at 1st level, you gain {@sense darkvision} to 60 feet in which you can see in full color.",
 				"Additionally, you only need 4 hours of rest to complete a full rest instead of the usual 8 hours. You do not need to sleep during these 4 hours but cannot perform strenuous activity.",
 				"For example (but not limited to): you can read books, use your crafting skills, and keep watch but cannot cast spells or walk long distances.",
 				{
@@ -33005,7 +33024,7 @@
 			"level": 6,
 			"header": 1,
 			"entries": [
-				"Starting at 6th level, when you use your Siphoning Spell Metamagic, you can recover another creature's health in addition to your own. Another friendly creature within 15ft of you heals for same amount of hitpoints that you do."
+				"Starting at 6th level, when you use your Siphoning Spell Metamagic, you can recover another creature's health in addition to your own. Another friendly creature within 15 feet of you heals for same amount of hitpoints that you do."
 			]
 		},
 		{
@@ -34172,9 +34191,9 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you may spend 15 minutes performing a ritual linking your mind with a number of other willing creatures equal to your sorcerer level. You do this by sitting in a circle and performing an esoteric rite unique to you. Each creature that you complete this ritual with joins a chorus of minds while within 60ft of you. Those creatures who are within that range can speak telepathically with each other as if all linked creatures were sitting in the previous circle (like they are having a normal conversation, but all in your head). You have some control over creatures who use this ability and can limit who can join, speak, and listen to the mental conversation. You instinctively feel if a creature moves more than 60ft away from you, or returns within 60ft of you, if they are part of the chorus of minds. (though you do not know the direction they are in).",
+				"Starting at 6th level, you may spend 15 minutes performing a ritual linking your mind with a number of other willing creatures equal to your sorcerer level. You do this by sitting in a circle and performing an esoteric rite unique to you. Each creature that you complete this ritual with joins a chorus of minds while within 60 feet of you. Those creatures who are within that range can speak telepathically with each other as if all linked creatures were sitting in the previous circle (like they are having a normal conversation, but all in your head). You have some control over creatures who use this ability and can limit who can join, speak, and listen to the mental conversation. You instinctively feel if a creature moves more than 60 feet away from you, or returns within 60 feet of you, if they are part of the chorus of minds. (though you do not know the direction they are in).",
 				"This ability lasts on each of those creatures until you choose to end the ability as an action, perform the ritual with a new set of willing creatures, or they die, or you die thereby severing the connection. They cannot speak telepathically while you are {@condition unconscious}.",
-				"When you use your Telepathic Speech class ability on a creature, you may treat that creature as though they joined your chorus of minds for the ability's duration. They do not need to be within 60ft of you during that time."
+				"When you use your Telepathic Speech class ability on a creature, you may treat that creature as though they joined your chorus of minds for the ability's duration. They do not need to be within 60 feet of you during that time."
 			]
 		},
 		{
@@ -34280,7 +34299,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 3th level, you can vanish in a puff of mist. You may use your action or as a reaction when you take damage to turn {@condition invisible} and teleport up to 30 feet to an unoccupied space you can see. You remain {@condition invisible} until the start of your next turn or until you attack or cast a spell. This ability does not provoke opportunity attacks.",
-				"This feature increases in distance at higher levels in this class: 60 ft at level 5, 90 ft at level 11, and 120 ft at level 17.",
+				"This feature increases in distance at higher levels in this class: 60 feet at level 5, 90 feet at level 11, and 120 feet at level 17.",
 				"Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
 		},
@@ -34294,7 +34313,7 @@
 			"level": 6,
 			"header": 1,
 			"entries": [
-				"Starting at 6th level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you may teleport up to 30 ft and cause each creature in a 15 ft radius centered on you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all {@condition charmed} or {@condition frightened} by you (your choice) until the end of your next turn.",
+				"Starting at 6th level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you may teleport up to 30 feet and cause each creature in a 15 feet radius centered on you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all {@condition charmed} or {@condition frightened} by you (your choice) until the end of your next turn.",
 				"Creatures {@condition charmed} or {@condition frightened} in this way that are not hostile and actively fighting you suffer the effects of the {@spell enthrall|NICKED} spell (as though they failed) for 1 minute. They react in differing manners based on weather you {@condition charmed} or {@condition frightened} them.",
 				"Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
@@ -34324,7 +34343,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is {@condition charmed} or {@condition frightened} by you (your choice) for 1 minute or until your {@status concentration} is broken (as if you are {@status concentration||concentrating} on a spell).",
-				"The creature and you are pulled into an illusory realm separate from your current plane of existence of the size and make of your choice (up to 500 ft tall and 500 ft wide cube). The area is populated with whatever setting you choose.",
+				"The creature and you are pulled into an illusory realm separate from your current plane of existence of the size and make of your choice (up to 500 feet tall and 500 feet wide cube). The area is populated with whatever setting you choose.",
 				"If an effect would reasonably cause damage in this domain, it deals {@damage 4d8} psychic damage as the creature treats it as though it is real.",
 				"This effect ends early if the creature takes any damage.",
 				"Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.",
@@ -34344,6 +34363,7 @@
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 1,
+			"foundryImg": "icons/magic/unholy/orb-swirling-teal.webp",
 			"entries": [
 				{
 					"type": "entries",
@@ -34389,13 +34409,14 @@
 			]
 		},
 		{
-			"name": "Precognition",
+			"name": "ᛈᚱᛖᚲᛟᚷᚾᛁᛏᛁᛟᚾ (Precognition)",
 			"source": "NICKED",
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/magic/perception/eye-tendrils-web-purple.webp",
 			"header": 2,
 			"entries": [
 				"ᛈᚱᛖᚲᛟᚷᚾᛁᛏᛁᛟᚾ",
@@ -34405,13 +34426,14 @@
 			]
 		},
 		{
-			"name": "Beyond Time and Space",
+			"name": "ᛒᛖᚤᛟᚾᛞ ᛏᛁᛗᛖ ᚨᚾᛞ ᛋᛈᚨᚲᛖ (Beyond Time and Space)",
 			"source": "NICKED",
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 3,
+			"foundryImg": "icons/magic/time/hourglass-tilted-gray.webp",
 			"header": 2,
 			"entries": [
 				"ᛒᛖᚤᛟᚾᛞ ᛏᛁᛗᛖ ᚨᚾᛞ ᛋᛈᚨᚲᛖ",
@@ -34462,29 +34484,31 @@
 			]
 		},
 		{
-			"name": "Steal Time",
+			"name": "ᛋᛏᛖᚨᛚ ᛏᛁᛗᛖ (Steal Time)",
 			"source": "NICKED",
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 6,
+			"foundryImg": "icons/magic/death/hand-withered-gray.webp",
 			"header": 1,
 			"entries": [
 				"ᛋᛏᛖᚨᛚ ᛏᛁᛗᛖ",
-				"Starting at 6th level, whenever you or a friendly creature within 30ft of you rolls an ability check or saving throw, you may use your reaction to adjust that roll up to the nearest 5,10,15,20. If they roll exactly a 1,5,10,15 you may replace it with a 20 instead.",
+				"Starting at 6th level, whenever you or a friendly creature within 30 feet of you rolls an ability check or saving throw, you may use your reaction to adjust that roll up to the nearest 5,10,15,20. If they roll exactly a 1,5,10,15 you may replace it with a 20 instead.",
 				"When a hostile creature you can see makes an attack roll, ability check, or saving throw, you may use your reaction to reduce that roll to the nearest 1,5,10, or 15 possibly changing the outcome of the roll.",
 				"You may use each of these abilities once per short or long rest."
 			]
 		},
 		{
-			"name": "Fracture Reality",
+			"name": "ᚠᚱᚨᚲᛏᚢᚱᛖ ᚱᛖᚨᛚᛁᛏᚤ (Fracture Reality)",
 			"source": "NICKED",
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/sonic/explosion-shock-wave-teal.webp",
 			"header": 2,
 			"entries": [
 				"ᚠᚱᚨᚲᛏᚢᚱᛖ ᚱᛖᚨᛚᛁᛏᚤ",
@@ -34524,6 +34548,7 @@
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
 			"header": 1,
 			"entries": [
 				"When you make a death saving throw, you may treat that roll as a 20."
@@ -34537,6 +34562,7 @@
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/symbols/runes-star-pentagon-orange.webp",
 			"header": 1,
 			"entries": [
 				"As a bonus action, you may give yourself 15 temporary hitpoints for one minute."
@@ -34550,6 +34576,7 @@
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
 			"header": 1,
 			"entries": [
 				"When you take force damage, you may reduce it by 10."
@@ -34563,9 +34590,10 @@
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/symbols/runes-star-pentagon-blue.webp",
 			"header": 1,
 			"entries": [
-				"When a friendly creature you can see within 30 ft of you (including yourself) regains hitpoints, they gain an additional 5."
+				"When a friendly creature you can see within 30 feet of you (including yourself) regains hitpoints, they gain an additional 5."
 			]
 		},
 		{
@@ -34576,19 +34604,21 @@
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 10,
+			"foundryImg": "icons/magic/symbols/runes-triangle-magenta.webp",
 			"header": 1,
 			"entries": [
 				"You may cast one of your 1st level warlock spells at its lowest level without expending a spell slot."
 			]
 		},
 		{
-			"name": "Esoteric Regression of Convergent Outcomes",
+			"name": "ᛖᛋᛟᛏᛖᚱᛁᚲ ᚱᛖᚷᚱᛖᛋᛋᛁᛟᚾ ᛟᚠ ᚲᛟᚾᚡᛖᚱᚷᛖᚾᛏ ᛟᚢᛏᚲᛟᛗᛖᛋ (Esoteric Regression of Convergent Outcomes)",
 			"source": "NICKED",
 			"className": "Warlock N",
 			"classSource": "NICKED",
 			"subclassShortName": "Dimensional Being",
 			"subclassSource": "NICKED",
 			"level": 14,
+			"foundryImg": "icons/magic/symbols/triangle-glow-purple.webp",
 			"header": 2,
 			"entries": [
 				"ᛖᛋᛟᛏᛖᚱᛁᚲ ᚱᛖᚷᚱᛖᛋᛋᛁᛟᚾ ᛟᚠ ᚲᛟᚾᚡᛖᚱᚷᛖᚾᛏ ᛟᚢᛏᚲᛟᛗᛖᛋ",
@@ -35258,7 +35288,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you learn to magically ward yourself against attack and to turn an enemy's failed strike into good luck for yourself. When a creature makes an attack roll against you or another creature within 30 ft of you, you can use your reaction to force a creature to reroll the attack roll and take the lower of the two rolls. During your next turn, attack rolls against the attacking creature have advantage.",
+				"At 6th level, you learn to magically ward yourself against attack and to turn an enemy's failed strike into good luck for yourself. When a creature makes an attack roll against you or another creature within 30 feet of you, you can use your reaction to force a creature to reroll the attack roll and take the lower of the two rolls. During your next turn, attack rolls against the attacking creature have advantage.",
 				"Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
 		},
@@ -35913,8 +35943,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, when you see a creature within 60 ft of you attempt to teleport, you may use your reaction to stop that creature from teleporting. This effect does not stop any other effect of the spell or ability such as the damage from {@spell thunder step|NICKED}.",
-				"If you wish, you may then make a contested check using you spellcasting ability against their spellcasting ability. If you succeed, the creature instead teleports to an unoccupied space within 5 ft of you of your choice.",
+				"Starting at 10th level, when you see a creature within 60 feet of you attempt to teleport, you may use your reaction to stop that creature from teleporting. This effect does not stop any other effect of the spell or ability such as the damage from {@spell thunder step|NICKED}.",
+				"If you wish, you may then make a contested check using you spellcasting ability against their spellcasting ability. If you succeed, the creature instead teleports to an unoccupied space within 5 feet of you of your choice.",
 				"Once you use this feature, you cannot do so again until you finish a long rest or expend a spell slot of 4th level or greater as part of a reaction."
 			]
 		},
@@ -36666,7 +36696,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You gain darkvision out to 60 ft until you choose another transmutation stone effect."
+				"You gain darkvision out to 60 feet until you choose another transmutation stone effect."
 			]
 		},
 		{
@@ -36942,7 +36972,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, when you roll initiative, you may grant one creature within 60 ft of you advantage on initiative rolls (including yourself, no action required)."
+				"Starting at 2nd level, when you roll initiative, you may grant one creature within 60 feet of you advantage on initiative rolls (including yourself, no action required)."
 			]
 		},
 		{
@@ -37784,7 +37814,7 @@
 			"foundryImg": "icons/skills/melee/spear-tips-three-green.webp",
 			"entries": [
 				"When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll.",
-				"If you are falling (without the aid of flying or the effects of slow fall) at least 15ft before you make the attack roll. Your critical strike range for this attack is increased by the number rolled on the dice."
+				"If you are falling (without the aid of flying or the effects of slow fall) at least 15 feet before you make the attack roll. Your critical strike range for this attack is increased by the number rolled on the dice."
 			]
 		},
 		{
@@ -38160,7 +38190,7 @@
 				"MF"
 			],
 			"entries": [
-				"When you reduce a creature within 5 ft of you to 0 hit points, you gain temporary hit points equal to your Monastic Kata ability modifier + you monk level (minimum 1)"
+				"When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Monastic Kata ability modifier + you monk level (minimum 1)"
 			]
 		},
 		{
@@ -38328,7 +38358,7 @@
 				"Whenever you activate a stance jutsu, you may select a creature within 30 feet of you that can see or hear you and spend one chakra. That creature gains the benefits of that stance if they choose to. If they are already in a stance, they lose the effects of that stance and gain the effects of the new one as usual.",
 				"Once you grant another creature the effects of a jutsu stance, you may not do so again until you finish a short rest.",
 				"If the stance jutsu references a kata stat or unarmed strike the creature may use your stats and unarmed strikes for that stance.",
-				"While you are in a jutsu stance and are within 5 ft of another creature in a jutsu stance, you and one of those creatures as though you were under the effects of {@spell warding bond|NICKED} for as long as you remain within 5 feet. You may end this effect on your turn. The creature may also end this effect on their turn (no action required)."
+				"While you are in a jutsu stance and are within 5 feet of another creature in a jutsu stance, you and one of those creatures as though you were under the effects of {@spell warding bond|NICKED} for as long as you remain within 5 feet. You may end this effect on your turn. The creature may also end this effect on their turn (no action required)."
 			]
 		},
 		{
@@ -38485,7 +38515,7 @@
 			"foundryImg": "icons/magic/nature/leaf-glow-orange.webp",
 			"entries": [
 				"1 Reaction; Duration 1 minute",
-				"You and up to one creature of your same size or smaller within 5 ft of you begin to fall slowly. A falling creature's rate of descent slows to 60 feet per round until the jutsu ends.", 
+				"You and up to one creature of your same size or smaller within 5 feet of you begin to fall slowly. A falling creature's rate of descent slows to 60 feet per round until the jutsu ends.", 
 				"If the creature lands before the jutsu ends, it takes no falling damage and can land on its feet, and the jutsu ends for that creature.",
 				"If you use this jutsu on your turn it costs no chakra and does not consume your reaction."
 			]
@@ -38553,7 +38583,7 @@
 			"foundryImg": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
 			"entries": [
 				"1 Action",
-				"You heal a creature within 5ft of you (including yourself) equal to your unarmed strike damage.",
+				"You heal a creature within 5 feet of you (including yourself) equal to your unarmed strike damage.",
 				"You may spend extra chakra on this ability. For each extra chakra you spend on this ability increase its healing by {@dice 1d6}. Increase the additional healing dice to {@dice 1d8} at 11th level",
 				"You cannot spend more that half your proficiency bonus (rounded down) additional chakra on this ability."
 			]
@@ -38657,7 +38687,7 @@
 			"foundryImg": "icons/magic/air/air-pressure-shield-blue.webp",
 			"entries": [
 				"1 Bonus Action",
-				"You may cast the spell {@spell sanctuary|NICKED} without verbal, somatic, or material components on a creature within 5ft (including you)."
+				"You may cast the spell {@spell sanctuary|NICKED} without verbal, somatic, or material components on a creature within 5 feet (including you)."
 			]
 		},
 		{
@@ -38699,7 +38729,7 @@
 			"foundryImg": "icons/magic/water/tendrils-ice-thorns.webp",
 			"entries": [
 				"1 Action",
-				"You attempt to pull a creature within 45 feet closer to you. That creature must make a strength saving throw or take {@damage 2d10} and be pulled up to 15 feet in a straight line toward you until the creature ends within 5 ft of you.",
+				"You attempt to pull a creature within 45 feet closer to you. That creature must make a strength saving throw or take {@damage 2d10} and be pulled up to 15 feet in a straight line toward you until the creature ends within 5 feet of you.",
 				"A creature that succeeds on the saving throw takes 1/2 damage and is not pulled."
 			]
 		},
@@ -38761,7 +38791,7 @@
 			"entries": [
 				"1 Action",
 				"You can cast {@spell silence|NICKED} without Verbal, Somatic, or Material components. The duration of the spell is 5 minutes",
-				"The spell moves centered on you and the spells radius is reduced to within 5ft of you.",
+				"The spell moves centered on you and the spells radius is reduced to within 5 feet of you.",
 				"The spell gives a slight shadow in the area it affects. This effect doesn't affect a creature's vision. It does allow for effects that depend on shadows, such as the monk's shadow step feature. Due to this shadow, a creature is aware of the exact distance this spell reaches given sufficient lighting.", 
 				"This spell is dispersed by effects such as the {@spell daylight|NICKED} spell."
 			]
@@ -38983,8 +39013,8 @@
 			"foundryImg": "icons/magic/control/debuff-energy-snare-brown.webp",
 			"entries": [
 				"1 Action; 1 Minute Duration",
-				"You cast {@spell hold person|NICKED} without verbal or material components on a creature within 5 ft of you. The somatic component of this spell is you hitting a pressure point of the creature. (you must still concentrate on the spell)",
-				"You may upcast the spell for two additional Chakra per level (additional creatures must still be within 5 ft of you)."
+				"You cast {@spell hold person|NICKED} without verbal or material components on a creature within 5 feet of you. The somatic component of this spell is you hitting a pressure point of the creature. (you must still concentrate on the spell)",
+				"You may upcast the spell for two additional Chakra per level (additional creatures must still be within 5 feet of you)."
 			]
 		},
 		{
@@ -39373,7 +39403,7 @@
 			"foundryImg": "icons/magic/water/wave-water-teal.webp",
 			"entries": [
 				"1 Action",
-				"You breathe out a mist of healing water that bolsters your allies and yourself with rejuvenating properties. You heal all creatures (of your choice) within 60 ft of you (including yourself) equal to your unarmed strike damage.",
+				"You breathe out a mist of healing water that bolsters your allies and yourself with rejuvenating properties. You heal all creatures (of your choice) within 60 feet of you (including yourself) equal to your unarmed strike damage.",
 				"This jutsu counts as the healing hands jutsu for all abilities and features."
 			]
 		},
@@ -39535,7 +39565,7 @@
 			"foundryImg": "icons/creatures/eyes/void-single-black-purple.webp",
 			"entries": [
 				"On your turn; 1 Minute Duration",
-				"You radiate a shadow of dim light in a 30ft radius around you, and your eyes become blank voids that pour forth shadows as though they were tears. This shadow spreads around corners and through cracks as small as one inch wide but is blocked by total cover.",
+				"You radiate a shadow of dim light in a 30 foot radius around you, and your eyes become blank voids that pour forth shadows as though they were tears. This shadow spreads around corners and through cracks as small as one inch wide but is blocked by total cover.",
 				"While in the shadow you and friendly creatures of your choice up to your proficiency bonus become part of that shadow (chosen when you activate the stance).",
 				"Affected creatures gain the following benefits:",
 				{
@@ -39574,7 +39604,7 @@
 			"foundryImg": "icons/magic/light/beam-rays-yellow-blue-large.webp",
 			"entries": [
 				"1 Action; 1 Minute Duration",
-				"Light floods out from you in all directions creating a beacon of light that dispels even magical darkness of 5th level or lower. The bright light reaches as far as 40 feet from you with 20ft of dim light beyond that.",
+				"Light floods out from you in all directions creating a beacon of light that dispels even magical darkness of 5th level or lower. The bright light reaches as far as 40 feet from you with 20 feet of dim light beyond that.",
 				"Within 5 feet of you purging flames burn. Creatures other than you that start their turn in this purging fire are engulfed by the burning light energy searing it. The creature must make a constitution saving throw or take {@damage 3d10} radiant and 2d10 fire damage, half as much on a successful one.",
 				"Creatures with darkvision, the ability to see in magical darkness, or shape changer creatures are stunned the first time they fail the saving throw against the effect, after which they become immune to the stun effect of this ability for the next 24 hours.",
 				"You must concentrate on this effect as though you were concentrating on a spell."
@@ -39678,8 +39708,8 @@
 			"foundryImg": "icons/magic/unholy/hand-grasping-green.webp",
 			"entries": [
 				"1 Action; 1 Minute Duration",
-				"You cast {@spell hold monster|NICKED} without Verbal or Material components on a creature within 5 ft of you. The somatic component of this spell is you hitting a pressure point of the creature. (you must still concentrate on the spell)",
-				"You may upcast the spell for two additional Chakra per level (additional creatures must still be within 5 ft of you)."
+				"You cast {@spell hold monster|NICKED} without Verbal or Material components on a creature within 5 feet of you. The somatic component of this spell is you hitting a pressure point of the creature. (you must still concentrate on the spell)",
+				"You may upcast the spell for two additional Chakra per level (additional creatures must still be within 5 feet of you)."
 			]
 		},
 		{
@@ -39717,7 +39747,7 @@
 			"foundryImg": "icons/magic/unholy/silhouette-robe-evil-power.webp",
 			"entries": [
 				"1 Bonus Action; 1 Minute Duration",
-				"You cast {@spell mislead|NICKED} without Verbal or Material components on a creature within 5 ft of you. The somatic component of this spell is you hitting a pressure point of the creature. (you must still concentrate on the spell)"
+				"You cast {@spell mislead|NICKED} without Verbal or Material components on a creature within 5 feet of you. The somatic component of this spell is you hitting a pressure point of the creature. (you must still concentrate on the spell)"
 			]
 		},
 		{
@@ -40254,7 +40284,7 @@
 			],
 			"foundryImg": "icons/magic/nature/root-vine-entangled-humanoid.webp",
 			"entries": [
-				"You can escape all restraints magical or mundane using 10 ft of movement. ({@condition restrained} condition)" 
+				"You can escape all restraints magical or mundane using 10 feet of movement. ({@condition restrained} condition)" 
 			]
 		},
 		{
@@ -40505,7 +40535,7 @@
 				}
 			],
 			"entries": [
-				"As a bonus action, you give yourself advantage on your next ranged attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 ft until the end of the current turn."
+				"As a bonus action, you give yourself advantage on your next ranged attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 feet until the end of the current turn."
 			]
 		},
 		{
@@ -40520,7 +40550,7 @@
 				}
 			],
 			"entries": [
-				"As a bonus action, you can yous the {@action help} action. When you use the {@action help} action to aid an ally in attacking a creature, the target of that attack can be within 30 ft of you, rather than within 5 ft of you, if the target can see or hear you."
+				"As a bonus action, you can yous the {@action help} action. When you use the {@action help} action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you."
 			]
 		},
 		{
@@ -40551,7 +40581,7 @@
 				}
 			],
 			"entries": [
-				"As a bonus action, you gain advantage on your next melee attack on a creature that is within 5 ft of another creature hostile to it but is not within 5 ft of a creature that is friendly to it."
+				"As a bonus action, you gain advantage on your next melee attack on a creature that is within 5 feet of another creature hostile to it but is not within 5 feet of a creature that is friendly to it."
 			]
 		},
 		{
@@ -41026,6 +41056,7 @@
 		},
 		{
 			"name": "Pact of the Chained",
+			"foundryImg": "icons/commodities/metal/chain-steel.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:PB"
@@ -41082,6 +41113,7 @@
 		},
 		{
 			"name": "Pact of the Talisman",
+			"foundryImg": "icons/commodities/treasure/stone-cracked-lightning-blue.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:PB"
@@ -41173,6 +41205,7 @@
 		},
 		{
 			"name": "Aspect of the Moon",
+			"foundryImg": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41258,6 +41291,7 @@
 		},
 		{
 			"name": "Bond of the Talisman",
+			"foundryImg": "icons/magic/symbols/runes-carved-stone-green.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41346,6 +41380,7 @@
 		},
 		{
 			"name": "Cloak of Flies",
+			"foundryImg": "icons/magic/nature/stealth-hide-eyes-pink.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41431,6 +41466,7 @@
 		},
 		{
 			"name": "Eldritch Armaments",
+			"foundryImg": "icons/weapons/daggers/dagger-ritual-crooked-crystal.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41460,6 +41496,7 @@
 		},
 		{
 			"name": "Eldritch Mind",
+			"foundryImg": "icons/magic/perception/third-eye-blue-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41489,6 +41526,7 @@
 		},
 		{
 			"name": "Eldritch Smite",
+			"foundryImg": "icons/magic/unholy/beams-impact-pink.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41548,6 +41586,7 @@
 		},
 		{
 			"name": "Far Scribe",
+			"foundryImg": "icons/magic/perception/orb-eye-scrying.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41612,6 +41651,7 @@
 		},
 		{
 			"name": "Ghostly Gaze",
+			"foundryImg": "icons/magic/death/undead-ghost-scream-teal.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41639,6 +41679,7 @@
 		},
 		{
 			"name": "Gift of the Depths",
+			"foundryImg": "icons/magic/water/water-elemental-blue-teeth.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41674,6 +41715,7 @@
 		},
 		{
 			"name": "Gift of the Ever-Living Ones",
+			"foundryImg": "icons/magic/death/skull-energy-light-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41690,6 +41732,7 @@
 		},
 		{
 			"name": "Gift of the Protectors",
+			"foundryImg": "icons/sundries/books/book-reye-reptile-brown.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41707,13 +41750,14 @@
 				}
 			],
 			"entries": [
-				"A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.",
+				"A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page which can contain a number of names equal to your proficiency bonus.",
 				"When any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.",
 				"As an action, you can magically erase a name on the page by touching it."
 			]
 		},
 		{
 			"name": "Grasp of Hadar",
+			"foundryImg": "icons/magic/unholy/hand-claw-fire-blue.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41731,6 +41775,7 @@
 		},
 		{
 			"name": "Improved Pact Weapon",
+			"foundryImg": "icons/magic/death/weapon-sword-skull-purple.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41749,6 +41794,7 @@
 		},
 		{
 			"name": "Investment of the Chain Master",
+			"foundryImg": "icons/sundries/survival/cuffs-shackles-tan.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41766,7 +41812,7 @@
 						"Your movement speed increases by 10 ft.",
 						"You gain resistance to all ranged weapon attacks and ranged cantrips.",
 						"You gain the ability to {@action disengage} as a bonus action. You gain the effects of the {@action disengage} action on the turn you activate this ability.",
-						"Whenever you hit a creature with your unarmed strike, you can use your chains to shove the creature 5 ft away or closer to you."
+						"Whenever you hit a creature with your unarmed strike, you can use your chains to shove the creature 5 feet away or closer to you."
 					]
 				},
 				"Once you activate this effect you cannot activate it again until you finish a long rest."
@@ -41774,6 +41820,7 @@
 		},
 		{
 			"name": "Lance of Lethargy",
+			"foundryImg": "icons/magic/unholy/projectile-spear-glow-pink.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41823,6 +41870,7 @@
 		},
 		{
 			"name": "Maddening Hex",
+			"foundryImg": "icons/magic/unholy/projectile-helix-blood-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41918,7 +41966,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"conjure elemental|NICKED"
+									"conjure elemental guardian|NICKED"
 								]
 							}
 						}
@@ -41926,7 +41974,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell conjure elemental|NICKED} once using a warlock spell slot. You can't do so again until you finish a long rest."
+				"You can cast {@spell conjure elemental guardian|NICKED} once using a warlock spell slot. You can't do so again until you finish a long rest."
 			]
 		},
 		{
@@ -42024,6 +42072,7 @@
 		},
 		{
 			"name": "Protection of the Talisman",
+			"foundryImg": "icons/magic/unholy/orb-stone-pink.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -42046,6 +42095,7 @@
 		},
 		{
 			"name": "Rebuke of the Talisman",
+			"foundryImg": "icons/magic/unholy/orb-contained-pink.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -42061,6 +42111,7 @@
 		},
 		{
 			"name": "Relentless Hex",
+			"foundryImg": "icons/magic/unholy/projectile-flame-white-purple.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -42136,6 +42187,7 @@
 		},
 		{
 			"name": "Shroud of Shadow",
+			"foundryImg": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -42223,6 +42275,7 @@
 		},
 		{
 			"name": "Tomb of Levistus",
+			"foundryImg": "icons/magic/water/barrier-ice-crystal-wall-faceted.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -42245,6 +42298,7 @@
 		},
 		{
 			"name": "Trickster's Escape",
+			"foundryImg": "icons/skills/movement/portal-silhouette-pink.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -42279,6 +42333,7 @@
 		},
 		{
 			"name": "Undying Servitude",
+			"foundryImg": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -42492,7 +42547,7 @@
 			],
 			"entries": [
 				"You gain proficiency with shields if you do not already have it.",
-				"While you have a shield equipped, creatures within 5 ft of you also gain additional armor class equal to the bonus your shield provides you.",
+				"While you have a shield equipped, creatures within 5 feet of you also gain additional armor class equal to the bonus your shield provides you.",
 				"Whenever you take damage as a result of an attack roll or dexterity saving throw, you reduce that damage equal to the amount of armor class your shield provides you."
 			]
 		},
@@ -44461,7 +44516,7 @@
 				{
 					"name": "Spore Burst.",
 					"entries": [
-						"The zombie detonates into a puff of spores, all creatures other than its controller within 5ft suffer the damage from the controller's symbiotic entity effect making the save vs the controllers spell save dc. Then if the damage rolled is greater than current temporary hp of the controller, the controller gains temporary hp equal to the damage rolled as though it was from the effect of symbiotic entity.", 
+						"The zombie detonates into a puff of spores, all creatures other than its controller within 5 feet suffer the damage from the controller's symbiotic entity effect making the save vs the controllers spell save dc. Then if the damage rolled is greater than current temporary hp of the controller, the controller gains temporary hp equal to the damage rolled as though it was from the effect of symbiotic entity.", 
 						"After using this effect, the zombie is destroyed, and the corpse is reduced to bones and cannot be raised again using fungal infestation.", 
 						"This effect ignores hive resilience."
 					]
@@ -44629,7 +44684,7 @@
 					"name": "Sunlight Weakness",
 					"entries": [
 						"While in sunlight, the shadow has disadvantage on attack rolls, ability checks except for perception, and saving throws.",
-						"If the creature is within 5 ft of you, it has advantage on {@skill stealth} checks instead of disadvantage if it can {@action hide} in your shadow."
+						"If the creature is within 5 feet of you, it has advantage on {@skill stealth} checks instead of disadvantage if it can {@action hide} in your shadow."
 					]
 				},
 				{
@@ -44708,7 +44763,7 @@
 				{
 					"name": "Speed",
 					"entries": [
-						"30 ft. (Scorpion only) / 10ft. & fly 40 ft. (Wasp only)/ 40ft., climb 20ft (Centipede only) / climb 30ft., 30ft (Spider only)"
+						"30ft. (Scorpion only) / 10ft. & fly 40ft. (Wasp only)/ 40ft., climb 20ft. (Centipede only) / climb 30ft., 30ft. (Spider only)"
 					]
 				},
 				{
@@ -50352,7 +50407,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"You do not have disadvantage with attack rolls with this weapon as a result of being within 5ft of a hostile creature.", 
+						"You do not have disadvantage with attack rolls with this weapon as a result of being within 5 feet of a hostile creature.", 
 						"A Large or smaller creature hit by a net is {@condition restrained} until it is freed.", 
 						"A net has no effect on creatures that are formless, or creatures that are Huge or larger.", 
 						"A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.", 
@@ -50616,15 +50671,15 @@
 					"type": "entries",
 					"name": "Shield Wall",
 					"entries": [
-						" This shield grants an additional +1 bonus to your armor class while another creature wielding a shield with the same property is within 5ft of you and is not {@condition incapacitated}."
+						" This shield grants an additional +1 bonus to your armor class while another creature wielding a shield with the same property is within 5 feet of you and is not {@condition incapacitated}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Deployable",
 					"entries": [
-						"As an Action, you can deploy this shield in an unoccupied space within 5ft of you that you can see.", 
-						"While deployed, the shield becomes a 5 ft wide wall that grants 3/4 cover to one medium or smaller creature standing behind it. The shield can be picked up using an Action."
+						"As an Action, you can deploy this shield in an unoccupied space within 5 feet of you that you can see.", 
+						"While deployed, the shield becomes a 5 feet wide wall that grants 3/4 cover to one medium or smaller creature standing behind it. The shield can be picked up using an Action."
 					]
 				},
 				"Equip Weight: 1"
@@ -52303,7 +52358,7 @@
 			],
 			"entries": [
 				"You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.",
-				"When you whisper as part of this spell only creatures within 5ft have a chance to hear you when you speak. The same is true for the creature if they respond.",
+				"When you whisper as part of this spell only creatures within 5 feet have a chance to hear you when you speak. The same is true for the creature if they respond.",
 				"You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings."
 			],
 			"areaTags": [
@@ -69576,7 +69631,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th. When you cast this spell at 7th level, the “undead horde” grows in size to a 10ft by 15ft square, and again at 9th level to a size of 15ft by 15ft."
+						"When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th. When you cast this spell at 7th level, the “undead horde” grows in size to a 10x15 foot square, and again at 9th level to a size of 15 feet by 15ft."
 					]
 				}
 			],
