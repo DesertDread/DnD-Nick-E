@@ -12891,6 +12891,12 @@
 			"classSource": "NICKED",
 			"level": 5,
 			"foundryImg": "icons/magic/life/heart-area-circle-red-green.webp",
+			"foundrySystem": {
+				"activation.type": "action",
+				"uses.per": "lr",
+				"uses.max": "@attributes.prof",
+				"formula": "1d10"
+			},
 			"entries": [
 				"At 5th level as an action, you can give yourself a number of temporary hitpoints equal to {@dice 1d10} + your Wisdom modifier (minimum 1). You can you this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
 				"In addition, whenever you finish a short rest, your exhaustion level (if currently exhausted) is decreased by 1."
