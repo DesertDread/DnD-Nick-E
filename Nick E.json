@@ -12895,7 +12895,7 @@
 				"activation.type": "action",
 				"uses.per": "lr",
 				"uses.max": "@attributes.prof",
-				"formula": "1d10"
+				"formula": "1d10 + @abilities.wis.mod"
 			},
 			"entries": [
 				"At 5th level as an action, you can give yourself a number of temporary hitpoints equal to {@dice 1d10} + your Wisdom modifier (minimum 1). You can you this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
