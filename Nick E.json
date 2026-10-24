@@ -24,7 +24,7 @@
 			]
 		},
 		"optionalFeatureTypes": {
-			"SA:BA": "Saga: Bard",
+			"BA:SA": "Bard: Saga",
 			"MG:F": "Marksman Guile: Fighter",
 			"AS": "Arcane Shot",
 			"MV:F": "Battlemaster Maneuvers",
@@ -58,11 +58,15 @@
 			"HU:CU": "Human: Culture",
 			"MF:CA": "Mythfolk: Calling",
 			"O:BR": "Orcish: Blood Rite",
-			"T:AC": "Tiefling: Acceptance"
+			"T:AC": "Tiefling: Acceptance",
+			"LC:DF": "Living Construct: Defect",
+			"LC:CA": "Living Construct: Construct Ability",
+			"LC:DG": "Living Construct: Designation",
+			"AI:PO": "AI: Predictable Outcomes"
 		},
 		"dateAdded": 1657295680,
-		"dateLastModified": 3242025,
-		"_dateLastModifiedHash": "478076ca1f"
+		"dateLastModified": 10222026,
+		"_dateLastModifiedHash": "478067ca1f"
 	},
 	"race": [
 		{
@@ -548,7 +552,7 @@
 					"type": "entries",
 					"name": "Flesh to Memories",
 					"entries": [
-						"Your people can consume the flesh of other Beast, Celestial, Dragon, Fey, Fiend, Giant, Humanoid, Monstrosity, or Undead creatures' bodies to garner small amounts of memories and insights into the lives of the creature. As a result, your people take the consumption of flesh as a more sacred thing and a sacrifice of the creature to fuel your body. You have no control over these flash backs. Often the spirit of the creature has some control over what you experience.", 
+						"Your people can consume the flesh of other Beast, Celestial, Dragon, Fey, Fiend, Giant, Humanoid, Monstrosity, or Undead creatures' bodies to garner small amounts of memories and insights into the lives of the creature. As a result, your people take the consumption of flesh as a more sacred thing and a sacrifice of the creature to fuel your body. You have no control over these flashbacks. Often the spirit of the creature has some control over what you experience.", 
                         "If you use a spell or feature to ask questions, or influence a creature in the afterlife and then consume some of their flesh, you may influence the creature to reveal information to you."
 					]
 				},
@@ -2179,6 +2183,158 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Living Construct",
+			"source": "NICKED",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					},
+                    "max": 17
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					},
+                    "max": 17
+				}
+			],
+            "age": {
+				"mature": 16,
+				"max": 106
+			},
+			"size": [
+				"M"
+			],
+			"speed": {
+                "walk": 30
+            },
+			"traitTags": [
+				"Construct"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": {
+						"from": [
+							"dwarvish",
+							"elvish",
+							"giant",
+							"goblin",
+							"orc",
+							"celestial",
+							"draconic",
+							"deep speech",
+							"infernal",
+							"primordial",
+							"sylvan"
+						],
+						"count": 1
+					}
+				}
+			],
+            "creatureTypes": [
+                "humanoid",
+				"construct"
+            ],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Defect (Choose 1)",
+					"entries": [
+						"Your existence as a living creature in this world makes you imperfect compared to your drone like counterparts. Select one defect from the list and add it to your abilities. These may affect your general capabilities as an adventurer or your physical appearance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Construct Ability (Choose 2)",
+					"entries": [
+						"As a construct you can perform extraordinary feats and perform acts that traditionally living creatures cannot hope to replicate. Select two Construct Abilities and add it to your abilities. These may affect your general capabilities as an adventurer or your physical appearance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Language",
+					"entries": [
+						"You learn a language from the society you hail from."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Living Construct",
+					"entries": [
+						"You are considered a construct for spells and abilities but can be heal and restored to life by spells and effects that normally would not affect constructs.", 
+						"You can also be healed by the {@spell mending|NICKED} spell recovering {@dice 1d12} + your constitution modifier (minimum of 1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Designation (Choose)",
+					"entries": [
+                        "Your people adopt the society of another race listed here but you are a rare limited race. Kin-Forged are often part of human or elven society (but can be a part of any). Thought-Forged are often seen alongside dwarves, gnomes, and halflings but herald from any place that could feasibly be able to manipulate metal, form stone with magic, or practice powerful necromancy spells such as {@spell clone|NICKED} (though these are not the only places). War-Forged are almost exclusively found around gorgoniids (primary), gnomes(VERY rare), humans (rare), and merfolk (more common but still rare). Dwarves are unique in the way they treat living constructs as they will see no difference between dwarven-made living constructs and other dwarves (or any living construct from another life).",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Kin-Forged",
+                                    "entries": [
+                                        "As a living construct, your birth was an accident. Your birth was caused by events that your creators never intended and often you come with unique “defects” compared to other similar creatures/constructs. You could be a result of a lost soul finding an elemental to inhabit, a scarecrow out in the fields come to life, an ancient wizard attaching part of his personality to a doll or just the making of a war-forged gone awry.", 
+										"As an unintended living creature, gain an additional Defect and an additional Construct Ability from each list."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Thought-Forged",
+                                    "entries": [
+                                        "You were built for one purpose: to perform a task at its highest level. You may have been built as the best ship captain or to figure out how to build the perfect city infrastructure. Your abilities often overlap with war-forged, but you were built for less direct confrontation. Your people often have a higher chance at rampancy, and this can lead to devastating consequences for the society that built you. Nonetheless you are highly skilled in whatever purpose you were built/made for.", 
+										"You gain Expertise with one tool of your choice and proficiency in you choice of any Intelligence, Wisdom, or Charisma skill.", 
+										"You have the Rampancy Defect."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "War-Forged",
+                                    "entries": [
+                                        "Your creators built you for war. You have the capacity to achieve victory at any cost and often are hardy in build. Your skill in combat is peerless to any other creature of your level. Often your people are seen as stoic and unyielding machines and that title is well-earned. However, ironically; this is the farthest from the truth. The war-forged feel the most. From anger to sadness and very often a deep sense of warrior's honor. They detest those who give up a fight even if all seems lost and are bastions of hope in even the direst of circumstances.", 
+										"You gain the fighting style feat but must select the Defense, Interception, Protection or Superior technique Fighting style.", 
+										"You gain the Warriors Honor defect."
+                                    ]
+                                }
+                            ]
+                        }
+					]
+				}
+			]
 		}
 	],
 	"subrace": [
@@ -2239,7 +2395,7 @@
 					"type": "entries",
 					"name": "Fall Control",
 					"entries": [
-						"You take half damage from falling if that falls damage would not kill you outright."
+						"You take half damage from falling if that fall's damage would not kill you outright."
 					]
 				},
 				{
@@ -2722,7 +2878,7 @@
 					"type": "entries",
 					"name": "Carried by the Wind",
 					"entries": [
-						"You may cast the {@spell levitate|NICKED} spell a number of times equal to your proficiency bonus after which you must take a long rest to do so again. Constitution is your spellcasting ability for this feature. You can also cast {@spell levitate|NICKED} using any spell slots you have of the appropriate level."
+						"You may cast {@spell levitate|NICKED} a number of times equal to your proficiency bonus after which you must take a long rest to do so again. Constitution is your spellcasting ability for this feature. You can also cast {@spell levitate|NICKED} using any spell slots you have of the appropriate level."
 					]
 				}
 			]
@@ -3117,7 +3273,7 @@
 					"type": "entries",
 					"name": "Flight",
 					"entries": [
-						"Because of your wings, you have a flying speed equal to your walking speed. Any armor you wear must be made to accommodate these wings (with a dc 11 smiths tool check or for 5sp any armor can be made to accommodate your wings) You cannot fly while wearing heavy armor with an equip weight greater than 1 as it is too cumbersome to fly with."
+						"Because of your wings, you have a flying speed equal to your walking speed. Any armor you wear must be made to accommodate these wings (DC 11 smith's tool check, or for 5 silver any armor can be made to accommodate your wings) You cannot fly while wearing heavy armor with an equip weight greater than 1 as it is too cumbersome to fly with."
 					]
 				},
 				{
@@ -3149,7 +3305,7 @@
 					"type": "entries",
 					"name": "Fury of the Small",
 					"entries": [
-						"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus.",
+						"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature equal to your proficiency bonus.",
 						"You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn."
 					]
 				},
@@ -3569,6 +3725,76 @@
 					"name": "Infernal Legacy - Blood of Fire",
 					"entries": [
 						"Starting at 3rd level, you can cast the {@spell hellish rebuke|NICKED} spell with this trait. Starting at 5th level, you can also cast the {@spell darkness|NICKED} spell with this trait. Once you cast Hellish Rebuke and Darkness with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait, chosen when you select this race."
+					]
+				}
+			]
+		},
+		{
+			"name": "Amalgam",
+			"source": "NICKED",
+			"raceName": "Living Construct",
+			"raceSource": "NICKED",
+			"entries": [
+				"You are made up of flesh put together with other flesh, magical ore, or any other reasonable types of materials. It's most often done to preserve a spirit of a living creature that either gives part or all of itself to make the amalgam or as a way to extend a dying creature's life (though the sky is the limit here, think like cyborgs or clones of wizards waking up, etc).",
+				{
+					"type": "entries",
+					"name": "Grafted (Choose)",
+					"entries": [
+						"Gain one subrace ability from another race. This ability cannot be one that grants you a skill or tool proficiency. You may also select “Human Durability” from humans or “Shifting” from Mythfolk.", 
+						"You also gain all features of that race/subrace that are “Alteration Variant” features. Your physical appearance will be impacted by the feature you select causing you to be closely related to that race.", 
+						"{@italic Example: if you pick a goblin subrace feature you may be treated like a goblin by an uninformed individual on a cursory glance.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "AI",
+			"source": "NICKED",
+			"raceName": "Living Construct",
+			"raceSource": "NICKED",
+			"entries": [
+				"You are a construct that eventually gained sentience and was blessed with a very soul by some form of magic. While your base nature may be that of logic and reason, you are now plagued by that reason rather than blessed by it. You now see some form of Imperfection in the world for its beauty.",
+				{
+					"type": "entries",
+					"name": "Predictable Outcomes (Choose)",
+					"entries": [
+						"You gain two charges of predictable outcomes. Whenever you would make an attack roll or saving throw, you may expend a charge of predicable outcomes to treat the result as if you rolled a 10 (adding all relevant modifiers; this ignores advantage or disadvantage). You must declare this ability and spend the charge before you roll the attack roll or saving throw.", 
+						"You regain both uses of this ability on a long rest or one use upon a short rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Purpose-Built",
+					"entries": [
+						"When you gain your first feat as part of leveling up, you may treat that particular feat as though you have all class tags (Global, Expert, Martial, Spellcaster). You must be able to fulfill the required uses of that feat such as requiring spell slots and all other relevant requirements. (see your DM if there is any question about this)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Spirit Construct",
+			"source": "NICKED",
+			"raceName": "Living Construct",
+			"age": {
+				"mature": 1,
+				"max": 9999
+			},
+			"raceSource": "NICKED",
+			"entries": [
+				"Spirit constructs are often the more esoteric of the living constructs. The “spirit of a village” or the “light from the lightning bolt gave form” is what you are. You could be a small embodiment of nature itself given form to seek out living among the world to understand it. But spirit constructs could also be spirits that refused to pass on and sought form in the nearest “body” it could find. Often war-forged become inhabited by slain warriors taking over robotic war constructs to aid their comrades in great times of need.", 
+				"You are made of non-flesh living material.",
+				{
+					"type": "entries",
+					"name": "Ageless",
+					"entries": [
+						"You are functionally immortal in terms of growing old."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Construct Ability (Choose)",
+					"entries": [
+						"You can pick 1 extra Construct Ability."
 					]
 				}
 			]
@@ -4149,36 +4375,6 @@
 					]
 				}
 			},
-            "optionalfeatureProgression": [
-				{
-					"name": "Saga",
-					"featureType": [
-						"SA:BA"
-					],
-					"progression": [
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						1
-					]
-				}
-			],
 			"classTableGroups": [
 				{
 					"colLabels": [
@@ -37449,7 +37645,7 @@
 			"name": "Saga Of the Leader",
 			"source": "NICKED",
 			"featureType": [
-				"SG:BA"
+				"BA:SA"
 			],
 			"foundryImg": "icons/magic/control/silhouette-hold-beam-blue.webp",
 			"entries": [
@@ -37460,7 +37656,7 @@
 			"name": "Saga Of the Warrior",
 			"source": "NICKED",
 			"featureType": [
-				"SG:BA"
+				"BA:SA"
 			],
 			"foundryImg": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
 			"entries": [
@@ -37471,7 +37667,7 @@
 			"name": "Saga Of the Artist",
 			"source": "NICKED",
 			"featureType": [
-				"SG:BA"
+				"BA:SA"
 			],
 			"foundryImg": "icons/tools/scribal/ink-quill-red.webp",
 			"entries": [
@@ -37482,7 +37678,7 @@
 			"name": "Saga Of the Spell-Weaver",
 			"source": "NICKED",
 			"featureType": [
-				"SG:BA"
+				"BA:SA"
 			],
 			"foundryImg": "icons/sundries/scrolls/scroll-magical-yellow.webp",
 			"entries": [
@@ -44363,7 +44559,788 @@
 			"entries": [
 				"You roll a {@dice 1d4} and add it to all {@skill survival} rolls you make."
 			]
-		}
+		},
+		{
+			"name": "Defect: Irrational Fear",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DF"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Select one monster type. Whenever you roll initative and can see a creature of that type, you must make a wisdom save based on the CR of the monster set by your DM. You are {@condition frightened} with the source being each creature you can see of that monster type.", 
+				"This fear lasts until the end of your first turn."
+			]
+		},
+		{
+			"name": "Defect: Need for Meat",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DF"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You have the irrational need for meat whenever you would eat (even if you do not need to eat). You cannot gain the benefits of a long rest unless you consume (or attempt to consume) meat as part of that rest."
+			]
+		},
+		{
+			"name": "Defect: The Flesh is Weak",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DF"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You have a odd proclivity in conversations to bring up the physical weakness of flesh in situations and may often recommend others to replace “parts of them” with more efficient pieces. These comments should be minor in nature."
+			]
+		},
+		{
+			"name": "Defect: Social Misunderstanding",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DF"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You do not understand what could be considered to be social norms. These should be minor in nature.",
+				"For example: you may suggest to eat a body if it is prudent to the situation or may be prone to ignoring hygiene."
+			]
+		},
+		{
+			"name": "Defect: One Arm",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DF"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You are damaged in a way that cannot be easily repaired and are left with only one functioning arm."
+			]
+		},
+		{
+			"name": "Defect: Warrior's Honor",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DF"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You tend to act in a way that an honorable warrior would. You will refuse to strike against another thinking creature without giving them a chance to defend themselves. You will accept surrender where possible.", 
+				"You have an irrational hatred of slander. You have a proclivity to burn, bury, or honor fallen warriors even if they are not your own.", 
+				"None of this should be debilitating but ignoring this feature for extended periods of time may lead to long term madnesses at your DM's discretion."
+			]
+		},
+		{
+			"name": "Defect: Fear of Large Bodies of Water",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DF"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You cannot swim and you have an irrational fear of large bodies of water. This does not inflict the fear condition but prolonged exposure to large bodies of water may lead to long term madness."
+			]
+		},
+		{
+			"name": "Defect: Lucky Collectable",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DF"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You have grown attached to a specific object. While that object is not on your person, you have disadvantage on all rolls you make until it is returned or until you fulfill certain conditions dictated by your DM."
+			]
+		},
+		{
+			"name": "Defect: Rampancy",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DF"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You have begun to think yourself into madness. You gain a indefinite madness of your DM's choosing. (example: I keep whatever I find)"
+			]
+		},
+		{
+			"name": "Defect: Hybrid Nature",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DF"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You are both a construct and one other creature type gaining the benefits and drawbacks of being both of those races."
+			]
+		},
+		{
+			"name": "Fleet of Foot",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Your walking speed is increased by 5 feet."
+			]
+		},
+		{
+			"name": "Light Step",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You can move up to [5 x your proficiency bonus] feet as a reaction when an enemy ends its turn within 5 feet of you (this movement cannot be greater that your base walking speed). This movement doesn't provoke opportunity attacks."
+			]
+		},
+		{
+			"name": "Constructed Resilience",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You were made to no longer need eat, drink, or breathe and you are immune to disease."
+			]
+		},
+		{
+			"name": "Built-In Environmental Dampeners",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"resist": [
+				{
+					"choose": {
+						"from":[
+							"acid",
+							"bludgeoning",
+							"cold",
+							"fire",
+							"force",
+							"lightning",
+							"necrotic",
+							"piercing",
+							"poison",
+							"psychic",
+							"radiant",
+							"slashing",
+							"thunder"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				"You become resistant to one damage type of your choice."
+			]
+		},
+		{
+			"name": "Powerful Build",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+			]
+		},
+		{
+			"name": "Sentry's Rest",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can't put you to sleep.", 
+				"When you take a long rest, you must spend at least six hours of it in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal."
+			]
+		},
+		{
+			"name": "Additional Tool",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"toolProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				"You gain proficiency with a tool of your choosing."
+			]
+		},
+		{
+			"name": "Integrated Armor",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"armorProficiencies": [
+				{
+					"medium": true,
+					"light": true
+				}
+			],
+			"entries": [
+				"You start with a set of armor of your choosing. You are proficient with medium and light armor regardless of your class. You ignore the equip weight of armor you don and it becomes part of your body while worn and is able to be perfectly hidden within clothing.", 
+				"You ignore all disadvantages on {@skill stealth} checks caused by that armor while it is worn."
+			]
+		},
+		{
+			"name": "Integrated Weapon",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"weaponProficiencies": [
+                {
+					"choose": {
+						"fromFilter": "miscellaneous=mundane",
+						"count": 1
+					}
+				}
+            ],
+			"entries": [
+				"You start with a weapon your choosing. You are proficient with that weapon regardless of your classes. You ignore the equip weight of that weapon, and it becomes part of your body while worn and is able to be perfectly hidden within clothing."
+			]
+		},
+		{
+			"name": "Integrated Climbing Apparatus",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You gain a climb speed equal to your walking speed. You are treated as though you are under the effects of the {@spell spider climb|NICKED} at all times."
+			]
+		},
+		{
+			"name": "Darkvision",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"senses": [
+				{
+					"darkvision": 60
+				}
+			],
+			"entries": [
+				"You gain Darkvision out toa distance of 60 feet."
+			]
+		},
+		{
+			"name": "Savant Skill",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Select a skill you are proficient in. While you are proficient with that skill you may roll an additional {@dice 1d4} and add it to all skill checks you make with that skill."
+			]
+		},
+		{
+			"name": "Physical Spell Resilience",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You have advantage on Strength, Dexterity and Constitution saving throws against spells."
+			]
+		},
+		{
+			"name": "Immutable Organics",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"conditionImmune": [
+				"paralyzed"
+			],
+			"entries": [
+				"You are immune to the {@condition paralyzed} condition."
+			]
+		},
+		{
+			"name": "Targeting Computation",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You ignore the disadvantages of attacking within 5 feet of a hostile creature with a ranged weapon or spell attack."
+			]
+		},
+		{
+			"name": "Micro Repair Constructs",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Once per long rest on your turn, you can activate micro repair constructs on your turn (no action required). For the next number of turns equal to your proficiency bonus you heal for {@dice 1d4} + your constitution modifier (minimum of 1) at the start of each of those turns."
+			]
+		},
+		{
+			"name": "Built-in Jump Servos",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability":"str",
+					"innate": {
+						"_": {
+							"will": [
+								"jump|NICKED"
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				"You learn the {@spell jump|NICKED} spell which you can cast at will but only as a ritual and only targeting yourself. You use strength as your spellcasting modifier for this spell."
+			]
+		},
+		{
+			"name": "Prognosis Drive",
+			"source": "NICKED",
+			"featureType": [
+				"LC:CA"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "lr",
+				"uses.max": "@attributes.prof",
+				"formula": "max(@abilities.int.mod, @abilities.wis.mod)"
+			},
+			"entries": [
+				"Choose intelligence or wisdom. You gain a number of prognosis drive charges equal to your proficiency bonus. When you hit with a weapon or spell attack you may expend a charge of prognosis drive and deal additional damage on that attack equal to your intelligence or wisdom bonus. You regain all uses of this ability on a long rest."
+			]
+		},
+		{
+			"name": "Kin-Forged (Living Construct)",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DG"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Defect",
+					"featureType": [
+						"LC:DF"
+					],
+					"progression": {
+						"*": 1
+					}
+				},
+				{
+					"name": "Construct Ability",
+					"featureType": [
+						"LC:CA"
+					],
+					"progression": {
+						"*": 1
+					}
+				},
+			],
+			"entries": [
+				"As a Living construct your birth was an accident. Your birth was caused by events that your creators never intended and often you come with unique “defects” compared to other similar creatures/constructs. You could be a result of a lost soul finding an elemental to inhabit, a scarecrow out in the fields come to life, an ancient wizard attaching part of his personality to a doll or just the making of a war-forged gone awry.", 
+				"As an unintended living creature, you must select an additional defect and an additional Construct Ability from each list."
+			]
+		},
+		{
+			"name": "Thought-Forged (Living Construct)",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DG"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"arcana",
+							"deception",
+							"history",
+							"insight",
+							"intimidation",
+							"investigation",
+							"medicine",
+							"nature",
+							"perception",
+							"performance",
+							"persuasion",
+							"religion",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
+            "expertise": [
+                {
+                    "anyTool": 1
+                }
+            ],
+			"entries": [
+				"You were built for one purpose, to perform a task at its highest levels. You may have been built as the best ship captain or to figure out how to build the perfect city infrastructure. Your abilities often overlap with war-forged but you were built for less direct confrontation. Your people often have a higher chance at rampancy, and this can lead to devastating consequences for the society that built you. Nonetheless you are highly skilled in whatever purpose you were built/made for.", 
+				"You gain Expertise with one tool of your choice and proficiency in one Intelligence, Wisdom, or Charisma skill of your choice. You have the Rampancy Defect.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Defect: Rampancy|NICKED"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "War-Forged (Living Construct)",
+			"source": "NICKED",
+			"featureType": [
+				"LC:DG"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Your creators built you for war. You have the capacity to achieve victory at any cost and often are hardy in build. Your skill in combat is peerless to any other creature of your level. Often your people are seen as stoic and unyielding machines and that title is well earned. However, ironically the war-forged feel the most. From anger to sadness and very often a deep sense of warrior's honor. They detest those who give up a fight even if all seems lost and are bastions of hope in even the direst of circumstances.", 
+				"You gain the fighting style feat but must select the Defense, Interception, Protection or Superior technique Fighting style. You gain the Warriors Honor defect.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Defensive|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Interception|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Protection|NICKED"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Superior Technique|NICKED"
+						}
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Defect: Warrior's Honor|NICKED"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Predictable Outcomes (AI)",
+			"source": "NICKED",
+			"featureType": [
+				"AI:PO"
+			],
+            "prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Living Construct: AI"
+						}
+					]
+				}
+			],
+			"foundrySystem": {
+				"activation.type": "special",
+				"uses.per": "lr",
+				"uses.max": "2",
+				"formula": "10"
+			},
+			"entries": [
+				"You gain two charges of predictable outcomes. Whenever you would make an attack roll or saving throw, you may expend a charge of predicable outcomes to treat the result as if you rolled a 10 (adding all relevant modifiers; this ignores advantage or disadvantage). You must declare this ability and spend the charge before you roll the attack roll or saving throw.", 
+				"You regain both uses of this ability on a long rest or one use upon a short rest."
+			]
+		},
     ],
 	"monster": [
 		{
