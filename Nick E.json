@@ -18907,7 +18907,6 @@
 		},
 		{
 			"name": "The 4th Dimensional Being",
-			"foundryImg": "icons/magic/time/clock-stopwatch-white-blue.webp",
 			"shortName": "Dimensional Being",
 			"source": "NICKED",
 			"className": "Warlock N",
@@ -18943,6 +18942,7 @@
 					}
 				}
 			],
+			"foundryImg": "icons/magic/time/clock-stopwatch-white-blue.webp",
 			"subclassFeatures": [
 				"The 4th Dimensional Being|Warlock N|NICKED|Dimensional Being|NICKED|1|NICKED",
 				"ᛈᚱᛖᚲᛟᚷᚾᛁᛏᛁᛟᚾ (Precognition)|Warlock N|NICKED|Dimensional Being|NICKED|3|NICKED",
@@ -34462,6 +34462,21 @@
 			"level": 1,
 			"entries": [
 				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Archfey Expanded Spells|Warlock N|NICKED|Archfey|NICKED|1|NICKED"
+				}
+			]
+		},
+		{
+			"name": "Archfey Expanded Spells",
+			"source": "NICKED",
+			"className": "Warlock N",
+			"classSource": "NICKED",
+			"subclassShortName": "Archfey",
+			"subclassSource": "NICKED",
+			"level": 1,
+			"entries": [
+				{
 					"type": "entries",
 					"name": "Expanded Spell List",
 					"entries": [
@@ -34582,13 +34597,29 @@
 			"foundryImg": "icons/magic/unholy/orb-swirling-teal.webp",
 			"entries": [
 				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "4th Dimension Expanded Spells|Warlock N|NICKED|Dimensional Being|NICKED|1|NICKED"
+				}
+			]
+		},
+		{
+			"name": "4th Dimension Expanded Spells",
+			"source": "NICKED",
+			"className": "Warlock N",
+			"classSource": "NICKED",
+			"subclassShortName": "Dimensional Being",
+			"subclassSource": "NICKED",
+			"level": 1,
+			"foundryImg": "icons/magic/unholy/orb-swirling-teal.webp",
+			"entries": [
+				{
 					"type": "entries",
 					"name": "Expanded Spell List",
 					"entries": [
 						"The 4th Dimensional Being lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 						{
 							"type": "table",
-							"caption": "Archfey Expanded Spells",
+							"caption": "4th Dimensional Expanded Spells",
 							"colLabels": [
 								"Spell Level",
 								"Spells"
@@ -34854,6 +34885,21 @@
 			"level": 1,
 			"entries": [
 				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Celestial Expanded Spells|Warlock N|NICKED|Celestial|NICKED|1|NICKED"
+				}
+			]
+		},
+		{
+			"name": "Celestial Expanded Spells",
+			"source": "NICKED",
+			"className": "Warlock N",
+			"classSource": "NICKED",
+			"subclassShortName": "Celestial",
+			"subclassSource": "NICKED",
+			"level": 1,
+			"entries": [
+				{
 					"type": "entries",
 					"name": "Expanded Spell List",
 					"entries": [
@@ -34972,6 +35018,21 @@
 		},
 		{
 			"name": "The Fathomless",
+			"source": "NICKED",
+			"className": "Warlock N",
+			"classSource": "NICKED",
+			"subclassShortName": "Fathomless",
+			"subclassSource": "NICKED",
+			"level": 1,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fathomless Expanded Spells|Warlock N|NICKED|Fathomless|NICKED|1|NICKED"
+				}
+			]
+		},
+		{
+			"name": "Fathomless Expanded Spells",
 			"source": "NICKED",
 			"className": "Warlock N",
 			"classSource": "NICKED",
@@ -35140,6 +35201,21 @@
 			"entries": [
 				"You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.",
 				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fiend Expanded Spells|Warlock N|NICKED|Fiend|NICKED|1|NICKED"
+				}
+			]
+		},
+		{
+			"name": "Fiend Expanded Spells",
+			"source": "NICKED",
+			"className": "Warlock N",
+			"classSource": "NICKED",
+			"subclassShortName": "Fiend",
+			"subclassSource": "NICKED",
+			"level": 1,
+			"entries": [
+				{
 					"type": "entries",
 					"name": "Expanded Spell List",
 					"entries": [
@@ -35243,6 +35319,21 @@
 		},
 		{
 			"name": "The Genie",
+			"source": "NICKED",
+			"className": "Warlock N",
+			"classSource": "NICKED",
+			"subclassShortName": "Genie",
+			"subclassSource": "NICKED",
+			"level": 1,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Genie Spells|Warlock N|NICKED|Genie|NICKED|1|NICKED"
+				}
+			]
+		},
+		{
+			"name": "Genie Spells",
 			"source": "NICKED",
 			"className": "Warlock N",
 			"classSource": "NICKED",
@@ -35411,6 +35502,21 @@
 			"level": 1,
 			"entries": [
 				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Old One Expanded Spells|Warlock N|NICKED|Great Old One|NICKED|1|NICKED"
+				}
+			]
+		},
+		{
+			"name": "Old One Expanded Spells",
+			"source": "NICKED",
+			"className": "Warlock N",
+			"classSource": "NICKED",
+			"subclassShortName": "Great Old One",
+			"subclassSource": "NICKED",
+			"level": 1,
+			"entries": [
+				{
 					"type": "entries",
 					"name": "Expanded Spell List",
 					"entries": [
@@ -35544,6 +35650,22 @@
 		},
 		{
 			"name": "The Undead",
+			"source": "NICKED",
+			"className": "Warlock N",
+			"classSource": "NICKED",
+			"subclassShortName": "Undead",
+			"subclassSource": "NICKED",
+			"level": 1,
+			"foundryImg": "icons/magic/death/undead-skeleton-lich-armor.webp",
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Undead Expanded Spells|Warlock N|NICKED|Undead|NICKED|1|NICKED"
+				}
+			]
+		},	
+		{
+			"name": "Undead Expanded Spells",
 			"source": "NICKED",
 			"className": "Warlock N",
 			"classSource": "NICKED",
@@ -35691,6 +35813,21 @@
 			"level": 1,
 			"entries": [
 				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hex Keeper Expanded Spells|Warlock N|NICKED|Hex Keeper|NICKED|1|NICKED"
+				}
+			]
+		},
+		{
+			"name": "Hex Keeper Expanded Spells",
+			"source": "NICKED",
+			"className": "Warlock N",
+			"classSource": "NICKED",
+			"subclassShortName": "Hex Keeper",
+			"subclassSource": "NICKED",
+			"level": 1,
+			"entries": [
+				{
 					"type": "entries",
 					"name": "Expanded Spell List",
 					"entries": [
@@ -35815,6 +35952,21 @@
 		},
 		{
 			"name": "The Undying One",
+			"source": "NICKED",
+			"className": "Warlock N",
+			"classSource": "NICKED",
+			"subclassShortName": "Undying",
+			"subclassSource": "NICKED",
+			"level": 1,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Undying One Expanded Spells|Warlock N|NICKED|Undying|NICKED|1|NICKED"
+				}
+			]
+		},
+		{
+			"name": "Undying One Expanded Spells",
 			"source": "NICKED",
 			"className": "Warlock N",
 			"classSource": "NICKED",
