@@ -45008,7 +45008,7 @@
 				}
 			],
 			"entries": [
-				"You gain Darkvision out toa distance of 60 feet."
+				"You gain Darkvision out to a distance of 60 feet."
 			]
 		},
 		{
@@ -45198,7 +45198,7 @@
 					"progression": {
 						"*": 1
 					}
-				},
+				}
 			],
 			"entries": [
 				"As a Living construct your birth was an accident. Your birth was caused by events that your creators never intended and often you come with unique “defects” compared to other similar creatures/constructs. You could be a result of a lost soul finding an elemental to inhabit, a scarecrow out in the fields come to life, an ancient wizard attaching part of his personality to a doll or just the making of a war-forged gone awry.", 
@@ -45340,7 +45340,7 @@
 				"You gain two charges of predictable outcomes. Whenever you would make an attack roll or saving throw, you may expend a charge of predicable outcomes to treat the result as if you rolled a 10 (adding all relevant modifiers; this ignores advantage or disadvantage). You must declare this ability and spend the charge before you roll the attack roll or saving throw.", 
 				"You regain both uses of this ability on a long rest or one use upon a short rest."
 			]
-		},
+		}
     ],
 	"monster": [
 		{
