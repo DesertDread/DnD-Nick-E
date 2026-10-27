@@ -46532,10 +46532,13 @@
 			"source": "NICKED",
 			"ability": [
 				{
-					"con": 1
-				},
-				{
-					"wis": 1
+					"choose": {
+						"from": [
+							"con",
+							"wis"
+						],
+						"count":1
+					}
 				}
 			],
 			"entries": [
