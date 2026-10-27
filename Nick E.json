@@ -3803,6 +3803,7 @@
 	"class": [
 		{
 			"name": "Barbarian N",
+			"foundryImg": "icons/magic/fire/flame-burning-eye.webp",
 			"source": "NICKED",
 			"classFeatures": [
 				"Martial|Barbarian N|NICKED|1|NICKED",
@@ -42956,6 +42957,7 @@
 		},
 		{
 			"name": "Superior Technique",
+			"foundryImg": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
 			"source": "NICKED",
 			"featureType": [
 				"F:FS"
@@ -42984,6 +42986,7 @@
 		},
 		{
 			"name": "Thrown Weapon Fighting",
+			"foundryImg": "icons/skills/ranged/daggers-thrown-salvo-teal.webp",
 			"source": "NICKED",
 			"featureType": [
 				"F:FS"
@@ -42999,6 +43002,7 @@
 		},
 		{
 			"name": "Two-Weapon Fighting",
+			"foundryImg": "icons/skills/melee/blade-tips-double-blue.webp",
 			"source": "NICKED",
 			"featureType": [
 				"F:FS"
@@ -44714,6 +44718,7 @@
 		},
 		{
 			"name": "Defect: Irrational Fear",
+			"foundryImg": "icons/equipment/head/mask-carved-wood-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DF"
@@ -44734,6 +44739,7 @@
 		},
 		{
 			"name": "Defect: Need for Meat",
+			"foundryImg": "icons/equipment/head/mask-carved-wood-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DF"
@@ -44753,6 +44759,7 @@
 		},
 		{
 			"name": "Defect: The Flesh is Weak",
+			"foundryImg": "icons/equipment/head/mask-carved-wood-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DF"
@@ -44772,6 +44779,7 @@
 		},
 		{
 			"name": "Defect: Social Misunderstanding",
+			"foundryImg": "icons/equipment/head/mask-carved-wood-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DF"
@@ -44792,6 +44800,7 @@
 		},
 		{
 			"name": "Defect: One Arm",
+			"foundryImg": "icons/equipment/head/mask-carved-wood-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DF"
@@ -44811,6 +44820,7 @@
 		},
 		{
 			"name": "Defect: Warrior's Honor",
+			"foundryImg": "icons/equipment/head/mask-carved-wood-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DF"
@@ -44832,6 +44842,7 @@
 		},
 		{
 			"name": "Defect: Fear of Large Bodies of Water",
+			"foundryImg": "icons/equipment/head/mask-carved-wood-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DF"
@@ -44851,6 +44862,7 @@
 		},
 		{
 			"name": "Defect: Lucky Collectable",
+			"foundryImg": "icons/equipment/head/mask-carved-wood-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DF"
@@ -44870,6 +44882,7 @@
 		},
 		{
 			"name": "Defect: Rampancy",
+			"foundryImg": "icons/equipment/head/mask-carved-wood-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DF"
@@ -44889,6 +44902,7 @@
 		},
 		{
 			"name": "Defect: Hybrid Nature",
+			"foundryImg": "icons/equipment/head/mask-carved-wood-white.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DF"
@@ -44908,6 +44922,7 @@
 		},
 		{
 			"name": "Fleet of Foot",
+			"foundryImg": "icons/skills/movement/feet-spurred-boots-brown.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -44927,6 +44942,7 @@
 		},
 		{
 			"name": "Light Step",
+			"foundryImg": "icons/skills/movement/figure-running-gray.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -44946,6 +44962,7 @@
 		},
 		{
 			"name": "Constructed Resilience",
+			"foundryImg": "icons/magic/defensive/armor-green-hex.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -44965,6 +44982,7 @@
 		},
 		{
 			"name": "Built-In Environmental Dampeners",
+			"foundryImg": "icons/magic/defensive/shield-hex-blue.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45006,6 +45024,7 @@
 		},
 		{
 			"name": "Powerful Build",
+			"foundryImg": "icons/skills/melee/unarmed-punch-fist.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45025,6 +45044,7 @@
 		},
 		{
 			"name": "Sentry's Rest",
+			"foundryImg": "icons/magic/control/silhouette-grow-shrink-blue.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45045,6 +45065,7 @@
 		},
 		{
 			"name": "Additional Tool",
+			"foundryImg": "icons/skills/trades/mining-pickaxe-iron-blue.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45069,6 +45090,7 @@
 		},
 		{
 			"name": "Integrated Armor",
+			"foundryImg": "icons/skills/melee/shield-block-gray-yellow.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45095,6 +45117,7 @@
 		},
 		{
 			"name": "Integrated Weapon",
+			"foundryImg": "icons/skills/melee/strike-sword-slashing-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45122,6 +45145,7 @@
 		},
 		{
 			"name": "Integrated Climbing Apparatus",
+			"foundryImg": "icons/skills/movement/arrows-up-trio-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45141,6 +45165,7 @@
 		},
 		{
 			"name": "Darkvision",
+			"foundryImg": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45165,6 +45190,7 @@
 		},
 		{
 			"name": "Savant Skill",
+			"foundryImg": "icons/skills/trades/farming-picking-basket-fruit-green.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45184,6 +45210,7 @@
 		},
 		{
 			"name": "Physical Spell Resilience",
+			"foundryImg": "icons/skills/trades/textiles-stitching-leather-brown.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45203,6 +45230,7 @@
 		},
 		{
 			"name": "Immutable Organics",
+			"foundryImg": "icons/skills/trades/electronics-tech-circuit-blue.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45225,6 +45253,7 @@
 		},
 		{
 			"name": "Targeting Computation",
+			"foundryImg": "icons/skills/targeting/crosshair-hex-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45244,6 +45273,7 @@
 		},
 		{
 			"name": "Micro Repair Constructs",
+			"foundryImg": "icons/tools/tech/torch-welding-plasma-purple.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45263,6 +45293,7 @@
 		},
 		{
 			"name": "Built-in Jump Servos",
+			"foundryImg": "icons/weapons/artillery/mount-energy-beam-red.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45294,6 +45325,7 @@
 		},
 		{
 			"name": "Prognosis Drive",
+			"foundryImg": "icons/weapons/artillery/mount-weapon-auto-steel.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:CA"
@@ -45319,6 +45351,7 @@
 		},
 		{
 			"name": "Kin-Forged (Living Construct)",
+			"foundryImg": "icons/tools/hand/wrench-adjustable-toothed.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DG"
@@ -45359,6 +45392,7 @@
 		},
 		{
 			"name": "Thought-Forged (Living Construct)",
+			"foundryImg": "icons/tools/fasteners/bolt-brass-yellow.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DG"
@@ -45417,6 +45451,7 @@
 		},
 		{
 			"name": "War-Forged (Living Construct)",
+			"foundryImg": "icons/weapons/artillery/mount-plating-weapon-steel.webp",
 			"source": "NICKED",
 			"featureType": [
 				"LC:DG"
@@ -45469,6 +45504,7 @@
 		},
 		{
 			"name": "Predictable Outcomes (AI)",
+			"foundryImg": "icons/tools/tech/projector-film.webp",
 			"source": "NICKED",
 			"featureType": [
 				"AI:PO"
