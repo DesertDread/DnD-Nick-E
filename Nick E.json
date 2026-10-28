@@ -41499,6 +41499,7 @@
 		},
 		{
 			"name": "Agonizing Blast",
+			"foundryImg": "icons/magic/unholy/projectile-flame-white-purple.webp",
 			"source": "NICKED",
 			"featureType": [
 				"W:EI"
@@ -41516,7 +41517,7 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "data.bonuses.rsak.damage",
+							"key": "system.bonuses.rsak.damage",
 							"mode": "ADD",
 							"value": "+ (@srd5e.name.eldritchblast * @abilities.cha.mod)"
 						}
@@ -41801,7 +41802,7 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "data.attributes.senses.special",
+							"key": "system.attributes.senses.special",
 							"mode": "ADD",
 							"value": "Devil's Sight"
 						}
